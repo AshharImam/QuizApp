@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "quiz-app",
+    "slug": "quiz-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./Screens/DisplayResult/test.png",
+    "splash": {
+      "image": "./Screens/SignUp/choose.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.quizApp.quizApp",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

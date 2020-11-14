@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./Screens/DisplayResult/test.png",
     "splash": {
-      "image": "./Screens/SignUp/choose.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, SafeAreaView,ScrollView , Image} from 'react-native';
-import { Button } from 'react-native-paper';
+import { View, StyleSheet, SafeAreaView,ScrollView, Text , Image} from 'react-native';
+import { TextInput, Button  } from 'react-native-paper';
 import * as Google from 'expo-google-app-auth';
 import firebase from 'firebase'
 
@@ -9,7 +9,8 @@ class SignUp extends Component{
     constructor(){
         super();
         this.state = {
-
+          email : '',
+          password : ''
         }
     }
 
@@ -88,18 +89,50 @@ class SignUp extends Component{
         }
       }
 
+      siginUpUser = (email , password) => {
+        try {
+          firebase.auth().createUserWithEmailAndPassword(email , password);
+        } catch (error) {
+          console.log(error);
+        }
+      }
+
+      loginUser = (email , password) => {
+        try {
+          firebase.auth().signInWithEmailAndPassword(email , password).then((user) => {this.props.navigation.navigate('DemoQuestions') ; console.log(user);})
+        } catch (error) {
+          console.log(error);
+        }
+      }
     render(){
         return(
-            <View>
-                <View style={{flex : 1 , justifyContent : "center" , alignItems : "center", marginTop : 250}}>
-                    <Image source={require('./choose.png')} resizeMode='center'/> 
-                </View>
+            <View style={{flex : 1 , justifyContent : "center" }}>
+                
 
-                <View style={{marginTop : 250 , marginHorizontal : 50}}>
-                    <Button icon="google" color='#DB4437' mode="text" onPress={() => { this.signInWithGoogleAsync() }}>
-                        Sign Up using Google
-                    </Button>
-                </View>
+                <ScrollView style={{marginHorizontal : 20 , marginTop : 200}}>
+                  <TextInput
+                    label="Email"
+                    value={this.state.email}
+                    onChangeText={text => this.setState({email : text})}
+                    style={{marginBottom : 50}}
+                  />
+                  <TextInput
+                    label="Password"
+                    value={this.state.password}
+                    onChangeText={text => this.setState({password : text})}
+                    style={{marginBottom : 50}}
+                    textContentType = 'password'
+                    secureTextEntry = {true}
+                  />
+
+                  <Button icon="camera" color='#f1d4d4' mode="contained" style={{marginBottom : 20 , marginHorizontal : 50}} onPress={() => this.loginUser(this.state.email , this.state.password)}>
+                    Login In
+                  </Button>
+                  <Text style={{paddingBottom : 10 , color : 'blue'}}> Not yet a user?</Text>
+                  <Button color = '#ea2c62' style = {{marginHorizontal : 70}}mode="contained" onPress={() => this.siginUpUser(this.state.email , this.state.password)}>
+                    Sign Up
+                  </Button>
+                </ScrollView>
 
             </View>
         );

@@ -5,7 +5,7 @@ import { Button ,RadioButton } from 'react-native-paper';
 
 class Questions extends Component{
 
-    constructor(){
+    constructor(props){
         super();
         this.state = {
             value : 'unchecked'
@@ -69,7 +69,7 @@ class Questions extends Component{
                             <Text style={styles.answer}>{this.props.optionD} </Text>
                         </View>     
                     </View>
-                    <Button onPress={() => {this.props.next(this.state.value)}} icon="check" mode="contained" color='#f1d4d4' style={{marginHorizontal : 100 , marginBottom : 100}}>
+                    <Button onPress={() => {this.props.next(this.state.value) ; this.setState({value : 'unchecked'})}} icon="check" mode="contained" color='#f1d4d4' style={{marginHorizontal : 100 , marginBottom : 100}}>
                             Submit
                     </Button>
             </View>

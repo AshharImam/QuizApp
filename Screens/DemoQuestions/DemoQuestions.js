@@ -64,7 +64,7 @@ class DemoQuestions extends Component {
                 return(
                     <View >
 
-                        <Result corrects = {this.state.corrects} wrongs = {this.state.wrongs} navigation={this.props.navigation} />
+                        <Result corrects = {this.state.corrects} wrongs = {this.state.wrongs} navigation={this.props.navigation} value='unchecked'/>
                         
                     </View> 
                 ) 

@@ -93,7 +93,13 @@ class SignUp extends Component{
         try {
           firebase.auth().createUserWithEmailAndPassword(email , password);
         } catch (error) {
-          console.log(error);
+          console.log(error.toString());
+          if(email == '' || password == ''){
+            alert("Please enter your credentials");
+            return;
+          }else{
+            alert("Error : " , error.toString())
+          }
         }
       }
 
@@ -101,7 +107,14 @@ class SignUp extends Component{
         try {
           firebase.auth().signInWithEmailAndPassword(email , password).then((user) => {this.props.navigation.navigate('DemoQuestions') ; console.log(user);})
         } catch (error) {
-          console.log(error);
+          console.log(error.toString());
+          if(email == '' || password == ''){
+            alert("Please enter your credentials");
+            return;
+          }
+          else{
+            alert("Error : " , error.toString())
+          }
         }
       }
     render(){

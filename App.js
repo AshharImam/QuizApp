@@ -14,6 +14,7 @@ import {createStackNavigator} from  '@react-navigation/stack';
 import * as firebase from 'firebase';
 import { firebaseConfig } from './config';
 import Result from './Screens/DisplayResult/Result';
+import PremiumQuestionSet from './Screens/PremiumQuestionSet/PremiumQuestions';
 
 firebase.initializeApp(firebaseConfig);
 
@@ -22,12 +23,13 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-        <Stack.Navigator headerMode='none' initialRouteName={"LandingPage"}>
+        <Stack.Navigator headerMode='none' initialRouteName={"SignUp"}>
             <Stack.Screen name="LandingPage" component={LandingPage} />
             <Stack.Screen name="SignUp" component={SignUp} />
             <Stack.Screen name="DemoQuestions" component={DemoQuestions} />
             <Stack.Screen name='Questions' component={Questions} />
             <Stack.Screen name='Result' component={Result} />
+            <Stack.Screen name='PremiumQuestionSet' component={PremiumQuestionSet} />
         </Stack.Navigator>
     </NavigationContainer>
   );

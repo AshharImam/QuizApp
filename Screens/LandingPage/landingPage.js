@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, Image, Dimensions} from 'react-native';
 import { Button } from 'react-native-paper';
-import { ceil } from 'react-native-reanimated';
+
 
 
 const {width , height} = Dimensions.get('window');
@@ -32,13 +32,13 @@ class LandingPage extends Component{
                     <Text style={{fontSize : 14 , alignItems: "center" , textAlign : "center" , paddingVertical : 10, paddingBottom : 20}}>with love : Wayne Managment Institue</Text>
 
                     <View style={{paddingVertical : 30}}>
-                        <Button mode="contained" theme={{ colors: { text: "white" } }} color='#f1d4d4' onPress={() => this.props.navigation.navigate('SignUp')}>
+                        <Button mode="contained" theme={{ colors: { text: "white" } }} color='#f1d4d4' onPress={() => this.props.navigation.navigate('DemoQuestions')}>
                             Try the demo quiz
                         </Button>
                     </View>
                     
 
-                    <Button icon="crown" mode="contained" color='#f1d4d4' onPress={() => this.props.navigation.navigate('SignUp')}>
+                    <Button icon="crown" mode="contained" color='#f1d4d4' onPress={() => this.props.navigation.navigate('PremiumQuestionSet')}>
                         get the best questions
                     </Button>
                 </View>

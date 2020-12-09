@@ -10,10 +10,11 @@ import DemoQuestions from "./Screens/DemoQuestions/DemoQuestions";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import * as firebase from "firebase";
+import firebase from "firebase";
 import { firebaseConfig } from "./config";
 import Result from "./Screens/DisplayResult/Result";
 import PremiumQuestionSet from "./Screens/PremiumQuestionSet/PremiumQuestions";
+import PaymentScreen from "./Screens/PaymentScreen";
 
 firebase.initializeApp(firebaseConfig);
 
@@ -24,6 +25,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator headerMode="none" initialRouteName={"LandingPage"}>
         <Stack.Screen name="LandingPage" component={LandingPage} />
+        <Stack.Screen name="PaymentScreen" component={PaymentScreen} />
         <Stack.Screen name="SignUp" component={SignUp} />
         <Stack.Screen name="DemoQuestions" component={DemoQuestions} />
         <Stack.Screen name="Questions" component={Questions} />

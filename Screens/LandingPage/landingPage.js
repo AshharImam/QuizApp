@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { View, Text, Image, Dimensions } from "react-native";
 import { Button } from "react-native-paper";
+import Constants from "expo-constants";
 import queryString from "query-string";
+import db from "../../config";
 
 const { width, height } = Dimensions.get("window");
 
@@ -11,6 +13,7 @@ class LandingPage extends Component {
     this.formatDateTime = this.formatDateTime.bind(this);
     this.state = {
       url: "",
+      disable: false,
     };
   }
 
@@ -49,7 +52,7 @@ class LandingPage extends Component {
   //   // const pp_TxnRefNo = `T20201208153208`;
   //   const pp_CustomerCardNumber = "5366190033463817";
   //   const pp_CustomerCardExpiry = "0924";
-  //   const pp_CustomerCardCvv = "306";
+  //   const pp_CustomerCardCvv = "3s06";
   //   const pp_TxnType = "MPAY";
   //   const pp_IntegeritySalt = "sg92502998";
   //   const pp_Frequency = "SINGLE";
@@ -101,6 +104,24 @@ class LandingPage extends Component {
   // }
 
   payment() {
+    // db().ref("/users/123").set({
+    //   name: "Ashhar",
+    //   age: 21,
+    // });
+
+    // db.collection("user").doc("user1").set({
+    //   name: "ashhar",
+    //   seconsName: "Imame",
+    // });
+
+    console.log(Constants.installationId);
+    this.setState({
+      disable: true,
+    });
+    const doc = db.collection('users').doc(Constants.installationId).get()
+    if (doc) {
+      doc.then()
+    }
     fetch("https://sandbox.api.getsafepay.com/order/v1/init", {
       method: "POST",
       headers: {
@@ -115,7 +136,14 @@ class LandingPage extends Component {
     })
       .then((res) => res.json())
       .then((json) => {
-        console.log(json);
+        // console.log(json);
+        db.collection("users")
+          .doc(Constants.installationId)
+          .set({
+            token: json["data"]["token"],
+            order_id: `T${this.formatDateTime(new Date())}`,
+            started_at: this.formatDateTime(new Date()),
+          });
         const params = {
           env: "sandbox",
           beacon: json["data"]["token"],
@@ -129,12 +157,20 @@ class LandingPage extends Component {
             ? "https://api.getsafepay.com/components"
             : "https://sandbox.api.getsafepay.com/components";
         const url = `${baseURL}?${qs}`;
-        console.log("url>>", url);
+        // console.log("url>>", url);
         this.props.navigation.navigate("PaymentScreen", {
           url: url,
         });
-
+        this.setState({
+          disable: false,
+        });
         // console.log(json["data"]["token"]);
+      })
+      .catch((e) => {
+        console.log(e);
+        this.setState({
+          disable: false,
+        });
       });
   }
 
@@ -208,11 +244,12 @@ class LandingPage extends Component {
           </View>
 
           <Button
+            disabled={this.state.disable}
             icon="crown"
             mode="contained"
             color="#f1d4d4"
-            onPress={() => this.props.navigation.navigate("SignUp")}
-            // onPress={() => this.payment()}
+            // onPress={() => this.props.navigation.navigate("SignUp")}
+            onPress={() => this.payment()}
           >
             get the best questions
           </Button>

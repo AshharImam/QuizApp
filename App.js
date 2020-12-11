@@ -10,13 +10,14 @@ import DemoQuestions from "./Screens/DemoQuestions/DemoQuestions";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import firebase from "firebase";
-import { firebaseConfig } from "./config";
+// import app from "firebase/app";
+// import { firebaseConfig } from "./config";
 import Result from "./Screens/DisplayResult/Result";
 import PremiumQuestionSet from "./Screens/PremiumQuestionSet/PremiumQuestions";
 import PaymentScreen from "./Screens/PaymentScreen";
 
-firebase.initializeApp(firebaseConfig);
+// app.initializeApp(firebaseConfig);
+// firebase.initializeApp(firebaseConfig);
 
 const Stack = createStackNavigator();
 

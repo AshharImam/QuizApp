@@ -14,6 +14,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 // import { firebaseConfig } from "./config";
 import Result from "./Screens/DisplayResult/Result";
 import PremiumQuestionSet from "./Screens/PremiumQuestionSet/PremiumQuestions";
+import PremiumQuestionTest from "./Screens/PremiumQuestionTest";
 import PaymentScreen from "./Screens/PaymentScreen";
 
 // app.initializeApp(firebaseConfig);
@@ -34,6 +35,10 @@ export default function App() {
         <Stack.Screen
           name="PremiumQuestionSet"
           component={PremiumQuestionSet}
+        />
+        <Stack.Screen
+          name="PremiumQuestionTest"
+          component={PremiumQuestionTest}
         />
       </Stack.Navigator>
     </NavigationContainer>

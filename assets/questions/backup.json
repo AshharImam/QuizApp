@@ -1,0 +1,181 @@
+[
+  {
+    "a": "In this meeting, the project manager and the senior management will kill the project.",
+    "answer": "c",
+    "b": "In this meeting, all the team members will sit in one room to kill a project. ",
+    "c": "This meeting. will discuss the transition from one phase to another within a projects life cycle. ",
+    "d": "In this meeting the project manager will be officially assigned to lead the effort.",
+    "explanation": ": C Refer to PMBOK 6th Edition, Pg 21. Kill point is also known as phase gate. It is a point after every phase when a decision is taken whether to go ahead with a project or not.",
+    "question": ". You are a project manager and you received a meeting invitation from your senior manager. The title of the meeting was Kill Point Meeting. What do you think would be the purpose of this meeting? "
+  },
+  {
+    "a": "Supportive",
+    "answer": "b",
+    "b": "Controlling",
+    "c": "Directive ",
+    "d": "Hybrid ",
+    "explanation": "B Refer to PMBOK 6th Edition, Pg 48. It may be supportive or controlling or directive. However, since they are not reporting to the PMO, it cannot be directive and since they have a well-defined framework, controlling is a better choice.",
+    "question": "You are a vendor who has been asked to set up a PMO in the buyer side of the organization. The customers requirement from the PMO is a well-defined framework where the PMO will provide various templates, forms etc. Yet, the PMs will not report directly to the PMO. What type of PMO is this? "
+  },
+  {
+    "a": "Select the best project with your best judgment. ",
+    "answer": "d",
+    "b": "As you have no knowledge, refuse to take the assignment. ",
+    "c": "Get an expert's help to select the best project. ",
+    "d": "Inform the management about your lack of knowledge in this particular area. ",
+    "explanation": "D Refer to PMBOK 6th Edition, Pg 3. As per PMIs professional code of ethics and professional conduct, you should always communicate honestly. So the best solution is option D.",
+    "question": "You are working as a project manager for a long time. You have complete knowledge of the processes and of how things work in your organization. However, you have limited knowledge about project selection methods. And recently you have been tasked with selecting the best project out of multiple projects. What should be your first step?"
+  },
+  {
+    "a": "Project A ",
+    "answer": "C",
+    "b": "Project B",
+    "c": "Project C ",
+    "d": "Project D",
+    "explanation": "C Refer to PMBOK 6th Edition, Pg 34. The higher the BCR, the better it is. So the project with the highest BCR would be the best choice. However, the opposite would be true if the question were about CBR (Cost to Benet Ratio) instead of BCR.",
+    "question": "Project A has a Benet to Cost Ratio (BCR) of 24 percent. Project B has a BCR of 9 percent. Project C has a BCR of 41 percent. Project D has a BCR of 16 percent. Which is the best project out of these?"
+  },
+  {
+    "a": "As the functional manager is not part of this project, you should deny it. ",
+    "answer": "c",
+    "b": "You can share the information with him/her as s/he belongs to the same organization. ",
+    "c": "Deny the request to protect the confidentiality of the information. ",
+    "d": "Accept the request but tell him/her not to share the information with anyone else. ",
+    "explanation": "C Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. No matter what, if the functional manager is not part of the project, you should not share the information with him/her because you need to protect the confidentiality of the contract.",
+    "question": "You are managing a project which is in planning phase. You have completed developing the project charter and this project contains multiple phases and multiple contractors are involved. The contract contains proprietary information from the vendors. One of the functional managers of your organization wants to see this information. What should be your response to him/her? "
+  },
+  {
+    "a": "Predictive Life Cycle ",
+    "answer": "c",
+    "b": "Iterative Life Cycle",
+    "c": "Incremental Life cycle ",
+    "d": "Hybrid Life Cycle ",
+    "explanation": "C Refer to PMBOK 6th Edition, Pg 19. In incremental life cycle, the nal deliverable is developed after a series of iterations that will successively add product features. Refer to our introduction video for more details.",
+    "question": "You are a project manager and you have divided the product into a series of iterations where you will be adding the functionality in each iteration. After the end of your nal iteration, your product will be fully complete. What development life cycle are you following?"
+  },
+  {
+    "a": "Work Performance Data ",
+    "answer": "b",
+    "b": "Work Performance Information Work",
+    "c": "Performance Report ",
+    "d": "Project Management Information System (PMIS) ",
+    "explanation": "B  Refer to PMBOK 6th Edition, Pg 26. Implementation status for change requests is an example of work performance information.",
+    "question": "Your customer requested for a scope-related change on the project. The change was formally approved by the change control board and you are in the process of implementing it. You are providing regular implementation status to the customer? What will you term this as?"
+  },
+  {
+    "a": "Project Charter ",
+    "answer": "d",
+    "b": "Project Management Plan",
+    "c": "Project Benefits Management Plan ",
+    "d": "Project Business Case ",
+    "explanation": "D  Refer to PMBOK 6th Edition, Pgs 29 and 30. Project Business Case defines the economic feasibility study which will list the objectives and reasons for doing a particular project.",
+    "question": "Your CTO has asked you to conduct a feasibility study of using one software over the other. What plan/document would you share with him/her? "
+  },
+  {
+    "a": "Accept the offer as it is not considered to be a bribe.",
+    "answer": "b",
+    "b": "Reject the offer because it violates the code of ethics and professional conduct.",
+    "c": "Politely refuse the offer and accept the customers demand of completing the project sooner. ",
+    "d": "Politely refuse the offer and don't do anything as a customer is god.",
+    "explanation": "B Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. Accepting such an offer is against the PMIs professional code of conduct. If you are debating between options B and C then do remember that you cannot simply accept the offer to complete the project sooner until you do the impact analysis and check the feasibility of the same",
+    "question": "You have been assigned as a project manager in another country. The customer initiated a project kick-off party in which s/he offered valuable gifts to all the project team members. The customer also requested you to complete the project sooner than anticipated. What should you do?"
+  },
+  {
+    "a": "Remodeling the kitchen Building",
+    "answer": "c",
+    "b": "a metro that connects cities ",
+    "c": "Running an IT help desk",
+    "d": "Team Shooting for a HIM",
+    "explanation": "C Refer to PMBOK 6th Edition, Pg 6. Eliminate the wrong choices by keeping in mind that a project always has an end date. Options A, B and D can have an end date. Option C is more like an operation.",
+    "question": ". Which of the following is not considered a project? "
+  },
+  {
+    "a": "Don't document the requirement. ",
+    "answer": "c",
+    "b": "Document the requirement and consider it as a risk. ",
+    "c": "Try to understand customers point of view before documenting the requirement. ",
+    "d": "Customer satisfaction is your primary goal, so document the requirement. ",
+    "explanation": "C  Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. Try to understand the customers point of view before taking any decision. It is better to do some more research and if the requirement is not possible, try to provide alternative options.",
+    "question": "You are conducting a JAD session for collecting software requirements. Your customer forces you to include a requirement which you believe might be impossible to implement as it works on an unsupported version of a browser. What should you do in this case? "
+  },
+  {
+    "a": "Project",
+    "answer": "a",
+    "b": "Program ",
+    "c": "Portfolio ",
+    "d": "Operation ",
+    "explanation": "A Refer to PMBOK 6th Edition, Pg 6. Creating user manuals is a temporary endeavor and is termed as project. Day-to-day activities for a call center may be termed as operation but the question refers to the creation of user manuals which qualifies as a project.",
+    "question": "You have been asked to create user manuals for a call centers day-to-day tasks. What is this scenario termed as? "
+  },
+  {
+    "a": "Positional",
+    "answer": "c",
+    "b": "Relational",
+    "c": "Ingratiating ",
+    "d": "Referent",
+    "explanation": "C Refer to PMBOK 6th Edition, Pg 63. In Ingratiating power, you use honeyed words to get your work done.",
+    "question": "Tom is a project manager who is always seen with the PMO director. He excessively and insincerely praises the PMO director to get his work done. What type of power is Tom practicing? "
+  },
+  {
+    "a": "Functional ",
+    "answer": "b",
+    "b": "Weak Matrix ",
+    "c": "Composite Organization ",
+    "d": "Organic or Simple ",
+    "explanation": ": B Refer to PMBOK 6th Edition, Pg 47. Remember that the project coordinator and the expeditor are mainly found in the weak matrix or functional organization. In weak matrix, PC or PE may have some say in allocating resources",
+    "question": "You are a project coordinator and you are trying to secure developers for your project. Because of your title, you have some say in allocating these resources. However, you are always denied the resources as they are busy working on certain other projects. What type of organization are you working in? "
+  },
+  {
+    "a": "Functional",
+    "answer": "c",
+    "b": "Weak Matrix ",
+    "c": "Organic or Simple ",
+    "d": "Multi-Divisional ",
+    "explanation": "C Refer to PMBOK 6th Edition, Pg 47. In a simple or organic structure, the project budget is managed by the owner and the work group is also very manageable.",
+    "question": "You are a project manager and you are working for a very small organization where everyone does everything. You all report to the owner of the company. What type of organization are you working in? "
+  },
+  {
+    "a": "Do nothing as the risk is related to past projects. ",
+    "answer": "c",
+    "b": "Document it but since it is based upon past projects, make it low level.",
+    "c": "Document it and try to analyze the impact of the risk.",
+    "d": "Do nothing as nobody knows about it.",
+    "explanation": "C Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. Eliminate option A and D because they talk about DOING NOTHING. As a project manager, it is your responsibility to nota solution. Between options B and C, the better choice is option C. Making the risk low level will not solve the problem.",
+    "question": "You are a newly-assigned project manager and you are working on one of the implementation projects. In order to understand the scope of the project, you meet with people who have handled similar projects in the past. You analyze their feedback and come across a risk; you have no experience on how to handle it. What should you do in such a scenario? "
+  },
+  {
+    "a": "Balanced Matrix ",
+    "answer": "d",
+    "b": "Organization PMO",
+    "c": "Strong Matrix ",
+    "d": "Project-Oriented ",
+    "explanation": "D Refer to PMBOK 6th Edition, Pg 47. The correct answer is project oriented. Because as a PM, you have enough power to take decisions. In project oriented organizations, once the work is done, you release the resources",
+    "question": "You're the project manager in your organization. Your team members report to you, you are responsible for the evaluation of their yearly performance. You are also responsible for resolving issues, in case there are any. It is up to you to release the resources when the project is done so that they can work on other projects for the company. What kind of organization do you work in? "
+  },
+  {
+    "a": "Do not increase the estimate. ",
+    "answer": "a",
+    "b": "You need to inform the customer before increasing it. ",
+    "c": "Increase the estimate first and then tell the customer the actual reason behind it. Because you are a PM, there is no need to inform the customer. ",
+    "d": "Just go ahead and increase the estimate. ",
+    "explanation": "A Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. You should not increase the estimate unnecessarily. It is not ethical."
+  },
+  {
+    "a": "The project manager",
+    "answer": "c",
+    "b": "The project management team ",
+    "c": "The project management office (PMO) ",
+    "d": "The customer ",
+    "explanation": "C Refer to PMBOK 6th Edition, Pg 48. It is PMOs job to prioritize the projects.",
+    "question": "Todd is a new project manager in your company. Your company has a culture where a new PM is helped by senior members of the team. You have been assigned as the PM BUDDY for the new PM. The new PM asks you whose responsibility it is to determine the priorities between projects in a company. What should be your answer to him/her? "
+  },
+  {
+    "a": "Change management knowledge base ",
+    "answer": "d",
+    "b": "Change control process ",
+    "c": "Identical historical information",
+    "d": "Commercial databases ",
+    "explanation": "D Refer to PMBOK 6th Edition, Pg 39. A commercial database is an example of an enterprise environmental factor.",
+    "question": "Which of the following is an enterprise environmental factor?"
+  }
+]

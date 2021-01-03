@@ -38,11 +38,9 @@ const index = (props) => {
     // https://github.com/sindresorhus/query-string
     const parsed = queryString.parse(params);
     if (parsed.action === "cancel") {
-      db.collection(users)
-        .doc(Constants.installationId)
-        .update({
-          cancelled_at: formatDateTime(new Date()),
-        });
+      db.collection(users).doc(Constants.installationId).update({
+        cancelled_at: new Date(),
+      });
       // close the webview since the customer
       // cancelled the payment
       return;
@@ -52,17 +50,16 @@ const index = (props) => {
       // console.log(parsed.reference);
       // console.log(parsed.token);
       // console.log(parsed.signature);
-      db.collection("users")
-        .doc(Constants.installationId)
-        .set(
-          {
-            completed_at: formatDateTime(new Date()),
-            tracker: parsed.tracker,
-            reference: parsed.reference,
-            token: parsed.token,
-          },
-          { merge: true }
-        );
+      db.collection("users").doc(Constants.installationId).set(
+        {
+          completed_at: new Date(),
+          expires_at: getExpiryDate(),
+          tracker: parsed.tracker,
+          reference: parsed.reference,
+          token: parsed.token,
+        },
+        { merge: true }
+      );
       props.navigation.navigate("PremiumQuestionSet");
       // the customer completed the payment,
       // you should close the WebView and then
@@ -74,6 +71,19 @@ const index = (props) => {
       // - token
       // - signature
     }
+  };
+
+  const getExpiryDate = () => {
+    const date = new Date();
+    const month = date.getMonth();
+    if (month === 11) {
+      date.setMonth(0);
+      date.setFullYear(date.getFullYear() + 1);
+    } else {
+      date.setMonth(date.getMonth + 1);
+    }
+    console.log("DATE >>>", date);
+    return date;
   };
 
   const onError = (e) => {

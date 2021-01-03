@@ -2,7 +2,7 @@
   "expo": {
     "name": "quiz-app",
     "slug": "quiz-app",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./Screens/DisplayResult/test.png",
     "splash": {
@@ -13,9 +13,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "android": {
       "package": "com.quizApp.quizApp",
       "versionCode": 1

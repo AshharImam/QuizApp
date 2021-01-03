@@ -1,0 +1,1808 @@
+[
+  {
+    "question": " Your project team members have just started to address the project work, technical decisions, and the project management approach. However, the team members are not collaborative or open to differing ideas and perspectives. Which stage of the Tuckman ladder has your team just entered? ",
+    "a": "Norming ",
+    "b": "Performing ",
+    "c": "Forming ",
+    "d": "Storming",
+    "answer": "d",
+    "explanation": " answer D. Storming. During this phase, the team begins to address the project work, technical decisions, and the project management approach. If team members are not collaborative or open to differing ideas and perspectives, the environment can become counterproductive"
+  },
+  {
+    "question": " A project manager is managing a research project. Typically, research projects are not clearly defined and involve a lot of uncertainty. While reviewing project progress, the project manager assesses that an activity has been missed from the activity list. A milestone, scheduled to be achieved within another month, would be missed with the current implementation Activity Plan.  Which of the following options should be the first action for the project manager to take? ",
+    "a": "Assess alternatives to meet the milestone ",
+    "b": "Report the error and the expected delay  ",
+    "c": "Omit the status update on the milestone  ",
+    "d": "Report the error and the planned recovery actions ",
+    "answer": "a",
+    "explanation": " answer A. Indicates confronting the issue with an attempt to resolve the issue. Hence this would be the first action to take followed by reporting the issue correctly. Options B and D, that is, ‘report the error and the expected delay’ or ‘report the error and the planned recovery actions’ do not make any attempt to solve the problem."
+  },
+  {
+    "question": " Your project has a 20% probability of profiting $15,000. There is a 15% probability of a loss of $30,000. What is the expected monetary value of this situation?",
+    "a": "$1,200 loss",
+    "b": "$1,500 profit ",
+    "c": "$1,500 loss ",
+    "d": "$1,200 profit ",
+    "answer": "c",
+    "explanation": " answer: C. Expected monetary value is calculated be EMV=Probability*Impact We need to calculate both positive and nagative values and then add to them. (EMV) to profit = +$15,000*20%=+$ 3,000 (EMV) to loss = -$30,000*15%= - $4,500 EMV= EMV to profit + EMV to loss EMV=$3,000+ $(-4,500) = - $1,500 = 1,500 loss"
+  },
+  {
+    "question": " You are a project manager in a construction project, and your project has been completed and is in the process of closing. Which of the following techniques should you consider in this process?",
+    "a": "Expert judgment",
+    "b": "Change control tools ",
+    "c": "Decision making ",
+    "d": "Accepted deliverables",
+    "answer": "a",
+    "explanation": " Tools and techniques of the close project or phase are (Very important): .1 Expert judgment .2 Data analysis • Document analysis • Regression analysis • Trend analysis • Variance analysis 3 Meetings. . [(PMBOK® Guide) – Sixth Edition, Page 121]"
+  },
+  {
+    "question": " A project manager you are mentoring comes to you for help because he is about to face his first procurement audit. You may explain that he should not be worried about such an audit, because an audit is primarily concerned with:",
+    "a": "Makes sure that the contract is being followed ",
+    "b": "Makes sure the schedule of the project in line with the schedule baseline ",
+    "c": "Makes sure the deliverables are accepted ",
+    "d": "Review of contracting processes for completeness, accuracy, and effectiveness",
+    "answer": "d",
+    "explanation": " answer D. For the exam, the primary purpose of the procurement audit is to identify lessons learned during the procurement process. Procurement audits examine the procurement process to determine areas of improvement (successes) and to identify flawed (failures) processes or procedures. This allows you to reuse the successful processes on other procurement items for this project, on future projects, or elsewhere in the organization. It also alerts you to problems in the process so that you don't repeat them. . [(PMBOK® Guide) – Sixth Edition, Page 714]"
+  },
+  {
+    "question": "In which phase is the project kickoff meeting established? ",
+    "a": "Executing",
+    "b": "Planning ",
+    "c": "Monitoring and controlling ",
+    "d": "Closing",
+    "answer": "b",
+    "explanation": " answer B. The project kickoff meeting is established in the planning phase and before beginning of the implementation phase. [PMI PMP Examination Content Outline – June 2015- PERFORMANCE DOMAIN II: PLANNING-Task # 12]"
+  },
+  {
+    "question": " As a project manager in a construction project, the project sponsor has told you that the project will be terminated due to stumbling in regards to the credit limit of the bank. What could have been done to prevent this kind of situation? ",
+    "a": "Reserve Analysis ",
+    "b": "Critical path method ",
+    "c": "Funding limit reconciliation  ",
+    "d": "Critical chain method",
+    "answer": "c",
+    "explanation": " answer C. Funding limit reconciliation involves reconciling the amount of funds to be spent with the amount of funds budgeted for the project. The organization or the customer sets these limits. Reconciling the project expenses will require adjusting the schedule so that the expenses can be smoothed. You do this by placing imposed date constraints on work packages or other WBS components in the project schedule. [(PMBOK® Guide) – Sixth Edition, Page 253]"
+  },
+  {
+    "question": " You are a project manager for a construction project. Only 85% of the total work was completed, and the project took up the whole budget because of a change in the cost of materials. The cost of the material during the estimation of the project budget is US $7.00, and your estimate is US $10.00. During the implementation phase, if the cost of the material reached US $16.00, what should have been your estimate of the material during the project budget estimate?",
+    "a": "US $11.00 ",
+    "b": "US $10.33 ",
+    "c": "US $10.50 ",
+    "d": "US $16.00",
+    "answer": "c",
+    "explanation": " answer C. There is a risk occurred because the project has spent its budget and only 85% completed. For PMP Exam, it’s essential to know: The formula for Beta Distribution (Weighted average) or pert or sometimes called non-linear method = (P+4M+O)/6, is considered the uncertainty (Risks) on its estimate. [(PMBOK® Guide) – Sixth Edition, Page 245] Where, O=US $7.00, M=US $10.00, P= US $16.00 E (Be,t(A) = (16+4*10+7)/6 = $10.5 (Option C)"
+  },
+  {
+    "question": " In which process are the project deliverables reviewed and accepted?",
+    "a": "Validate scope",
+    "b": "Plan scope ",
+    "c": "Closing ",
+    "d": "Control scope",
+    "answer": "a",
+    "explanation": " answer A. Validate scope is where the customer and sponsor verify that the deliverables match what was in the scope. [(PMBOK® Guide) – Sixth Edition, Page 131]"
+  },
+  {
+    "question": " You are showing your project team members the organizational structure, and you point out where in the structure their role is located. What tool would be useful to you in preparing this information?",
+    "a": "Responsibility assignment matrix (RAM)",
+    "b": "Work breakdown structure (WBS)",
+    "c": "Organizational breakdown structure (OBS)",
+    "d": "Resource breakdown structure (RBS) ",
+    "answer": "c",
+    "explanation": " answer C. The organizational breakdown structure (OBS) is arranged according to an organizations existing departments, units, or teams with the project activities or work packages listed under each department. [(PMBOK® Guide) – Sixth Edition, Page 316]"
+  },
+  {
+    "question": " After brainstorming potential project risks, what is the recommended method for prioritizing these risks and their mitigation plans?",
+    "a": "RACI chart",
+    "b": "Control chart         ",
+    "c": "Fishbone Diagram",
+    "d": "Probability and impact matrix",
+    "answer": "d",
+    "explanation": " probability and impact matrix prioritizes the combination of probability and impact scores and helps you determine which risks need detailed risk response plans. For example, a risk event with a high probability of occurring and a high impact will likely need a response plan. This matrix is typically defined by the organization, but if you don’t have one, you’ll need to develop this now—during your planning meetings (a tool and technique of this process). You’ll use this matrix in the Perform Qualitative Risk Analysis process, and I’ll talk more in depth about it in the section “Analyzing Risks Using Qualitative Techniques” later in this chapter. Again, you want to define (or modify) and document the probability and impact matrix in the risk management plan. [(PMBOK® Guide) – Sixth Edition, Page 472]"
+  },
+  {
+    "question": " You are about to contract out a project to a service provider. However, at the time of awarding the contract, you are not sure of the total effort involved. Since the scope of work cannot be accurately estimated, you want to agree upon the per unit rates for different services. Which of the following contracts would best suit your purpose?",
+    "a": "Cost-Plus-Fixed-Fee (CPFF) ",
+    "b": "Time & Material (T&M) ",
+    "c": "Fixed Price (FP)  ",
+    "d": "Cost-Plus-Incentive-Fee (CPIF",
+    "answer": "b",
+    "explanation": " answer B. Time and materials (T&M) contracts are a cross between fixed-price and cost-reimbursable contracts. The full amount of the material costs is not known at the time the contract is awarded. This resembles a cost-reimbursable contract because the costs will continue to grow during the contract’s life and are reimbursable to the contractor. The buyer bears the biggest risk in this type of contract. • T&M contracts can resemble fixed-price contracts when unit rates are used, for example. Unit rates might be used to preset the rates of certain elements or portions of the project. For example, a contracting agency might charge you $150 per hour for a .NET programmer, or a leasing company might charge you $2,000 per month for the hardware you’re leasing during the testing phase of your project. These rates are preset and agreed upon by the buyer and seller ahead of time. • T&M contracts are most often used when you need human resources with specific skills and when you can quickly and precisely define the scope of work needed for the project. [(PMBOK® Guide) – Sixth Edition, Page 472]"
+  },
+  {
+    "question": " As a project manager, you are participating in the process of developing a project charter. Which of the following documents will help you in this process?",
+    "a": "The project management plan",
+    "b": "The benefits management plan",
+    "c": "The scope management plan",
+    "d": "Stakeholder registers",
+    "answer": "b",
+    "explanation": "  answer B. The benefits management plan is part of the business documents. The business case and the benefits management plan are sources of information about the project´s objectives and how the project will contribute to the business goals. Although the business documents are developed prior to the project, they are reviewed periodically. Inputs of the project charter must be memorized prior taking the PMP Exam."
+  },
+  {
+    "question": " You are a project manager participating in the process of developing a project charter. You have received a letter stating that the customer is interested in the KPIs. As a project manager, what should you do next?",
+    "a": "You should include KPIs in the project charter",
+    "b": "Include KPIs in the project management plan",
+    "c": "Don’t include KPIs In the project charter",
+    "d": "Include KPIs in change management plan",
+    "answer": "a",
+    "explanation": " answer A. Refer to PMBOK 5, chapter 4 integration management knowledge area, key performance indicators can be part of project management information systems (PMIS), and (PMIS) is part of enterprise environmental Factors (E.E.F) which is input in develop a project charter (PMBOK 5th Edition -70), and the project charter intended to satisfy measurable project objectives and related success criteria (Key performance indicators) [(PMBOK® Guide) – Sixth Edition, Page 95] "
+  },
+  {
+    "question": " You are the project manager for the design of a software development project. In order to determine ideal settings for the software quality, the quality manager of the company suggests trying out various scenarios in order to influence specific variables of a product or process under development or in production while keeping manufacturing costs and Software efficiency of the final product within specific limits. Identifying such Variables which influence the product or process under development is called:",
+    "a": "Bench-marking",
+    "b": "Design of Experiments",
+    "c": "Statistical Sampling ",
+    "d": "Brainstorming",
+    "answer": "b",
+    "explanation": " answer B. • DOE is a statistical technique that identifies the elements—or variables—that will have the greatest effect on overall project outcomes. It is used most often concerning the product of the project but can also be applied to project management processes to examine trade-offs. • DOE designs and sets up experiments to determine the ideal solution for a problem using a limited number of sample cases. It analyzes several variables at once, allowing you to change all (or some of) the variables at the same time and determine which combination will produce the best result at a reasonable cost. [(PMBOK® Guide) – Sixth Edition, Page 290]"
+  },
+  {
+    "question": " You are comparing your project to another external project, which is similar to your project as a basis for measuring performance. This activity can best be described as:",
+    "a": "Design of experiments ",
+    "b": "Bench-marking ",
+    "c": "Organizational process assets ",
+    "d": "Functional organization comparison",
+    "answer": "b",
+    "explanation": " answer B. Benchmarking involves comparing actual or planned project practices to those of comparable projects to identify best practices, generate ideas for improvement, and provide a basis for measuring performance. Benchmarked projects may exist within the performing organization or outside of it, or can be within the same application area. Benchmarking allows for analogies from projects in a different application area to be made. [(PMBOK® Guide) – Fifth Edition, Page 134]"
+  },
+  {
+    "question": " Which of the following is considered an output from the Close Project or Phase Process?",
+    "a": "Organizational process assets updates",
+    "b": "Work performance information",
+    "c": "Change requests",
+    "d": "Accepted Deliverables",
+    "answer": "a",
+    "explanation": " answer A. Outputs from the close project or phase process are (Very important for the exam): PROJECT DOCUMENTS UPDATES, FINAL PRODUCT, SERVICE, OR RESULT TRANSITION, FINAL REPORT and ORGANIZATIONAL PROCESS ASSET UPDATES. [(PMBOK® Guide) – Sixth Edition, Page 128]"
+  },
+  {
+    "question": " You are a project manager, and your organization is preparing for the internal quality audit cycle. However, you feel that the project team is a little apprehensive about the audit process. Who is responsible for conducting the project quality audit?",
+    "a": "The project Manager ",
+    "b": "All Project team",
+    "c": "External auditors only ",
+    "d": "Internal or external auditors",
+    "answer": "d",
+    "explanation": " nswer D. Quality audits may be scheduled or random, and may be conducted by internal or external auditors. [(PMBOK® Guide) – Sixth Edition, Page 295]"
+  },
+  {
+    "question": " Correct Which conflict resolution technique is best for a long-lasting solution?",
+    "a": "Smoothing",
+    "b": "Forcing",
+    "c": "Collaborate / Problem Solving",
+    "d": "Withdraw/Avoid",
+    "answer": "c",
+    "explanation": " answer C. The collaborate technique is also called problem solve and is the best way to resolve conflict. One of the key actions you'll perform with this technique is a fact-finding mission. The thinking here is that one right solution to a problem exists and the facts will bear out the solution. Once the facts are uncovered, they're presented to the parties and the decision will be clear. Thus, the solution becomes a permanent one and the conflict expires. This is a win-win solution. Multiple viewpoints are discussed and shared using this technique, and team members have the opportunity to examine all the perspectives of the issue. Collaborating will lead to true consensus where team members commit to the decision. This is the conflict resolution approach project managers use most often and is an example of a win-win conflict resolution technique [(PMBOK® Guide) – Sixth Edition, Page 349]"
+  },
+  {
+    "question": " You have been assigned as the project manager of an existing project involving 40 company employees and seven sub-contractors, and you would like to know the project resources assigned to each work package in your project. Where should you look for this information? ",
+    "a": "Responsibility assignment matrix",
+    "b": "Project organization chart ",
+    "c": "Pareto chart  ",
+    "d": "Resource histogram",
+    "answer": "a",
+    "explanation": " answer A. Responsibility Assignment Matrix (RAM). A grid that shows the project resources assigned to each work package. [(PMBOK® Guide) – Sixth Edition, Page 720]"
+  },
+  {
+    "question": " As a project manager, if you decided to purchase insurance coverage for your project risks, purchasing insurance is an example of which risk response strategy?",
+    "a": "Transfer",
+    "b": "Mitigation",
+    "c": "Acceptance",
+    "d": "Avoidance",
+    "answer": "a",
+    "explanation": " nswer A. Risk transference nearly always involves payment of a risk premium to the party taking on the risk. Transferring liability for risk is most effective in dealing with financial risk exposure. Transference tools can be quite diverse and include, but are not limited to, the use of insurance, performance bonds, warranties, guarantees, etc. [(PMBOK® Guide) – Sixth Edition, Page 443]"
+  },
+  {
+    "question": " Measuring the square footage of a building and then multiplying that figure by a set cost factor for construction is an example of: ",
+    "a": "Parametric estimating",
+    "b": "Analogous estimating",
+    "c": "Independent Estimating",
+    "d": "Bottom up estimating",
+    "answer": "a",
+    "explanation": " answer A. Parametric estimating is a quantitatively based estimating method that multiplies the quantity of work by the rate or uses an algorithm in conjunction with historical data to determine cost, budget, or duration estimates. The best way to describe it is with an example. Suppose you are working on a companywide network upgrade project. This requires you to run new cable to the switches on every floor in the building. To come up with an estimate, you can use parametric estimates to determine activity duration estimates by taking a known element—in this case, the amount of cable needed—and multiplying it by the amount of time it takes to install a unit of cable. In other words, suppose you have 10,000 meters of new cable to run. You know from past experience it takes 1 hour to install 100 meters. Using this measurement, you can determine an estimate for this activity of 100 hours to run the new cable. Therefore, the cable activity duration estimate is 100 hours. [(PMBOK® Guide) – Sixth Edition, Pages 200 & 201]"
+  },
+  {
+    "question": " Comparing actual or planned project practices to those of other projects to generate ideas for improvement is known as",
+    "a": "Benchmarking",
+    "b": "Benefit/cost analysis",
+    "c": "Flowcharting",
+    "d": "Business case",
+    "answer": "a",
+    "explanation": " answer A. Benchmarking. Benchmarking involves comparing actual or planned project practices or the project’s quality standards to those of comparable projects to identify best practices, generate ideas for improvement, and provide a basis for measuring performance. Benchmarked projects may exist within the performing organization or outside of it, or can be within the same application area or other application area. Benchmarking allows for analogies from projects in a different application area or different industries to be made. [(PMBOK® Guide) – Sixth Edition, Pages 281]"
+  },
+  {
+    "question": " You are reviewing an earned value report and observed that the CPI was 0.98, and the SPI is 1.05. You will report to the project sponsor that the project is:",
+    "a": "Right on plan according to schedule and budget baselines",
+    "b": "Ahead of schedule and over budget",
+    "c": "On schedule and under budget",
+    "d": "Not enough information to determine the project condition",
+    "answer": "b",
+    "explanation": " answer B. A CPI less than one indicates that the project is performing over budget. An SPI that greater than one indicates that the project is performing ahead of schedule. [(PMBOK® Guide) – Sixth Edition, Pages 263]"
+  },
+  {
+    "question": " Which of the following is a tool or technique used in the manage stakeholder engagements process?",
+    "a": "Communication management plan",
+    "b": "Change log",
+    "c": "Issue log",
+    "d": "Interpersonal skills",
+    "answer": "d",
+    "explanation": " answer D. Interpersonal skills is an important technique used in the manage stakeholder engagements process. [(PMBOK® Guide) – Fifth Edition, Page 407]"
+  },
+  {
+    "question": " You are a project manager and your project is currently in the implementation phase. You would like to know more about the project deliverables, work required to complete those deliverables, project constraints, and assumptions. Which of the following documents would be most useful for this purpose?",
+    "a": "Work breakdown structure (WBS)",
+    "b": "Requirements documentation",
+    "c": "Scope management plan",
+    "d": "Project scope statement",
+    "answer": "d",
+    "explanation": " answer D. The preparation of a detailed project scope statement builds upon the major deliverables, assumptions, and constraints that are documented during project initiation. During project planning, the project scope is defined and described with greater specificity as more information about the project is known. Existing risks, assumptions, and constraints are analyzed for completeness and added or updated as necessary. The Define Scope process can be highly iterative. In iterative life cycle projects, a high-level vision will be developed for the overall project, but the detailed scope is determined one iteration at a time, and the detailed planning for the next iteration is carried out as work progresses on the current project scope and deliverables. [(PMBOK® Guide) – Sixth Edition, Page 151]"
+  },
+  {
+    "question": " You have been managing a construction project in a developing country. However, you determine that the project requires a construction management expert who is not available from the company in your country. Upon doing some research, you determine that the company has a construction management expert based in Chicago, and he is qualified for the project. However, the Chicago-based employee is not willing to relocate to your country for the project. In such a case:",
+    "a": "Negotiate with the functional manager of the Chicago based employee and inform him that the employee needs to be convinced to relocate to your project.",
+    "b": "You would look at the option of moving ahead with the project by using the construction manager as a virtual team.",
+    "c": "Manage the project without the key resource and consider this as a risk.",
+    "d": "Request your project sponsor to get more resources.",
+    "answer": "b",
+    "explanation": " answer B. Virtual teams/distributed teams. The globalization of projects has promoted the need for virtual teams that work on the same project, but are not colocated at the same site. The availability of communication technology such as email, audio conferencing, social media, web-based meetings, and video conferencing has made virtual teams feasible. Managing virtual teams has unique advantages, such as being able to use special expertise on a project team even when the expert is not in the same geographic area, incorporating employees who work from home offices, and including people with mobility limitations or disabilities. The challenges of managing virtual teams are mainly in the communication domain, including a possible feeling of isolation, gaps in sharing knowledge and experience between team members, and difficulties in tracking progress and productivity, possible time zone difference and cultural differences. The other choices are not valid.[(PMBOK® Guide) – Sixth Edition, Page 311]"
+  },
+  {
+    "question": " You are participating in developing the project charter for a new project assigned to you. Which of the following is an element/s of the enterprise environmental factors?    ",
+    "a": "Lessons learned and historical databases",
+    "b": "Structure, culture and infrastructure",
+    "c": "Project closure guidelines",
+    "d": "Risk templates and financial control procedures",
+    "answer": "b",
+    "explanation": " answer B. The enterprise environmental factors that can influence the Develop Project Charter process include but are not limited to: • Structure, culture and infrastructure (e.g., product standards, quality standards, safety standards, and workmanship standards). • Legal and regulatory requirements and/or constraints. • Marketplace conditions. • Organizational culture and political climate. • Organizational governance framework (a structured way to provide control, direction, and coordination through people, policies, and processes to meet organizational strategic and operational goals), and Stakeholders’ expectations and risk thresholds. .[(PMBOK® Guide) – Sixth Edition, Page 78]"
+  },
+  {
+    "question": " The Project Stakeholder Management knowledge area is focused on engaging the stakeholders in the project. As you’ve been managing your project, you found out that one of the key stakeholders of the company is resisting the project. As a project manager, what must you do first? ",
+    "a": "Analyze options that might change or influence the key stakeholder perception.",
+    "b": "Conduct a team meeting to discuss this issue.",
+    "c": "Seek support from the project sponsor to force project decisions.",
+    "d": "Seek expert judgment from the project initiator.",
+    "answer": "a",
+    "explanation": " answer A. The key stakeholders must be turned into a project supporter in order to ensure success. Any of the given choices can be the solution to this problem. However, you should first identify all the available options and analyze them before selecting the best option. [(PMBOK® Guide) – Sixth Edition, Pages 521&522]"
+  },
+  {
+    "question": " Your project has a budget of $2,000. After two-thirds of the project work is completed, the project has cost $1,500. Your project can be described as:",
+    "a": "Under budget",
+    "b": "Over budget   ",
+    "c": "Within the budget",
+    "d": "Ahead of budget",
+    "answer": "b",
+    "explanation": " answer B. The project has a budget $2,000, So BAC=$2,000 EV =2/3*$2,000=$1,333 , AC=$1,500, CV=EV-AC = 1,333-1,500=-0.167 (over budget)"
+  },
+  {
+    "question": " Which of the following is an input to the Close Project or Phase Process? ",
+    "a": "Lessons learned register",
+    "b": "Inspections and audits",
+    "c": "Enterprise Environmental Factors (EEFs)",
+    "d": "Records management system",
+    "answer": "a",
+    "explanation": " nswer A. Lessons learned register. Described in Section 4.3.3.1. The lessons learned in the phase or project will be finalized before being entered into the lessons learned repository. [(PMBOK® Guide) – Sixth Edition, Page 124]"
+  },
+  {
+    "question": " As a project manager, you understand the importance of project files, records, and correspondence for future references. Which of the following can be used to manage records and correspondence?",
+    "a": "Claims administration",
+    "b": "Procurement audits",
+    "c": "Procurement documents",
+    "d": "Historical Information",
+    "answer": "d",
+    "explanation": " answer D. Historical Information. Documents and data on prior projects including project files, records, correspondence, closed contracts, and closed projects. [(PMBOK) Sixth Edition, Page 708  – Glossary]"
+  },
+  {
+    "question": " As part of a joint venture, a project manager working with another company needs to share some confidential information related to intellectual property rights. He wants to know the person responsible for authorizing the release of this confidential information. Which project document would record the details of the person responsible for authorizing the release of this confidential information?",
+    "a": "Organizational breakdown structure",
+    "b": "Project charter",
+    "c": "Project communication management plan",
+    "d": "Stakeholder management plan",
+    "answer": "c",
+    "explanation": " answer C. A project communication management plan would record the details of the person responsible for authorizing release of this confidential information on the project. [(PMBOK® Guide) – Sixth Edition, Page 377]"
+  },
+  {
+    "question": " You are the project manager in your organization. The project is in the planning phase. You are meeting with your stakeholders to gather requirements for your project. You are well aware that requirements to be gathered include both product and project requirements. You are using a technique that one individual takes responsibility for making the decision for the group to collect the requirements. What is an appropriate technique to use?                                                                                                             ",
+    "a": "Unanimity",
+    "b": "Majority  ",
+    "c": "Autocratic decision making",
+    "d": "Focus groups",
+    "answer": "c",
+    "explanation": " answer C. Autocratic decision making involves one person making the decision on behalf of the group. Unanimity: everyone agrees on a single course of action. Majority: This occurs when the majority of stakeholders agree on the decision. Focus groups: bring together prequalified stakeholders and subject matter experts to learn about their expectations and attitudes about a proposed product, service, or result. A trained moderator guides the group through an interactive discussion designed to be more conversational than a one-on-one interview. [(PMBOK® Guide) – Sixth Edition, Pages 144 & 142]"
+  },
+  {
+    "question": " Your project has an SPI of 1.01 and a CPI of 0.90. What does this mean?",
+    "a": "The project is over budget and ahead of schedule.                        ",
+    "b": "The project is ahead of schedule but under budget.",
+    "c": "The project is over budget and behind schedule.",
+    "d": "The project is behind schedule and under budget.",
+    "answer": "a",
+    "explanation": " answer A. A Schedule Performance Index (SPI) > 1 means that the project is ahead of schedule because the work is progressing at a rate of greater than what was planned. A Cost Performance Index (CPI) < 1 means that the project is over budget because we are getting less value for the money spent than what we had planned. [(PMBOK® Guide) – Sixth Edition, Page 267]"
+  },
+  {
+    "question": " What is the main purpose of the project charter?",
+    "a": "It contains the initial scope of work.",
+    "b": "It contains the list of the project risks.",
+    "c": "It authorizes the Project Manager to use organization resources to execute the project.",
+    "d": "It identifies the project sponsor who will pay for the project.",
+    "answer": "c",
+    "explanation": " answer C. The project charter is the document issued by the project initiator or sponsor that formally authorizes the existence of a project and provides the project manager with the authority to apply organizational resources to project activities. It documents the business needs, assumptions, constraints, the understanding of the customer’s needs and high-level requirements. [(PMBOK® Guide) – Sixth Edition, Page 81]"
+  },
+  {
+    "question": " A Cost Performance Index (CPI) of 0.86 means?",
+    "a": "The Project is only getting 86 cents out of every $1 spent.  ",
+    "b": "The Project would cost 14% more than originally planned.",
+    "c": "The Project is progressing at only 86% of the originally planned.",
+    "d": "The Project would cost 86% more than originally planned.",
+    "answer": "a",
+    "explanation": " answer A. The Project is only getting 86 cents out of every $1 spent. [(PMBOK® Guide) – Sixth Edition, Page 263]"
+  },
+  {
+    "question": " The project manager develops a process improvement plan to encourage continuous process improvement during the life of the project. Which of the following is a valid tool or technique to assist the project manager in assuring the success of the process improvement plan? ",
+    "a": "Change control system",
+    "b": "Process analysis           ",
+    "c": "Bench-marking",
+    "d": "Configuration management system",
+    "answer": "b",
+    "explanation": " answer B. Process analysis. Process analysis identifies opportunities for process improvements. This analysis also examines problems, constraints, and non-value-added activities that occur during a process. [(PMBOK® Guide) – Sixth Edition, Page 292]"
+  },
+  {
+    "question": " You are participating in developing the project charter for a new project assigned to you. Which of the following is inputted in the Develop Project Charter?",
+    "a": "Project management plan",
+    "b": "Communication management plan",
+    "c": "Historical information and lessons learned repository ",
+    "d": "Stakeholder management plan ",
+    "answer": "c",
+    "explanation": " answer C. Historical information and lessons learned repository are part of organizational process assets. And the organizational process assets is input in the develop project charter. [(PMBOK® Guide) – Sixth Edition, Page 79]"
+  },
+  {
+    "question": "While managing a project, you decide to create a prototype of your product first to ensure that it is acceptable to stakeholders before creating your product. Creating a prototype is an example of:",
+    "a": "Risk mitigation",
+    "b": "Risk avoidance",
+    "c": "Monte Carlo simulation",
+    "d": "Project assumptions testing",
+    "answer": "a",
+    "explanation": " Risk A. Mitigation may require prototype development to reduce the risk of scaling up from a bench-scale model of a process or product. Where it is not possible to reduce probability, a mitigation response might address the risk impact by targeting linkages that determine the severity. For example, designing redundancy into a system may reduce the impact from a failure of the original component. [(PMBOK) – Sixth Edition, Page 443]"
+  },
+  {
+    "question": " You are the project manager for a large construction project. The project objective is to construct a set of outbuildings to house the 2018 FIFA World Cup Russia™ team that will be arriving in Moscow City 8 months from the project start date. Resources are not readily available because they are currently assigned to other projects. John, an expert construction manager, is needed for this project two months from today. Which of the following skills will you use to get John assigned to your project?",
+    "a": "Negotiation and influencing skills",
+    "b": "Communication and organizational skills",
+    "c": "Management skills",
+    "d": "Problem-solving skills",
+    "answer": "a",
+    "explanation": " answer A. Negotiation and influencing skills are needed to convince john's boss and come to an agreement concerning his assignment. [(PMBOK® Guide) – Sixth Edition, Pages 332& 333]"
+  },
+  {
+    "question": " You are the project manager for a research project. You're performing cost estimates for your project and you don't have a lot of details yet. Which of the following techniques should you use?",
+    "a": "Parametric estimating",
+    "b": "Modeling estimating",
+    "c": "Analogous estimating",
+    "d": "Bottom-up estimating ",
+    "answer": "c",
+    "explanation": " answer is C. Analogous duration estimating is frequently used to estimate project duration when there is a limited amount of detailed information about the project. [(PMBOK® Guide) – Sixth Edition, Page 200]"
+  },
+  {
+    "question": " Which of the following is a tool and technique used to identify stakeholders’ process?                              ",
+    "a": "Stakeholder register",
+    "b": "Analytical Techniques  ",
+    "c": "Stakeholder analysis",
+    "d": "Management Skills ",
+    "answer": "c",
+    "explanation": " answer is C. Stakeholder analysis. Stakeholder analysis results in a list of stakeholders and relevant information such as their positions in the organization, roles on the project, “stakes,” expectations, attitudes (their levels of support for the project), and their interest in information about the project. [(PMBOK® Guide) – Sixth Edition, Page 512]"
+  },
+  {
+    "question": " The product scope description, deliverables, and acceptance criteria together describe elements of which of the following?",
+    "a": "Business Case",
+    "b": "Tools and techniques of the Initiating processes",
+    "c": "The project statement of work (SOW)",
+    "d": "Scope management plan",
+    "answer": "c",
+    "explanation": " answer C. The project scope statement is the description of the project scope, major deliverables, assumptions, and constraints. The project scope statement documents the entire scope, including project and product scope. It describes the project’s deliverables in detail. It also provides a common understanding of the project scope among project stakeholders. It may contain explicit scope exclusions that can assist in managing stakeholder expectations. It enables the project team to perform more detailed planning, guides the project team’s work during execution, and provides the baseline for evaluating whether requests for changes or additional work are contained within or outside the project’s boundaries. [(PMBOK® ) – Sixth Edition, Page 154]"
+  },
+  {
+    "question": "What are the inputs to the Develop Project Charter Process?",
+    "a": "Business case – Project Management Plan – Agreements – Enterprise environmental factors - Organizational process assets.",
+    "b": "Business case - Benefits management plan – Agreements – Enterprise environmental factors - Organizational process assets.",
+    "c": " Business case – Project charter – Agreements – Enterprise environmental factors - Organizational process assets.",
+    "d": "Business case – Outputs from other processes – Agreements – Enterprise environmental factors - Organizational process assets.",
+    "answer": "b",
+    "explanation": "answer B. Inputs of the project charter are (Very important for the exam): 1 - Business documents • Business case • Benefits management plan 2-Agreements 3- Enterprise environmental factors 4- Organizational process assets [(PMBOK® Guide) – Sixth Edition, Page 75]"
+  },
+  {
+    "question": " Your organization is preparing to construct a new villa. You worked on a similar project for the organization two years ago. Which of the following might be most helpful to you on your new project?",
+    "a": "The organization's marketing plans",
+    "b": "Historical information from a previous similar project",
+    "c": "Infrastructure",
+    "d": "The organization's project management information systems",
+    "answer": "b",
+    "explanation": " answer B. Historical information on projects of a similar nature can be helpful when initiating new projects. They can help in formulating project deliverables and identifying constraints and assumptions and will be helpful later in the project planning processes as well."
+  },
+  {
+    "question": " You are in the process of identifying your stakeholders. You are using one of the tools and techniques of this process. Which of the following techniques should you use to identify the stakeholders?",
+    "a": "Expert judgment",
+    "b": "Communication skills",
+    "c": "Ground rules",
+    "d": "Decision making",
+    "answer": "a",
+    "explanation": " answer A. Tools and techniques that are used in the identify stakeholders process are (Expert judgment - Data gathering - Data analysis - Data representation and Meetings). [(PMBOK® ) – Sixth Edition,  504]"
+  },
+  {
+    "question": " You are a project manager responsible for the construction of a new office complex. You are taking over for a project manager who recently left the company. The prior project manager completed the define scope process. What is the next process that you should start?",
+    "a": "Collect Requirements",
+    "b": "Subdividing project deliverables and project work into smaller, more manageable components",
+    "c": "Plan Scope Management",
+    "d": "Develop the project charter",
+    "answer": "b",
+    "explanation": " answer B Create WBS is the process of subdividing project deliverables and project work into smaller, more manageable components. The key benefit of this process is that it provides a framework of what has to be delivered. This process is performed once or at predefined points in the project. "
+  },
+  {
+    "question": "You are a project manager for a construction project.A strike by local workers occurs due to the lateness of workers' payments. That leads to delays in a major component delivery in your project. What could have been done differently to prevent this type of situation?",
+    "a": "Crashing",
+    "b": "What-If Scenario Analysis",
+    "c": "Leads and Lags",
+    "d": "Fast-Tracking",
+    "answer": "b",
+    "explanation": " What-If Scenario Analysis is the correct answer. What-if scenario analysis is the process of evaluating scenarios in order to predict their effect, positively or negatively, on project objectives. This is an analysis of the question“What if the situation represented by scenario ‘A strike’ happened?” The outcome of the what-if scenario analysis can be used to assess the feasibility of the project schedule under adverse conditions, and in preparing contingency and response plans to overcome or mitigate the impact of the unexpected situation. Option (A) Crashing Is a schedule compression technique involves adding additional resources. In order to compress the project schedule. Crashing always results in increased costs. Option (C) Leads and lags are both used in the development of the project schedule. Lead is an acceleration of the successor activity and can be used only on finish-to-start activity relationships. Lag is a delay in the successor activity and can be found on all activity relationship types. Option (D) fast-tracking is schedule compression technique involves taking critical path activities that were originally planned in series and doing them parallel. Fast-tracking often results in rework and usually increase the project risk. Tracking: is schedule compression technique involves taking critical path activities that were originally planned in series and doing them parallel. Fast-tracking often results in rework and usually increase the project risk."
+  },
+  {
+    "question": "You are a project manager who is in charge of an important project for your company, and your project is currently in the implementation phase. If the project sponsor has told the functional manager that the project will be delayed by two weeks, and the functional manager has told you to document that, which organizational structure do you work in?",
+    "a": "Functional",
+    "b": "Projectizes",
+    "c": "Matrix",
+    "d": "Tight Matrix",
+    "answer": "a",
+    "explanation": " In Functional organization, the Project manager has the least authority in a functional organization structure. Option (B) Projectized: in Projectized organization the project manager has full authority to assign priorities, apply resources, and direct the work of persons assigned to the project. Option (D) Tight Matrix: in Tight Matrix Organization it simply refers to (colocation), or locating the workspace for the project team in the same room. [(PMBOK® Guide) – Sixth Edition, Page 47]"
+  },
+  {
+    "question": " You are a project manager for a software project. You have been assigned as a project manager instead of a previous project manager. The previous project manager was fired because he failed to send project information to the stakeholders involved in the project. What could have done differently by the previous project manager to prevent this type of situation?",
+    "a": "Review the stakeholder management plans",
+    "b": "Review communication management plans",
+    "c": "Review project management plans",
+    "d": "Review change management plans",
+    "answer": "b",
+    "explanation": "answer: B. The previous project manager failed to send information to the project's stakeholders. He should have reviewed the communication management plans; it contains the following: • who needs what information, and who is authorized to access that information; • When they will need the information; • Where the information should be stored; • what format the information should be stored in; • How the information can be retrieved. According to the PMI® Project Management Professional (PMP) ® Examination Content Outline, the communications management plan defines and manages the flow of project information For the exam, know that the communications management plan documents how the communication needs of the stakeholders will be met, including the types of information that will be communicated, who will communicate it, who receives the communication, the methods used to communicate, the timing and frequency, the method for updating this plan as the project progresses, the escalation process, and a glossary of common terms. [(PMBOK® Guide) – Sixth Edition, Page 377]"
+  },
+  {
+    "question": " You are the project manager working on construction for a new wastewater treatment plant project. Your preliminary project schedule runs past the due date for a federal grant program. The Project sponsor has agreed to release 7 resources to work on your project to meet the federal grant program date. This is an example of:",
+    "a": "Crashing",
+    "b": "Fast tracking",
+    "c": "Resource leveling",
+    "d": "Critical chain method",
+    "answer": "a",
+    "explanation": "answer: A. Crashing the schedule includes tasks such as adding resources to the critical path tasks or speeding up deliveries of materials and resources."
+  },
+  {
+    "question": " Your project sponsor has requested a cost estimate for the project. He would like the cost estimate to be as accurate as possible. And you should use the components of the WBS in the estimate. What is the correct Cost Estimate tool to use?",
+    "a": "Analogous estimating techniques",
+    "b": "Bottom-up estimating techniques",
+    "c": "Top-down estimating techniques",
+    "d": "Expert judgment techniques",
+    "answer": "b",
+    "explanation": "answer B. Bottom-up techniques are the most time-consuming and generally the most accurate estimates you can use. With bottom-up estimating, each work item is estimated and rolled up to a project total. [(PMBOK® Guide) – Sixth Edition, Page 700 - Part 3 - Glossary]"
+  },
+  {
+    "question": " Which of the following is a tool or technique used in the estimate costs process?",
+    "a": "Data gathering techniques",
+    "b": "Funding limit reconciliation",
+    "c": "Analytical techniques",
+    "d": "Voting",
+    "answer": "d",
+    "explanation": "answer D. Voting is an assessment process having multiple alternatives with an expected outcome in the form of future actions. These techniques are useful for engaging team members to improve estimate accuracy and commitment to the emerging estimates. [(PMBOK® Guide) – Sixth Edition, Page 246]]"
+  },
+  {
+    "question": " Measurable project objectives and related success criteria can best be found in:",
+    "a": "The project management plan",
+    "b": "The project scope statement",
+    "c": "The scope management plan ",
+    "d": "The project charter",
+    "answer": "d",
+    "explanation": "answer D. The project charter is the document issued by the project initiator or sponsor that formally authorizes the existence of a project and provides the project manager with the authority to apply organizational resources to project activities. It documents the high-level information on the project and on the product, service, or result the project is intended to satisfy, such as: • Project purpose. • Measurable project objectives and related success criteria. • High-level requirements. • High-level project description, boundaries, and key deliverables; • Overall project risk. • Summary milestone schedule. • Preapproved financial resources. • Key stakeholder list. • Project approval requirements (i.e., what constitutes project success, who decides the project is successful, and who signs off on the project). • Project exit criteria (i.e., what are the conditions to be met in order to close or to cancel the project or phase) • Assigned project manager, responsibility, and authority level. • Name and authority of the sponsor or other person(s) authorizing the project charter. • A high level, the project charter ensures a common understanding by the stakeholders of the key deliverables, milestones, and the roles and responsibilities of everyone involved in the project. [(PMBOK® Guide) – Sixth Edition, Page 81]"
+  },
+  {
+    "question": " You are a project manager, and your current project has 10 stakeholders. How many communications channels are there on your project?",
+    "a": "36",
+    "b": "45",
+    "c": "55",
+    "d": "54",
+    "answer": "c",
+    "explanation": "answer C. In this questionhe project manager is interacting with ten other stakeholders. Therefore there are 11 stakeholders. The number (#) of communication channels = n (n-1)/2 where n is the number of people. For this problem we have 11 people: # of channels= 11(11-1)/2= 55 channels."
+  },
+  {
+    "question": " You are a project manager for the construction project. Your project involves installing precast concrete columns and beams, and you're performing the risk-planning processes. You have identified several problems along with the root causes of those problems. Which of the following diagrams will you use to show each problem and its causes and effects?",
+    "a": "Pareto diagrams",
+    "b": "Ishikawa diagrams",
+    "c": "Control charts ",
+    "d": "Flowcharts",
+    "answer": "b",
+    "explanation": "answer B. Ishikawa diagrams, which are also known as fishbone diagrams or as Cause-and-effect diagrams. Ishikawa diagrams often prove useful in linking the undesirable effects seen as special variation to the assignable cause upon which project teams should implement corrective actions to eliminate the special variation detected in a control chart. [(PMBOK® Guide) – Sixth Edition, Page 293]"
+  },
+  {
+    "question": "Q58 Based on the following table, what is the status of activity (C)",
+    "a": "Behind schedule, under budget",
+    "b": "Behind schedule, over budget",
+    "c": "Ahead of schedule, under budget",
+    "d": "Ahead of schedule, over budget",
+    "answer": "c",
+    "image": "SET1Q58",
+    "explanation": "answer C. EV for activity C = % of work completed * BAC EV = 30% * 30,000 = 9,000 PV = 7,000 , AC = 8,000 • SPI = EV/PV = 9,000/7,000 = 1,285 > 1.0 (ahead of schedule). • CPI = EV/AC = 9,000/8,000 = 1,125 > 1.0 (under budget)."
+  },
+  {
+    "question": " During a project managers meeting in your organization, they were discussing project management methodologies, subjects such as agile and waterfall. They were discussing one of the following:",
+    "a": "Product life cycle",
+    "b": "Project life Cycle",
+    "c": "Project management plan",
+    "d": "C{hange management plan",
+    "answer": "b",
+    "explanation": "answer B. Agile development is a really good example of an iterative approach to project life cycle phases. In an agile project, the team will typically break down the project into phases, where they work on the current phase. Option (A) Product life cycle: The product life cycle phases do not overlap. Option (C): project management plan: The project management plan is detailed document that describes how the project will be executed, monitoring, and controlled. Option (D) : : The change management plan defines the process for managing changes on the project."
+  },
+  {
+    "question": " You have been assigned as project manager of a software development project. The organization is about to implement an independent review to ensure that the project work is continuing to comply with the project's policies, processes, and procedures. During which process would this review occur? ",
+    "a": "Close Project or Phase",
+    "b": "Control Quality",
+    "c": "Co},ntrol Risks",
+    "d": "Manage Quality",
+    "answer": "d",
+    "explanation": " answer D. Quality audits are performed during the Manage Quality process. [(PMBOK® Guide) – Sixth Edition, Page 294]"
+  },
+  {
+    "question": " You are the project manager for the construction project. You have recently joined an organization and are not fully aware of the organization's culture and structure. To manage your project stakeholders, you have to understand your project stakeholders better. Which of the following can provide you with some historical information regarding stakeholder management on previous projects? ",
+    "a": "Project management plan",
+    "b": "Enterprise environmental factors",
+    "c": "Organizational process assets",
+    "d": "Project charter",
+    "answer": "c",
+    "explanation": "answer C. The project charter and the project management plan do not document lessons learned repository from previous similar projects. Lessons learned are stored in the organization's process assets library. [(PMBOK® Guide) – Sixth Edition, Page 510]"
+  },
+  {
+    "question": " You are managing a public transportation system project. There is a strike by local workers that occurred due to a delay of the workers' payments. This leads to delays in delivering one of the key deliverables in your project. What could have been done differently to prevent this kind of situation?",
+    "a": "Crashing",
+    "b": "Leads and Lags",
+    "c": "Fast-Tracking",
+    "d": "What-If Scenario Analysis ",
+    "answer": "d",
+    "explanation": " answer D. What-If Scenario Analysis is the correct answer. What-if scenario analysis is the process of evaluating scenarios in order to predict their effect, positively or negatively, on project objectives. This is an analysis of the questionWhat if the situation represented by scenario ‘A strike’ happened?” The outcome of the what-if scenario analysis can be used to assess the feasibility of the project schedule under adverse conditions, and in preparing contingency and response plans to overcome or mitigate the impact of the unexpected situation. [(PMBOK® Guide) – Sixth Edition, Page 213]"
+  },
+  {
+    "question": " You are a project manager managing a global project. You have team members located in 7 countries. Due to the nature of the project, you are unable to find a time that is acceptable to all team members. Which conflict resolution technique is best suited for this situation?",
+    "a": "Force",
+    "b": "Withdrawal",
+    "c": "Avoid",
+    "d": "Compromise",
+    "answer": "d",
+    "explanation": " answer D. A compromise requires searching for options that bring some degree to satisfaction to all parties in order to temporarily or partially resolve the conflict. This would be the best way to handle the current situation as the difference of time zone is not under the control of anyone. [(PMBOK® Guide) – Sixth , Page 349]"
+  },
+  {
+    "question": " You are a project manager of an external project for a customer. The project is expected to take about a year to complete. Six months into the project, the customer informs you that the project will be terminated. During which of the following processes would procedures be developed to handle early termination of a project?",
+    "a": "Control Scope",
+    "b": "Close Project or Phase",
+    "c": "Define Scope",
+    "d": "Close Procurement",
+    "answer": "b",
+    "explanation": "answer B. The Close Project or Phase process establishes the procedures to investigate and document the reasons for actions taken if a project is terminated before completion [(PMBOK) – Sixth , Page 123]"
+  },
+  {
+    "question": " While conducting the project kick-off meeting with the relevant stakeholders to communicate the start of the project, a key stakeholder disagrees with you on a decision you have made on the project. He even makes some comments against you in front of other stakeholders. As a project manager what should be your immediate response?",
+    "a": "Do nothing in the meeting but later escalate this issue to the sponsor",
+    "b": "Take the help of other stakeholders and present your argument",
+    "c": "Propose an immediate meeting between you and the key stakeholder to resolve the differences",
+    "d": "Ignore the key stakeholder and go ahead with your project",
+    "answer": "c",
+    "explanation": "answer C. Ignoring the key stakeholders will only worsen the situation. You must approach directly those persons with whom you have a conflict or disagreement. Thus, you must propose an immediate meeting between the two of you to resolve the differences. Escalating this issue will not resolve the differences. [(PMBOK® Guide) – Sixth Edition, Page 349 & PMI code of Ethics and Professional responsibility, Page 3]"
+  },
+  {
+    "question": " You are a project manager who is in charge of an important project for your company. Your project is currently in the executing phase. The sponsor of the project has asked you to present a list of the identified project stakeholders in the next project status meeting. He has also asked you to present the project stakeholders’ current and desired engagement levels so that they can capture the stakeholder management strategy. Which of the following is a presentation tool that can help you to summarize all of this information in a tabular format?",
+    "a": "Stakeholders engagement assessment matrix",
+    "b": "Stakeholder register",
+    "c": "Project management plan",
+    "d": "Stakeholder management plan",
+    "answer": "a",
+    "explanation": " answer A. Both the project management plan and stakeholder management plans are detailed documents. They are not presentation tools. On the other hand, both the stakeholder register and the stakeholders engagement assessment matrix contain the required information. However, the stakeholders engagement assessment is the best tool to be selected in this situation as it only presents the information required by the project sponsor in a tabular format. [(PMBOK® Guide) – Sixth Edition, Page 522]"
+  },
+  {
+    "question": " You are managing a simple construction project to construct a new bridge. The project contains two activities, steel work and concrete work. The planned values (PV) for steel and concrete work are $200,000 and $100,000, respectively. After five months, you do a performance measurement analysis. The actual costs for steel and concrete were $120,000 and $45,000, respectively, up to this point where 50% of the steel work is complete and only 45% of the concrete is complete. What is the current status of your project?",
+    "a": "Over budget",
+    "b": "Under budget",
+    "c": "Within the budget",
+    "d": "There's not enough information",
+    "answer": "a",
+    "explanation": "answer A. Get the total for the actual costs by adding the $120,000 and $45, 000 for the steel and concrete activities. • Total actual cost = $120,000 + $45,000 = $165,000 • EV = % of work completed * PV • Total EV = 50 % * 200,000 + 45%*100,000= $ 145,000 • CPI = EV/AC = 145,000/165,000= 0.88 (over budget. [(PMBOK® Guide) – Sixth Edition, Page 262]"
+  },
+  {
+    "question": " You have recently joined an organization as a project manager for a project, as the project charter was being developed. Which of the following is an input that you will utilize to develop the project charter?",
+    "a": "Project management plan",
+    "b": "Organizational Process Assets",
+    "c": "Stakeholder register",
+    "d": "Project Scope Statement",
+    "answer": "b",
+    "explanation": " answer B. Since, you are a new a project manager, so you can draw from the assets that are part of the organizational process assets. There may be formal / informal policies, procedures, plans, and guidelines whose effects must be considered. Organizational process assets also represent the organization's learning from previous projects such as completed schedules, risk data and earned value data. These are invaluable in developing the project charter. [(PMBOK® Guide) – Sixth Edition, Page 79]"
+  },
+  {
+    "question": " You are a project manager for a seller side. You are working as a project manager under a contract. During the project, some disputes arose over the scope and quality of work. Which of the following is the preferred method of resolving these claims? ",
+    "a": "Alternative dispute resolution (ADR)",
+    "b": "Claims court",
+    "c": "Negotiation",
+    "d": "Appeals court",
+    "answer": "c",
+    "explanation": "answer C. When a buyer and seller enter into a dispute over the execution of work under the terms of a contract, negotiation is the preferred method of resolution of all claims and disputes. [(PMBOK® Guide) – Sixth Edition, Page 498]"
+  },
+  {
+    "question": " As a project manager of a project, you are analyzing the costs which have incurred. Which of the following costs can be classified under 'Cost of non-conformance?",
+    "a": "Inspections",
+    "b": "Rework costs",
+    "c": "Training",
+    "d": "Testing",
+    "answer": "b",
+    "explanation": " answer B. Figure 8-5. Cost of Quality [(PMBOK® Guide) – Sixth Edition, Page 283] is very important for the exam."
+  },
+  {
+    "question": "You are managing a large construction project for a government customer. The project has been progressing well on both schedule and cost standpoints. Due to global events, the customer has requested that you decrease the project duration by two months. No additional resources will be made available to complete the project under these new constraints; which of the following techniques will you use to decrease the project duration?",
+    "a": "Crashing",
+    "b": "Fast-tracking",
+    "c": "Resource leveling",
+    "d": "I{mplement the use of project management software",
+    "answer": "b",
+    "explanation": "answer B Fast-tracking is a technique in which activities that we would ordinarily prefer to be performed in series are allowed to overlap or be completed in parallel instead. Option (A) - Crashing is a schedule compression technique that involves adding resources to activities on the critical path. This is not the right answer since it involves adding resources. [(PMBOK® Guide) – Sixth Edition, Page 215]"
+  },
+  {
+    "question": " You are managing a social health insurance project. You are in the testing phase of the project, and the customer has requested additional requirements. A change request has been initiated. What should you do first regarding this request?",
+    "a": "Meet with your management to discuss the potential change.",
+    "b": "Meet with the project sponsor to discuss the potential change.",
+    "c": "Ev},aluate the change request. ",
+    "d": "D{ocument the change request and submit it for review by the change control board.",
+    "answer": "c",
+    "explanation": "answer C. Evaluate the change request is the first thing we do when a change request comes to us, regardless from whom the change request came. Option (A), and option (B) . We do not want to meet with our management or sponsor until we have information about the impact of the requested change and are able to recommend alternatives. Option (D) Every change request must be first evaluated, even if it is being asked by the customer or the Sponsor."
+  },
+  {
+    "question": " A customer has requested a change that requires you to obtain new equipment. If the cost of buying the equipment is $210,000, and the daily rent cost is $2,000 and it includes maintenance costs of $10,000, after how many days does the buying become better than renting the equipment?",
+    "a": "99 days",
+    "b": "100 days",
+    "c": "10},1 days",
+    "d": "110 days ",
+    "answer": "c",
+    "explanation": "answer C. • 210,000=2,000(X) +10,000 - • 210,000-10.000=2,000(X) • 200,000 =2,000(X) • So, X (Days)=200.000/2.000 • X (number of days that rent will equal purchasing cost) So, X=100 days after 100 days the rent =purchasing the equipment so 100+1 day renting will become expensive than buying."
+  },
+  {
+    "question": "Q74 Based on the following table, what are the total float and free float for activity (E)",
+    "a": "3 weeks total float, 2 weeks free float.",
+    "b": "0 weeks total float, 0 weeks free float.",
+    "c": "0 weeks total float, 8 weeks free float.",
+    "d": "6 weeks total float, 8 weeks free float.",
+    "answer": "b",
+    "image": "SET1Q74",
+    "explanation": "answer B. Activity E on the critical path. First you need to draw the network diagram and find critical path (paths), and then make a decision. Paths: 1- Start-A-D-G-finish 2- Start- B-E-H-Finish 3- Start-C-E-H-Finish. (Critical path), activity E is already on the critical path. 4- Start-C-F-I-Finish Activity E on the critical path. So, total float and free float for activity E equal zero float."
+  },
+  {
+    "question": " A project manager is creating a document that may be either summary level or detailed, and may be composed of one or more subsidiary plans. Each of the subsidiary plans is detailed to the extent required by the specific project. Which of the following most likely documents what the project manager creates? ",
+    "a": "Change Request",
+    "b": "Quality management plan",
+    "c": "Project management plan",
+    "d": "Schedule management plan",
+    "answer": "c",
+    "explanation": "answer C. The project management plan may be either summary level or detailed, and may be composed of one or more subsidiary plans. Each of the subsidiary plans is detailed to the extent required by the specific project. Once the Project management plan is baselined, it may only be changed when a change request is generated and approved through the Perform Integrated Change Control process. [(PMBOK® Guide) – Fifth Edition, Page 78] For the exam: • The project management plan is the document that describes how the project will be executed, monitored, and controlled. It integrates and consolidates all of the subsidiary plans and baselines from the planning processes. • The project management plan is detailed information plan. [(PMBOK® Guide) – Sixth Edition, Page 83]"
+  },
+  {
+    "question": " Which of the following describes the cost of quality associated with scrapping, rework, and downtime?",
+    "a": "External failure costs",
+    "b": "Appraisal costs",
+    "c": "Prevention costs",
+    "d": "Internal failure costs",
+    "answer": "d",
+    "explanation": "answer D. Internal failure costs are costs associated with not meeting the customer's expectations while you still had control over the product. This results in rework, scrapping, and downtime. [(PMBOK® Guide) – Sixth Edition, Page 283]"
+  },
+  {
+    "question": " A change request has just been formally documented and approved by the Change Control Board (CCB) : . Which of the following documents should be updated first?    ",
+    "a": "Project Management plan",
+    "b": "Change Management plan ",
+    "c": "Change log",
+    "d": "Issue log",
+    "answer": "c",
+    "explanation": "answer C. Change requests are processed according to the change control system by the project manager, CCB, or by an assigned team member. Approved change requests will be implemented through the Direct and Manage Project Work process. The disposition of all change requests, approved or not, will be updated in the change log as part of updates to the project documents. [(PMBOK® Guide) – Sixth Edition, Page 120]. A change log is used to document changes that occur during a project. These changes and their impact to the project in terms of time, cost, and risk, are communicated to the appropriate stakeholders. Rejected change requests are also captured in the change log. For the exam, documents are updated in the following order: 1-change log 2-change management plan 3- Any subsidiary plans, and baselines that are subject to the formal change control process. 4-The project management plan"
+  },
+  {
+    "question": " If the project's current total earned value (EV) is $10,000, and the actual amount spent (AC) :  is $8,000, what is the status of the project?",
+    "a": "Over budget",
+    "b": "Under budget",
+    "c": "Within the budge ",
+    "d": "Cost overruns",
+    "answer": "b",
+    "explanation": "answer B. CV= EV-AC CV=10,000-8,000= 2,000 (under budget) that means the project is good or running under budget. [(PMBOK® Guide) – Sixth Edition, Page 263]"
+  },
+  {
+    "question": " You are a project manager who is in charge of an important project for your company. The project is 35% complete after 4 months and has cost $40,000. The budget for the project is $100,000 and is scheduled to last 12 months. How is the project performing?",
+    "a": "The project is behind schedule and over budget.",
+    "b": "The project is ahead of schedule and under budget",
+    "c": "The project is behind schedule and under budget.",
+    "d": "The project is ahead of schedule and over budget",
+    "answer": "d",
+    "explanation": "answer D. Given, AC= $40,000 , BAC = $100,000 , PV=4/12*100,000 =33,333 EV= % of work completed*BAC (Very important for the exam) EV= 35 % * 100,000 = 35,000 & SPI= EV/PV = 35,000/33,333=1.05>1.0 (ahead of schedule) CPI=EV/AC = 35,000/40,000 = 0,875 < 1.0 (over budget) [(PMBOK® Guide) – Sixth Edition, Page 263]"
+  },
+  {
+    "question": " As a project manager, which tool will you use during the Collect Requirements process that brings a trained moderator guiding the group through an interactive discussion, designed to be more conversational than a one-on-one interview?",
+    "a": "Facilitated workshops",
+    "b": "Focus Groups",
+    "c": "Group creativity techniques",
+    "d": "Group decision making techniques",
+    "answer": "b",
+    "explanation": "answer B. Focus groups bring together prequalified stakeholders and subject matter experts to learn about their expectations and attitudes about a proposed product, service, or result. A trained moderator guides the group through an interactive discussion, designed to be more conversational than a one-on-one interview. [(PMBOK® Guide) – Sixth Edition, Page 142]"
+  },
+  {
+    "question": " Which of the following tools and techniques for the Conduct Procurement process is used to check and compare proposed pricing to the benchmark?",
+    "a": "Expert judgment",
+    "b": "Seller rating systems",
+    "c": "Independent cost estimates",
+    "d": "Proposal evaluation technique",
+    "answer": "c",
+    "explanation": "answer C. Independent estimates is a tool and technique of the conduct procurement process. For large procurements, the procuring organization may elect to either prepare its own independent estimate or have a cost estimate prepared by an outside professional estimator to serve as a benchmark on proposed responses. Significant differences in cost estimates can be an indication that the procurement SOW was deficient or ambiguous, or that the prospective sellers either misunderstood or failed to respond fully to the procurement SOW. [(PMBOK® Guide) – Sixth Edition, Page 479]"
+  },
+  {
+    "question": " Which conflict resolution technique offers project managers the best option for resolution?",
+    "a": "Smooth/accommodate",
+    "b": "Collaborate/problem solving",
+    "c": "Compromise/reconcile ",
+    "d": "Direct/force",
+    "answer": "b",
+    "explanation": "answer: B. Collaborate/problem solving is a problem-solving technique that seeks to determine the facts and find solutions based on the facts. It involves hearing multiple viewpoints and examining several perspectives. This results in a win-win resolution for all parties. [(PMBOK® Guide) – Sixth Edition, Page 349]"
+  },
+  {
+    "question": " To communicate with stakeholders on the resolved issues and the issues that are hard to resolve, you use an issue log in your project. Since you assign an owner for every issue and resolve it by proactively working on it, your stakeholders actively support all your efforts in managing the project. This method of actively resolving issues and reducing risks to the project is known as:",
+    "a": "Quality management",
+    "b": "Project management",
+    "c": "Communications management",
+    "d": "Stakeholder management",
+    "answer": "d",
+    "explanation": "answer D. proactively working with project stakeholders and resolving their issues relate to project stakeholder management. [(PMBOK® Guide) – Sixth Edition, Page 505]"
+  },
+  {
+    "question": " As a project manager, you are responsible for all communications needs in your construction project, which has started recently. This project involves many stakeholders, customers, external vendors and team members. Since conflicts are inevitable in such a huge project, you have decided to provide your project team the details of the issue escalation process, including the names of the chain of command to escalate the issues that cannot be resolved at a lower level. You must use the following document to store this information:",
+    "a": "The project management plan",
+    "b": "The communication management plan",
+    "c": "The issue log",
+    "d": "The stakeholder management plan",
+    "answer": "b",
+    "explanation": "answer B. The communications management plan provides guidance and information on managing stakeholder expectations. The information used includes, but is not limited to: • Stakeholder communications requirements; • Information to be communicated, including language, format, content, and level of detail; • Reason for distribution of information; • Person or groups who will receive information; and • Escalation process. [(PMBOK® Guide) – Sixth Edition, Page 367]"
+  },
+  {
+    "question": " You are a project manager managing a construction project. You have received an invoice from a vendor for $1,500. However, your team believes the correct total due is $1,300. When you notify the vendor of this, the vendor still insists that the invoice value is $1,500. How should the dispute between you and the seller be settled in such a case?",
+    "a": "Don't pay anything to the vendor because he lied.",
+    "b": "Pay $1,500.",
+    "c": "Negotiate with the vendor. ",
+    "d": "Pay $1,300",
+    "answer": "c",
+    "explanation": "answer C. For the exam, when a buyer and seller (vendor) enter into a dispute, negotiation is the preferred method of resolution of all claims and disputes. . [(PMBOK® Guide) – Sixth Edition, Page 498]"
+  },
+  {
+    "question": " You have recently started working at a company as a senior project manager. The company has no employee training programs in place for junior project managers. Some junior project managers have been asking you for assistance on how the integrity of cost and schedule performance baselines should be maintained in the project. Where should the junior project managers store these procedures?",
+    "a": "In the project human resource plan",
+    "b": "In the project scope statement",
+    "c": "In the project management plan",
+    "d": "In the project communication plan",
+    "answer": "c",
+    "explanation": "answer C. The baselines change only when a change request is generated. A project management plan documents the instructions to handle changes to performance baselines. These baselines include scope, cost and schedule baselines. Therefore, the junior project manager must store these procedures in the project management plan. [(PMBOK® Guide) – Sixth Edition, Page 87]"
+  },
+  {
+    "question": " You are a Project Manager for a company that designs and develops automation systems for car companies. The top management has told you that the organization that you work for as the project manager has gone bankrupt. All employees have been given 7 days notice of termination. As a project manager, what should you do next?",
+    "a": "Initiate a project closeout meeting.",
+    "b": "Follow top management directives.",
+    "c": "Immediately leave the project  ",
+    "d": "Raise a change request to the project sponsor.",
+    "answer": "b",
+    "explanation": "answer B. Follow top management directives. The top management is responsible for developing these directives, which may include specific instructions on closing out work in progress. [PMI Code of Ethics and Professional Conduct, Page 2] [Prof. Responsibility]"
+  },
+  {
+    "question": " You work for a Car manufacturer. Your project is going to design and produce a new car. The design team is involved in comparing actual or planned project practices or the project’s quality standards to those of comparable projects to identify best practices, generate ideas for improvement, and provide a basis for measuring performance. This is an example of which of the following tools and techniques of plan quality management?",
+    "a": "Bench-marking",
+    "b": "Quality metrics",
+    "c": "Cost of quality (COQ)",
+    "d": "Design of experiments (DOE)",
+    "answer": "a",
+    "explanation": "answer A. Benchmarking. Benchmarking involves comparing actual or planned project practices or the project’s quality standards to those of comparable projects to identify best practices, generate ideas for improvement, and provide a basis for measuring performance. Benchmarked projects may exist within the performing organization or outside of it, or can be within the same application area or other application area. Benchmarking allows for analogies from projects in a different application area or different industries to be made. [(PMBOK® Guide) – Sixth Edition, Page 281]"
+  },
+  {
+    "question": " Your project progressed as planned until yesterday. Suddenly, an unexpected risk event occurred. You quickly devised a response to deal with this negative risk event using which of the following outputs of Control Risks?",
+    "a": "Workaround plans",
+    "b": "Risk management plan updates",
+    "c": "Workarounds",
+    "d": "Corrective action",
+    "answer": "c",
+    "explanation": "answer C. Workarounds are unplanned responses. They deal with negative risk events as they occur. As the name implies, workarounds were not previously known to the project team. The risk event was unplanned, so no contingency plan existed to deal with the risk event, and thus it required a workaround."
+  },
+  {
+    "question": " Which of the following is considered an output from the Develop Project Team Process?",
+    "a": "Team performance assessments",
+    "b": "Virtual teams",
+    "c": "Project Staff Assignments",
+    "d": "Team building",
+    "answer": "a",
+    "explanation": "answer A. The outputs of the develop project team process: 1-Team performance assessments 2- Change requests 3- Project management plan updates • Resource management plan 4- Project documents updates • Lessons learned register • Project schedule • Project team assignments • Resource calendars • Team charter 5- Enterprise environmental factors updates 6 – Organizational process assets updates. [(PMBOK® Guide) – Sixth Edition, Page 336]"
+  },
+  {
+    "question": " You're the project manager. Your project is currently in the implementation phase, and the project sponsor has told the functional manager that the project will be delayed by two weeks, and the functional manager has told you to document that. Which of the following represents the organizational structure that you're working in?",
+    "a": "Functional",
+    "b": "Projectized ",
+    "c": "Matrix ",
+    "d": "Tight Matrix ",
+    "answer": "a",
+    "explanation": "answer A. Functional, Project manager has the least authority in a functional organization structure. Option (B) :  Projectized: in Projectized organization the project manager has full authority to assign priorities, apply resources, and direct the work of persons assigned to the project. Option (D) :  Tight Matrix: in Tight Matrix Organization it simply refers to (co location), or locating the workspace for the project team in the same room."
+  },
+  {
+    "question": " A project manager shares project performance through status reports via voicemail to all of the stakeholders of the project. What type of communication method is he using?",
+    "a": "Push communication",
+    "b": "Pull communication",
+    "c": "Vertical Communication",
+    "d": "Communication model ",
+    "answer": "a",
+    "explanation": "answer A. Push communication. Sent or distributed directly to specific recipients who need to receive the information. This ensures that the information is distributed but does not ensure that it actually reached or was understood by the intended audience. Push communications artifacts include letters, memos, reports, emails, faxes, voice mails, blogs, and press releases. [(PMBOK® Guide) – Sixth Edition, Page 374]"
+  },
+  {
+    "question": " Which of the following is a tool and technique used in the Monitor Stakeholder Engagement Process?",
+    "a": "Communication skills - Interpersonal and team skills – Meetings.",
+    "b": "Work performance information - Interpersonal and team skills - Work performance data.",
+    "c": "Work performance information - Interpersonal and team skills – Meetings.",
+    "d": "Work performance information - Work performance data – Meetings.",
+    "answer": "a",
+    "explanation": "answer A. Communication skills, Interpersonal and team skills and Meetings are inputs used in the Monitor Stakeholder Engagement Process. [(PMBOK® Guide) – Sixth Edition, Page 530]"
+  },
+  {
+    "question": " You are the Project Manager for a large Petroleum Company. The customer wants your project to be completed 21 days earlier than planned. You believe that you can meet the target by overlapping project activities. What is the approach that you plan to use?",
+    "a": "Over time",
+    "b": "Crashing",
+    "c": "Resource Leveling ",
+    "d": "Fast Tracking",
+    "answer": "d",
+    "explanation": "answer D. Fast Tracking. A schedule compression technique in which activities or phases normally done in sequence are performed in parallel for at least a portion of their duration. Fast tracking only works if activities can be overlapped to shorten the project duration. [(PMBOK® Guide) – Sixth Edition, Page 215]"
+  },
+  {
+    "question": " In your project, if Earned Value (EV) is $200, Actual Cost (AC) :  is $250, and Planned Value (PV) is $300, what is the status of the project?",
+    "a": "The project is ahead of schedule and under budget",
+    "b": "The project is behind schedule and under budget.",
+    "c": "The project is behind schedule and over budget.",
+    "d": "The project is ahead of schedule and over budget",
+    "answer": "c",
+    "explanation": "answer C. CV = EV-AC = 200-250 = - 50 (over budget) SV = EV-PV = 200-300 = - 100 (behind schedule)"
+  },
+  {
+    "question": " Which of the following is a tool and technique used in the Manage Quality Process?",
+    "a": "Quality metrics",
+    "b": "Design for X",
+    "c": "Quality control measurements",
+    "d": "B{enchmarking",
+    "answer": "b",
+    "explanation": "answer B. Design for X (DfX) is a set of technical guidelines that may be applied during the design of a product for the optimization of a specific aspect of the design. DfX can control or even improve the product’s final characteristics. The X in DfX can be different aspects of product development, such as reliability, deployment, assembly, manufacturing, cost, service, usability, safety, and quality. Using the DfX may result in cost reduction, quality improvement, better performance, and customer satisfaction. Option (A) :  and Option (C) :  are inputs in this process. Option (D) :  Benchmarking is a tool and technique of Plan quality management process. [(PMBOK® Guide) – Sixth Edition, Page 295]"
+  },
+  {
+    "question": " As a project manager for a construction project, you understand the importance of contract documents and correspondence for future references. Which of the following can be used to manage and store contract documents and records?",
+    "a": "Historical Information",
+    "b": "Enterprise Environmental Factors (EEFs)",
+    "c": "Pr},oject file",
+    "d": "Performance reports",
+    "answer": "a",
+    "explanation": "A Historical Information. Documents and data on prior projects including project files, records, correspondence, closed contracts, and closed projects. [(PMBOK® Guide) – Sixth Edition, Page 708 Part 3 - Glossary]"
+  },
+  {
+    "question": " For your weekly project status review meetings, you set some time aside on the agenda to examine and document the effectiveness of risk responses in dealing with identified risks and their root causes, as well as the effectiveness of the risk management process. This is an example of:",
+    "a": "Risk audit",
+    "b": "Plan Risk Responses",
+    "c": "Risk Reassessment",
+    "d": "Risk Identification ",
+    "answer": "a",
+    "explanation": "answer A. Risk audits are a type of audit that may be used to consider the effectiveness of the risk management process. The project manager is responsible for ensuring that risk audits are performed at an appropriate frequency, as defined in the project’s risk management plan. Risk audits may be included during routine project review meetings or may form part of a risk review meeting, or the team may choose to hold separate risk audit meetings. The format for the risk audit and its objectives should be clearly defined before the audit is conducted. [(PMBOK® Guide) – Sixth Edition, Page 456]"
+  },
+  {
+    "question": " In your Project, if CV= + (300), and  SV= - (100). How is your project doing? ",
+    "a": "Behind schedule, over budget",
+    "b": "Ahead of schedule, over budget",
+    "c": "Ahead of schedule, under budget",
+    "d": "Behind schedule, under budget",
+    "answer": "d",
+    "explanation": " answer D. CV (+ve), under budget. SV (-ve), behind schedule."
+  },
+  {
+    "question": " Your most-recent quality control chart shows that all data points measured fall within the control range. However, there is a group of 7 consecutive data points sitting above the mean. You decided to use project contingency funds to pay for the rework of these items. Cost of rework is an example of a (n):",
+    "a": "External failure cost",
+    "b": "Appraisal cost",
+    "c": "Prevention cost",
+    "d": "Internal failure cost",
+    "answer": "d",
+    "explanation": " answer D. Rework is an example of an internal failure cost. Option C. Training is an example of a prevention cost. Option B. Testing is an example of an appraisal cost. Option A. Customer returns is an example of an external failure cost. [(PMBOK® Guide) – Sixth Edition, Page 283]"
+  },
+  {
+    "question": " Your equipment supplier left you a voicemail saying that the Hurricane season in the Eastern North Pacific will prevent your equipment from arriving on time. You identified a risk response strategy for this risk and had arranged for a local company to lease you the needed equipment until yours arrives. This is an example of which risk response strategy?",
+    "a": "Transfer                ",
+    "b": "Acceptance ",
+    "c": "Mitigate",
+    "d": "Avoid",
+    "answer": "c",
+    "explanation": "answer: C. Mitigation attempts to reduce the impact of a risk event should it occurs. Making plans to arrange for the leased equipment reduces the consequences of the risk. When you mitigate a risk, you attempt to reduce the probability of a risk event occurring or reduce its impacts to an acceptable level. This strategy is a lot like defensive driving. You see an obstacle in the road ahead, survey your options, and take the necessary steps to avoid the obstacle and proceed safely on your journey. Seeing the obstacle ahead (identifying risk) allows you to reduce the threat by planning ways around it or planning ways to reduce its impact if the risk does occur (mitigation strategies). According to the PMBOK® Guide, the purpose of mitigation is to reduce the probability that a risk will occur and/or reduce the impact of the risk to a level where you can accept the risk and its outcomes. It's easier to take actions early on that will reduce the probability of a risk event or its consequences than it is to fix the damage once it has occurred. Some examples of risk mitigation include performing more tests, using less complicated processes, creating prototypes, and choosing more reliable vendors. For The Exam, 1. Strategies for Negative Risks or Threats  Avoid: It usually involves changing the project management plan to eliminate the threat entirely.  Examples: extending the schedule, changing the Strategy, or reducing scope.  Transfer: is a risk response strategy whereby the project team shifts the impact of a threat to a third party, transferring the risk simply gives another party responsibility for its management—it does not eliminate it .  Examples: Buy insurance, performance bonds, warranties guarantees, a fixed-price contract may transfer risk to the seller. Use of a cost-plus contract may transfer the cost risk to the buyer.  Mitigate: is a risk response strategy whereby the project team acts to reduce the probability of occurrence or impact of a risk.  Examples: prototypes, designing redundancy into a system may reduce the impact from a failure of the original component.  Accept: This strategy indicates that the project team has decided not to change the project management plan to deal with a risk, or is unable to identify any other suitable response strategy.(strategy for both threats and Opportunities)  Examples: active acceptance strategy is to establish a contingency reserve, including amounts of time, money, or resources to handle the risks. 2. Strategies for Positive Risks or Opportunities  Exploit: The exploit strategy may be selected for risks with positive impacts where the organization wishes to ensure that the opportunity is realized.  Examples: assigning an organization’s most talented resources to the project to reduce the time to completion or using new technologies or technology upgrades to reduce cost and duration required to realize project objectives.  Enhance: The enhance strategy is used to increase the probability and/or the positive impacts of an opportunity. Identifying and maximizing key drivers of these positive-impact risks may increase the probability of their occurrence.  Examples: enhancing opportunities include adding more resources to an activity to finish early.  Share: Sharing a positive risk involves allocating some or all of the ownership of the opportunity to a third party who is best able to capture the opportunity for the benefit of the project.  Examples: joint ventures.  Accept: See previous strategies. [(PMBOK® Guide) – Sixth Edition, Page 443]"
+  },
+  {
+    "question": " You are the project manager for a factory construction project. You are annoyed with one of the subcontractors who is working on your project because of his constant disagreements. You asked him to stop arguing and do the work the way in which you want it to be done. The conflict handling approach you are following is:",
+    "a": "Smoothing",
+    "b": "Direct/Force  ",
+    "c": "Collaborate/Problem solving",
+    "d": "Withdrawal",
+    "answer": "b",
+    "explanation": "answer B. The following are six methods of conflict management: Direct/Forcing: One person forces a solution on the other parties. This is an example of a win-lose conflict resolution technique. • Smoothing/Accommodating: Smoothing/accommodating is a temporary way to resolve conflict where the areas of agreement are emphasized over the areas of difference so the real issue stays buried. This is an example of a lose-lose conflict resolution technique because neither side wins. • Compromise: Compromise is achieved when each of the parties involved in the conflict gives up something to reach a solution. This is an example of a no-win conflict resolution technique, because neither side gets what they wanted. • Confrontation/Problem Solving: Confrontation and problem solving are the best ways to resolve conflict. One of the key actions performed with this technique is a fact-finding mission. This is the conflict resolution approach project managers use most often and is an example of a win-win conflict resolution technique. • Collaborating: when multiple viewpoints are discussed and shared and team members have the opportunity to examine all the perspectives of the issue, collaboration occurs. Collaborating will lead to true consensus where team members commit to the decision. • Withdrawal/Avoidance: One of the parties gets up, leaves, and refuses to discuss the conflict. This is an example of a lose-lose conflict resolution technique. [(PMBOK® Guide) – Sixth Edition, Page 349]"
+  },
+  {
+    "question": " You are a project manager and you are managing a project for your company. Half of the project work has been completed. You are currently reviewing the stakeholder engagement plan. You find out that two of the resisting stakeholders have now become supportive. Which of the following documents must be updated first?   ",
+    "a": "Stakeholder engagement plan",
+    "b": "Communication management plan",
+    "c": "Stakeholder engagement assessment matrix",
+    "d": "Project management plan",
+    "answer": "c",
+    "explanation": "answer C. Stakeholder engagement assessment matrix. A stakeholder engagement assessment matrix supports comparison between the current engagement levels of stakeholders and the desired engagement levels required for successful project delivery. . [(PMBOK® Guide) – Sixth Edition, Page 521]"
+  },
+  {
+    "question": " While assessing the performance of your team members, you find that some of them are not strong enough to handle the tasks assigned. You have scheduled technical training for your project team members to increase their skills. The cost of training is an example of:   ",
+    "a": "Internal failure cost",
+    "b": "External failure cost    ",
+    "c": "Prevention cost",
+    "d": "Appraisal cost ",
+    "answer": "c",
+    "explanation": "answer C. Training is an example of a prevention cost. Option D: Testing is an example of an appraisal cost. Option A: Rework is an example of an internal failure cost. Option C: Customer returns is an example of an external failure cost. Figure 8-5. Cost of Quality is very important for the exam! [(PMBOK® Guide) – Sixth Edition, Page 283]"
+  },
+  {
+    "question": " You have been assigned as the project manager for a software development project. Which tool would you use to bring business subject matter experts and the development project team together to improve the software development process?   ",
+    "a": "Joint application design/development (JAD)",
+    "b": "Focus Groups",
+    "c": "Voting",
+    "d": "Process Improvement Plan",
+    "answer": "a",
+    "explanation": "answer A. Joint application design/development (JAD) :  sessions are used in the software development industry. These facilitated sessions focus on bringing business subject matter experts and the development team together to improve the software development process. [(PMBOK® Guide) – Sixth Edition, Page 145]"
+  },
+  {
+    "question": " Stakeholder analysis is an essential technique in the Identify Stakeholders process. One of the steps involved is to classify the stakeholders based on their level of authority and their concern for the project. Which of the following is a valid model used for this purpose?  ",
+    "a": "Salience model",
+    "b": "Influence/impact grid  ",
+    "c": "Power / interest grid",
+    "d": "Power/influence",
+    "answer": "c",
+    "explanation": "answer C. Power/interest grid, a grouping of stakeholders according to their level of authority (power), level of concern about the project’s outcomes (interest). [(PMBOK® Guide) – Sixth Edition, Page 512]"
+  },
+  {
+    "question": " You have recently started working for a company as a project manager. In the middle of a project, you are informed that the resources promised at the beginning of the project are no longer available. As a project manager, what would you do next?",
+    "a": "Raise a concern that you can no longer execute this project",
+    "b": "Move forward without the promised resources",
+    "c": "Evaluate the impact of not having the promised resources",
+    "d": "Identify other resources that can be provided to you instead of the earlier promised resources",
+    "answer": "c",
+    "explanation": "answer C. Although all the responses here seem feasibly, the first thing to do is to evaluate the impact of not having the promised resources. For the exam, it's very important to analyze the impact first in such scenarios."
+  },
+  {
+    "question": " You are working as a project manager with a prestigious client in the construction of a twelve-month residential building. The client requested that you finish the project within six months. What should you do next as a project manager?",
+    "a": "Fast-tracking",
+    "b": "Negotiate with the client to provide additional funding and submit change request.",
+    "c": "Crashing ",
+    "d": "What-if-scenario analysis",
+    "answer": "b",
+    "explanation": "answer B. The best answer is to negotiate with the client to provide additional funding and submit a change request, if approved, then you can determine whether fast-tracking or crashing."
+  },
+  {
+    "question": " A change request has just been formally documented and approved by the Change Control Board (CB) . However, the sponsor is not a member of the CCB. Which of the following is your next step?",
+    "a": "Update the project management plan",
+    "b": "Analyze the impact of the change in project time, cost and quality",
+    "c": "Get approval first from the project sponsor",
+    "d": "Implement the change request because it was app,roved by the CCB",
+    "answer": "c",
+    "explanation": "answer C. Customer or sponsor approval may be required for certain change requests after CCB approval, unless they are part of the CCB. [(PMBOK® Guide) – Sixth Edition, Page 115]"
+  },
+  {
+    "question": " One of the tasks to be completed before the start of a project is to conduct the first project meeting, known as the kick-off meeting. What is the purpose of the project kick-off meeting?",
+    "a": "It introduces the project goals/objectives",
+    "b": "Approve the project charter",
+    "c": "Discuss the Project Schedule",
+    "d": "Communicate the start of the project",
+    "answer": "d",
+    "explanation": "answer D. The main objectives of the project kick-off meetings are: Communicating the start of the project, key milestones, and other relevant information in order to inform and engage stakeholders and gain commitment. PMI PMP Examination Content Outline – June 2015- Task 12- PERFORMANCE DOMAIN II: PLANNING."
+  },
+  {
+    "question": "Q111 Based on the following table, what do you notice",
+    "a": "Activity (E) takes more time than all other activities",
+    "b": "Incomplete Precedence Diagram",
+    "c": "The project duration is 9 months",
+    "d": "Activity (C) has a zero total float",
+    "answer": "b",
+    "image": "SET1Q111",
+    "explanation": "answer B. Incomplete Precedence Diagram. This is an example of an incomplete network diagram because the duration of the activity “D” is unknown, so we can’t draw the network diagram."
+  },
+  {
+    "question": " Alfred is working as a project manager on a manufacturing project. Several quality defects have been discovered, causing concern to the customer. Alfred would like to show the relationship between two variables to help the project team understand the quality impacts better. Which of the following is a tool used by Alfred in this scenario? ",
+    "a": "Flowchart",
+    "b": "Cause-and-effect diagram   ",
+    "c": "Fishbone Diagram ",
+    "d": "Scatter Diagram",
+    "answer": "d",
+    "explanation": "answer D. Scatter diagrams. A scatter diagram is a graph that shows the relationship between two variables. Scatter diagrams can demonstrate a relationship between any element of a process, environment, or activity on one axis and a quality defect on the other axis. [PMBOK® Guide) – Sixth Edition, Page 293]"
+  },
+  {
+    "question": " You are the project manager for your company. The Project is scheduled to last 12 months and has a budget at completion of $2,000. Your organization will receive a bonus if the project is completed early. You realized that there are several opportunities within the project to save time by Fast-tracking the project work. Fast-tracking is an example of which Plan Risk Response strategy?",
+    "a": "Transference",
+    "b": "Mitigation",
+    "c": "Exploit",
+    "d": "Enhance",
+    "answer": "d",
+    "explanation": "answer D. Five strategies exist to deal with opportunities or positive risks that might present themselves on the project: escalate, exploit, share, enhance, and accept. The enhance strategy closely watches the probability or impact of the risk event to ensure that the organization realizes the benefits. The primary point of this strategy is to attempt to increase the probability and/or impact of positive risks. . [PMBOK , Page 444]"
+  },
+  {
+    "question": "Q14 Based on the following table, which of the following activities will be within the budget and behind schedule",
+    "a": "Activity A",
+    "b": "Activity B  ",
+    "c": "Activity C",
+    "d": "Activity D",
+    "answer": "a",
+    "image": "SET1Q14",
+    "explanation": "answer A. EV For each activity = % of work completed*BAC EV for activity A = 5,000 EV for activity B = 10,000 EV for activity C = 9,000 EV for activity D = 8,000 Once you've determined EV (earned value) for each activity, you'll then determine both the CPI & SPI for all activities. Activity A SPI= EV/PV = 5,000/6,000 = 0.83 <1.0 (behind schedule) CPI=EV/AC= 5,000/5,000 = 1.0 = 1.0 (within the budget) Activity B SPI = EV/PV = 10,000/8,000 = 1. 25 > 1.0 (ahead of schedule) CPI= EV/AC = 10,000/8,000 1.25 > 1.0 (under budget) Activity C SPI = EV/PV = 9,000/7,000 = 1. 28 > 1.0 (ahead of schedule) CPI = EV/AC = 9,000/8,000 1.13 > 1.0 (under budget) Activity D SPI = EV/PV = 8,000/10,000 = 1. 25 > 1.0 (ahead of schedule) CPI = EV/AC = 8,000/10,000 1.25 > 1.0 (under budget) Activity A, is currently is behind schedule and within the budget."
+  },
+  {
+    "question": " At the end of your project, you found that your team documented only the reasons for success in lessons learned. What is the best course of action in this case?   ",
+    "a": "The project team is ",
+    "b": "Meet with the project team and tell them that it is necessary to document both successes and failures as lessons learned.",
+    "c": "Nothing to do",
+    "d": "Escalate the problem to the sponsor.",
+    "answer": "b",
+    "explanation": "answer B. Lessons learned should be captured throughout the project lifecycle and not just at the completion of the project; it is important to capture both successes and failures on projects Future."
+  },
+  {
+    "question": " A project manager shares project performance through status reports via email to all the stakeholders of the project. Which of the following techniques is he using?",
+    "a": "Pull communication",
+    "b": "Push communication                                                  ",
+    "c": "Communication model ",
+    "d": "Vertical communication",
+    "answer": "b",
+    "explanation": "answer B. Push communication. Sent or distributed directly to specific recipients who need to receive the information. This ensures that the information is distributed but does not ensure that it actually reached or was understood by the intended audience. Push communications artifacts include letters, memos, reports, emails, faxes, voice mails, blogs, and press releases. [PMBOK® Guide) – Sixth Edition, Page 374]"
+  },
+  {
+    "question": " You are a business development manager at a mid-sized automobile manufacturing company. You are ready to enter a contract with a seller for a supply of car batteries, but you are unsure about the type of contract you should select. What type of contract would you suggest, so that your organization does not incur any financial losses?",
+    "a": "Cost plus fixed fee (CPFF)",
+    "b": " Fixed price (FP)",
+    "c": "Time and material contracts (T&M)",
+    "d": "Time and means contract (T&M)",
+    "answer": "b",
+    "explanation": "answer B. Fixed price (FP). The most commonly used contract type is the FFP. It is favored by most buying organizations because the price for goods is set at the outset and not subject to change unless the scope of work changes. [PMBOK® Guide) – Sixth Edition, Page 471]"
+  },
+  {
+    "question": " As a project manager, you are currently in the closing phase. You are now collating lessons learned that were documented throughout the project, and will conduct a comprehensive project review. Which of the following documents will be updated from this process?",
+    "a": "The project management plan",
+    "b": "The organization's knowledge base.",
+    "c": "The stakeholder management plan",
+    "d": "The enterprise environmental factors",
+    "answer": "b",
+    "explanation": "answer B. The project manager, must collate lessons learned that were documented throughout the project, and conduct a comprehensive project review in order to update the organization's knowledge base. PMI PMP Examination Content Outline – June 2015- PERFORMANCE DOMAIN V: CLOSING-Task # 5"
+  },
+  {
+    "question": " Which of the following conflict resolution techniques is most likely to result in a permanent resolution, and can result in a win-win situation?",
+    "a": "Compromise",
+    "b": "Smoothing",
+    "c": "Negotiation",
+    "d": "Collaborate/problem solve",
+    "answer": "d",
+    "explanation": "answer D. Collaborate/problem solve. Incorporating multiple viewpoints and insights from differing perspectives; requires a cooperative attitude and open dialogue that typically leads to consensus and commitment. This approach can result in a win-win situation. Forcing/Direct: this is considered to be the worst way to resolve project conflict. Forcing doesn't help resolve the underlying problems, it reduces team morale, and it is almost never a good long-term solution. [PMBOK® Guide) – Sixth Edition, Page 349]"
+  },
+  {
+    "question": " You are assigned as a project manager for a new project, and you are participating in the development of the project charter. Your company executed a similar project within the past three years. When you reviewed the information for the previous project, you found that the previous project manager did not document the reasons for successes and failures in the project. What could have been done by the previous project manager to prevent this type of situation?   ",
+    "a": "Project management plan update",
+    "b": "Change request",
+    "c": "Organizational process assets updates",
+    "d": "Risk registers update",
+    "answer": "c",
+    "explanation": " answer C. Organizational Process Assets Updates: The organizational process assets that are updated as a result of the Close Project or Phase process and includes the lessons learned that document the reasons for failure and success. [(PMBOK® Guide) – Sixth Edition, Page 128]"
+  },
+  {
+    "question": " A project manager is in charge of an important project, and the customer requests changes on a continuous basis. The project manager implemented the change requests without documenting the change requests to satisfy the customer. The project manager realized that his project exceeded costs. What could have been done by the project manager to prevent cost overruns?",
+    "a": "Project Management plan",
+    "b": "Change Management Plan",
+    "c": " Cost Management Plan ",
+    "d": "Time Management Plan ",
+    "answer": "b",
+    "explanation": " answer B. A Change management plan, the change management plan defines the process for managing change on the project. For managing the change control process and documents the formal change control board (CCB) . If the Project Manager implementing the change requests without analyzing the impact of the changes on time and cost and quality will increase the risks in the project and lead to increased costs (cost overruns)"
+  },
+  {
+    "question": " During the implementation phase, you know that one of the suppliers who works on your project has taken on another project. You believe the new project will affect his performance on your project. As a project manager, what should you do next? ",
+    "a": "Remove the supplier from you project",
+    "b": "Change management plan",
+    "c": "Procurement review",
+    "d": "Performance review",
+    "answer": "d",
+    "explanation": "answer D. Performance Reviews. Performance reviews for contracts measure, compare, and analyze quality, resource, schedule, and cost performance against the agreement. This includes identifying work packages that are ahead or behind schedule, over or under budget, or have resource or quality issues. [PMBOK® Guide) – Sixth Edition, Page 498]"
+  },
+  {
+    "question": " As a project manager, you are using a structured and independent review process to determine if project activities comply with policies, processes, and procedures in your project. Which of the following tools and techniques do you use?",
+    "a": "Process analysis",
+    "b": "Quality audits",
+    "c": "Control quality ",
+    "d": "Quality metrics",
+    "answer": "b",
+    "explanation": "answer B. Quality Audits. A quality audit is a structured, independent process to determine if project activities comply with organizational and project policies, processes, and procedures. [PMBOK® Guide) – Sixth Edition, Page 498]"
+  },
+  {
+    "question": " You are a project manager. Your project is in the Initiating phase. You participated in developing the project charter and are now in the process of identifying people or organizations impacted by your project. You are working on the creation of a document that contains all the details related to the identified stakeholders. Which formal document are you working on?   ",
+    "a": "Stakeholder Analysis    ",
+    "b": "Stakeholder Register ",
+    "c": "Stakeholder document",
+    "d": "Stakeholder management strategy",
+    "answer": "b",
+    "explanation": "The stakeholder register. This document contains information about identified stakeholders that includes but is not limited to: • Identification information. Name, organizational position, location and contact details, and role on the project. • Assessment information. Major requirements, expectations, potential for influencing project outcomes, and the phase of the project life cycle where the stakeholder has the most influence or impact. • Stakeholder classification. Internal/external, impact/influence/power/interest, upward/downward/outward/ sideward, or any other classification model chosen by the project manager. . [PMBOK® Guide) – Sixth Edition, Page 514]"
+  },
+  {
+    "question": " Which of the following is a tool or technique used in the Manage Quality process?",
+    "a": "Meetings",
+    "b": "Expert Judgment",
+    "c": "Process analysis",
+    "d": "Additional quality planning tools",
+    "answer": "c",
+    "explanation": "answer C. Process analysis. Process analysis identifies opportunities for process improvements. This analysis also examines problems, constraints, and non-value-added activities that occur during a process. [PMBOK Sixth edition, Page 292]"
+  },
+  {
+    "question": " As a project manager, you would like to show the relationship between two variables to help your project team understand the quality impacts better. Which tool should be used?   ",
+    "a": "Ishikawa Diagram",
+    "b": "Fishbone Diagram",
+    "c": "Pareto Chart",
+    "d": "Scatter Diagram",
+    "answer": "d",
+    "explanation": "answer: D. A scatter diagram (and are sometimes called correlation charts) plots several occurrences of two variables (one on each axis). Often a relationship between the two variables (dependent variable and independent variable) can then be determined, based on how closely they fit a geometric model. [PMBOK Sixth edition, Page 293]"
+  },
+  {
+    "question": " As a project manager, you are managing a software development project. During the execution of the project, you found that a new operations manager has been hired by the customer organization. The new manager is now a key stakeholder in the project. Which of the following documents is likely to be updated first because of the addition of this new stakeholder?",
+    "a": "Communication management plan",
+    "b": "Stakeholder management plan",
+    "c": "Stakeholder register",
+    "d": "Project management plan",
+    "answer": "c",
+    "explanation": "Stakeholder register. The stakeholder register is updated with any new stakeholders and any new information about existing stakeholders that has been gained as a result of this process. The stakeholder register should be consulted and updated on a regular basis, as stakeholders may change—or new ones identified—throughout the life cycle of the project. The second document must be updated the stakeholder management plans to ensure that the new key stakeholder is properly engaged with the project. Then the communication management plans and the project management plan. [PMBOK® Guide) – Sixth Edition, Pages 335]"
+  },
+  {
+    "question": " You are a project manager for a construction project, and electrical power in your project frequently experiences outages. This affects the Internet Servers. As part of a strategy to handle this negative risk, you decided to rent a generator to run in case of power failure. This is an example of which risk response strategy?",
+    "a": "Acceptance",
+    "b": "Transference",
+    "c": "Mitigation",
+    "d": "Avoidance",
+    "answer": "c",
+    "explanation": "answer: C. Mitigation attempts to reduce the impact of a risk event should it occurs. Making plans to arrange for the rented generator reduces the consequences of the risk. When you mitigate a risk, you attempt to reduce the probability of a risk event occurring or reduce its impacts to an acceptable level. This strategy is a lot like defensive driving. You see an obstacle along the road ahead, survey your options, and take the necessary steps to avoid the obstacle and proceed safely on your journey. Seeing the obstacle ahead (identifying risk) allows you to reduce the threat by planning ways around it or planning ways to reduce its impact if the risk does occur (mitigation strategies). According to the PMBOK® Guide, the purpose of mitigation is to reduce the probability that a risk will occur and/or reduce the impact of the risk to a level where you can accept the risk and its outcomes. It's easier to take actions early on that will reduce the probability of a risk event or its consequences than it is to fix the damage once it has occurred. Some examples of risk mitigation include performing more tests, using less complicated processes, creating prototypes, and choosing more reliable vendors. [PMBOK Sixth edition, Page 443]"
+  },
+  {
+    "question": " As a project manager, which tool would you use to generate a list of ideas to rank the most useful ideas for further brainstorming or prioritization?",
+    "a": "Brainstorming",
+    "b": "Nominal group technique",
+    "c": "Idea/mind mapping",
+    "d": "A{ffinity diagram",
+    "answer": "b",
+    "explanation": "answer B. Nominal group technique. A technique that enhances brainstorming with a voting process used to rank the most useful ideas for further brainstorming or for prioritization. [(PMBOK® Guide) – Sixth Edition, Page 144] This technique requires the participants to be together in the same room. Each participant has paper and pencil in front of them, and they are asked to write down what ideas they think the project faces. Using sticky-backed notes is a good way to do this. Each piece of paper should contain only one idea. The papers are given to the facilitator, who sticks them up to the wall or a whiteboard. The panel is then asked to review all the ideas posted on the board, rank them and prioritize them (in writing), and submit the ranking to the facilitator. Once this is done, you should have a complete list of ideas. Option (A): Brainstorming. A technique used to generate and collect multiple ideas related to project and product requirements. However, it does not include voting or prioritization. [PMBOK Sixth edition, Page 144]"
+  },
+  {
+    "question": "You are a project manager, and you want to perform some analysis of defects and problems that have been discovered in the project. Which chart can reveal factors that might be linked to potential problems within your project?",
+    "a": "Pareto charts",
+    "b": "Control charts ",
+    "c": "Cause and effect diagram ",
+    "d": "Flowchart",
+    "answer": "c",
+    "explanation": "answer: C. Cause-and-effect diagrams, which are also known as fishbone diagrams or as Ishikawa diagrams. The problem statement placed at the head of the fishbone is used as a starting point to trace the problems source back to its actionable root cause. [(PMBOK® Guide) – Sixth Edition, page 293] For the exam you must know that: • Cause-and-effect diagrams, are also known as fishbone diagrams or Ishikawa diagrams. • Gives you a comprehensive list of possible causes to identify the root cause of the problem. • Useful in linking the undesirable effects seen as special variation to the assignable cause upon which project teams should implement ive actions. [PMBOK Sixth edition, Page 293]"
+  },
+  {
+    "question": " As a project manager, which of the following documents will help you to prevent scope creep? ",
+    "a": "Project management plan",
+    "b": "Scope management plan    ",
+    "c": "Change management plan",
+    "d": "Project file",
+    "answer": "b",
+    "explanation": "answer B. Scope Management Plan. A component of the project or program management plan that describes how the scope will be defined, developed, monitored, controlled, and verified. [PMBOK Sixth edition, Page 135]"
+  },
+  {
+    "question": " A customer has been consistently late with approvals on design documentation. The Project Manager has raised the subject in the past, but the practice of delayed approval has not changed. The Project Manager has been documenting the delays. Which conflict resolution technique has the Project Manager been following?     ",
+    "a": "Collaborating",
+    "b": "Withdrawal   ",
+    "c": "Smoothing",
+    "d": "Compromising",
+    "answer": "b",
+    "explanation": "answer B. Withdrawal/Avoide. Documenting the delays is not an attempt to solve the problem. This demonstrates avoidance or withdrawal as the Project Manager's response to the situation. Withdraw/Avoid, Retreating from an actual or potential conflict situation; postponing the issue to be better prepared or to be resolved by others. Collaborating involves attempting to solve the problem for deriving an extent of satisfaction to the parties involved in the issue. The situation described here does not indicate any such attempt. [PMBOK Sixth edition, Page 349]"
+  },
+  {
+    "question": " In your project, one of your project teams leave the site early at 2:00 pm. If you would like to establish clear expectations regarding the acceptable behavior of the team member to avoid such situations, as a project manager, you should establish:    ",
+    "a": "Ground rules",
+    "b": "Team-building activities",
+    "c": "Interpersonal skills ",
+    "d": "Management skills",
+    "answer": "a",
+    "explanation": "answer A. Ground rules establish clear expectations on acceptable behavior by project team members. An early commitment to clear guidelines decreases misunderstandings and increases productivity. Discussing ground rules in areas such as code of Conduct, communication, working together, or meeting etiquette allows team members to discover values that are important to one another. [PMBOK , Page 528]"
+  },
+  {
+    "question": " In your project, you are doing a structured review to determine whether product activities comply with organizational and project policies. This is conducted as part of an (A)",
+    "a": "Quality audit",
+    "b": "Process analysis",
+    "c": "Quality checklist",
+    "d": "Quality metrics  ",
+    "},answer": "a",
+    "explanation": "answer A. An audit is a structured, independent process used to determine if project activities comply with organizational and project policies, processes, and procedures. A quality audit is usually conducted by a team external to the project, such as the organization’s internal audit department, PMO, or by an auditor external to the organization. Quality audit objectives may include but are not limited to: • Identifying all good and best practices being implemented; • Identifying all nonconformity, gaps, and shortcomings; • Sharing good practices introduced or implemented in similar projects in the organization and/or industry; • Proactively offering assistance in a positive manner to improve the implementation of processes to help raise team productivity; and • Highlighting contributions of each audit in the lessons learned repository of the organization. "
+  },
+  {
+    "question": " You are a project manager. Your project is on a tight schedule. Several quality defects have been discovered, causing the Customer concern. You would like to begin by tracking the causes that have the highest number of associated defects. Which tool shows the defects by volume from greatest to least? ",
+    "a": "Cause-and-effect diagram",
+    "b": "Fishbone Diagram",
+    "c": "Pareto Chart   ",
+    "d": "Scatter Diagram",
+    "answer": "c",
+    "explanation": "answer: C. Pareto charts rank defects from greatest to least, showing you what should get the most attention. For the exam, know that: the Pareto chart is used to identify the vital few sources that are responsible for causing most of a problem’s effects. • This is a histogram showing defects ranked from greatest to least. • Pareto diagrams are based on Pareto's Law, which is also known as the 80/20 rule. This rule states that 80% of the problems comes from 20% of the causes"
+  },
+  {
+    "question": " Your project team has identified several potential risks on your current project that could have a significant impact if they occurred. The team decides to use a diagram to determine which risks have the most potential impact on the project. A diagram helps to compare the relative importance of variables that have a high degree of uncertainty for those that are more stable. What type of diagram will the team use to display this information?               ",
+    "a": "An assessment diagram",
+    "b": "Tornado diagram",
+    "c": "Influence diagram",
+    "d": "Process flowchart",
+    "answer": "b",
+    "explanation": "answer: B. A tornado diagram is a special type of bar chart used in sensitivity analysis for comparing the relative importance of the variables. For the exam, it assists the project manager in focusing on the most critical (greatest) risks in the project, sort and prioritize the variable according to their impact on the project objective. [PMBOK® Guide - Sixth Edition, page 436]"
+  },
+  {
+    "question": " You are working on a software development project using an agile approach. When there is a specific impediment, agile software teams gather around and collectively work to remove the impediment, so they do not fall into the trap of mini-waterfalls. This is prioritized over picking up any new piece of work and ensures continuity of flow through the system. This technique is called:",
+    "a": "Collective ownership",
+    "b": "Self-organization  ",
+    "c": " Swarming",
+    "d": "Sprint Planning",
+    "answer": "c",
+    "explanation": "answer C. Swarming. A technique in which multiple team members focus collectively on resolving a specific impediment. Sprint Planning. A collaborative event in Scrum in which the Scrum team plans the work for the current sprint. [PMBOK Sixth edition, Page154 Glossary& PMBOK Sixth edition, Section # 4, Page 39]"
+  },
+  {
+    "question": "A project manager is encountering numerous problems on his project. He wants to identify the causes of the problems, so that he can focus his attention on those causes. Which of the following tools should he use?",
+    "a": "Cause-and-effect diagrams",
+    "b": "Affinity diagrams",
+    "c": "Scatter diagrams",
+    "d": "Histograms",
+    "answer": "a",
+    "explanation": "answer A. A fishbone diagram tool helps explicitly in understanding the root cause of problems. For The exam: Cause-and-effect diagrams: Which are also known as fishbone diagrams or as Ishikawa diagrams. Gives you a comprehensive list of possible causes to identify the root cause of the problem. Useful in linking the undesirable effects seen as special variation to the assignable. Pareto diagrams: Are used to identify the vital few sources that are responsible for causing most of a problem’s effects. This is a histogram showing defects ranked from greatest to least. Pareto diagrams are based on Pareto's Law, which is also known as the 80/20 rule. This rule states that 80% of the problems come from 20% of the causes. Control Charts: Control charts graph the results of a process to show whether or not they are in control. A process is considered out of control when: (1) One or more data points exceeds a control limit. (2) If seven or more consecutive data points are above or below the mean."
+  },
+  {
+    "question": "James is currently managing a bridge construction project. The project is in the execution phase. During one of the project update meetings, one of the key stakeholders asked James for a change to be made in the current ongoing work. The stakeholder is asking for the change to be implemented immediately. James realized that the change being asked would need the schedule baseline, the cost baseline and the quality management plan to be updated. What should James do next?",
+    "a": "Implement the changes as they are being asked by a key stakeholder.",
+    "b": "Analyze the impact of the change to triple constraints. ",
+    "c": "Submit a change request to CCB.",
+    "d": "Refuse to make the change as it is a deviation from the approved Scope.",
+    "answer": "c",
+    "explanation": "answer C. Submit a change request to CCB: the change control board reviews and makes decisions on change requests submitted. The change control board is established to review all change requests and is given the authority to approve or deny change requests. This authority is defined by the organization. The decisions should be documented and reviewed by stakeholders."
+  },
+  {
+    "question": " You are a project manager, and you have established a Learning Center. Learning centers are considered:",
+    "a": "Interactive Communications",
+    "b": "Push Communications",
+    "c": "Pull Communications",
+    "d": "Communication model ",
+    "answer": "a",
+    "explanation": "answer A. • Interactive communication. Between two or more parties performing a multidirectional exchange of information in real time. It employs communications artifacts such as meetings, phone calls, instant messaging, some forms of social media, and videoconferencing. • Option (B) Push communication. Sent or distributed directly to specific recipients who need to receive the information. This ensures that the information is distributed but does not ensure that it actually reached or was understood by the intended audience. Push communications artifacts include letters, memos, reports, emails, faxes, voice mails, blogs, and press releases. • Option (C) : Pull communication. Used for large complex information sets, or for large audiences, and requires the recipients to access content at their own discretion subject to security procedures. These methods include web portals, intranet sites, e-learning, lessons learned databases, or knowledge repositories. • Option (D) : : Communication models can represent the communication process in its most basic linear form (sender and receiver), in a more interactive form that encompasses the additional element of feedback (sender, receiver, and feedback), or in a more complex model that incorporates the human elements of the sender(s) or receiver(s) and attempts to show the complexity of any communication that involves people. [PMBOK® Guide - Sixth Edition, pages 371&374]"
+  },
+  {
+    "question": "You are a project manager. You are working on a construction project. The consulting office always sends the drawings late. You contacted the Director of the consulting office. Moreover, the problem has not been resolved. You have escalated the problem to the customer. In which of the following documents can you find information regarding the escalation process?",
+    "a": "Stakeholder Management Plans",
+    "b": "Communications Management Plans",
+    "c": "Project Management Plans",
+    "d": " Change Management Plans   ",
+    "answer": "b",
+    "explanation": " answer B. The communications management plan is a component of the project management plan that describes how project communications will be planned, structured, implemented, and monitored for effectiveness. The plan contains the following information: • Escalation processes. • Stakeholder communication requirements. • Information to be communicated, including language, format, content, and level of detail. • Reason for the distribution of that information. • Timeframe and frequency for the distribution of required information and receipt of acknowledgment or response, if applicable. • Person responsible for communicating the information. • Person responsible for authorizing release of confidential information. • Person or groups who will receive the information, including information about their needs, requirements, and expectations. [PMBOK® Guide - Sixth Edition, page 377]"
+  },
+  {
+    "question": " You are managing a massive construction project for a government customer. The project has been progressing well on both schedule and cost standpoints. Due to global events, the customer has requested that you decrease the project duration by two months. No additional resources will be made available to complete the project under these new constraints. Which of the following techniques will you use to decrease the project duration?  ",
+    "a": "Fast-tracking",
+    "b": "Crashing   ",
+    "c": "Resource leveling",
+    "d": "Implement the use of project management software",
+    "answer": "a",
+    "explanation": "answer A. Fast-tracking is a technique in which activities that we would ordinarily prefer to be performed in series are allowed to overlap or be completed in parallel instead. Option (B)- Crashing is a schedule compression technique that involves adding resources to activities on the critical path. This is not the right answer since it involves adding resources. Option(C) :  Resource leveling is not a schedule compression technique. In fact, the schedule often gets longer when resource leveling is done. Option (D)  Project management software can certainly help with developing the schedule but it is not a schedule compression technique. [(PMBOK® Guide) – Sixth Edition, Page215]"
+  },
+  {
+    "question": " Your project team has identified several potential risks on your current project that could have a significant impact if they occurred. The team decides to use a diagram to determine which risks have the most potential impact on the project. A diagram helps to compare the relative importance of variables that have a high degree of uncertainty for those that are more stable. What type of diagram will the team use to display this information?  ",
+    "a": "An assessment diagram   ",
+    "b": "Tornado diagram",
+    "c": "Influence diagram",
+    "d": "Process flowchart",
+    "answer": "b",
+    "explanation": "answer: B. A tornado diagram is a special type of bar chart used in sensitivity analysis for comparing the relative importance of the variables. For the exam, it assists the project manager in focusing on the most critical (greatest) risks in the project, sort and prioritize the variable according to their impact on the project objective. [PMBOK® Guide - Sixth Edition, page 436]"
+  },
+  {
+    "question": " Enterprise Environmental Factors includes some elements such as:",
+    "a": "Project temples, Organizational Structure     ",
+    "b": "Organizational Structure, Culture, infrastructure",
+    "c": "Project closure guidelines or requirement and Organizational Structure.",
+    "d": "Project files from previous projects (e.g., scope, cost, schedule and performance measurement baselines.",
+    "answer": "b",
+    "explanation": "answer B. Standards, org. structure and infrastructure are examples of (EEF). You should memorize the (EEFs) for the PMP exam. [PMBOK Sixth edition, Page 38]"
+  },
+  {
+    "question": " After your last status meeting, your customer has come to you with a change request. What should you do first?   ",
+    "a": "Meet with your management",
+    "b": "Meet with the project sponsor   ",
+    "c": "Evaluate the change request",
+    "d": "M{ake the change since it is the customer making the request.",
+    "answer": "c",
+    "explanation": "answer C. Evaluate the change request is the first thing we do when a change request comes to us, regardless of where the change request originated. Opitons (A) and (B)  We don’t want to meet with our management or sponsor until we have information about the impact of the requested change and we can recommend alternatives. Option (D)  Every change request must be evaluated, even if it comes from the customer. We do not make any changes unless an evaluation has been completed. Procedures to solve change request's questionon the real exam. 1. Analyze (Evaluate) the impact of the change on the project constrains (scope, cost, time and quality). 2. Create a change request. 3. Submit the change request to CCB. 4. The change is approved or reject  The approved changes are then implemented in the Direct and Manage Project Work Process. 5. Project documents updates: A-Change log updates (The first document must be updated after the change request approved or rejected :  B- Baselines updates (scope baseline, cost baseline …etc.) C. Project Management Plan updates."
+  },
+  {
+    "question": " The CPI= 1.01 and the SPI=0.93. How is your project doing? ",
+    "a": "Behind schedule and over budget",
+    "b": "Ahead of schedule and under budget,",
+    "c": "Ahead of schedule and over budget  ",
+    "d": "Behind schedule and under budget",
+    "answer": "d",
+    "explanation": "answer D. You expect to see at least 12 questioneasy and straightforward like this questionn the actual test! If CPI=1.01 is greater than 1 that means is good, and the project is under budget, if SPI=0.93 is smaller than 1 that means is bad, or the project is behind schedule. So, the  answer is option (D)  behind schedule and under budget."
+  },
+  {
+    "question": " Which of the following is input to the Develop Project Charter process? ",
+    "a": "Stakeholder registers",
+    "b": "Project management plan",
+    "c": "The business need and the cost benefit analysis",
+    "d": " Risk registers",
+    "answer": "c",
+    "explanation": "answer C. The Business case is input in the develop project charter, the business need and the cost benefit analysis are contained in the business case to justify and establish boundaries for the project. [(PMBOK® Guide) – Sixth Edition, Page77]"
+  },
+  {
+    "question": " The organizational process assets that can influence the Develop Project Charter process include elements such as: ",
+    "a": "Historical information and lessons learned knowledge base",
+    "b": "Marketplace conditions",
+    "c": "Organizational culture, structure, and infrastructure ",
+    "d": "Risk registers",
+    "answer": "a",
+    "explanation": " answer A. The organizational process assets that can influence the Develop Project Charter process include, but are not limited to: s Organizational standard processes, policies, and process definitions, s Templates (e.g., project charter template), and s historical information and lessons learned knowledge base (e.g., projects, records, and documents; all project closure information and documentation; information about both the results of previous project selection decisions and previous project performance information; and information from the risk management activity). Option (B)  and (C) :  are elements of (EEF). . [(PMBOK® Guide) – Sixth Edition, Page79]"
+  },
+  {
+    "question": " As a project manager, in which document will, you find information about assumptions, constraints and key deliverables?",
+    "a": "Project scope statement",
+    "b": "Scope Baseline",
+    "c": "Scope Management Plan",
+    "d": "Project management plan",
+    "answer": "a",
+    "explanation": "answer A. The preparation of a detailed project scope statement builds upon the major deliverables, assumptions, and constraints that are documented during project initiation. During project planning, the project scope is defined and described with greater specificity as more information about the project is known. [(PMBOK® Guide) – Sixth Edition, Page151]"
+  },
+  {
+    "question": " Project Resource Management includes the processes to identify, acquire, and manage the resources needed for the successful completion of the project. Which of the following would you require as inputs to the Plan Resource Management process?",
+    "a": "Networking-Organizational Theory-project management plan.",
+    "b": "Project management plan-activity resources requirements-enterprise environmental factors-Organizational process assets.",
+    "c": "Project charter - Project management plan - Project documents - Enterprise environmental factors - Organizational process assets",
+    "d": "Project staff assignments-Resource calendar-Human resource management - Project management plan ",
+    "answer": "c",
+    "explanation": "answer C. Project charter - Project management plan - Project documents - Enterprise environmental factors - Organizational process assets, are inputs to the Plan Resource Management process. [(PMBOK® Guide) – Sixth Edition, Page 308]"
+  },
+  {
+    "question": " A project manager has invited key stakeholders and team members to the first project meeting. The agenda of the meeting is to announce the start of the project, outline the project goals and objectives, key milestones, and other relevant information to inform and engage stakeholders and gain commitment. This meeting is called:",
+    "a": "Project Status meeting  ",
+    "b": "Project party meeting ",
+    "c": "Charter closure meeting",
+    "d": "Project kick-off meeting",
+    "answer": "d",
+    "explanation": " answer D. The kick-off meeting, which is done in the beginning of the project and again before starting each new project phase, has four main objectives. Publicly state the beginning of the project Outline the project goals as well as the individual roles and responsibilities of team members Clarify the expectations of all parties Create commitment in all those who influence the project's outcome. The Project Manager conduct kick-off meeting, communicating the start of the project, key milestones, and other relevant information in order to inform and engage stakeholders and gain commitment. [PMI PMP Examination Content Outline – June 2015- PERFORMANCE DOMAIN II: PLANNING-Task # 12] "
+  },
+  {
+    "question": " Which of the following would you require as inputs to the close project or phase process? ",
+    "a": "Change requests",
+    "b": "Final product, service or result",
+    "c": "Organizational process assets (OPA)",
+    "d": " {Quality plan         ",
+    "answer": "c",
+    "explanation": " answer C. (OPA) Accepted deliverables, Project management plan, Business documents, Project documents, Procurement document and agreements are inputs to close project or phase process. Option (B)  Final product, service or result is output from this process. [(PMBOK® Guide) – Fifth Edition, page 100] Prior taking the exam make sure that you are really known, and you must be memorized the followings: 1. Closing process (inputs, tools and outputs) 2. Identify stakeholder process (inputs, tools and outputs) 3. Develop Project charter process (Inputs, Tools and Outputs) 4. Elements of the organizational process assets (OPA) 5. Elements of the enterprise environmental factors (EEF). [(PMBOK® Guide) – Sixth Edition, Page125]"
+  },
+  {
+    "question": "You are manag},ing a project with project teams in different geographical locations. There are 25 team members across five different locations. If five team members are released from the project, how many communication channels are possible in your project now?",
+    "a": "465 ",
+    "b": "210",
+    "c": "19},0",
+    "d": "31",
+    "answer": "b",
+    "explanation": " answer B. The total number of communication channels in a project can be determined using a formula n (n-1)/2 where n represents the number of team members (including the project manager). In this scenario, since 20 team members plus the PM. exist after relieving 5, total number of communication channels left = 21(20)/2 = 210. Hence 210 is the  answer."
+  },
+  {
+    "question": " Stakeholder analysis is an important technique to the Identify Stakeholders process. One of the steps involved is to classify the stakeholders based on their level of authority and their active involvement in the project. Which of the following is a valid model used for this purpose? ",
+    "a": "Salience model",
+    "b": "Influence/impact grid                                       ",
+    "c": "Power / interest grid",
+    "d": "Power/influence",
+    "answer": "d",
+    "explanation": "answer D. Power/influence grid, grouping the stakeholders based on their level of authority (“power”) and their active involvement (“influence”) in the project. • Power/interest grid, grouping the stakeholders based on their level of authority (“power”) and their level or concern (“interest”) regarding the project outcomes; • Influence/impact grid, grouping the stakeholders based on their active involvement (“influence”) in the project and their ability to effect changes to the project’s planning or execution (“impact”). • Salience model, describing classes of stakeholders based on their power (ability to impose their will), urgency (need for immediate attention), and legitimacy (their involvement is appropriate). [(PMBOK® Guide) – Sixth Edition, Page79]"
+  },
+  {
+    "question": " You are the project manager of a pharmaceutical company responsible for releasing a new drug on the market. While managing the project, one of the key stakeholders often disagreed on the best way to handle an issue. You asked him to look at the positives and negatives of their approaches and submit his recommendations. Which of the following conflict resolution techniques had you used?   ",
+    "a": "Smoothing                                     ",
+    "b": "Compromising",
+    "c": "Confrontation",
+    "d": "Withdrawal",
+    "answer": "b",
+    "explanation": "answer B. Compromise/Reconcile Parties that compromise or reconcile each give up something to reach a solution. Everyone involved decides what they will give on and what they won't give on, and eventually through all the give and take, a solution is reached. Neither side wins nor loses in this situation (You asked the key stakeholders to looks for both the positives and negatives of their approaches.). As a result, neither side is gung ho about the decision that was reached. They will drag their feet and reluctantly trudge along. If, however, both parties make firm commitments to the resolution, then the solution becomes a permanent one. [(PMBOK® Guide) – Sixth Edition, Page349]"
+  },
+  {
+    "question": " As a project manager, if you want to understand how the schedule baseline is established for the project, which scheduling methodologies are used in the project and scheduling tool. Which of the following documents can provide this information to you?",
+    "a": "Project management plan",
+    "b": "Scope management plan  ",
+    "c": "Stakeholder register",
+    "d": "Cost management plan",
+    "answer": "a",
+    "explanation": "answer A. If the schedule management plan is option became the best answer. However, in this scenario, the schedule management plan is a component of the project management plan that establishes the criteria and the activities for developing, monitoring, and controlling the schedule. The schedule management plan may be formal or informal, highly detailed, or broadly framed based on the needs of the project, and includes appropriate control thresholds. [(PMBOK® Guide) – Sixth Edition, Page181]"
+  },
+  {
+    "question": " You are a project manager. You are managing a construction project. The buyer of the project is an external entity. After identifying all the project stakeholders, you are now planning to carry out a comprehensive stakeholder analysis. Which of the following is involved in the stakeholder analysis?  ",
+    "a": "Address issues as they occur",
+    "b": "Foster appropriate stakeholder engagement in project activities ",
+    "c": "Resolving stakeholder conflicts",
+    "d": "Determining stakeholders' interests and expectations",
+    "answer": "d",
+    "explanation": "answer D. Stakeholder analysis is a technique of systematically gathering and analyzing quantitative and qualitative information to determine whose interests should be taken into account throughout the project. It identifies the interests, expectations, and influence of the stakeholders and relates them to the purpose of the project. . [(PMBOK® Guide) – Sixth Edition, Page512] Options A , B and C: address issues as they occur, foster appropriate stakeholder engagement in project activities throughout the project life cycle, and resolving stakeholder conflicts are carried out during the project execution, during manage stakeholders engagement in executing phase, while stakeholders analysis carried out during initiating phase. [(PMBOK® Guide) – Sixth Edition, Page523]"
+  },
+  {
+    "question": " You are a project manager, managing a software development project. The buyer of the product is an external entity. During the execution of the project, you find out that a new risk manager has been hired in the customer organization. The new manager is now a key stakeholder in the project. Which of the following documents is most likely to get updated first as a result of the addition of this new stakeholder? ",
+    "a": "Project Management Plans",
+    "b": "Stakeholder Engagement Assessment Matrix",
+    "c": "Stakeholder Management Plans",
+    "d": "The stakeholder register",
+    "answer": "d",
+    "explanation": "answer D. Where additional information on existing or new stakeholders is gathered as a result of this process, it is recorded in the stakeholder register. [PMBOK Sixth edition, Page 97]"
+  },
+  {
+    "question": " You are new to your organization. You are working with stakeholders, customers and the teams to define the product direction, and also you are responsible for creating the backlog with your team, your role is known as:",
+    "a": "Product owner",
+    "b": " Scrum master",
+    "c": "Sprint owner",
+    "d": " Project manager",
+    "answer": "a",
+    "explanation": "answer A. The product owner works with stakeholders, customers, and the teams to define the product direction. Typically, product owners have a business background and bring deep subject matter expertise to the decisions. Sometimes, the product owner requests help from people with deep domain expertise, such as architects, or deep customer expertise, such as product managers. Product owners need training on how to organize and manage the flow of work through the team. In agile, the product owners create the backlog for and with the team. The backlog helps the teams see how to deliver the highest value without creating waste. [PMBOK Sixth edition, Section 4, Page 41]"
+  },
+  {
+    "question": " InYou have been identified as the project manager for constructing a large shopping mall in your city. You met the customer, and you informed him that the project is running well in both schedule and cost, but the customer informed you that he is not happy with the performance of the project. What should you do first?",
+    "a": "Meet with the project sponsor and discuss the customer’s concerns.",
+    "b": "Meet with the project customer to understand the customer’s concerns.",
+    "c": "Inform the customer that there is nothing wrong. ",
+    "d": "Show the customer the performance of similar other projects",
+    "answer": "b",
+    "explanation": "answer B. In this case, since the customer is directly informing you that he is not happy, the best option is to meet with the customer and discuss the customer’s concerns before doing anything else."
+  },
+  {
+    "question": " One of the tasks that completed before starting the project is to conduct the first project meeting, known as the project kickoff meeting. At the end of the project kick-off meeting, what is the next process?     ",
+    "a": "Initiating",
+    "b": "Planning",
+    "c": "Executing   ",
+    "d": "Closing",
+    "answer": "c",
+    "explanation": "answer C. The project kick-off meeting did at the end of the planning process and before starting the executing phase. Reference, PMI PMP Examination Content Outline – June 2015- PERFORMANCE DOMAIN II: PLANNING-task#12"
+  },
+  {
+    "question": "You are a project manager working on a project when the customer wants another feature added to the product. However, the project sponsor agreed to implement the new feature immediately. As a project manager, what should you do next?",
+    "a": "Submit a change request to incorporate the new feature.",
+    "b": "Include the feature, as it will improve customer satisfaction.",
+    "c": "Request additional funds to implement the new feature.",
+    "d": "Analyze the impact of the new feature with your project team members",
+    "answer": "d",
+    "explanation": "answer D The best thing to do in such scenarios is to analyze the impact on the triple constraints. It's quite possible that the cost and/or the project schedule may increase. At the beginning of all projects, you should require two things regarding change. First, require that all change requests be submitted in writing. This is to clarify the change and make sure there's no confusion about what's requested. It also allows the project team to accurately estimate the time it will take to incorporate the change. Second, require that all change requests must go through the formal change control system. Make sure no one is allowed to go directly to team members and request changes without the project manager knowing about them. Furthermore, make certain your stakeholders understand that going around the project manager can cause schedule delays, cost overruns, and sacrifices to quality and that it isn't good change management practice. From the beginning of the project, encourage the stakeholders to use the formal procedures laid out in the change control system to request changes. For The Exam, you must know that: (Exam Essentials) Changes can come from: • The project manager • The sponsor • The customer • Project team, management or other stakeholders. Procedures to solve change requests questionon the exam. 1. Analyze (Evaluate) the impact of the change on the project constrains (scope, cost, time and quality). 2. Create a change request. 3. Submit the change request to CCB. 4. The change is approved or reject  The approved changes are then implemented in the Direct and Manage Project Work Process. 5. Project documents updates: A-change log update (The first document must be updated after the change request approved :  B- Baselines updates (scope baseline, cost baseline …etc.) C. Project Management Plan update."
+  },
+  {
+    "question": " Which of the following is used to analyze the potential impact or support each stakeholder could generate, and classify them to define an approach strategy, prioritize the stakeholders to ensure the efficient use of effort to communicate and manage their expectations?                    ",
+    "a": "Identify Stakeholders",
+    "b": "Plan Stakeholder Management",
+    "c": "A data representation technique                            ",
+    "d": "Plan Communications Management",
+    "answer": "c",
+    "explanation": "answer C. A data representation technique that may be used in this process includes but is not limited to stakeholder mapping/ representation. Stakeholder mapping and representation is a method of categorizing stakeholders using various methods. Categorizing stakeholders assists the team in building relationships with the identified project stakeholders. A data representation technique includes but are not limited to: • Directions of influence. Classifies stakeholders according to their influence on the work of the project or the project team itself. Prioritization. • Prioritizing stakeholders may be necessary for projects with a large number of stakeholders, where the membership of the stakeholder community is changing frequently, or when the relationships between stakeholders and the project team or within the stakeholder community are complex. . [(PMBOK® Guide) – Sixth Edition, Page513]"
+  },
+  {
+    "question": " As a project manager, you estimate that, in your project, there is a 25% probability of earning $50,000 in profit. There is a 30% probability of incurring a $20,000 loss. What is the expected value of the project considering profit and loss possibilities?",
+    "a": "$ 6,500 profit",
+    "b": "$ 18,500 loss",
+    "c": "$ 6,500 loss ",
+    "d": "$ 18,500 profit",
+    "answer": "a",
+    "explanation": "answer A. Expected monetary value is calculated be EMV=Probability*Impact We need to calculate both positive and negative values and then add to them. (EMV) to profit = +$50,000*25%=+$ 12,500 = $ 12,500 profit (EMV) to loss = -$20,000*30%= - $ 6,000 = $ 6,000 loss EMV= EMV to profit + EMV to loss EMV=$12,500+ $(-6,000) = + $ 6,500 = 6,500 profit."
+  },
+  {
+    "question": " You have just joined a new organization as a project manager. You are currently assessing project stakeholders’ influences, interests, expectations, risk tolerance and engagement levels. This relates to which of the following tools and techniques?     ",
+    "a": "Meetings",
+    "b": "Stakeholder analysis   ",
+    "c": "Interpersonal skills",
+    "d": "Expert judgment",
+    "answer": "b",
+    "explanation": "answer B. What you are doing directly relates to the stakeholder analysis tool and technique. [PMBOK Sixth edition, Page 512]"
+  },
+  {
+    "question": " You are managing a project to design a software development project. You are currently in closing phase. Since your organization possesses experts who have tremendous knowledge in closing procedures and standards, you would like to use them to close this project. This effort is an instance of:  ",
+    "a": "Using enterprise environmental factors in closing the project",
+    "b": "Using organizational process assets in closing the project",
+    "c": "Poor project management practice           ",
+    "d": "Using expert judgment in closing the project",
+    "answer": "d",
+    "explanation": " answer D. Projects are closed during the Close Project or Phase process. One of the tools which can be used in this process is the expert judgment. Expert judgment can be obtained from consultants or industry experts. These experts make sure that all project standards are followed when they are closed. In this scenario, you want to use experts from your own organization in closing the project.[PMBOK® Guide) – Sixth Edition, Page 126]"
+  },
+  {
+    "question": " You are a project manager for the software development project. During the implementation phase, you discovered that one of the suppliers who is working on your project delivered electric cables that do not comply with the contract specification. Which of the following methods is the preferred method of resolving these disputes?",
+    "a": "Alternative dispute resolution (ADR)",
+    "b": "Negotiation",
+    "c": "Claims court   ",
+    "d": "Appeals court",
+    "answer": "b",
+    "explanation": "answer B. For the exam, when a buyer and seller enter into a dispute over the execution of work under the terms of a contract, negotiation is the preferred method of resolution of all claims and disputes. [PMBOK Sixth edition, Page 498]"
+  },
+  {
+    "question": " You are managing an important project for your organization. The customer requested a change request to you. If you implemented the change, this change contains an activity that ensures that future performance of the project work is aligned with the project management plan. This is what type of change request? ",
+    "a": "Live actions",
+    "b": "Preventive actions.",
+    "c": "Defect repairs   ",
+    "d": "Integrated Change Control Process",
+    "answer": "b",
+    "explanation": "answer B. Preventive actions. These are activities that ensure that future performance of the project work is aligned with the project management plan. [PMBOK® Guide) – Sixth Edition, Page 96]"
+  },
+  {
+    "question": " Which of the following tools and techniques are used during the quantitative risk analysis process?                                       ",
+    "a": "Risk probability and impact assessment",
+    "b": "Expert judgment                      ",
+    "c": "Probability and impact matrix",
+    "d": "Assumptions analysis",
+    "answer": "b",
+    "explanation": "answer: B. Expert judgment.[PMBOK® Guide) – Sixth Edition, Page 431]"
+  },
+  {
+    "question": " You are a project manager responsible for an important project for your organization. You have created a document that describes the procurement item in sufficient detail to provide a basis for the sellers to determine if they can provide the item. This document is referred to as a:    ",
+    "a": "Statement of work",
+    "b": "Contract           ",
+    "c": "Procurement statement of work",
+    "d": "Procurement document",
+    "answer": "c",
+    "explanation": "answer C. The procurement statement of work (SOW) for each procurement is developed from the project scope baseline and defines only that portion of the project scope that is to be included within the related contract. The SOW describes the procurement item in sufficient detail to allow prospective sellers to determine if they are capable of providing the products, services, or results. Sufficient detail can vary based on the nature of the item, the needs of the buyer, or the expected contract form. Information included in a SOW can include specifications, quantity desired, quality levels, performance data, period of performance, work location, and other requirements. [(PMBOK® Guide) – Sixth Edition, Page 477]"
+  },
+  {
+    "question": " Which of the following is a tool to assess the current and desired state of engagement of a stakeholder on the project?     ",
+    "a": "Stakeholder management plan",
+    "b": "Stakeholder analysis",
+    "c": "Stakeholder register   ",
+    "d": "Stakeholder engagement assessment matrix ",
+    "answer": "d",
+    "explanation": "answer D. Stakeholder engagement assessment matrix. A stakeholder engagement assessment matrix supports comparison between the current engagement levels of stakeholders and the desired engagement levels required for successful project delivery. [(PMBOK® Guide) – Sixth Edition, Page 521]"
+  },
+  {
+    "question": " You have just received a change request from one of your project team members. The change will lead to completion of the project three weeks earlier than planned. What should you do next?",
+    "a": "Submit the change request to change control board (CCB)",
+    "b": "Make the change as soon as possible so as to shorten the project duration three weeks earlier.",
+    "c": "Reject the change request",
+    "d": "Evaluate the change request on others project constraints (cost, quality and risk)",
+    "answer": "d",
+    "explanation": " answer D. I know you are thinking that we already did this and we know the project will be completed three weeks earlier. Even if we know this, we still need to see how the proposed change may affect the cost, risk, etc. on the project. Just because we know the schedule impact does not mean we know the other impacts."
+  },
+  {
+    "question": " You are a project manager managing a project. The Sponsor is particularly interested in reviewing the roles and responsibilities of team members on the project. When writing the roles and responsibilities for team members, you should document the role, authority, responsibility, and competency for each team member. Where must you document this information?",
+    "a": "Resource Breakdown Structure (RBS)",
+    "b": "Resource management plan",
+    "c": "Resource calendar",
+    "d": "R{ACI chart",
+    "answer": "b",
+    "explanation": "answer B. Information regarding team roles, responsibilities, authorities and competencies is documented in the Resource Management Plan. Option (A) the resource breakdown structure (RBS) is much like an organizational breakdown structure, but the RBS lists the resources by category and type. You may have several categories of resources, including labor, hardware, equipment, supplies, and so on. Type describes the types of resources needed, such as skill levels or quality grades of the material and so on. Option (C)  the resource calendars input describes the time frames in which resources (both human and material) are available. They outline work days, normal business hours, shift-work hours if they apply, and days off such as holidays or non-work days like weekends. They look at a particular resource or groups of resources and their skills, abilities, quantity, and availability. Perhaps your project calls for a marketing resource and the person assigned to the marketing activities is on an extended vacation in October. The resource calendar would show this person’s vacation schedule. Resource calendars also examine the quantity, capability, and availability of equipment and material resources that have a potential to impact the project schedule. Option (D): the RACI chart shows the level of accountability each of the participants has on the project. The letters in the acronym RACI are the designations shown in the chart: R = Responsible for performing the work A = Accountable, the one who oversees producing the deliverable or work package, approves or signs off on the work, and makes Decisions regarding the work C = Consult, someone who has input to the work or decisions I = Inform, someone who must be informed of the decisions or results [(PMBOK® Guide) – Sixth Edition, Pages 318,319]"
+  },
+  {
+    "question": "A project manager wants to present project reports such as Schedule Performance Index (SPI) and Cost Performance Index (CPI) to management. SPI and CPI are considered:",
+    "a": "Earned value reports",
+    "b": "Performance reports",
+    "c": "St},atus reports",
+    "d": " Forecasting reports ",
+    "answer": "b",
+    "explanation": "answer B. CPI & SPI are considered as performance reports: specific, SPI and CPI help you analyze the efficiency of schedule performance and cost performance of any project."
+  },
+  {
+    "question": " As a project manager, you have an unresolved issue between two members in your project while managing your project work. What is the best way to resolve this issue? ",
+    "a": "Create a dispute log.",
+    "b": "Discuss the issue during the project status meeting. ",
+    "c": "Communicate the issue via an email",
+    "d": "Create an issue log",
+    "answer": "d",
+    "explanation": "answer D. Issue log. Issues arise in the course of managing the project team. An issue log can be used to document and monitor who is responsible for resolving specific issues by a target date. [(PMBOK® Guide) – Sixth Edition, Page 347]"
+  },
+  {
+    "question": " As a project manager for a health insurance portal development project, you are in the testing phase of the project and the customer has requested an additional new feature. You have assessed the impact of the change on the triple constraints with your team. What should be your next step?",
+    "a": "Generate a change request and send it to the change control board (CCB)",
+    "b": "Refuse to make the change as it is a deviation from the approved Scope",
+    "c": "Analyze the impact of the change in project time, cost and quality.",
+    "d": "Update the project management plans and other project documents including project baselines",
+    "answer": "a",
+    "explanation": "answer A. Option C, is already addressed as part of assessing the impact on the triple constraints (time, cost and quality). The second step is to generate a change request and send it to the CCB for approval. Change control board reviews and makes decisions on change requests submitted. The change control board is established to review all change requests and is given the authority to approve or deny change requests. This authority is defined by the organization. The decisions should be documented and reviewed by stakeholders. The PMBOK® Guide states that the change control board is made up of a group of stakeholders who review and then approve, delay, or reject change requests. Procedures to solve change request's questionon the real exam. 1. Analyze (Evaluate) the impact of the change on the project constrains (scope, cost, time and quality). 2. Create a change request. 3. Submit the change request to CCB. 4. The change is approved or reject  The approved changes are then implemented in the Direct and Manage Project Work Process. 5. Project documents updates: A-Change log updates (The first document must be updated after the change request approved or rejected :  B- Baselines updates (scope baseline, cost baseline …etc.) C. Project Management Plan updates."
+  },
+  {
+    "question": " If an agile approach is used, which of the following techniques is used for breaking up an epic into user stories?",
+    "a": "Expert Judgment",
+    "b": "Product analysis",
+    "c": "Decomposition",
+    "d": "Product breakdown",
+    "answer": "c",
+    "explanation": "answer C. Decomposition of the upper-level WBS components requires subdividing the work for each of the deliverables or subcomponents into its most fundamental components, where the WBS components represent verifiable products, services, or results. If an agile approach is used, epics can be decomposed into user stories. [PMBOK 6 Edition, Page 160]"
+  },
+  {
+    "question": " You are a project manager managing a global project. You have stakeholders located in various parts of the globe. Due to the nature of the project, you also have large volumes of information that need to be shared with the recipients. What type of communication method should you prefer to use for this purpose?   ",
+    "a": "Pull communication",
+    "b": "Push communication   ",
+    "c": "Request based communication",
+    "d": "Interactive communication",
+    "answer": "a",
+    "explanation": "answer A. Pull communication. Used for large complex information sets, or for large audiences, and requires the recipients to access content at their own discretion subject to security procedures. These methods include web portals, intranet sites, e-learning, lessons learned databases, or knowledge repositories. [(PMBOK® Guide) – Sixth Edition, Page 374]"
+  },
+  {
+    "question": " You are a project manager managing a large construction project. You have identified all project stakeholders and have conducted individual interviews with them to identify other project stakeholders as well. Which of the following is an output from this process? ",
+    "a": "Stakeholder management plan",
+    "b": "Stakeholder register      ",
+    "c": "Project documents updates",
+    "d": "Project Management Plan updates",
+    "answer": "b",
+    "explanation": "answer B. The main output of the Identify Stakeholders process is the stakeholder register. This document contains information about identified stakeholders that includes but is not limited to:  Identification information. Name, organizational position, location and contact details, and role on the project.  Assessment information. Major requirements, expectations, potential for influencing project outcomes, and the phase of the project life cycle where the stakeholder has the most influence or impact.  Stakeholder classification. Internal/external, impact/influence/power/interest, upward/downward/outward/sideward, or any other classification model chosen by the project manager. ). [(PMBOK® Guide) – Sixth Edition, Page 514]"
+  },
+  {
+    "question": " You are the Project Manager for the production of a new car. You have completed the Collect Requirements process for your product. Which of the following documents link product requirements from their origin to the deliverables? ",
+    "a": "Design traceability matrix",
+    "b": "Document Analysis        ",
+    "c": "Requirements Traceability Matrix",
+    "d": "Product traceability matrix",
+    "answer": "c",
+    "explanation": "answer C. Requirements traceability matrix. The requirements traceability matrix links product requirements from their origin to the deliverables that satisfy them. [(PMBOK® Guide) – Sixth Edition, Page 470]"
+  },
+  {
+    "question": " You are managing a large construction project. The project is currently in the executing phase. While you are assessing your project risks, you found that one of the acceptable risks will occur. Which of the following techniques will you use as part of your Implement Risk Response?",
+    "a": "Audits",
+    "b": "Meetings",
+    "c": "Expert Judgment   ",
+    "d": "Risk register",
+    "answer": "c",
+    "explanation": "answer C. The tools and techniques of Implement Risk Responses are interpersonal, team skills and Project management information system. Expertise should be considered from individuals or groups with specialized knowledge to validate or modify risk responses if necessary, and decide how to implement them in the most efficient and effective manner. Audits and meetings are tools and techniques of Monitor Risks Process. [PMBOK Sixth edition, Page 499& 453]"
+  },
+  {
+    "question": " After several months of negotiations, your organization is almost ready to sign a contract. The contract will span multiple years and allow for final price adjustments based on changing conditions, such as inflation changes or cost increases (or decreases) for specific commodities. The ideal contract type in this case is:",
+    "a": "Firm fixed price (FFP)",
+    "b": "Fixed price incentive fee{ (FPIF)",
+    "c": "Time and materials (T&M)",
+    "d": "F{ixed price with economic price adjustment (FP-EPA)",
+    "answer": "d",
+    "explanation": "answer D. Fixed price with economic price adjustments (FPEPA) This type is used whenever the seller’s performance period spans a considerable period of years, or if the payments are made in a different currency. It is a fixed-price contract, but with a special provision allowing for predefined final adjustments to the contract price due to changed conditions, such as inflation changes or cost increases (or decreases) for specific commodities. [(PMBOK® Guide) – Sixth Edition, Page 471]"
+  },
+  {
+    "question": " You are a project manager for a large construction project. You are in a meeting with the key stakeholders to know about their expectations and attitudes about a proposed product; which of the following tools and techniques are you using? ",
+    "a": "Brainstorming",
+    "b": "Interviews ",
+    "c": "Fo},cus Groups",
+    "d": "Facilitation",
+    "answer": "d",
+    "explanation": "answer D. Facilitation is used with focused sessions that bring key stakeholders together to define product requirements. Workshops can be used to quickly define cross-functional requirements and reconcile stakeholder differences. Because of their interactive group nature, well-facilitated sessions can build trust, foster relationships, and improve communication among the participants, which can lead to increased stakeholder consensus. In addition, issues can be discovered earlier and resolved more quickly than in individual sessions. [(PMBOK® Guide) – Sixth Edition, Page 145]"
+  },
+  {
+    "question": " The Project Charter formally authorizes a project. Who has the authority to modify and make changes in the project charter?",
+    "a": "The project manager",
+    "b": "A project sponsor  ",
+    "c": "The user of the product ",
+    "d": "The Project team ",
+    "answer": "b",
+    "explanation": "answer B. The project Sponsor: the person who can make changes the person who creates the project charter, the project charter is the document issued by the project initiator or sponsor that formally authorizes the existence of a project and provides the project manager with authority to apply organizational resources to project activities. It documents the business needs, assumptions, constraints, the understanding of the customer’s needs and high-level requirements, and the new product, service, or result. [(PMBOK® Guide) – Sixth Edition, Page 81]"
+  },
+  {
+    "question": " In your project, if an optimistic estimate for an activity = 5 days, Most likely = 8 days and pessimistic estimate (P) = 10 days, using Triangular distribution, what is the estimate activity duration for this activity?",
+    "a": "7.67 days",
+    "b": "7.388 days   ",
+    "c": "7.833 days",
+    "d": "1{0.50 days",
+    "answer": "a",
+    "explanation": "answer A. Pert Formula = (P+M+O)/3 Where, pessimistic estimate (P) =10 days , Optimistic estimate (O) =5 days , Most likely (M) =8days Hence, E (estimate) = (10+8+5)/3 = 7.67 days (Option (A) [(PMBOK® Guide) – Sixth Edition, Page 201]"
+  },
+  {
+    "question": " You are working on a software development project using an agile approach. You are managing this project using a visual, pull-based concept so that work progresses through the steps as resources are available. You want to improve the way that the team builds software, so you get them all to improve collaboratively and evolve experimentally by coming up with changes that they can make to their process together, and by using data to figure out if those changes made things better. Your project teams are focused on flowing work through the system to completion and not beginning new work until work in progress is completed. Which of the following methods are you using?",
+    "a": "Crystal Method",
+    "b": "Kanban Method",
+    "c": "Scrumban ",
+    "d": "Critical Path Method",
+    "answer": "b",
+    "explanation": "answer B. The Kanban Method (Is very important for the exam) may be best used when a team or organization is in need of the following conditions: • Flexibility. Teams are typically not bound by timeboxes and will work on the highest priority item in the backlog of work. • Focus on continuous delivery. Teams are focused on flowing work through the system to completion and not beginning new work until work in progress is completed. • Increased productivity and quality. Productivity and quality are increased by limiting work in progress. • Increased efficiency. Checking each task for value adding or non-value-added activities and removing the non-value adding activities. • Team member focus. Limited work in progress allows the team to focus on the current work. • Variability in the workload. When there is unpredictability in the way that work arrives, and it becomes impossible for teams to make predictable commitments; even for short periods of time. • Reduction of waste. Transparency makes waste visible so it can be removed. Option (A) Crystal methodologies are designed to scale, and provide a selection of methodology rigor based on project size (number of people involved in the project) and the criticality of the project. Crystal Methodology realizes that each project may require a slightly tailored set of policies, practices, and processes in order to meet the project’s unique characteristics. The family of methodologies use different colors based on “weight” to determine which methodology to use. The use of the word crystal comes from the gemstone where the various “faces” represent underlying core principles and values. Option (C) Scrumban is an agile approach originally designed as a way to transition from Scrum to Kanban. As additional agile frameworks and methodologies emerged, it became an evolving hybrid framework in and of itself where teams use Scrum as a framework and Kanban for process improvement. [PMBOK Sixth edition, Pages 103-108 Annex A3]"
+  },
+  {
+    "question": "Q187 Based on the following table, as a project manager, which risk is the greatest and is the priority for your attention",
+    "a": "Risk A",
+    "b": "Risk B",
+    "c": "Ri},sk C",
+    "d": "Risk D",
+    "answer": "c",
+    "image": "SET1Q187",
+    "explanation": "answer C. Risk C: High impact/high probability – Risks towards the top right corner (In probability impact matrix) are of critical importance. These are your top priorities, and are risks that you must pay close attention to."
+  },
+  {
+    "question": " The production process is defined by a new automobile manufacturing project. If the control chart appears, 10 data points are as follows: Five data points above the mean.  One data point upper control limit (UCL). Four data points under the mean.   From this data, we can state;",
+    "a": "The process is in control",
+    "b": "The process is out of control",
+    "c": "The tolerance limits should be tighter",
+    "d": "The tolerance limits should be wider",
+    "answer": "b",
+    "explanation": "answer B. The process is out of control. Since, (1) data point falls outside of the Upper and lower control limits are different from specification limits and the process is out of control. [(PMBOK® Guide) – Sixth Edition, Page 200]"
+  },
+  {
+    "question": " You are a project manager. The sponsor has requested you to provide duration estimates for your project, and you come across a similar project completed by your organization last year. To save time, you use information from this project to help estimate activity duration. This is an example of which tool or technique?",
+    "a": "Bottom-up estimating",
+    "b": "Parametric estimating",
+    "c": "Three-point estimating",
+    "d": "Analogous estimating ",
+    "answer": "d",
+    "explanation": "answer D. Analogous estimating is a technique for estimating the duration or cost of an activity or a project using historical data from a similar activity or project. Analogous estimating uses parameters from a previous, similar project, such as duration, budget, size, weight, and complexity, as the basis for estimating the same parameter or measure for a future project.  When estimating durations, this technique relies on the actual duration of previous, similar projects as the basis for estimating the duration of the current project. It is a gross value estimating approach, sometimes adjusted for known differences in project complexity. Analogous duration estimating is frequently used to estimate project duration when there is a limited amount of detailed information about the project.  Analogous estimating is generally less costly and less time-consuming than other techniques, but it is also less accurate. [(PMBOK® Guide) – Sixth Edition, Page 200]"
+  },
+  {
+    "question": "Q190 Based on the following table, as a project manager, which risk is the greatest and is the priority for your attention",
+    "a": "Risk A ",
+    "b": "Risk B",
+    "c": "Risk C",
+    "d": "Risk D",
+    "answer": "c",
+    "image": "SET1Q190",
+    "explanation": "answer: C. For each risk identified, multiply the probability by the impact. Once you have each P & I score, you can prioritize the risks. Risk (C) :  currently is the greatest threat to your Project and overall objectives. P*I=0.3*8=2.4"
+  },
+  {
+    "question": " You found the following earned value analysis information for a project SPI = 0.91, and CPI = 0.87; the status of the project is:",
+    "a": "A head of schedule and under budget",
+    "b": "A head of schedule and over budget",
+    "c": "Behind schedule and under budget",
+    "d": "Behind schedule and over budget",
+    "answer": "d",
+    "explanation": "answer D. Behind schedule and over budget: SPI is less than 1. So, the project is behind schedule; CPI is less than 1. So, the project is under Budget."
+  },
+  {
+    "question": " Which of the following is an output from a close project or phase process?",
+    "a": "Project management plan updates",
+    "b": "Change requests",
+    "c": "Lessons learned",
+    "d": "Accepted deliverables",
+    "answer": "c",
+    "explanation": "answer C. The organizational process assets that can influence the Close Project or Phase process include but are not limited to:  Project or phase closure guidelines or requirements (e.g., lessons learned, final project audits, project evaluations, product validations, acceptance criteria, contract closure, resource reassignment, team performance appraisals, and knowledge transfer). [(PMBOK® Guide) – Sixth Edition, Page 126]"
+  },
+  {
+    "question": " In A project is being done for an external customer. Which of the following is an input to the Develop Project Charter process? ",
+    "a": "A contract",
+    "b": "Stakeholder management plan   ",
+    "c": "Stakeholder management plan ",
+    "d": "S{takeholder register",
+    "answer": "a",
+    "explanation": "answer A. Contracts /Agreements are used to define initial intentions for a project. Agreements may take the form of contracts, memorandums of understanding (MOUs), service level agreements (SLA) letters of agreement, letters of intent, verbal agreements, email, or other written agreements. Typically, a contract is used when a project is being performed for an external customer. [(PMBOK® Guide) – Sixth Edition, Page 78]"
+  },
+  {
+    "question": " You are in the process of sending out your weekly project update to a wide range of stakeholders.  This is an example of what type of communication method?",
+    "a": "Stakeholder management strategy",
+    "b": "Pull communication",
+    "c": "In},teractive communication",
+    "d": "Push communication",
+    "answer": "d",
+    "explanation": "answer D. Push communication. Sent or distributed directly to specific recipients who need to receive the information. This ensures that the information is distributed but does not ensure that it actually reached or was understood by the intended audience. Push communications artifacts include letters, memos, reports, emails, faxes, voice mails, blogs, and press releases. [(PMBOK® Guide) – Sixth Edition, Page 374]"
+  },
+  {
+    "question": " You are a project manager managing a software development project. During the Quality Control Process, you record the relevant data, and you are using a vertical bar chart to show how often a particular variable state occurred. What is this sort of bar chart more commonly called?",
+    "a": "Histogram",
+    "b": "Pareto chart",
+    "c": "Control chart",
+    "d": "Cause and effect diagram",
+    "answer": "a",
+    "explanation": "answer A. Histograms. Histograms show a graphical representation of numerical data. Histograms can show the number of defects per deliverable, a ranking of the cause of defects, the number of times each process is noncompliant, or other representations of project or product defects. [(PMBOK® Guide) – Sixth Edition, Page 293]"
+  },
+  {
+    "question": " If you were creating duration estimates for schedule activities, which of the following tools or techniques would be appropriate to use?",
+    "a": "Meetings",
+    "b": "A subject-matter expert (SME)",
+    "c": "Project management software",
+    "d": "Scheduling tool",
+    "answer": "b",
+    "explanation": "answer B. A subject-matter expert (SME), Expertise should be considered from individuals or groups with specialized knowledge, or training in the following topics:  Schedule development, management, and control;  Expertise in estimating; and  Discipline or application knowledge. [(PMBOK® Guide) – Sixth Edition, Page 200]"
+  },
+  {
+    "question": " As a project manager, your project is currently in the initiating phase if the project sponsor has left the project, and a new sponsor has been re-assigned. The new sponsor is not satisfied with the scope of the project, and he wants to delay the project for two months. What should be your next step as a project manager?",
+    "a": "Meet with the customer and tell him about the sponsor's concern.",
+    "b": "Escalate this issue to the change control board and submit a change request.",
+    "c": "Meet with the project sponsor to discuss the potential impact of the project delay.",
+    "d": "Report this to your management immediately.",
+    "answer": "c",
+    "explanation": "answer C. The best thing to do in this scenario is to meet with the sponsor to evaluate the impact if the project are delayed two months. Because this delay may effect on project cost and/or effect on the project quality and increase the project risk. Option (A) and option (D)  we do not want to meet with our management or the customer until we have information about the impact of project delaying and we are able to recommend alternatives. Option (B)  Every change request must be first evaluated, even if it is being asked by the customer or the Sponsor."
+  },
+  {
+    "question": " You are a project manager. You and your team are working together, your project is currently in the execution stage, in which your team members are conducting a meeting to reassess their risk information and to identify new risks, and evaluating risk process effectiveness throughout the project. You and your team are involved in the process of:",
+    "a": "Monitoring communication",
+    "b": "Monitoring Risks",
+    "c": "Ri},sk registers",
+    "d": "Risk management plan",
+    "answer": "b",
+    "explanation": "answer B. Monitor Risks is the process of monitoring the implementation of agreed-upon risk response plans, tracking identified risks, identifying and analyzing new risks, and evaluating risk process effectiveness throughout the project. The key benefit of this process is that it enables project decisions to be based on current information about overall project risk exposure and individual project risks. This process is performed throughout the project. [(PMBOK® Guide) – Sixth Edition, Page 628]"
+  },
+  {
+    "question": " You are a project manager managing a project. If you want to have multiple vendors bid on your contract, what is the best way to ensure that all vendors have the same information before bidding?",
+    "a": "Hold a bidder conference",
+    "b": "Develop a qualified sellers list",
+    "c": "Communicate only through email ",
+    "d": "Conduct one-on-one meetings with each vendor",
+    "answer": "a",
+    "explanation": "answer A. Bidder conferences (also called contractor conferences, vendor conferences, and pre-bid conferences) are meetings between the buyer and prospective sellers prior to proposal submittal. They are used to ensure that all prospective bidders have a clear and common understanding of the procurement and no bidders receive preferential treatment. [(PMBOK® Guide) – Sixth Edition, Page 487]"
+  },
+  {
+    "question": " You are a project manager responsible for an important project for your organization. You just received a change request from the sponsor. You realized that if the change was implemented, it would increase the cost of the project by $10,000. What should be your response as a project manager?",
+    "a": "Reject the change                                             ",
+    "b": "Make the change as soon as possible ",
+    "c": "Get the change approved internally first    ",
+    "d": "See how the change affects the other project constraints ",
+    "answer": "d",
+    "explanation": "answer D. Evaluate the change request is usually the first thing we do in these situations. [(PMBOK® Guide) – Sixth Edition, Page 120]"
+  }
+]

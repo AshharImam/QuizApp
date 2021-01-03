@@ -1,0 +1,1801 @@
+[
+  {
+    "question": " You are a project manager and you received a meeting invitation from your senior manager. The title of the meeting was Kill Point Meeting. What do you think would be the purpose of this meeting? ",
+    "a": "In this meeting, the project manager and the senior management will kill the project. ",
+    "b": "In this meeting, all the team members will sit in one room to kill a project. ",
+    "c": "This meeting will discuss the transition from one phase to another within a projects life cycle. ",
+    "d": "In this meeting the project manager will be ofcially assigned to lead the effort.",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK 6th Edition, Pg 21. Kill point is also known as phase gate. It is a point after every phase when a decision is taken whether to go ahead with a project or not."
+  },
+  {
+    "question": " You have been asked to create user manuals for a call centers day-to-day tasks. What is this scenario termed as? ",
+    "a": "Project",
+    "b": "Program ",
+    "c": "Portfolio ",
+    "d": "Operation ",
+    "answer": "a",
+    "explanation": " A Refer to PMBOK 6th Edition, Pg 6. Creating user manuals is a temporary endeavor and is termed as project. Day-to-day activities for a call center may be termed as operation but the Option refers to the creation of user manuals which qualies as a project."
+  },
+  {
+    "question": " You are a project coordinator and you are trying to secure developers for your project. Because of your title, you have some say in allocating these resources. However, you are always denied the resources as they are busy working on certain other projects. What type of organization are you working in? ",
+    "a": "Functional ",
+    "b": "Weak Matrix ",
+    "c": "Composite Organization ",
+    "d": "Organic or Simple ",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK 6th Edition, Pg 47. Remember that the project coordinator and the expeditor are mainly found in the weak matrix or functional organization. In weak matrix, PC or PE may have some say in allocating resources"
+  },
+  {
+    "question": " You are a project manager and you are working for a very small organization where everyone does everything. You all report to the owner of the company. What type of organization are you working in? ",
+    "a": "Functional",
+    "b": "Weak Matrix ",
+    "c": "Organic or Simple ",
+    "d": "Multi-Divisional ",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK 6th Edition, Pg 47. In a simple or organic structure, the project budget is managed by the owner and the work group is also very exible."
+  },
+  {
+    "question": " You are a newly-assigned project manager and you are working on one of the implementation projects. In order to understand the scope of the project, you meet with people who have handled similar projects in the past. You analyze their feedback and come across a risk; you have no experience on how to handle it. What should you do in such a scenario? ",
+    "a": "Do nothing as the risk is related to past projects. ",
+    "b": "Document it but since it is based upon past projects, make it low level. ",
+    "c": "Document it and try to analyze the impact of the risk. ",
+    "d": "Do nothing as nobody knows about it. ",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. Eliminate option A and D because they talk about DOING NOTHING. As a project manager, it is your responsibility to nd a solution. Between options B and C, the better choice is option C. Making the risk low level will not solve the problem."
+  },
+  {
+    "question": " You're the project manager in your organization. Your team members report to you, you are responsible for the evaluation of their yearly performance. You are also responsible for resolving issues, in case there are any. It is up to you to release the resources when the project is done so that they can work on other projects for the company. What kind of organization do you work in? ",
+    "a": "Balanced Matrix ",
+    "b": "Organization PMO",
+    "c": "Strong Matrix ",
+    "d": "Project-Oriented ",
+    "answer": "d",
+    "explanation": " D Refer to PMBOK 6th Edition, Pg 47. The correct 'answer' is projectoriented. Because as a PM, you have enough power to take decisions. In projectoriented organizations, once the work is done, you release the resources"
+  },
+  {
+    "question": " You are using the three-point estimation technique to develop the total budget of the project. One of your colleagues, who has more experience than you in the organization, tells you to increase each estimate by 10% to account for any unknown risks. What should you do?",
+    "a": "Do not increase the estimate. ",
+    "b": "You need to inform the customer before increasing it. ",
+    "c": "Increase the estimate rst and then tell the customer the actual reason behind it. Because you are a PM, there is no need to inform the customer. ",
+    "d": "Just go ahead and increase the estimate. ",
+    "answer": "a",
+    "explanation": " A Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. You should not inate the estimate unnecessarily. It is not ethical."
+  },
+  {
+    "question": " Todd is a new project manager in your company. Your company has a culture where a new PM is helped by senior members of the team. You have been assigned as the PM BUDDY for the new PM. The new PM asks you whose responsibility it is to determine the priorities between projects in a company. What should be your answer to him/her? ",
+    "a": "The project manager",
+    "b": "The project management team ",
+    "c": "The project management ofce (PMO) ",
+    "d": "The customer ",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK 6th Edition, Pg 48. It is PMOs job to prioritize the projects."
+  },
+  {
+    "question": " Which of the following is an enterprise environmental factor?",
+    "a": "Change management knowledge base ",
+    "b": "Change control process ",
+    "c": "Identical historical information",
+    "d": "Commercial databases ",
+    "answer": "d",
+    "explanation": " D Refer to PMBOK 6th Edition, Pg 39. A commercial database is an example of an enterprise environmental factor."
+  },
+  {
+    "question": " You are a vendor who has been asked to set up a PMO in the buyer side of the organization. The customers requirement from the PMO is a well-dened framework where the PMO will provide various templates, forms etc. Yet, the PMs will not report directly to the PMO. What type of PMO is this? ",
+    "a": "Supportive",
+    "b": "Controlling",
+    "c": "Directive ",
+    "d": "Hybrid ",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK 6th Edition, Pg 48. It may be supportive or controlling or directive. However, since they are not reporting to the PMO, it cannot be directive and since they have a well-dened framework, controlling is a better choice."
+  },
+  {
+    "question": "You are working as a project manager for a long time. You have complete knowledge of the processes and of how things work in your organization. However, you have limited knowledge about project selection methods. And recently you have been tasked with selecting the best project out of multiple projects. What should be your frirst step?",
+    "a": "Select the best project with your best judgement. ",
+    "b": "As you have no knowledge, refuse to take the assignment. ",
+    "c": "Get an expert's help to select the best project. ",
+    "d": "Inform the management about your lack of knowledge in this particular area. ",
+    "answer": "d",
+    "explanation": " D Refer to PMBOK 6th Edition, Pg 3. As per PMIs professional code of ethics and professional conduct, you should always communicate honestly. So the best solution is option D."
+  },
+  {
+    "question": "project A has a Benet to Cost Ratio (BCR) of 24 percent. Project B has a BCR of 9 percent. Project C has a BCR of 41 percent. Project D has a BCR of 16 percent. Which is the best project out of these?",
+    "a": "Project A ",
+    "b": "Project B ",
+    "c": "Project C ",
+    "d": "Project D ",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK 6th Edition, Pg 34. The higher the BCR, the better it is. So the project with the highest BCR would be the best choice. However, the opposite would be true if the Option were about CBR (Cost to Benet Ratio) instead of BCR."
+  },
+  {
+    "question": "you are managing a project which is in planning phase. You have completed developing the project charter and this project contains multiple phases and multiple contractors are involved. The contract contains proprietary information from the vendors. One of the functional managers of your organization wants to see this information. What should be your response to him/her? ",
+    "a": "As the functional manager is not part of this project, you should deny it. ",
+    "b": "You can share the information with him/her as s/he belongs to the same organization. ",
+    "c": "Deny the request to protect the condentiality of the information. ",
+    "d": "Accept the request but tell him/her not to share the information with anyone else. ",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. No matter what, if the functional manager is not part of the project, you should not share the information with him/her because you need to protect the condentiality of the contract."
+  },
+  {
+    "question": " You are a project manager and you have divided the product into a series of iterations where you will be adding the functionality in each iteration. After the end of your nal iteration, your product will be fully complete. What development life cycle are you following?",
+    "a": "Predictive Life Cycle ",
+    "b": "Iterative Life Cycle",
+    "c": "Incremental Life cycle ",
+    "d": "Hybrid Life Cycle ",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK 6th Edition, Pg 19. In incremental life cycle, the nal deliverable is developed after a series of iterations that will successively add product features. Refer to our introduction video for more details."
+  },
+  {
+    "question": "Your customer requested for a scope-related change on the project. The change was formally approved by the change control board and you are in the process of implementing it. You are providing regular implementation status to the customer? What will you term this as?",
+    "a": " Work Performance Data ",
+    "b": "Work Performance Information Work ",
+    "c": "Performance Report ",
+    "d": "Project Management Information System (PMIS) ",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK 6th Edition, Pg 26. Implementation status for change requests is an example of work performance information."
+  },
+  {
+    "question": "Your CTO has asked you to conduct a feasibility study of using one software over the other. What plan/document would you share with him/her? ",
+    "a": "Project Charter ",
+    "b": "Project Management Plan ",
+    "c": "Project Benets Management Plan ",
+    "d": "Project Business Case ",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK 6th Edition, Pgs 29 and 30. Project Business Case denes the economic feasibility study which will list the objectives and reasons for doing a particular project."
+  },
+  {
+    "question": "You have been assigned as a project manager in another country. The customer initiated a project kick-off party in which s/he offered valuable gifts to all the project team members. The customer also requested you to complete the project sooner than anticipated. What should you do? ",
+    "a": "Accept the offer as it is not considered to be a bribe.",
+    "b": "Reject the offer because it violates the code of ethics and professional conduct.",
+    "c": "Politely refuse the offer and accept the customers demand of completing the project sooner. ",
+    "d": "Politely refuse the offer and don't do anything as a customer is god. ",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. Accepting such an offer is against the PMIs professional code of conduct. If you are debating between options B and C then do remember that you cannot simply accept the offer to complete the project sooner until you do the impact analysis and check the feasibility of the same"
+  },
+  {
+    "question": "Which of the following is not considered a project? ",
+    "a": "Remodeling the kitchen Building",
+    "b": "a metro that connects cities ",
+    "c": "Running an IT help desk",
+    "d": "Team Shooting for a HIM",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK 6th Edition, Pg 6. Eliminate the wrong choices by keeping in mind that a project always has an end date. Options A, B and D can have an end date. Option C is more like an operation."
+  },
+  {
+    "question": "You are conducting a JAD session for collecting software requirements. Your customer forces you to include a requirement which you believe might be impossible to implement as it works on an unsupported version of a browser. What should you do in this case? ",
+    "a": "Don't document the requirement. ",
+    "b": "Document the requirement and consider it as a risk. ",
+    "c": "Try to understand customers point of view before documenting the requirement. ",
+    "d": "Customer satisfaction is your primary goal, so document the requirement. ",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. Try to understand the customers point of view before taking any decision. It is better to do some more research and if the requirement is not possible, try to provide alternative options."
+  },
+  {
+    "question": "Tom is a project manager who is always seen with the PMO director. He excessively and insincerely praises the PMO director to get his work done. What type of power is Tom practicing? ",
+    "a": "Positional ",
+    "b": "Relational",
+    "c": "Ingratiating ",
+    "d": "Referent ",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK 6th Edition, Pg 63. In Ingratiating power, you use honeyed words to get your work done."
+  },
+  {
+    "question": "You are in the process of gathering high-level risks for the project to be documented in the project charter. One of the key stakeholders tells you that this project will not succeed as you have no support from the local government of the developing country where majority of the work will be done. What should you do in this situation?",
+    "a": "Immediately stop the work and reach out to the sponsor for his/her advice.",
+    "b": "Find the reasons behind the stakeholders comments. ",
+    "c": "Document the stakeholders comments in the project charter and continue with the project as this risk will not affect you in any way. ",
+    "d": "Ignore the stakeholders comments as the project sponsor already knows about them.",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. As a project manager, it is your responsibility to deliver a successful project. Your rst step should be to investigate the reasons behind the stakeholders concern."
+  },
+  {
+    "question": "It has been 1 year since you joined this organization. Your manager allows you to set up your own goals and make your own decisions. What type of leadership style is being displayed by your manager? ",
+    "a": "Laissez-faire ",
+    "b": "Servant Leader ",
+    "c": "Transformational ",
+    "d": "Charismatic ",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK 6th Edition, Pg 65. This is an example of laissezfaire leadership style where the leader follows a hands-off approach."
+  },
+  {
+    "question": "You are a project manager and you have borrowed two resources from the functional manager for your project. The two resources, Ryan and Harris, are in constant argument about two features of the product. Due to this, the deliverables have started to miss the deadline. What should you do in such a scenario? ",
+    "a": "Remove them and request for new resources. ",
+    "b": "Meet with them and try to nd the root cause of the situation. ",
+    "c": "Escalate it to the concerned functional manager. ",
+    "d": "Request the remaining resources to work on the missed deliverables. ",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. Your rst step should be to meet with them and try to nd the root cause behind the arguments. If they still continue, then you need to discuss this with their functional manager and even ask for replacements."
+  },
+  {
+    "question": "You are working on a project in a non-prot sector. As a part of organization process, you need to ll out various forms to make sure that you are doing the right thing at the right time. These forms are related to the environmental changes that will be caused due to your project. This is an example of: ",
+    "a": "Portfolio Management ",
+    "b": "Program Management ",
+    "c": "Enterprise Environmental Factors ",
+    "d": "Risk Mitigation ",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK 6th Edition, Pg 38. Filling out forms as part of organization policy is an example of enterprise environmental factors."
+  },
+  {
+    "question": "You have been assigned as project manager to a software development project. The cost estimate for the project is $100,000. However you feel that you cannot complete the project within this budget. As per your analysis, the estimate should be at least $125,000. Your sponsor is willing to start the project with another project manager if you don't accept it. What should you do in such a scenario?",
+    "a": "Stop the work until your sponsor accepts your estimate.",
+    "b": "Ask the sponsor to assign this project to some other project manager. ",
+    "c": "Submit detailed facts supporting your estimate and then let the sponsor take the decision. ",
+    "d": "Document limited budget as a constraint and continue working on the project. ",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. You need to provide reasons why you feel the estimate is too low. You will present your facts and if the sponsor wants to go with another project manager, then it is his or her decision."
+  },
+  {
+    "question": "Which process tool is conflict management?",
+    "a": "Plan Human Resource Management",
+    "b": "Acquire Project Team",
+    "c": "Develop project team ",
+    "d": "Manage Project Team",
+    "answer": "d",
+    "explanation": "he correct 'answer' is D Conflict management is done in manage project team process"
+  },
+  {
+    "question": "You have to make sure that you test all the 1 Million samples of your product in order to achieve the highest quality However because of time constraints you decide to check random samples from the lot What tool did you use in such a scenario",
+    "a": "Histogram",
+    "b": "Benefit cause ratio",
+    "c": "Benchmarking ",
+    "d": "Statistical samplin",
+    "answer": "d",
+    "explanation": "The correct 'answer' is D This is the perfect example of statistical sampling where you test random samples."
+  },
+  {
+    "question": "If your sponsor wants to check the training plans for the team. What document should you refer him to?",
+    "a": "Configuration Management Plan",
+    "b": "Performance assessment plan ",
+    "c": "Staffing Management Plan",
+    "d": "Communications Management Plan",
+    "answer": "c",
+    "explanation": "The correct 'answer' is C Refer to PMBOK, staffing management plan has that information."
+  },
+  {
+    "question": "What is the highest point in Maslow Hierarchy of Needs?",
+    "a": "Security",
+    "b": "Safety",
+    "c": "Achievement",
+    "d": "Esteem",
+    "answer": "d",
+    "explanation": "The correct 'answer' is D  Actually the highest point is self actualization but as self actualizationis not given in the answer options, the nex t highest is esteem."
+  },
+  {
+    "question": "You are working for an organization which recently bagged a prestigious contract. The contract is such a big deal for the organization that they decided to create a spec ial team just to handle this critical project. You have been chosen as the project manager and have been assigned to build your own team. Your team may include full time staff from different departments and are developing their own set of operating procedures. What type of organization are you working in?",
+    "a": "Balanced Matrix Organization.",
+    "b": "Strong Matrix Organization.",
+    "c": "Projectized  Organization.  ",
+    "d": "Composite Organization",
+    "answer": "d",
+    "explanation": "The correct 'answer' is D Refer to PMBOK for composite organization. This is the exact definition for composite organizations where you create a spec ial team to handle critical projects for the organization."
+  },
+  {
+    "question": "One of your team members is not performing well on one of the modules, which was recently given to her. The reason behind is that she lacks experience in doing such kind of work, however she is the only resource in your team, who could be used for working on that module. What is the best solution to the problem?",
+    "a": "Consult with your senior manager to provide her with incentives so that she can be motivated to do the work.",
+    "b": "Hire a new resource",
+    "c": "Provide training to the team member",
+    "d": "Move her to some other modules in which she is better qualified.",
+    "answer": "c",
+    "explanation": " The correct 'answer' is C Training is the best solution for this problem.However you can also consider hiring a more competent resource but hiring a resource may take some time, so it is better to provide your team member with the training so that she can perform."
+  },
+  {
+    "question": "Michelle is assigned as a new project manager to a project which is almost at it's end. The project has more than 800 stakeholders and is currently running on a very aggressive project schedule. What should Michelle do to communicate with all stakeholders?",
+    "a": "Since the stakeholders are too many, request for an additional project manager or a project coordinator.",
+    "b": "Make sure to identify all the stakeholders on the project.",
+    "c": "Immediately send a status report to all stakeholders.",
+    "d": "Classify the stakeholders into groups to send the required communication.",
+    "answer": "d",
+    "explanation": "The correct 'answer' is D how can Michelle communicate is the real deal to which only options C and D could be answers. However, classifying the stakeholders into groups will be a more practical approach due to the large number of stakeholders."
+  },
+  {
+    "question": "Which of the options best explains the halo effect?",
+    "a": "When the project manager doesn't trust his team  ",
+    "b": "Promoting technical people to manaerial positions",
+    "c": "because they are good in their technical job When a project manaer doesn't believe in micromanagement and crust s his team ",
+    "d": "Reward in a technical person with incentive because he or she is 1 in their JOb.",
+    "answer": "b",
+    "explanation": "The correct 'answer' is B  Just because someone is good at a technicaljob, it doesn't mean he will be good at management. The jo bs require very different skills."
+  },
+  {
+    "question": "If a critical resource is available only at a certain time and you decided that you will apply resource leveling technique then which of the following statement is considered to be true?",
+    "a": "You can finish the project before the deadline as Resource Leveling will over allocate resources.",
+    "b": "Resource leveling has no effect on the critical path.",
+    "c": "Often you need to require extra resources because of resource leveling.",
+    "d": "Most of the time resource levelling will cause a change in the critical path.",
+    "answer": "d",
+    "explanation": "The correct 'answer' is D Solving the query with elimination method: Option A: Resource leveling never over allo­ cates resources. Option B: Resource leveling affects the critical path. Option C: It is not necessarily true. Option D: This is a true statement about the resource leveling."
+  },
+  {
+    "question": "You have been assigned as a project manager in another country. The customer initiated a project kick-off party in which s/he offered valuable gifts to all the project team members. The customer also requested you to complete the project sooner than anticipated. What should you do?",
+    "a": "Accep t the offer as it is not considered to be a bribe.",
+    "b": "Reject the offer because it violates the code of ethics and professional conduct.",
+    "c": "Politely refuse the offer and accept the customers demand of completing the project sooner.",
+    "d": "Politely refuse the offer and don't do anyth ing as a customer is god.",
+    "answer": "b",
+    "explanation": "Correct answer is B Refer to PMBOK 6th Edition, Pg 3,professional code of ethics and professional conduct.Accepting such an offer is against the PMls professional code of conduct.IF you are debating between options B and C then do remember that you cannot simply accept the offer to complete the project sooner until you do the impact analysis and check the Feasibility of the same."
+  },
+  {
+    "question": "You are conducting a JAD session for collecting software requirements. Your customer  forces you to include a requirement which you believe might be impossible to implemen t as it works on an unsupported version of a browser. What should you do in this case?",
+    "a": "Don't document the requirement.",
+    "b": "Document the requirement and consider it as a risk.",
+    "c": "Try to understand customers point of view before documen ting the requirement.",
+    "d": "Customer satisfaction is your primary goal, so documen t the requirement.",
+    "answer": "c",
+    "explanation": "Correct 'answer' is C  Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. Try to understand the customers point of view before taking any decision. It is better to do some more research and if the requirement is not possible, try to provide alternative options."
+  },
+  {
+    "question": "Tom is a project manager who is always seen with the PMO director. He excessively and insincerely praises the PMO director to get his work done. What type of power is Tom practicing?",
+    "a": "Positional",
+    "b": "Relational",
+    "c": "Ingratiating",
+    "d": "Referent",
+    "answer": "c",
+    "explanation": " Correct 'answer' is C Refer to PMBOK 6th Edition, Pg 63. In Ingratiating power, you use honeyed words to get your work done."
+  },
+  {
+    "question": "Nick is a project manager who is working on an integration project. The customer is confused about one of the project requirements and s/he has raised a change request. What does this mean for Nick?",
+    "a": "The project charter is finished, but the work cannot be started because Nick needs to update the scope baseline.",
+    "b": "Nick cannot implement the change until it is approved.",
+    "c": "Nicks project is in the Direct and tylanage Projec t Work process which is an executing process, so now he can implement the change.",
+    "d": "This shows that there is a defect in the deliverable that must be repaired immediately.",
+    "answer": "b",
+    "explanation": "B, Refer to PMBOK 6th Edition, Pg 113. The change request has to follow the change control board procedures. The change request can come in any process group, so it is not necessary that the project charter is finished or Nicks project is in a Direct and Manage Project Wor k process. A defect comes when the deliverable is submitted to the customer and the project is complete."
+  },
+  {
+    "question": "You have been assigned as project manager to a software development project. The cost estimate for the project is $100,000. However you feel that you cannot complete the project within this budget. As per your analysis, the estimate should be at least $125,000. Your sponsor is willing to start the project with another project manager if you don't accept it. What should you do in such a scenario?",
+    "a": "Stop the work until your sponsor accepts your estimate.",
+    "b": "Ask the sponsor to assign this project to some other project manager.",
+    "c": "Submit detailed facts supporting your estimate and then let the sponsor take the decision.",
+    "d": "Document limited budget as a constraint and continue working on the project.",
+    "answer": "c",
+    "explanation": "C, Refer to PMBOK 6th Edition, Pg 3, professional code of ethics and professional conduct. You need to provide reasons why you feel the estimate is too low. You wi ll present your facts and if the sponsor wants to go with another project manager, then it is his or her decision."
+  },
+  {
+    "question": "Tom is managing a computer graphics project.One of his team members has realized that there is a serious problem and it will cause a delay that could harm the project business.Even worse is that it will take another three days for him to fully assess the impact of the issue.What is the best way to handle this type of situation?",
+    "a": "Tom should submit the change request for m to the Change Control Board 'CCB'",
+    "b": "Tom should meet with the stakeholders and tell them that there is a problem, and that he needs three more days to get them the infor mation they need.",
+    "c": "By using the project charter, Tom needs to show the stakeholders that he has the authority fo make i:iecisions.",
+    "d": "Tom should update the lessons learned document and add it to his organizational process assets so that he can use it for Future projects.",
+    "answer": "b",
+    "explanation": "B, Refer to PMBOK 6th Edition, Pg 113. No matter if it is good news or bad news, your first step should be to communicate it to the stakeholders. So option B is the best choice."
+  },
+  {
+    "question": "You are a new project manager who has just joined the organization.In one of your PMO meetings, your colleagues are referr ing to a work author ization system. What is a wor k author ization system?",
+    "a": "It authorizes the project manager to spend money on work being done in the project.",
+    "b": "It is a set of processes and tools that help the project manager to effectively guide the project to completion.",
+    "c": "It is a formal ized, written description of how the work should be carried out for an activity.",
+    "d": "It ensures that the work is being done at the right time and in the proper sequence.",
+    "answer": "d",
+    "explanation": "D, This is the definition of Wor k Authorization System. You wont find exact definition of Wor k Author ization System in PMBOK 6th Edition but this is important from exam perspective."
+  },
+  {
+    "question": "You are a project manager on a data analytics project. When you planned the project, your enterprise environmental factors included a policy which stated that all cost over 5% of the budget should be approved by the VP- Finance. One of your impor tant stakeholders has submitted a change request that would require a 6% increase in the project budget. Your company has an outsourcing effort, and you believe that a small alteration to the way this change is requested could allow you to take advantage of it and reduce your costs by half. What is the best way to handle this type of situation?",
+    "a": "Request approval from the VP-Finance.",
+    "b": "Work with the stakeholder who has requested the change to figure out how to reduce the cost of this change by a third.",
+    "c": "Document the change requested by the stakeholder, since all changes must be documented.",
+    "d": "Reject the change as it is over 5% of the budget.",
+    "answer": "a",
+    "explanation": "A, Refer to PMBOK 6th Edition, Pg 113. You need to follow the company policy and not to find a workaround for the same. Since it is company policy, you will go ahead and ask for approval from the VP-Finance."
+  },
+  {
+    "question": "Recently on your project, a lot of stakeholders are approaching you with changes. You have figured out that these changes would cost you more time and money. The changes have been approved and the stakeholders have agreed to provide you with additional time and budget. Now you have to incorporate the approved changes into the project. What do you do next?",
+    "a": "Use the PMIS to make sure the wor k is performed.",
+    "b": "Update the project charter to include the approved changes.",
+    "c": "Incorporate the approved changes into the baseline so that it can help you track the project properly.",
+    "d": "Make sure to track your changes against the projects baseline so that you know exactly that how much they will eventually ctlst.",
+    "answer": "c",
+    "explanation": "C, Refer to PMBOK 6th Edition, Pg 113. The first thing one should do after a change is approved is to update the baseline. The purpose of the baseline is to figure out whether or not your project has deviated From the plan. But a change is not a deviation From the plan, it is done on purpose. Thats why it is important to get the change approved first and then update the baseline."
+  },
+  {
+    "question": "Thomas is a project manager who is holding a formal, approved document that defines how the project would be executed, monitored, and controlled. What is Thomas holding?",
+    "a": "The performance measurement baseline",
+    "b": "The Project Management plan",
+    "c": "The project charter",
+    "d": "The work authorization system document",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK 6th Edition, Pg 86-88, the Project Managemen t plan is a formal approved document that defines how the project would be executed, monitored, and controlled."
+  },
+  {
+    "question": "Jonathan is a new project manager in your company and he needs your help in creating the WBS. He asks you if there is any software the organization follows to make the WBS and what he can do to complete it. You respond to him stating that it is not the picture which is the most valuable result of creating a WBS. The most valuable deliverable of a WBS is:",
+    "a": "Activities",
+    "b": "A bar chart",
+    "c": "A list of risks",
+    "d": "Team buy-in",
+    "answer": "d",
+    "explanation": " D Refer to PMBOK 6th Edition, Pg 156-161. Activities, bar charts and lists of risks are not the deliverables of WBS. However, WBS is used to develop all of the cho ices. Also team buy-in is  something which needs to be there in order to create the WBS. Once the WBS is created, it is used to prevent unnecessary risks and confusion in the later stages of the project."
+  },
+  {
+    "question": "Your business analyst did not develop the requirements tracebility matrix while doing the collect requirements process. According to him, this document is not that important. What can you do to change his opinion about the requirements traceability matrix (RTM).",
+    "a": "It tells you how work packages are decomposed from deliverables and how they can be tracked back.",
+    "b": "It helps you understand the source of each requirement, how that requirement is ver ified in a later deliverable and how the stakeholder requirement can be tracked to the business requirement.",
+    "c": "It is used to trace the source of each and every change, so that you can keep track of them through the integrated Change Control process.",
+    "d": "It used to make sure that all the requiremen ts are properly identified and they trace back to the risk register.",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK 6th Edition, Pg 148-149. The requirements traceability matrix will help you to trace each requiremen t to a spec ific business case, and then this document can also be helpful in ver ifying the requirements with the deliverables developed in the project."
+  },
+  {
+    "question": "You are in the process of collecting requirements from stakeholders. The requirements identification process involves a lot of stakeholders including the VP of the sales and marketing team. Whi le finalizing the requirements, the team raises no objections to whatever the VP says. What type of decision-making technique is being used in this scenario?",
+    "a": "Autocratic Decision Making",
+    "b": "Unanimity",
+    "c": "Dictatorship",
+    "d": "Plurality",
+    "answer": "a",
+    "explanation": " A Refer to PMBOK 6th Edition, Pg 144. It's the autocratic decision-making technique where one person takes a decision on behalf of another. Dictatorship was a valid technique in PMBOK 5th Edition but not in the 6th Edition."
+  },
+  {
+    "question": "In which process does a sponsor or customer sit with the project manager to go over each and every requirement, just to make sure that everything is met",
+    "a": "Validate Scope",
+    "b": "Control Quality",
+    "c": "Define Scope",
+    "d": "Control Scope",
+    "answer": "a",
+    "explanation": " A Refer to PMBOK 6th Edition This is the definition of the validate scope process where you sit with the customer to validate whether each and every requirement is met or not."
+  },
+  {
+    "question": "You're working on a browser upgrade project across the organization. You are 80% done with the project when the sponsor decides that due to re-org, they will no longer continue with this project. What is the first thing you do in such a scenario when you are so close to the finish line?",
+    "a": "Discuss with the team about how to spend the rest of the budget.",
+    "b": "Convince the sponsor to bring the project back.",
+    "c": "Start the validate scope process before you officially close the project.",
+    "d": "Tell the team to stop working immediately as there is no funding available.",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK 6th Edition, Pg 163. This is a tricky part. Lets do this with an elimination technique. A: Irrelevant option as this is not resolving  the concern mentioned in the Query. B: Yes you may do this, however, it is a leadersh ip dec ision and they might already have reprioritized all the projects. C: Correct option because you need to make sure that you validate all the created deliverables with the defined scope before you offic ially close the project.D: You cannot stop work immediately as you have to follow the correct closing procedure."
+  },
+  {
+    "question": "If your team member comes to you and suggests an idea which wi ll save you a months time and also improve the quality of the product, what should be your response as project manager?",
+    "a": "Tell the team to make the change because you are saving 1 month wor th of time.",
+    "b": "You cannot make the change as it will affect the baseline.",
+    "c": "Don't make the change until the team member goes through the change control process.",
+    "d": "Calculate the net present value of the project and if it is favor able, then make the change and infor m the customer about it.",
+    "answer": "c",
+    "explanation": "  C Refer to PMBOK 6th Edition, Pg 113. Remember, for Problems like these, you have to follow the change control procedure. You cannot implement any change until you go through the proper change control process."
+  },
+  {
+    "question": "You are managing a very big project. You are finding it very difficult to co-ordinate since you were unable to get the entire team from the same geographical location. The teams have limited communication capabilities and this has started to affect your schedule. What is the best way to describe this situation?",
+    "a": "Assumption",
+    "b": "Noise",
+    "c": "Ineffi',cient resourc",
+    "d": "Risk",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK® Guide - Sixth Edition, Pg: 371. Noise is a disturbance, hindrance or interference that compromises the delivery of the message. The second best choice would be risk but remember risk is an unexpected event where the team tries to identify it. In this case, the problem has already happened."
+  },
+  {
+    "question": "Derek is a project manager. Sam and Aaron are two technical resources who are working on this project. Todd is the functional manager who is the reporting manager for these resources. Sam and Aaron are in a conflict on one of the most critical pieces of the project. Who is responsible for conflict resolution in initial stages?",
+    "a": "Derek",
+    "b": "',Sam and Aaron themselves",
+    "c": "Tod",
+    "d": "Sam",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 348. it says who is responsible initially for conflict resolution. Initially, it will be Sam and Aaron themselves and if it is still not resolved then it should be escalated to PM and then functional manager. "
+  },
+  {
+    "question": "You are a project manager in a consulting industry. Your project is running behind schedule and over budget. The sponsor is not happy with the current situation and has requested you to provide him with earned value numbers. What report/chart will help you in such a scenario?",
+    "a": "Bar Chart",
+    "b": "S-curve report",
+    "c": "Project Schedule Network Diagram",
+    "d": "Project Status Report ",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK® Guide - Sixth Edition, Pg: 263. S-curve report is used to depict the earned value numbers. You can also use tabular format reports for such purposes. "
+  },
+  {
+    "question": "The customer is really interested in reviewing the Key Performance Indicators of the project. Where will you find this information for the project?",
+    "a": "KPI is included in the project charter as success criteria.",
+    "b": "KPI can be part of PMIS.",
+    "c": "KPI is included in the project charter in the business case section. ",
+    "d": "KPI is part of change control tool.",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK® Guide - Sixth Edition, Pg: 95. Reporting on Key Performance Indicators can be part of Project Management Information System. KPI's can also be present in Project Charter. But, if both PMIS and project charter is given as an answer option then go for PMIS. If PMIS is not given then go for Project Charter."
+  },
+  {
+    "question": "You are working as a PMO director and couple of your colleagues have reached out to you to assign the project managers on their initiatives. Out of all the requests you received, there was one request which was an example of operation and not project. Identify that example.",
+    "a": "Writing a research paper for their department, “Advantages and disadvantages of agile project management”.",
+    "b": "Updating data of finance team’s database.",
+    "c": "Implementation of new business unit to support production issues.",
+    "d": "Vendor replacement for call center.",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 16. Updating data is an operation and an ongoing activity. Rest all are examples of project. "
+  },
+  {
+    "question": "IRR (Internal rate of return) of project A is 1.5 and for project B is 1.3. Similarly, payback period of project A is 6 months and project B is 4 months. Which project will you consider if your team does not have the bandwidth to do both the projects at the same time?",
+    "a": "a",
+    "b": "b",
+    "c": "Any",
+    "d": "Insufficient information",
+    "answer": "a",
+    "explanation": " A Refer to PMBOK® Guide - Sixth Edition, Pg: 34. Always remember the golden rule, go with the project that has greater internal rate of return. So, in this case it will be project A. "
+  },
+  {
+    "question": "Two of your critical resources are in a conflict on one of the important modules of your project. As a part of your project management process, you document their conflicts in the issue log. What is the minimum information that must be part of the issue log?",
+    "a": "Target resolution date.",
+    "b": "Issue owner.",
+    "c": "Both owner name and target resolution date.",
+    "d": "Owner name, a target resolution date, financial/schedule impact on the project.",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK® Guide - Sixth Edition, Pg: 96. There is no point if your issue log just contains issue owner name or target resolution date. You should have this information together for effective results. Financial/schedule impacts are not mandatory. "
+  },
+  {
+    "question": "Your sponsor has requested you to come up with a cost estimate for all the activities which are defined in the project schedule. He has specifically mentioned it to you to make sure that you are taking uncertainty into consideration. Which technique will be best in such kind of scenarios? ",
+    "a": "Bottom-up",
+    "b": "Beta distribution ",
+    "c": "Parametric ",
+    "d": "Analogous ",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK® Guide - Sixth Edition, Pg: 201. Uncertainty is taken care of by Three-Point Estimating. Beta Distribution is part of Three-Point Estimating. "
+  },
+  {
+    "question": "Your company has recently requested for proposals from potential sellers on one of the critical projects for your organization. However, since last few days, you have been getting lot of quries on the proposal. So, in order to be fair to everyone, you plan to set up a bidder conference. Which process are you performing?",
+    "a": "Plan Procurement Engagement",
+    "b": "Control Procurements",
+    "c": "Manage Stakeholder Engagement",
+    "d": "Conduct Procurements ",
+    "answer": "d",
+    "explanation": " D Refer to PMBOK® Guide - Sixth Edition, Pg: 487. Bidder conference is a tool used to conduct procurement process. "
+  },
+  {
+    "question": "You are working as a part time project manager on a project. But, functional manager is taking all the decisions and your role is to set up meetings and perform other administrative stuff. What type of organization are you working in?",
+    "a": "Functional Organization",
+    "b": "Weak Matrix",
+    "c": "Organic or Simple",
+    "d": "Composite ",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK® Guide - Sixth Edition, Pg: 47. Clearly, from the description in the Problem, it looks like functional manager is more powerful than the project manager. So, correct answer can be either A or B. Out of those two, correct answer is weak matrix because project manager’s role is more towards administrative work. Typically, more like project coordinator or expeditor. And project coordinator or expeditor is present in weak matrix organization. "
+  },
+  {
+    "question": "You are a new project manager who has recently joined the organization. In your previous organization, you were not managing the project budget. So, this is something new to you. In your present company, you often take your colleague's help to manage the project budget in a more systematic manner. On one such occasion, your colleague requested you to plan for contingency and management reserve as a part of project budget. You are not comfortable doing it as you think this is not ethical. Which of the following is an incorrect way to plan for contingency and management reserve?",
+    "a": "Initiate the project with a fixed value of management and contingency reserve.",
+    "b": "Initiate the project with a percentage of estimated cost or cost baseline.",
+    "c": "Don’t do it and complain to senior management. ",
+    "d": "Initiate the project with no value of management and contingency reserve.",
+    "answer": "d",
+    "explanation": " D First of all, planning for contingency and management reserve is not wrong. You do it all the time. However, if you don’t put any money for “known unknowns” and “unknown unknowns” then it is not considered to be a good practice. "
+  },
+  {
+    "question": "A stakeholder formatted and arranged all the information which he was able to gather at the end of initiation stage. He collaborated everything into one document and presented it to other stakeholders for approval. Which document is the stakeholder referring to? ",
+    "a": "Business Case",
+    "b": "Project Management Plan",
+    "c": "Agreements",
+    "d": "Project Charter",
+    "answer": "d",
+    "explanation": " D Refer to PMBOK® Guide - Sixth Edition, Pg: 75. Business case and agreements are inputs to Project Charter. The problem states that the stakeholder collaborated everything into one document after the end of initiation stage. Another important point to be noted is that this document to be approved is the Project Charter as Project Management Plan is not developed in initiating stage."
+  },
+  {
+    "question": "John is a project manager who is managing an office relocation project. The project is scheduled to relocate to a different facility and it is very important that he manages all the aspects of this move in order to be successful. But, some of the key stakeholders are resistant and unaware about his project. What should be John’s strategy for these stakeholders?",
+    "a": "Make sure that resistant stakeholders either become neutral or become supportive stakeholders. ",
+    "b": "Tell the neutral as well as resistant stakeholders that it is mandatory to move. ",
+    "c": "Make sure that neutral stakeholders do not become resistant stakeholders. ",
+    "d": "Make sure that both resistant and neutral stakeholders become supportive stakeholders.",
+    "answer": "d",
+    "explanation": " D Refer to PMBOK® Guide - Sixth Edition, Pg: 521. It is always recommended that key stakeholders become supportive to your project in order to be successful. "
+  },
+  {
+    "question": "Your colleague is working on a project which is in execution stage. The project is not well defined. However, it will be developed as the team understanding of product increases. This project is also divided into different phases. The phases have a dependency such that one phase cannot start until the previous one is complete. What could be the development lifecycle and phase-to-phase relationship on this project?",
+    "a": "Predictive Life Cycle and Sequential relationship",
+    "b": "Predictive Life Cycle and Overlapping relationship",
+    "c": "Iterative Life Cycle and Sequential relationship",
+    "d": "Iterative Life Cycle and Overlapping relationship",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK® Guide - Sixth Edition, Pg: 21. The keyword in the problem is that the teams will have more information at a later stage. At that time, team's understanding will improve, which is iterative life cycle. Also, one phase cannot start until the previous is Complete,which is sequentail relationship."
+  },
+  {
+    "question": "You are managing a project to introduce discount coupons during the festive season. Your senior management is not very sure if this will prove to be successful as this is the first time they are trying anything like this. What is the degree of uncertainty an entity is willing to take on in anticipation of a reward? ",
+    "a": "Risk Appetite",
+    "b": "Risk Tolerance",
+    "c": "Risk Probability",
+    "d": "Risk Trigger",
+    "answer": "a",
+    "explanation": " A Refer to PMBOK® Guide - Sixth Edition, Pg: 407. There are number of factors which influence the risk attributes of organization and stakeholders. Risk appetite is a degree of uncertainty an entity is willing to take on in anticipation of a reward. "
+  },
+  {
+    "question": "You have successfully delivered a project and now you are gathering the lessons learned from stakeholders. One of the positive feedbacks was the use of on demand scheduling. This type of scheduling is mainly dependent on?",
+    "a": "Soft logic dependencies. ",
+    "b": "A schedule developed from previous similar projects.",
+    "c": "A backlog.",
+    "d": "Project manager competencies.",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK® Guide - Sixth Edition, Pg: 177. On demand scheduling pulls the work from backlog. As soon as resources become available, they immediately refer the backlog."
+  },
+  {
+    "question": "You are a solution architect working on a big critical project. In one of the meetings, project sponsor criticized the project manager about the critical reports being sent to the payroll manager. What could have been done to prevent this situation?",
+    "a": "Review Communication Management Plan.",
+    "b": "Review Stakeholder Engagement Plan.",
+    "c": "Review project communications.",
+    "d": "Review organizational process assets.",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 377. What information should be sent to what stakeholder or group is part of Communication Management Plan. First thing you will review is Communication Management Plan and then anything else. "
+  },
+  {
+    "question": "You are managing a team of 5 resources. One of the software developers has decided to leave the organization and his last working day will be 2 weeks from now. Your sponsor interacts with you and your team on a daily basis and requests you to provide the number of communication channels by end of the day. What should be your response to him?",
+    "a": "21.0",
+    "b": "6.0",
+    "c": "10.0",
+    "d": "15.0",
+    "answer": "a",
+    "explanation": " A Refer to PMBOK® Guide - Sixth Edition, Pg: 370. There are total of 7 resources (You + 5 resources + 1 Sponsor). Keep in mind that the resource who is leaving in 2 weeks will be considered in calculation because he/she has not left the organization. And if you forgot sponsor then you are wrong too. Number of communication channels = N X (N-1)/2 = 7 X (7-1)/2 = 7 X 6/2 =42/2 =21"
+  },
+  {
+    "question": "You are in the execution stage of an agile project. You want to avoid scope creep on your project and decide to use time-boxing. How can timeboxing help you to achieve that?",
+    "a": "It makes sure that the team is working on user stories.",
+    "b": "It makes sure that the team is working on epics.",
+    "c": "It makes sure that the team is using backlog on projects.",
+    "d": "It makes sure that the team is working on important features first.",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 182. Timeboxing makes sure that the team is working on important features first and if the time permits then the team looks into other non ssential features."
+  },
+  {
+    "question": "One of the stakeholders on the project, filed a change request one month ago. He reached out to the project manager stating that he has not received any response yet. How can this situation be resolved? ",
+    "a": "By reviewing the issue log.",
+    "b": "By reviewing the stakeholder register. ",
+    "c": "By reviewing the perform Integrated Change Control Process.",
+    "d": "Reach out to your team lead to understand why it was missed. ",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 113. By the statement of the Problem, it looks as if there is flaw in the Integrated Change Control Process. So, reviewing the process can help us understand why the stakeholder has not received any response yet. "
+  },
+  {
+    "question": "You have completed 5 month's worth of work. The total duration of the project is 10 months. The total budget of the project is $100,000 and you have spent $30,000 until now. Which of the following statement is correct about the project status?",
+    "a": "Under budget, behind schedule.",
+    "b": "Budget status cannot be calculated, behind schedule.",
+    "c": "Under budget, schedule status cannot be calculated.",
+    "d": "Over budget, behind schedule.",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK® Guide - Sixth Edition, Pg: 267. If you have completed 5 month's worth of work. This means EV = (5/10) X BAC, BAC = $100,000, EV = (5/10) X 100,000, EV = $50,000, AC = 30,000, CV = EV - AC, CV = 50,000 - 30,000 = 20,000, which is greater than 1 which means you are under budget. For schedule status, you need to calculate the PV but there is no way you can calculate it as the information is not provided. "
+  },
+  {
+    "question": "Markus is a project manager who is managing an integration project. Senior management is pressuring Markus and his team members to make sure it meets the deadline. Due to this, his team has to put in long hours to complete the work. Sometimes the team’s morale is down and occasionally there are conflicts between different team members. What should Markus do next?",
+    "a": "He should take disciplinary action against team members who are not sticking to deadline. ",
+    "b": "He should set up a meeting with a team and use collaborative approach to resolve the problem.",
+    "c": "Escalate to senior management.",
+    "d": "He should tell the team to resolve the conflict within themselves.",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK® Guide - Sixth Edition, Pg: 349. The best approach would be to collaborate and resolve the problem. If you selected the option C, which is escalating to senior management then this is not an immediate next step. You will first try to resolve the issue by talking to the team and then if it is not resolved then you will take the next step of escalation. "
+  },
+  {
+    "question": "You recently joined the organization as a project manager. You have 2 team leads on your project. While going through the past appraisals, it looks like every time one of the team leads has given excellent ratings to his team. You are surprised as the other team lead has done the appraisals in a different manner. What should be your next step? ",
+    "a": "Ask your other team lead to be liberal in her ratings. ",
+    "b": "Talk to the team lead and tell him to do the appraisal as per the guidelines.",
+    "c": "Talk to the team lead and discuss why he gave excellent ratings to all his team members. ",
+    "d": "Make sure that the team lead in not doing the appraisals from next time. ",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 343. Read the Problem carefully. First of all, you are a new project manager, secondly as per the Problem it is not confirmed whether the team lead is wrong by giving excellent ratings to all. What if his team really deserves it? So, the best approach would be to talk to him and discuss why he did it and if he is wrong then take necessary action."
+  },
+  {
+    "question": "A project is in an early stage with the Project Charter signed and approved. You are a project manager who is planning to set up a project kick off meeting and invite all the important stakeholders. Who will be responsible to demonstrate the implementation strategy for the project?",
+    "a": "You",
+    "b": "Sponsor",
+    "c": "Key Stakeholder",
+    "d": "Functional Manager",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 51. It is the PM’s responsibility to make sure that stakeholders understand the implementation strategy of the project. "
+  },
+  {
+    "question": "Your team, after discussing with key stakeholders, came up with an exhaustive list of potential risks on the project. However, the customer requested you to provide him with the prioritized risk register based upon the probability and impact of those identified risks. Which process do you need to undergo to provide that information to the customer?",
+    "a": "Monitor Risks",
+    "b": "Identify Risk",
+    "c": "Perform Qualitative Risk Analysis",
+    "d": "Perform Quantitative Risk Analysis",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK® Guide - Sixth Edition, Pg: 419. Prioritized ranking of risks based upon probability and impact is done in Perform Qualitative Risk Analysis. "
+  },
+  {
+    "question": "Every month the PMO director has to present the status report of all the projects in the portfolio. In one of the client meetings, your PMO director reports that all the projects are under budget and ahead of schedule. But, according to you, this information is incorrect because one of your projects is over budget and behind schedule. What should be your next step? ",
+    "a": "Don’t do anything in the meeting and discuss about this in a one on one meeting with your director.",
+    "b": "Make sure you review all the project statuses before the actual meeting.",
+    "c": "Immediately reach out to the appropriate management.",
+    "d": "Tell the customer that it was a typo.",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK® Guide - Sixth Edition, Pg: 419. As per PMI’s code of ethics and professional responsibility, if you see anything wrong then you need to report it. B cannot be the correct choice as you are already in the meeting and your director is not presenting the correct status, so you have to take necessary action. "
+  },
+  {
+    "question": "A project is in the final stages and it has been a huge success. Once the project is completed, Tony (Seller PMP®) wants to invite Henry (Buyer PM) for a small dinner party to celebrate the success of the project. It is Henry’s organizational policy to not accept gifts from vendors. What should Henry do in such a scenario?",
+    "a": "Tony is trying to bribe Henry for any future projects so Henry should immediately alert the concerned stakeholders.",
+    "b": "Henry should politely refuse Tony’s offer. ",
+    "c": "Henry should accept the dinner invitation; however, he should pay for his own dinner. ",
+    "d": "Henry should accept the dinner invitation and let Tony pay for the dinner because dinner is not considered as a gift. ",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 3. Let’s try elimination technique. Option A cannot be the answer as it is too extreme a choice. Option B cannot be the answer as it is also an extreme step in this case. Option C is the correct choice as by accepting the dinner invitation, he is maintaining a good buyer seller relationship and he is still abiding by the company’s policy of not accepting gifts from vendor. Option D is a good choice too but not better than option C. "
+  },
+  {
+    "question": "You work as a project manager in the PMO department of the organization. You have 9 other PMs reporting to the PMO director. In one of your critical projects, you reach out to the PMO for help/guidance. How would you categorize this request?",
+    "a": "Performance Reporting",
+    "b": "It is not PMO responsibility to help or guide you ",
+    "c": "Project Communications",
+    "d": "Expert Judgment",
+    "answer": "d",
+    "explanation": " D Refer to PMBOK® Guide - Sixth Edition, Pg: 48. It is PMO responsibility to provide the project managers with any help required or needed. It can be classified as expert judgment. None of the other options look good. "
+  },
+  {
+    "question": "You are working with a customer on an internal project. The sponsor has a reputation of micromanaging things and is always worried whether this project will be a success or not. At what stage of the project life cycle is the risk highest?",
+    "a": "Beginning stage as the stakeholders are normally not very confident in the initial stages of the project. Slowly and steadily, trust development is done. ",
+    "b": "In the middle stages as your deliverable is being developed.",
+    "c": "At the end stages of the project as the deliverable will be launched in the market and if it is not proper the team has to do lot of rework.",
+    "d": "Risk remains same throughout the project life cycle in case of stakeholders who believe in micromanagement. ",
+    "answer": "a",
+    "explanation": "A  This is an easy Problem which is unnecessarily trying to confuse the test takers. All the options look good. But, the real Problem is ‚”what stage of the life cycle, risk is highest”, which is at the beginning of your project. "
+  },
+  {
+    "question": "You are a project manager who is working with a big team of business analysts on a project. The business analyst lead reaches out to you to share a starting document, which will help them decompose the requirements into finer details. Which document did he ask for?",
+    "a": "Requirements Management Plan",
+    "b": "Stakeholder Engagement Plan",
+    "c": "Stakeholder Register",
+    "d": "Project Charter",
+    "answer": "d",
+    "explanation": " D Refer to PMBOK® Guide - Sixth Edition, Pg: 140. All of the four options are inputs to collect requirement process. However, the important point here is that they need a document that will help them decompose the requirements into finer details. Project Charter is the answer to their needs as it has high-level requirements, which will be decomposed into much more details. "
+  },
+  {
+    "question": "You can buy a software from a vendor for $210,000. However, you are looking into the renting option as well. The rent is divided into setup and monthly maintenance cost. The setup cost is onetime which is $10,000 and per month maintenance cost is $2,000. In how many months the buying option becomes better than renting? ",
+    "a": "99 months",
+    "b": "100 months",
+    "c": "101 months",
+    "d": "102 months",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK® Guide - Sixth Edition, Pg: 473. Buying Cost = $210,000. Let’s assume ‘X’ is the number of months in which the buying option becomes economical than the renting option. So 210,000 = 10,000 + 2000*x. 210,000 - 10,000 = 2,000*x. 200,000 = 2,000*x. X = 100 months. So, on 100 + 1 months renting will become expensive than buying. "
+  },
+  {
+    "question": "The most likely scenario in which this project can be completed is 15 days. If the team is affected by the holiday schedule, then the project will take 5 extra days. However, if the project manager convinces the team to do extra hours on a daily basis then the same project will take 5 less days in comparison to most likely scenario. Calculate the three point estimates.",
+    "a": "20 days",
+    "b": "15 days",
+    "c": "10 days",
+    "d": "18 days",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK® Guide - Sixth Edition, Pg: 201. Three Point estimates = (P + 4XM + O)/6 where P is the pessimistic time, M is the most likely time and O is the optimistic time. M = 15 days. P = 15 + 5 days = 20 days. O = 15 - 5 days = 10 days. Three Point estimates = (20 + 4 X 15 + 10)/6 = 90/6 = 15 days ."
+  },
+  {
+    "question": "In a quality control chart, the upper control limit is 8.5 and the lower control limit is 2.5. There are 13 data points that are within the control limits of 8.5 and 2.5. However, there are 7 data points that are between the upper control limit and the mean. What can you interpret from the current scenario?",
+    "a": "Do nothing. The data points are well within the range of upper control limit and lower control limit.",
+    "b": "Escalate to management as the process is out of control. This is determined as per the rule of seven.",
+    "c": "Cannot be determined.",
+    "d": "Out of control as the 14th point is not within the range of upper control limit and lower control limit.",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 304. The correct answer is that it cannot be determined. The Problem did not say that the 7 points were consecutive. And rule of seven is applicable to 7 consecutive points only. "
+  },
+  {
+    "question": "The team is planning to build the product internally. There is 60% probability that this will prove to be a successful venture delivering a profit of $100,000. However, if it is not success then the company will have to face a loss of $40,000. What is the EMV of the present scenario?",
+    "a": "$36,000",
+    "b": "36000.0",
+    "c": "$44,000",
+    "d": "44000.0",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 435. EMV = Probability XImpact = 60% X 100,000 - 40% X 40,000 = 60,000 - 16,000 = $ 44,000. "
+  },
+  {
+    "question": "You are reviewing the response to the RFP’s from potential vendors. Your team decided to select a supplier whose response matches the most with your requirements. However, before awarding the contract, the supplier account manager asks for $10,000 down payment. What should be your response as a project manager from buyer side?",
+    "a": "Refer/Consult the contract",
+    "b": "Cancel the contract",
+    "c": "Refer to Procurement Management Plan",
+    "d": "Refer/Consult the company policy",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK® Guide - Sixth Edition, Pg: 475. Organization may or may not provide the down payment. However, it would be better if you refer to the Procurement Management Plan to check whether it will be a possibility or not. Your first point of contact should be the plan and if you don’t get a reasonable response then organization policy. You cannot consult the contract as it is not signed yet ."
+  },
+  {
+    "question": "You are working with your team to decompose requirements into work packages. Which of the following cannot be a true statement while decomposing the requirements into more manageable components? ",
+    "a": "Decompose it until you can estimate it realistically. ",
+    "b": "Decompose it until you cannot further subdivide it.",
+    "c": "Decompose it until you have a well-defined deliverable.",
+    "d": "Decompose it until you have 8 levels.",
+    "answer": "d",
+    "explanation": " D Refer to PMBOK® Guide - Sixth Edition, Pg: 161. The options A, B and C can be correct. However, there is no rule that you have to decompose it until you are done dividing it into 8 levels. "
+  },
+  {
+    "question": "You did the knowledge transfer on one of your colleague’s projects. He told you that the project is doing well. This has been possible only because he was very strict with his team and he made sure that they are completing the work. Which process was the senior project manager performing?",
+    "a": "Control Quality",
+    "b": "Direct and Manage Project Work",
+    "c": "Control Scope",
+    "d": "Monitor and Control Project Work",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK® Guide - Sixth Edition, Pg: 90. Real Problem here is: which is the process that gets the work completed? And the work is completed in Direct and Manage Project Work process where deliverables are created. Rest of the options are given to confuse the test takers. "
+  },
+  {
+    "question": "The business analyst along with the moderator and recorder has setup a brainstorming session to come up with the requirements. Once they have a list of meaningful requirements, the team will vote to prioritize the requirements. Which tool is your business analyst using to collect the requirements? ",
+    "a": "Nominal Group Technique",
+    "b": "Affinity Diagram",
+    "c": "Focus Group",
+    "d": "Fist of Five",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 144. The keyword for Nominal Group Technique is brainstorming + voting, which is being done in this scenario. "
+  },
+  {
+    "question": "Customer has requested for a scope related change. But, your technical team is clueless on how to handle this change as it involves a new technology. You decide to consult new technology experts from outside the organization to provide their opinion. Which type of tool and technique did you use to find a solution? ",
+    "a": "Brain Writing",
+    "b": "Brainstorming",
+    "c": "Expert Judgment",
+    "d": "Focus group",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK® Guide - Sixth Edition, Pg: 118. The keyword in the Problem is “technology experts”, which is done in the Expert Judgment tool. "
+  },
+  {
+    "question": "You are in the final stages of the project. As per the customer, you have not completed the entire project scope. Because of which he is not accepting the deliverable. What should you do in such a scenario?",
+    "a": "Ignore and close the project as you are sure about the deliverable.",
+    "b": "Reach out to sponsor stating that customer is being unreasonable. ",
+    "c": "Validate the scope against the baseline.",
+    "d": "Reach out to your team to understand the root cause of the miss. ",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 163. What will be your first step in such a scenario? Option D can be eliminated as until and unless you confirm that you have missed few requirements, you won’t have considered this as a miss. The first thing you will probably do is to validate whether the customer is saying the right thing or not. "
+  },
+  {
+    "question": "Ron is a project manager. The project work is stalled due to an important discussion point, which has not been resolved yet. As per the vendor, one of the tasks that Ron is requesting to complete should not be part of the project. The project scope statement does not provide in depth details. Also, this project does not have a WBS because Alistair, who is the sponsor on the project, wanted to complete it without doing proper documentation. Who is at fault?",
+    "a": "Ron",
+    "b": "Vendor",
+    "c": "All the stakeholders",
+    "d": "Alistair",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 51. Ultimately it is the project manager’s responsibility to make sure that the project has proper documentation. Stakeholders, most of the times, will push to get the work done, however it is the project manager’sresponsibility to monitor it and say no when required. "
+  },
+  {
+    "question": "Which of the following is NOT a closing activity?",
+    "a": "Audit project success or failure.",
+    "b": "Finalize open claims.",
+    "c": "Confirm formal acceptance of sellers work.",
+    "d": "Make sure CCB is in place.",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 123. Determination of CCB is done in the early phases of the project, which will be used throughout the project. In the closing stage, you have already passed through the stage for having a CCB. "
+  },
+  {
+    "question": "A project is in the execution stage. You collected the requirements using an agile technique where you navigated through a series of images. Which technique you might have used while collecting the requirements?",
+    "a": "Affinity Diagrams",
+    "b": "Mind Mapping",
+    "c": "Storyboarding",
+    "d": "Context Diagrams",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 147. Storyboarding is a popular prototyping agile technique that uses images and/or provides illustrations. "
+  },
+  {
+    "question": "You are in the process of controlling the project costs. Based upon your earned value analysis report, earned value of your project is less than both actual cost and planned value. What can you interpret from this scenario?",
+    "a": "The project is under planned cost and is running slower than expected. ",
+    "b": "Project budget needs to be updated.",
+    "c": "The project is above planned cost and is running slower than expected. ",
+    "d": "The project is above planned cost and is running faster than expected. ",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 267. Both CV and SV are negative which means that project is over budget (above planned cost) and behind schedule (running slower than expecteOpti',onD:'. "
+  },
+  {
+    "question": "You are in the process of selecting a vendor for your project. You are outsourcing one of the modules to an outside vendor, since your company does not have the right set of skills to complete the work on that module. It is your responsibility to select the best vendor for this job. What should be your next step or how can you achieve that?",
+    "a": "Review the lessons learned document from previous similar project.",
+    "b": "Conduct a vendor performance review.",
+    "c": "Evaluate the proposals received from all the potential vendors.",
+    "d": "Work with your team to do a make vs. buy analysis to make sure whether you really require a vendor on this project or not.",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 482. You are in the process of selecting a vendor, which means you are in Conduct Procurement Process. Option D cannot be the answer, as you have passed that stage. Option B cannot be the answer, as you have not selected the vendor yet. Option A doesn’t make any sense as the Problem didn’t say anything about previous similar project. Only option left is option C where you will evaluate the proposals received from potential vendors. "
+  },
+  {
+    "question": "Recently you were given a chance to attend a project management training. The cost of the training will be taken care by the PMO department. Since you were the only one selected for this training, your colleagues are getting jealous. PMO director reached out to you to share the training material with your colleagues. What should you do? ",
+    "a": "Make the copies of the course material and distribute it to your team members.",
+    "b": "PMO director should have selected multiple people for the training. It’s obvious that other people would be jealous",
+    "c": "Scan the course material and upload it on company’s repository for easy access. ",
+    "d": "Refuse the request.",
+    "answer": "d",
+    "explanation": "D   Refer to PMBOK® Guide - Sixth Edition, Pg: 3. It would be unethical on your part to share the material with others. If there is a real requirement, either the PMO department  should sponsor for the training or the colleagues should pay for their own training. If you selected option B, then keep in mind that this is not being asked in the Problem. "
+  },
+  {
+    "question": "You are in the process of finalizing the project budget. Your sponsor has reached out to you to make sure that you are taking into consideration “known unknowns” and “unknown unknowns”. Which tools and technique will help you to achieve that?",
+    "a": "Earned Value Analysis",
+    "b": "Trend Analysis",
+    "c": "You should not add ‚”known unknowns” and “unknown unknowns” cost as a part of project budget. ",
+    "d": "Reserve Analysis",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 252. Read the Problem carefully: You are in the process of finalizing the project budget, which means you are in Determine Budget Process. Options A & B are tools and techniques of “Control Costs” process. Only option D is part of Determine Budget Process. Keep in mind, “known unknowns” is known as contingency reserve and “unknown unknowns” are known as management reserve. "
+  },
+  {
+    "question": "The sponsor on your project is particularly interested in reviewing the roles of different stakeholders on the project. As a project manager, you should direct the stakeholder to which document?",
+    "a": "Stakeholders Engagement Assessment Matrix ",
+    "b": "Stakeholder Register",
+    "c": "Project Team Directory",
+    "d": "None of these",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 514. Stakeholder roles are defined in Stakeholder Register. "
+  },
+  {
+    "question": "You are managing a project in a global organization. One of the projects, which you recently got, requires a very specific skill set that is impossible to find in your base location. However, you don’t have a positive experience working with virtual teams in the past. Which of the following is not an issue with virtual teams?",
+    "a": "Teams are unable to communicate because of different time zones.",
+    "b": "Teams wanting to work from home. ",
+    "c": "Teams are unable to communicate because of language barriers. ",
+    "d": "Cultural differences.",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 333. Teams wanting to work from home is not an issue as they are already virtual, but rest of the options can be an issue with virtual teams. "
+  },
+  {
+    "question": "our project has been hit by lot of uncertainties. The project manager has recommended evaluating the average financial impact of these uncertainties. The team will take into consideration both good and bad scenarios and will come up with a number in dollar amount. What method will be best in this scenario?",
+    "a": "Earned Value Analysis",
+    "b": "Forecasting",
+    "c": "Reserve Analysis",
+    "d": "Expected Monetary Value",
+    "answer": "d",
+    "explanation": " D   Refer to PMBOK® Guide - Sixth Edition, Pg: 435. Expected Monitory Valueanalysis helps us calculate the average financial impact of an uncertainty. Both probability and impact are taken into consideration. "
+  },
+  {
+    "question": "our colleague reaches out to you to understand the purpose of Responsibility Assignment Matrix (RAM). The sponsor on his projects is using the term RAM a lot. What are the two important factors in Responsibility Assignment Matrix?",
+    "a": "Relationship between work packages and project team members.",
+    "b": "Relationship between identified risks and their mitigation plans",
+    "c": "Relationship between deliverables and their associated costs.",
+    "d": "Relationship between causes of the issues and their respective effects on the project. ",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 317. RAM defines which resource is responsible for which work package and that is option A. "
+  },
+  {
+    "question": "you have setup an internal meeting with the team to undergo the project estimates. You plan to use the three-point estimation technique for few activities. However, one of your team members recommends a way in which they can ignore the three-point estimates. Which technique it might be?",
+    "a": "Normal Distribution",
+    "b": "Beta Distribution",
+    "c": "Cumulative Distribution",
+    "d": "Triangular Distribution",
+    "answer": "c",
+    "explanation": " C  Normal, Beta and Triangular distribution all three use three-point estimates. Only cumulative distribution doesn’t use the three-point estimates. PMBOK®, has not mentioned about this in much detail. However, this Problem is important from actual exam perspective. "
+  },
+  {
+    "question": "you are about to close the project when one of your stakeholders reaches out to you to help him define the risk categories on your project. Which document/plan can help you in this scenario?",
+    "a": "Lessons Learned Register",
+    "b": "Risk Report",
+    "c": "Risk Register",
+    "d": "Risk Management Plan",
+    "answer": "d",
+    "explanation": " D   Refer to PMBOK® Guide - Sixth Edition, Pg: 405. You can also find risk categories in Risk Register. However, they are defined in Risk Management Plan. "
+  },
+  {
+    "question": "you are working on a software development project. You have instructed your tester to do different types of testing to make sure that product is fully functional. You are pushing them to do 1 new type of testing. This extra testing is not required; however, it will be good to have. What type of dependency relationship is this?",
+    "a": "Start to Finish Relationship",
+    "b": "External dependency",
+    "c": "Soft Logic",
+    "d": "Mandatory dependency",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 191. “Good to have” is an example of discretionary dependency also known as soft logic. "
+  },
+  {
+    "question": "you are a seller side project manager who is preparing for replying to an RFP. Your company meets all the requirements except one as stated in the RFP. The requirement states that the seller organization needs to be in business for at least 15 years and your company is in business from last 13 years. What should be your response?",
+    "a": "Show them how you are the market leader in this product.",
+    "b": "Since that column is not mandatory, do not fill the required information. Instead tell them about it when you meet in person.",
+    "c": "Since you are only short by 2 years, then this should not matter.",
+    "d": "Provide them with the correct information in the response to the RFP. ",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 3. As per PMI Code of ethics and professional responsibility, it is your job as a project manager to provide correct information. "
+  },
+  {
+    "question": "project stakeholders requested for scope related changes to the project. These changes will result into change in scope and time. After discussing with the team, the project manager discussed the potential impacts of these changes with the stakeholders. If these impacts result into some issue, what is the best method a project manager can use to resolve it?",
+    "a": "Compromise",
+    "b": "Smooth",
+    "c": "Withdraw",
+    "d": "Collaborate",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 349. The best method to resolve any issues is Collaborate AKA Confrontation and Problem Solve. The term Confrontation is not given in PMBOK® but it is the other name for this conflict resolution technique. "
+  },
+  {
+    "question": "Ricky works for a small company. Each and every group in the company is represented by a functional manager. Ricky has to request for resources from functional managers every time. Both project managers and functional managers share the responsibility of project priorities. What type of organization is this? ",
+    "a": "Weak Matrix",
+    "b": "Balanced Matrix",
+    "c": "Composite Matrix",
+    "d": "Simple or Organic",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 47. Out of B and D, B was a better choice. In balanced matrix, both functional and project managers share the responsibility. "
+  },
+  {
+    "question": "Team is in the process of identifying risks for the project. After discussing with several stakeholders, you updated the Risk Register with all the relevant details. Which stage are you currently is",
+    "a": "You are in the initiation phase.",
+    "b": "You are in the execution phase.",
+    "c": "You are in the planning phase.",
+    "d": "Cannot be determined.",
+    "answer": "d",
+    "explanation": " D   Refer to PMBOK® Guide - Sixth Edition, Pg: 409. It can be any stage as risks are identified throughout the project. "
+  },
+  {
+    "question": "Tim is managing a construction project. The total duration of the project is 24 months. After 6 months, it was determined that the assumptions documented in the Project Charter are no longer valid. This has resulted into change of plan. Which of the following formula will you use to determine the estimate at completion? ",
+    "a": "EAC = AC + Bottom-up ETC",
+    "b": "EAC = BAC/CPI",
+    "c": "EAC = AC + [BAC - EV]/ [(CPI X SPI)]",
+    "d": "EAC = AC + BAC - EV",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 267. You use AC + Bottom-up ETC formula when the initial plan is no longer valid. "
+  },
+  {
+    "question": "You are a project coordinator. The supplier side project manager reached out to you to recommend a change in the proposal that will greatly benefit the end product. You believe the same but your PM thinks otherwise. He told you to continue with the existing project plan. What conflict resolution technique did the project manager use?",
+    "a": "Reconcile",
+    "b": "Smooth",
+    "c": "Avoid",
+    "d": "Direct",
+    "answer": "d",
+    "explanation": " D   Refer to PMBOK® Guide - Sixth Edition, Pg: 349. The project manager forced you to ignore the change, which is conflict resolution technique Force/Direct. It is not Avoid/Withdrawal because in that the PM won’t even discuss about the issue and simply ignore it. "
+  },
+  {
+    "question": "There are two paths in a network diagram. Path 1: Start -->A-->B-->C-->Finish; Path 2: Start -->A-->D-->E-->Finish. Durations of A, B, C, D and E are 10, 5, 7, 12 and 4 respectively. What is the slack for activity E? ",
+    "a": "3.0",
+    "b": "4.0",
+    "c": "2.0,",
+    "d": "4.0",
+    "answer": "c",
+    "explanation": " C   Path 1: Start -->A-->B-->C-->Finish = 10 +5 +7 = 22 Path 2: Start -->A-->D-->E-->Finish.= 10 + 12 + 4 = 26. Action E is on path 2, which is on critical path. Float/Slack on critical path is always 0. "
+  },
+  {
+    "question": "There are two paths in a network diagram. Path 1: Start-->A-->B-->C-->Finish; Path 2: Start -->A-->D-->E-->Finish. Durations of A, B, C, D and E are 10, 5, 7, 12 and 4 respectively. What is the slack for activity C? ",
+    "a": "3.0",
+    "b": "-4",
+    "c": "0.0",
+    "d": "4.0",
+    "answer": "d",
+    "explanation": "D  Path 1: Start -->A-->B-->C-->Finish = 10 +5 +7 = 22. Path 2: Start -->A-->D-->E-->Finish = 10 + 12 + 4 = 26. Action C will have a float of 26-22, which is 4. It’s asimple diagram with no need to calculate the ES, EF, LS and LF. You can calculate directly."
+  },
+  {
+    "question": "You work as a project manager for a big team. Initially there were lot of issues and conflicts among the team members. However, now the team is working as a well-organized unit and even if there is any issue or problem, they themselves work it out. You are happy with the way things are progressing. In which stage of team development are you?",
+    "a": "Storming",
+    "b": "Performing",
+    "c": "Norming",
+    "d": "It doesn’t matter. It’s PM’s job to make sure that he is constantly monitoring his team.",
+    "answer": "b",
+    "explanation": "B    Refer to PMBOK® Guide - Sixth Edition, Pg: 338. In performing stage, team works as a well-organized unit. Option D is just trying to confuse you. This is not asked in the Problem."
+  },
+  {
+    "question": "You are in the closing stage of a global project. Your stakeholders are located in different countries, having different backgrounds, which often leads to communication problems. Which interpersonal and team skill technique would have helped you the most for global stakeholders?",
+    "a": "Communication Style Assessment",
+    "b": "Political Awareness",
+    "c": "Cultural Awareness",
+    "d": "Communication Competence",
+    "answer": "c",
+    "explanation": " C   Refer to PMBOK® Guide - Sixth Edition, Pg: 376. Since they are global stakeholders and have different backgrounds, it is very much likely that these stakeholders are culturally different too. So understanding the differences between these individual/groups would help you the most. Option D is not an interpersonal and team skills. "
+  },
+  {
+    "question": "Your team is in a deadlock situation where they are not able to decide how to proceed ahead. Not everyone in the room is agreeing to a single solution. Most of the people have different opinions and viewpoints. Which decision making technique were you trying to use to come to a solution? ",
+    "a": "Unanimity",
+    "b": "Majority",
+    "c": "Autocratic Decision Making",
+    "d": "Fist of Five",
+    "answer": "a",
+    "explanation": " A   Refer to PMBOK® Guide - Sixth Edition, Pg: 144. The keyword in the Problem is that not everyone is agreeing to a single solution, which means that the team is using Unanimity technique where all members collectively have to take unanimous decision. "
+  },
+  {
+    "question": "Your sponsor wants you to use a hybrid approach on your project where you will be using agile methodology for execution stage of the project. You will divide these iterations into cycles of 2-3 weeks. What could this iteration be called?",
+    "a": "Rolling Wave Planning",
+    "b": "Epics",
+    "c": "User Stories",
+    "d": "Sprints",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 216. In agile release planning, you divide the iterations into 2-3 weeks of sprints. "
+  },
+  {
+    "question": "Larry is a project manager in the organization. He has setup the user acceptance testing call in next 2 weeks. While doing the weekly project status meeting, the project was hit by an unidentified risk that could significantly impact the project budget. What should Larry do now?",
+    "a": "Take an insurance to transfer the risk.",
+    "b": "Immediately work with a team to setup a risk mitigation plan.",
+    "c": "The first step would be to include the issue in the issue log.",
+    "d": "Reach out to project stakeholders and inform them immediately.",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 3. As per PMI’s code of ethics and professional responsibility, your first step would be to inform the stakeholders immediately. "
+  },
+  {
+    "question": "Michelle is assigned as a new project manager to a project which is about to be completed soon. The project has more than 100 stakeholders and is currently running on a very aggressive project schedule. What should Michelle do to communicate to all stakeholders?",
+    "a": "Since the stakeholders are too many, request for an additional project manager or a project coordinator. ",
+    "b": "Make sure to identify all the stakeholders on the project.",
+    "c": "Immediately send a status report to all stakeholders.",
+    "d": "Classify the stakeholders into groups to send the required communication.",
+    "answer": "d",
+    "explanation": " D   Refer to PMBOK® Guide - Sixth Edition, Pg: 379. Real Problem is how can Michelle communicate. And the answer to that Problem is option C and D only. However, classifying the stakeholders into groups will be more practical approach as the number of stakeholders are too many. "
+  },
+  {
+    "question": "You are in the closing stage of an agile project. In your lessons learned meeting, stakeholders really liked one of the decision making/voting technique introduced by you. Which technique it might be?",
+    "a": "Autocratic Decision Making",
+    "b": "Fist of Five",
+    "c": "User Stories",
+    "d": "Product Backlog",
+    "answer": "b",
+    "explanation": " B   Refer to PMBOK® Guide - Sixth Edition, Pg: 203. The Problem is about decision making technique, which could be either A or B. Autocratic decision making technique is not liked much by stakeholders. So, it is definitely Fist of Five. "
+  },
+  {
+    "question": "You have very good relations with buyer side project manager. The buyer project manager has informally asked you to make some scope related changes. These are minor changes and if you do this, you will have a higher probability to get additional contracts. What should be your next step?",
+    "a": "Reach out to your manager and tell him that since these are small changes you should go ahead and make the changes. ",
+    "b": "Tell the project manager to formally make a change request.",
+    "c": "Agree to manager’s request since changes are small. ",
+    "d": "Refuse to do the change. This will help you maintain credibility. ",
+    "answer": "b",
+    "explanation": " B   Refer to PMBOK® Guide - Sixth Edition, Pg: 113. The safest option is to make sure that you follow the change request process. "
+  },
+  {
+    "question": "You have divided your project into different phases. For each phase, you will get different set of resources. Now you are in execution phase and some of the resources that were promised to you from the functional manager had to be moved to other high priority projects. What should be your next step?",
+    "a": "Baseline the project without the resources.",
+    "b": "Setup a team meeting and request your team members to work extra hours.",
+    "c": "Discuss this impact with the stakeholders.",
+    "d": "Fast tracking is the only option available.",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 3. As per PMI code of ethics and professional responsibility, the first thing would be to inform the customer and then you will take any other necessary step. "
+  },
+  {
+    "question": "The sponsor has just signed the Project Charter and has requested you to manage the project. The first thing you plan to do is to identify the key stakeholders on the project. Which of the following will be your topmost priority at this moment?",
+    "a": "Gather the lessons learned from previous similar projects.",
+    "b": "Different types of change control procedures to be used on the project.",
+    "c": "Controlling the financial expenditure on the project. ",
+    "d": "Controlling the unnecessary negative risks that can hit your project.",
+    "answer": "a",
+    "explanation": " A   Refer to PMBOK® Guide - Sixth Edition, Pg: 512. It’s too early to think aboutoptions B, C and D. The first important thing in initiation stage would be to review the lessons learned from previous similar projects. This is referring to document analysis tool to identify stakeholders process. "
+  },
+  {
+    "question": "John is building an automated tool for the customer. He is also making sure that he captures the requirements from all the stakeholders and doesn’t miss anyone. What tool should John use to make sure he categorizes/classifies all the identified stakeholders on the project?",
+    "a": "Analytical Techniques",
+    "b": "Stakeholder Engagement Assessment Matrix",
+    "c": "Interpersonal/Management Skills",
+    "d": "Power Influence Grid",
+    "answer": "d",
+    "explanation": " D   Refer to PMBOK® Guide - Sixth Edition, Pg: 512. The Problem is to categorize/classify the identified stakeholders, which is done in Identify Stakeholders Process. Power influence grid is the only option from Identify Stakeholder Process. Rest of the tools are from other processes of Stakeholder Management knowledge area. "
+  },
+  {
+    "question": "You recently heard the news from your sponsor that project is being cancelled. Which process will help you document the work that was completed on the project?",
+    "a": "Validate Scope",
+    "b": "Close Project or Phase",
+    "c": "Direct and Manage Project Work",
+    "d": "Control Quality",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 121. Close project or phase helps you document the planned work completed on the project. It also documents the extent to which this work was completed. This is always done in early termination of projects. "
+  },
+  {
+    "question": "You have identified the project risks. Based upon customer’s recommendation, you have also prioritized the risks based upon the probability and impact. However, the customer is not convinced and wants you to reprioritize the project risks with some more information and analysis. Which process will you perform next?",
+    "a": "Perform Qualitative Risk Analysis",
+    "b": "Plan Risk Responses",
+    "c": "Perform Quantitative Risk Analysis",
+    "d": "Monitor Risks",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 428. Keywords in the Problem are “reprioritize the project risks”. You have already prioritized the project risks once, which means you did perform Qualitative Risk Analysis and to reprioritize you need to perform Quantitative Risk Analysis now. "
+  },
+  {
+    "question": "You are a project manager from buyer side who is reviewing the deliverables developed by the seller organization. If you don’t remember the quality specifications of the deliverable, which document can help you in this scenario?",
+    "a": "Procurement Documents",
+    "b": "Contracts",
+    "c": "Procurement Statement Of Work",
+    "d": "Procurement Plan",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 477. SOW defines the quality levels and specifications required to be accomplished in the deliverable. "
+  },
+  {
+    "question": "Customer has reached to you to provide a document that will help him understand the relation between requirements and tests scenarios, which the team will define later. Which of the following documents is the customer requesting for? ",
+    "a": "Requirements Traceability Matrix",
+    "b": "Quality Control Mea',suremens",
+    "c": "Project Scope Statemet",
+    "d": "WBS",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 149. Requirements Traceability Matrix is a document that helps trace the requirements back to the test scenarios. "
+  },
+  {
+    "question": "You are in the process of creating a document which will clearly state about the scope items which would be done as a part of the project and the scope items which will not be done as a part of the ",
+    "a": "Define Scope",
+    "b": "Collect Requirements",
+    "c": "Create WBS",
+    "d": "Plan Scope Management",
+    "answer": "c",
+    "explanation": "  C  Refer to PMBOK® Guide - Sixth Edition, Pg: 154. Problem states that you are in the process that talks about in-scope and out of scope items. This is done in Define Scope Process and the next process to be done is Create WBS. "
+  },
+  {
+    "question": "Your company is bidding for a contract and you have been asked to make sure that your Stakeholder Register is always kept up to date. Each set of stakeholders have their own communication requirements and you have to make sure to properly document that. Which document will have that information?",
+    "a": "Communication Management Plan",
+    "b": "Stakeholders Engagement Assessment Matrix",
+    "c": "Stakeholder Register",
+    "d": "Stakeholder Engagement plan",
+    "answer": "a",
+    "explanation": " A   Refer to PMBOK® Guide - Sixth Edition, Pg: 377. Communication Management Plan has stakeholder communication requirements. Stakeholder Engagement Plan is about strategies which will be used to engage stakeholders. "
+  },
+  {
+    "question": "You have received several proposals from vendors and you are in the process to award the contract. While comparing two proposals from bidders, you found that one is low and the other is significantly high. Which tool can you choose to resolve this kind of scenario? ",
+    "a": "Expert Judgment",
+    "b": "Independent Estimates",
+    "c": "Advertising",
+    "d": "Procurement Negotiations",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 487. Though independent estimates could be used in this scenario but it is not a tool. Taking help from expert could prove useful in this scenario. "
+  },
+  {
+    "question": "The total budget of the project is $100,000. You have completed 40% of work until now and spent $30,000. However, as per your senior manager, you should have completed 60% of work until now. Assuming the senior manager is correct, what is the project status Under Budget, Behind Schedule",
+    "a": "Under Budget, Ahead of Schedule",
+    "b": "Over Budget, Behind Schedule",
+    "c": "Over Budget, Ahead of Schedule",
+    "answer": "a",
+    "explanation": "A   Refer to PMBOK® Guide - Sixth Edition, Pg: 267. BAC: $100,000 EV= The work actually completed = 40% of BAC = $40,000 PV= The work you should have completed till now = 60% of BAC = 60,000. AC= $30,000. CV= EV - AC= 40,000 - 30,000 = $10,000 which is positive. This means it is under budget. SV = EV - PV = 40,000 - 60,000 = -20,000 which is negative. This means you are behind schedule."
+  },
+  {
+    "question": "You are in executing stage of a very large project which involves multiple departments. Each of the department head is interested in seeing the work packages or project activities that are assigned to their respective departments on the project. Which of the following option is best suited for their needs? ",
+    "a": "RACI chart",
+    "b": "Text-oriented Formats",
+    "c": "RAM Chart ",
+    "d": "Organizational Breakdown Structure",
+    "answer": "d",
+    "explanation": " D   Refer to PMBOK® Guide - Sixth Edition, Pg: 316. It’s the organizationalbreakdown structure where the project activities or work packages are arranged as per the organization’s existing departments, units or teams. "
+  },
+  {
+    "question": "You are a buyer side project manager. You have multiple suppliers working on your project. Most of the suppliers have exceeded the allowable cost, which was stated in the contract. How could the PM have prevented this situation?",
+    "a": "Forecasting",
+    "b": "Plan Procurements",
+    "c": "Make or Buy Analysis",
+    "d": "Source Selection Criteria",
+    "answer": "b",
+    "explanation": " B   Refer to PMBOK® Guide - Sixth Edition, Pg: 471. Clearly, the problem is with the contract. If you would have chosen a different type of contract, this situation could have been avoided. Type of contract is chosen in Plan Procurement Process. "
+  },
+  {
+    "question": " number of risks were identified on the project on account of which it doesn’t look like this project would meet the organization’s objective. You create a document and share it with the sponsor to close this project. Sponsor accepted your proposal to close down the project. Which risk response strategy was used?",
+    "a": "Accept",
+    "b": "Avoid",
+    "c": "Transfer",
+    "d": "Mitigate",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK® Guide - Sixth Edition, Pg: 443. Did you select ‘accept the risk’? Then your answer is incorrect. In accept, you accept the risk and deal with it. Over here you are not dealing with risks at all, instead you just avoided the risk by not doing the project. "
+  },
+  {
+    "question": "Aevin is a project manager who is managing a global project. He has setup a meeting inviting all of his team members including overseas members. He notices that most of his team members are busy typing on their laptops and not concentrating enough on the meeting agenda. Which tool would have avoided this kind of situation? ",
+    "a": "Ground Rules",
+    "b": "Co-Location",
+    "c": "Political Awareness",
+    "d": "Training",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 320 and 528. The project manager was clearly missing the Ground Rules tool. If Kevin would have set a ground rule of not using laptops during the meeting, then he wouldn’t have faced such a problem. All this information is given in Team Charter "
+  },
+  {
+    "question": "You are working with stakeholders to improve the design of your product. Your stakeholders are particularly interested in one specific aspect (durability) of product. Which technique can help you in this scenario?",
+    "a": "Design for X",
+    "b": "Matrix Diagrams",
+    "c": "Problem Solving",
+    "d": "Scatter Diagrams",
+    "answer": "a",
+    "explanation": " A   Refer to PMBOK® Guide - Sixth Edition, Pg: 295. Design for X is a technique in Manage Quality Process where you work on one particular aspect of design. This 'X' can be substituted by any aspect of product development. In this case, it was durability. "
+  },
+  {
+    "question": "You are a buyer side project manager, working with the seller organization on one of your projects. You are in the middle of the project execution when suddenly there is a new technology in the market that will have a significant impact on the product being developed as part of your project. What should you do?",
+    "a": "Revise the Project Charter.",
+    "b": "Revise the Project Management Plan.",
+    "c": "Cancel the project.",
+    "d": "Perform Economic Feasibility Study.",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 29. Think about the first step you will take in such a scenario. Option C is an extreme step, so you can eliminate it. Option A and B can happen but this will not be the first step. The first step will be to do some kind of impact analysis to understand whether it is still feasible/productive to complete the project and then you will take the decision. "
+  },
+  {
+    "question": "You are working on a small internal project. The primary purpose of the project is to introduce a new product for the sales and marketing team which can help them manage their portfolio. Which of the following terms defines the work needed to complete the installation of this product, service, or result? ",
+    "a": "Product scope",
+    "b": "Project scope ",
+    "c": "Scope creep",
+    "d": "Portfolio Scope",
+    "answer": "b",
+    "explanation": " B   Refer to PMBOK® Guide - Sixth Edition, Pg: 131. The work needed to complete a product, service or result is known as project scope. The features of the product will come under product scope and how you will get to those features is known will come under project scope. "
+  },
+  {
+    "question": "In the weekly team meeting, one of your team members recommended an additional feature which should be done as a part of the project. However, you want the team to concentrate on current scope. The team member without informing anyone went ahead and developed that additional feature for the customer. This is an example of? ",
+    "a": "Gold plating",
+    "b": "Scope validation",
+    "c": "Scope management",
+    "d": "Change control",
+    "answer": "a",
+    "explanation": " A   Without following the proper change control, the team member did the Gold Plating which means adding additional features that were not in the project scope. The term Gold Plating is not given in PMBOK® 6th edition. "
+  },
+  {
+    "question": "You are in the planning stage for selecting a vendor for the organization. Many of your colleagues reached out to you with their recommendations. You want to make sure that personal bias is completely eliminated from this vendor selection process. Which of the following is the best option in order to achieve that?",
+    "a": "Bidder Conferences",
+    "b": "Source Selection Analysis",
+    "c": "Advertising",
+    "d": "Expert Judgment",
+    "answer": "b",
+    "explanation": "B    Refer to PMBOK® Guide - Sixth Edition, Pg: 473. A weighting system is part of source selection analysis, which will rank all the proposals by weighted evaluation scores. Once it is ranked, you can select the best option available. Many answer options are part of executing process group but we are still in planning stage. "
+  },
+  {
+    "question": "You took a project from other project manager who left the organization. You notice that the project is in execution stage and the communication with stakeholders is not going well. You want to go back and refer to a document that will help you to check the strategies being used to engage stakeholders on the project. What should you do next?",
+    "a": "Review the Communication Management Plan",
+    "b": "Review the Stakeholders Engagement Assessment Matrix",
+    "c": "Review the Stakeholder Register",
+    "d": "Review the Stakeholder Engagement plan",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 522. Stakeholder Engagement plan is about strategies which will be used to engage stakeholders. "
+  },
+  {
+    "question": "You work as a technical resource. Recently you have been promoted to project manager position. As a first assignment, you have been given a project for the duration of 2 years. You are not sure whether you should accept it or not because you will be relocating to a different city in the next 1 year. What should you do? ",
+    "a": "It would be unethical if you accept the project so your best approach would be to reject it.",
+    "b": "Relocation is a common scenario in corporate world. You should not shy away from taking on a new opportunity. ",
+    "c": "Accept the position and do your best to make sure you complete the project in 1 year.",
+    "d": "Immediately inform your relocation plans to the management and let them take the decision. ",
+    "answer": "d",
+    "explanation": " D   Refer to PMBOK® Guide - Sixth Edition, Pg: 3. As per PMI code of ethics and professional responsibility, it would be unethical of you if you don’t inform the management about your relocation plans. Option A is too extreme. "
+  },
+  {
+    "question": "You are a functional manager in the quality department of the organization. PMO project manager reached out to you to allocate a resource who specializes in determining if the process is within acceptable limits or not. Which resource will you recommend? ",
+    "a": "Kevin who specializes in Ishikawa diagram technique.",
+    "b": "Roger who specializes in Histogram technique.",
+    "c": "John who specializes in control charts technique.",
+    "d": "David who specializes in PERT chart technique.",
+    "answer": "c",
+    "explanation": " C   Refer to PMBOK® Guide - Sixth Edition, Pg: 304. Correct answer is John because the Problem is referring to acceptable limits, which is an example of control chart technique. "
+  },
+  {
+    "question": "Flenn is a project manager who is managing a transition project. Jim is a technical SME who is helping Glenn make sure that transition is smooth. Brian is the project sponsor who is providing all the support needed. Kathy is in charge of the new location where data servers will be stationed. Out of all the stakeholders, who should be controlling the project? ",
+    "a": "Glenn",
+    "b": "Jim",
+    "c": "Brian",
+    "d": "Kathy",
+    "answer": "a",
+    "explanation": " A   Refer to PMBOK® Guide - Sixth Edition, Pg: 51. Once the project manager is assigned on the project, it should be his/her responsibility to make sure that the project is successful. In this case, Glenn should be responsible to control the project. Rest of the details are there to confuse the test taker. "
+  },
+  {
+    "question": "You are a project manager having several different teams which are helping on your project. In one of the critical problems, quality team took some steps to make sure that the problem is resolved. The quality team did not keep you in loop. As a project manager, what should be your first step?",
+    "a": "Accept and continue",
+    "b": "Change request",
+    "c": "Reject and continue",
+    "d": "Wait till you see the results",
+    "answer": "b",
+    "explanation": " B   Refer to PMBOK® Guide - Sixth Edition, Pg: 113. The quality team should have kept you in loop. However, corrective action should be to immediately request a change to analyze the impact of the steps taken by quality team. "
+  },
+  {
+    "question": "Your project team members are constantly arguing with each other over small issues. The project schedule is getting affected now, so you communicated to your team that if they are not concentrating on work and continue to have conflicts, you would have to take stern steps of firing them from their jobs. As a project manager, which conflict resolution technique did you use?",
+    "a": "Force/Direct",
+    "b": "Withdrawal/Avoid",
+    "c": "Punishment/Compromise",
+    "d": "Mitigation/Accommodate",
+    "answer": "a",
+    "explanation": "  A   Refer to PMBOK® Guide - Sixth Edition, Pg: 349. You used forcing technique to force your decision on the team. If you selected the Punishment option, then that is incorrect, as punishment is not a conflict resolution technique. It is a form or power. "
+  },
+  {
+    "question": "You completed a big project for the customer. The customer is very happy with your team’s performance. The customer is planning to give your company another project and wants to make sure that the same team members are allocated to the project, by which you have no problem. What type of tool and technique was being used in the Problem? ",
+    "a": "Pre-assignment",
+    "b": "Negotiation",
+    "c": "Acquisition",
+    "d": "Organizational Theory",
+    "answer": "a",
+    "explanation": " A    Refer to PMBOK® Guide - Sixth Edition, Pg: 333. If you selected any option other than A then this means that you are over analyzing. It’s a simple, straight forward Problem which states that customer liked your work and wants to use the same resources. You and your team members were pre-assigned to customer’s next project. This is a very common scenario in real world. "
+  },
+  {
+    "question": "You work as a project manager in an organization that specializes in developing medical instruments. One of the local non-profit organizations reached out to you asking for donating some medical instruments that are no longer of any use for you. What is the best way to respond to that situation?",
+    "a": "Giving donations is a good practice. You should go ahead and donate. ",
+    "b": "Don’t donate anything as your organization is a ‘for profit’ organization.",
+    "c": "Donate only the instruments which are no longer used. Don’t donate anything extra. ",
+    "d": "Talk to your senior management about the request.",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 3. Your best option would be to talk to the management about the request and then take a decision whether to accept or reject the request. "
+  },
+  {
+    "question": "You are a buyer side project manager and have given a contract to a small startup company. In the middle of the project, supplier reported to you that he won’t be able to deliver all the deliverables which are required to be completed as a part of this project. What could have been done differently to prevent this type of situation?",
+    "a": "More Stringent/Strict Selection Criteria.",
+    "b": "Performing procurement reviews regularly.",
+    "c": "Reviewing the agreement regularly.",
+    "d": "Giving the contract to more experienced vendor.",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 478. Option B and C wouldn’t have helped in this scenario as they are done once the contract is awarded. As far as option A and D are concerned, it is not necessary that more experienced vendor would have done a better job. However, if the selection criteria were stricter, then automatically the ineligible vendors would have been eliminated. "
+  },
+  {
+    "question": "Pessimistic time to complete an activity on a project is 20 days. Realistic time to complete the same activity is 15 days and the best-case scenario to complete it is 10 days. What is the Three Point Estimates and standard deviation of the activity?",
+    "a": "14 days, .6",
+    "b": "15 days, 1.6",
+    "c": "16 days, 2.6",
+    "d": "17 days, 3.6",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 245. PERT = (P + 4 X M + O)/6 where P is pessimistic time, M is most likely/realistic time and O is optimistic time. P = 20 days, M = 15 days and O = 10 days. PERT = (20 + 4 X 15 + 10)/6 = 90/6 = 15 days. Standard Deviation = (P-O)/6 = (20 -10)/6 =10/6 = 1.66 "
+  },
+  {
+    "question": "Taylor is a very high profile stakeholder on the project. He has high authority in the project but is really not concerned much about the day-to-day activities of the project work. In which category would you put Taylor?",
+    "a": "Keep Satisfied",
+    "b": "Monitor",
+    "c": "Keep Informed",
+    "d": "Manage Closely",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 512. Stakeholders with high authority and low concern should always be kept satisfied on the project. PMBOK® 6th edition does not have the figure that clearly explains this topic. Refer to our stakeholder management video, as this topic is very important from exam perspective. "
+  },
+  {
+    "question": "Calculate the total duration of an activity where early start for that activity is 4 days, late start is 10 days and late finish is 20 days.",
+    "a": "9 days",
+    "b": "10 days",
+    "c": "12 days",
+    "d": "11 days",
+    "answer": "d",
+    "explanation": " D   Refer to PMBOK® Guide - Sixth Edition, Pg: 211. LS = 10 days. LF = 20 days. LF - Duration + 1 = LS. 20 - Duration + 1 = 10. 21 - 10 = Duration. Duration = 11 days "
+  },
+  {
+    "question": "Due to reorg, your organization has decided to cancel some of the projects. Unfortunately, your project has been selected to be cancelled and the sponsor informed you about the decision. The team's morale is very low. They reached out to you expressing their concern of losing jobs. As a project manager, what should you do?",
+    "a": "Talk to sponsor to revoke his decision. ",
+    "b": "Request the team members to continue the work until official letter is received.",
+    "c": "Request the team members to update the lessons learned and organizational process assets. ",
+    "d": "Award the deserving team members with rewards. ",
+    "answer": "c",
+    "explanation": "C   Refer to PMBOK® Guide - Sixth Edition, Pg: 121. It’s an executive level decision that has already been taken. So option A and B are eliminated. Option D won’t help as it is unrelated to current scenario. The best option is to accept the fact that the project is no longer valid and you and your team need to follow the proper closing procedures. "
+  },
+  {
+    "question": "You are building a software product for the customer. The testing team is using a scatter diagram and it looks as if the points are widely scattered and are not close to the regression line. What can you interpret from this?",
+    "a": "More stringent control group will be required.",
+    "b": "They are related to each other more closely.",
+    "c": "They are less likely to be related.",
+    "d": "They are less likely to have a stringent control group.",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 293. If the points are widely scattered this means they are less related and if the points are not widely scattered this means they are closely related. "
+  },
+  {
+    "question": "You have been recently transitioned to a project which has a budget of $100,000. Till now, the project has spent $60,000 and only 2/3rd of work is complete. You are not happy with the progress, as 55% of worth of work should have been completed. Is your concern genuine and if yes or no what is the project status?",
+    "a": "Genuine in terms of schedule only: Under Budget, Behind Schedule",
+    "b": "Not Genuine: Under Budget, Ahead of Schedule",
+    "c": "Genuine: Over Budget, Behind Schedule",
+    "d": "Genuine in terms of cost only: Over Budget, Ahead of Schedule",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 267. BAC = $100,000. AC = 60,000. EV = 2/3rd of 100,000 = $66,666. PV = 55% of 100,000 = $55,000. CV = EV - AC. CV = 66,666 - 60,000 = + 6,666 which means under budget. SV = EV - PV. SV = 66,666 - 55,000 = + 11,666 which means ahead of schedule. "
+  },
+  {
+    "question": "You are in the process of estimating the durations of the project activities. The standard deviation of one of the activities is 4 days, and at most that activity can take 48 days. Calculate the least time this activity can take?",
+    "a": "32 days",
+    "b": "24 days",
+    "c": "Insufficient Information. Cannot be calculated.",
+    "d": "36 days",
+    "answer": "b",
+    "explanation": " B  Standard Deviation SD = (P-O)/6. SD = 4 days. Pessimistic Time = 48 days. SD = (48 - O)/6. 4 = (48 - O)/6. 4 X 6 = 48 - O. O = 48 - 24. Optimistic time or least time this activity can take is 24 days. The SD formula is not given in PMBOK® 6th edition but we still recommend you to read. "
+  },
+  {
+    "question": "You are a project manager who is working with stakeholders to conduct the benefit analysis. What is the purpose of doing this?",
+    "a": "To align expectations and gain support for the project.",
+    "b": "To formalize the authority of the project manager.",
+    "c": "To ensure all the stakeholders are on the same page.",
+    "d": "To validate project alignment with organizational strategy and business value.",
+    "answer": "d",
+    "explanation": " D  Refer to PMP® exam outline, domain one, task 7: benefit analysis is done to validate project alignment with organizational strategy and business value. "
+  },
+  {
+    "question": "You are working as a project manager in a functional organization. You are trying to get the resources on your project from the functional manager but every time you go and ask for them, you get an unfavorable response. How can an organization like this affect the development of Resource Management Process?",
+    "a": "You will have no authority on the project.",
+    "b": "Your role will eventually become stronger.",
+    "c": "Now since the sponsor has intervened, you will have full authority.",
+    "d": "None of these",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 47. The Problem is simple and straightforward. What is the authority level of project manager in a functional organization? And the correct answer is no authority. Option C would have been correct if it was a weak matrix organization. "
+  },
+  {
+    "question": "You are in the closing stage of a construction project. You are reviewing the Lessons Learned Register where one of your team members has mentioned that strength testing helped them a lot. Which technique did the team member use?",
+    "a": "Process Analysis",
+    "b": "Root Cause Analysis",
+    "c": "Mind Mapping",
+    "d": "Test and Inspection Planning",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 285. Alpha/Beta tests are for software projects, strength tests are for construction projects, inspection is for manufacturing, and field and nondestructive tests in engineering are all part of test and inspection planning. "
+  },
+  {
+    "question": "The selected seller on your project is an internal department from your organization itself. The department will have a dedicated project manager assigned to this project. In this kind of scenario, which of the following statements may not be true?",
+    "a": "You become customer in this case and also a key stakeholder for the project. ",
+    "b": "Seller side project manager may be concerned with all different aspects of project and not just procurement management. ",
+    "c": "You work directly with assigned seller side project manager to get project updates. ",
+    "d": "There has to be a contractual relationship between your department and the seller side department. ",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 461. It is not necessary to have a contractual relationship if the buyer and seller are from the same organization.'"
+  },
+  {
+    "question": "Your project is hit by lot of risks. The good part is that you have identified all of those risks in advance and have a response strategy for each of them. For one of the risks, sponsor recommended that you should use the contingency reserve in order to tackle it. What response strategy is this?",
+    "a": "Mitigation",
+    "b": "Avoid",
+    "c": "Active Acceptance",
+    "d": "Passive Acceptance",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 443. The keyword in the Problem is that you are using contingency reserve, which is used when there is active acceptance of risk. Refer to PMBOK®, risk management knowledge area. "
+  },
+  {
+    "question": "You have hired a subject matter expert to resolve a software bug which your team was not able to resolve internally. After briefly going through the bug, the SME estimated that it would take 10 days to resolve the issue. He will be able to review 100 lines of code per hour. Which estimation technique did the SME use?",
+    "a": "Analogous Estimation",
+    "b": "Parametric Estimation",
+    "c": "Bottom Up Estimation",
+    "d": "Published Estimating Data",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 200. The keyword in the Problem is 100 lines of code per hour. The keyword “Per” is used for parametric estimation technique. Refer to our PMBOK® 6th edition based videos to get more keywords like these. "
+  },
+  {
+    "question": "Tom is a project coordinator in an organization. The project managers have almost no power in this organization. The role of project managers is performed by project coordinators. Tom often finds it very difficult to get the commitment from resources, as they do not report directly to him. What type of organization is Tom working for? ",
+    "a": "Functional",
+    "b": "Weak Matrix",
+    "c": "Balanced Matrix",
+    "d": "Composite",
+    "answer": "b",
+    "explanation": " B   Refer to PMBOK® Guide - Sixth Edition, Pg: 47. The keyword in the Problem is “project coordinators”. And as discussed in our videos, you will find project coordinators in weak matrix organizations. "
+  },
+  {
+    "question": "YOur project involves multiple teams from multiple departments. Due to the technical nature of the project, you also have looped in couple of subject matter experts. You have introduced a reward system for the best employee of the month. Introducing this type of technique will motivate the team. In which process are you presently in?",
+    "a": "Direct and Manage Project Work",
+    "b": "Acquire Resources",
+    "c": "Develop Team",
+    "d": "Manage Team",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 341. Recognition and rewards isa tool used in Develop Team Process. "
+  },
+  {
+    "question": "You are a project manager who is in the closing stages of the project. Project sponsor has requested you to make sure that you are archiving project documents and materials. What is the primary purpose of doing that?",
+    "a": "To update the organization’s knowledge base.",
+    "b": "To use in future projects and in case of audits.",
+    "c": "To ensure proper communication of project closure.",
+    "d": "To evaluate customer satisfaction. ",
+    "answer": "b",
+    "explanation": " B  Refer to PMP® exam outline, domain five, task 6: archiving project documents is used in future projects and in case of audits. Updating the OPA is done but that is not the primary purpose. "
+  },
+  {
+    "question": "You are in the execution stage of your project. Your sponsor reached out to you as he is confused on how you determined the budget. He wants to know which technique helped/assisted you in developing the parametric estimates on your project. What could be your response to him?",
+    "a": "Historical Information Review",
+    "b": "Funding Limit Reconciliation",
+    "c": "Reserve Analysis",
+    "d": "Financing",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 253. Both parametric and analogous estimates depends on historical information. Rest all options are given to confuse you. "
+  },
+  {
+    "question": "You are a project manager who will be conducting the Validate Scope Process in next 3 weeks. Your project is on the right track. However, in one of the weekly status meetings, your customer requested for a major change. This change will be good for customer experience but you are not sure if you should implement any change at this point on project. What should you do next? ",
+    "a": "Reject the change as it is too late.",
+    "b": "Accept the change as eventually it is improving the customer experience.",
+    "c": "Do the impact analysis of this change.",
+    "d": "Issue a CR to the CCB.",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 113. For some test takers this is an easy Problem and for some it is confusing. For Problems like these, always make sure that you are doing the preliminary impact analysis first and then requesting a CR. "
+  },
+  {
+    "question": "You have been assigned a new project where the project team is pre-assigned. In the initial few days, project team reached out to you requesting for a training, which will help the team to understand the business knowledge of the product. You accepted team's request. Which process will you do next?",
+    "a": "Direct and Manage Project Work",
+    "b": "Plan Resource Management",
+    "c": "Develop Team ",
+    "d": "Manage Team",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 319. Training is one of the tools for Develop Team Process. However, before you give the training, you first need to plan for it. "
+  },
+  {
+    "question": "Your project has been hit by lot of risks these days and you are worried that your project end date might get affected. You plan to review the issue log and determine any corrective actions if required. What is the primary purpose of doing that?",
+    "a": "To enable continuous improvement.",
+    "b": "To minimize the impact on the project.",
+    "c": "To verify compliance with project objectives.",
+    "d": "To ensure project goals align with business needs.",
+    "answer": "b",
+    "explanation": " B  Refer to PMP® exam outline, domain four, task 5: reviewing and updating the issue log and determining the corrective actions are required to minimize the impact on the project. Rest of the options are for other tasks in monitor and control process group. "
+  },
+  {
+    "question": "You have been assigned a project to revamp the company’s website. The sponsor has requested you to make sure that the team purchases the security certificate. Since it is a critical requirement, you identified all the possible negative risks that can occur due to its implementation. After carefully analyzing the risk responses, you decide that you won’t be able to go ahead with the security certificate. Company is not willing to take such a huge risk. Which risk response strategy did you use?",
+    "a": "Mitigate",
+    "b": "Transfer ",
+    "c": "Avoid ",
+    "d": "Transfer",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 443. The keyword here is that the company is not willing to take such a huge risk this means the company is avoiding the risk completely. "
+  },
+  {
+    "question": "Your team is located in several countries and due to different time zones, communication is one of the biggest challenges you have to face as a project manager. You also believe that due to this, team is not able to gel up well. What type of tool would benefit you the most? ",
+    "a": "Interpersonal skills",
+    "b": "Trainings",
+    "c": "Colocation",
+    "d": "Recognition and Rewards. ",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 340. Don’t worry if you got this Problem wrong. The main issue in the Problem is that people are located in different locations with different time zones. And this kind of issue would be best resolved if everyone is located in same location. Recognition and rewards in this case may worsen the situation by introducing competition, which you don’t want at the moment. Interpersonal skills may help but what good will interpersonal skills do if you are not able to even communicate with people. Also, keep in mind, the Problems states which tool will benefit you the most, it is not asking to go ahead and implement it. So in this case Co-location is best but this doesn’t mean that we are going ahead and implementing it. "
+  },
+  {
+    "question": "You have recently joined a new organization. The customer on the project you are managing is constantly changing the scope, which is causing the project scope to go out of control. You came to know that one of your colleagues has managed a similar project in the past. What should be your next step? ",
+    "a": "Escalate to the senior manager who hired you.",
+    "b": "Talk to your management to assign this project to the other project manager who has managed a similar project in the past. ",
+    "c": "Talk to the other project manager to share his experience and gather the lessons learned from his project. ",
+    "d": "Help the other project manager with some other small projects and in return tell him to create your project documents.",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 3. Option A and B are running away from the problem which the project manager should not do. Option D can be considered unethical in some situations. Only option left is C, which is to go through the lessons learned of the previous similar project. "
+  },
+  {
+    "question": "You have been given a critical and highly visible project. After doing the preliminary analysis, you plan on acquiring close to 20 resources for this project. You refer to your human resources management plan to acquire and manage the project resources. What is the primary purpose of doing that?",
+    "a": "To keep stakeholders engaged and informed.",
+    "b": "To define and manage the flow of project information.",
+    "c": "To meet the project requirements.",
+    "d": "To create a project organizational structure.",
+    "answer": "c",
+    "explanation": " C  Refer to PMP® exam outline, domain three, task 1: acquiring of project resources as per the human resource and procurement management plan is done to meet the project requirements. Rest of the options are for other tasks in different process groups. "
+  },
+  {
+    "question": "Tim's goal is to deliver the project with three sigma quality requirement. One of his activities on the project has an optimistic estimate of 10 days, realistic estimate of 15 days and pessimistic estimate of 20 days. In order to meet the three sigma quality requirement, what is the estimated duration range?",
+    "a": "12 days to 22 days",
+    "b": "10 days to 20 days",
+    "c": "16 days to 26 days",
+    "d": "14 days to 24 days ",
+    "answer": "b",
+    "explanation": " B First thing you need to calculate is PERT which is (P + 4*M + O)/6 = (20 + 4*15 + 10)/6= (20 + 60 + 10)/6 = 90/6 = 15. Next you need to calculate is SD (Standard Deviation) which is (P - O)/6 = (20 - 10)/6 = 10/6 = 1.66. So if the requirement is 3 sigma then the range should be from PERT - 3*SD to PERT + 3*SD = 15 - 3*1.66 to 15 + 3*1.66 = 15 - 4.98 to 15 + 4.98 = 10 to 20 (Approx). Formula for SD is not given in PMBOK® Guide - Sixth Edition but we will still recommend doing this. "
+  },
+  {
+    "question": "You are working with your team to identify both positive as well as negative risks. You are using different response techniques for opportunities and threats. However, there are two techniques that are common for both. What do you think is the correct answer?",
+    "a": "Mitigate and Accept",
+    "b": "Escalate and Transfer",
+    "c": "Enhance and Exploit",
+    "d": "Escalate and Accept",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 442-444. ‘Escalate and Accept’response strategy is common for both positive as well as negative risks. "
+  },
+  {
+    "question": "You are working as a project manager and you have two team leads who directly report to you. You reach out to your team leads to create a chart/document that will clearly state which resource is working on which work package. Which chart/document are you requesting them to develop?",
+    "a": "Resource Calendar",
+    "b": "Activity Resource Requirements",
+    "c": "WBS",
+    "d": "RACI chart",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 317. RACI stands for Responsible, Accountable, Consult and Inform. This chart clearly states who will be responsible, accountable, consulted and informed on each and every work package being developed as a part of the project. "
+  },
+  {
+    "question": "You have been recently transitioned to a new project which has been hit by lot of changes. Upon reviewing the project artifacts, you find that there is no document that will define how changes will be addressed and controlled. In which process group will you create this document? ",
+    "a": "Initiation",
+    "b": "Planning",
+    "c": "Execution",
+    "d": "Monitor and Control",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 88. The document they are talking about in the Problem is Change Management Plan, which is developed in planning process group "
+  },
+  {
+    "question": "Your project execution is going great and all the stakeholders are kept up to date. However one of the high profile stakeholders wants to see organization’s data in terms of business language. Which technique can help you in such a scenario?",
+    "a": "Flowcharts",
+    "b": "Logical Data Model",
+    "c": "Matrix Diagrams",
+    "d": "SIPOC Model",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 284. Organizations use logical data model to visually represent organization’s data. It is best described in terms of business language and is independent of any specific technology. "
+  },
+  {
+    "question": "The customer has requested you to send him a document which will have information about life cycle of the project, the processes that would be followed by the project and description of how project baselines will be maintained. Which document is the customer requesting?",
+    "a": "Project Charter ",
+    "b": "Project Management Plan",
+    "c": "Project Scope Statement",
+    "d": "Project Schedule",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK® Guide - Sixth Edition, Pg: 86-88. Project Management Plan is the document which will have information about project life cycle, processes being followed and how the project baselines will be maintained. "
+  },
+  {
+    "question": "After discussing with the functional manager, you have been assigned 4 resources for your project. The functional manager has requested you to make sure to copy him in all the project related communication that involves his resources. What are the total number of communication channels?",
+    "a": "15.0",
+    "b": "10.0",
+    "c": "6.0",
+    "d": "21.0",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 370. Number of communication channels = N X (N-1)/2 where N is the number of people involved. N = You + 4 + FM = 6. Communication channels = 6 X (6-1)/2 = 15 "
+  },
+  {
+    "question": "You have setup a meeting to review and assess the project requirements, constraints and assumptions based upon the project charter. What is the primary purpose of doing that?",
+    "a": "To develop the Requirement Management Plan.",
+    "b": "To manage uncertainty throughout the project life cycle.",
+    "c": "To manage timely completion of project.",
+    "d": "To establish detailed project deliverables.",
+    "answer": "d",
+    "explanation": " D  Requirements are further broken down into deliverables in the work breakdown structure. Read the Problem carefully, you are in a meeting to review the project requirements,which means that you have already collected the requirements, and Requirements Management Plan is already established. The word “project charter” is given just to confuse you. Refer to PMP® exam outline for more details. "
+  },
+  {
+    "question": "Your sponsor wants to inspect few deliverables but he does not have time to check all the deliverables. What technique would you recommend to him in such a scenario? ",
+    "a": "Checklists",
+    "b": "Check Sheets",
+    "c": "Statistical Sampling",
+    "d": "Root Cause Analysis",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 303. As per the Problem, sponsor does not have lot of time to go through all the deliverables. So it’s better if he checks some random samples, which is Statistical Sampling. "
+  },
+  {
+    "question": "It what stage do you think that team building activity will be most beneficial/effective?",
+    "a": "Initial Stage",
+    "b": "Planning Stage",
+    "c": "Execution Stage",
+    "d": "Closing Stage",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 341. Team building activity should be throughout the project but earlier you start the better it is. "
+  },
+  {
+    "question": "David is a new project manager who has recently joined the company. The sponsor has reached out to him to create the work breakdown structure. He has never developed it in his past organization and reaches out to you to help him. The most valuable deliverable of a WBS is:",
+    "a": "Activities",
+    "b": "List of Tasks",
+    "c": "List of Risks",
+    "d": "Team Buy In",
+    "answer": "d",
+    "explanation": " D Refer to PMBOK® Guide - Sixth Edition, Pg: 156. Activities, list of tasks and list of risks are not the deliverables of WBS. However, WBS is used to develop all of the choices. Also team buy is something that needs to be there in order to create the WBS. Once the WBS is created, it is used to prevent unnecessary risks and confusion in the later stages of the project. "
+  },
+  {
+    "question": "You have been assigned as a project manager and are currently involved with project sponsor in the creation of Project Charter. You have been tasked to identify key deliverables based on the business requirements. What is the primary purpose of doing that? ",
+    "a": "To define, maintain and manage the scope of the project.",
+    "b": "To propose an implementation strategy.",
+    "c": "To manage customer expectations and direct the achievement of project goals. ",
+    "d": "To validate project alignment with organizational strategy. ",
+    "answer": "c",
+    "explanation": " C  Refer to PMP® exam outline, domain one, task 2: the key deliverables are identified from the business requirements to manage the customer/stakeholder expectations and make sure that it aligns with the project goals. If you have selected option ‘D’ then keep in mind that this is basically done to perform benefit analysis to select the project. If you are in the creation of project charter phase, this means you have already selected the project to move ahead. "
+  },
+  {
+    "question": "Your project team includes 2 business analysts who are working with the customer to understand the scope of the project. They have created the requirements document, project scope statement and also the work breakdown structure. Which of the following is part of scope baseline?",
+    "a": "Project Scope Statement, WBS, work package, planning package and WBS dictionary.",
+    "b": "WBS, work package and WBS dictionary only. ",
+    "c": "Project Scope Statement, Requirements Document and Requirements Traceability Matrix.",
+    "d": "Projects Scope Statement, Requirements Document, planning package and WBS.",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 161. Scope Baseline consists of Project Scope Statement, WBS, work package, planning package and WBS dictionary. "
+  },
+  {
+    "question": "You are a buyer side PM. From last few weeks, you are noticing that the seller is not performing the work as planned. The project also includes the post project operational support from the supplier and now you are worried if they would be able to manage it or not. Which document you should refer to understand the performance reporting on this project?",
+    "a": "Work Performance Report",
+    "b": "Procurement Statement of Work",
+    "c": "Bid Documents",
+    "d": "Source Selection Criteria",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK® Guide - Sixth Edition, Pg: 477. Performance reporting will eventually become part of signed agreement/contract. But since this is not an option, this information is also included in the procurement statement of work. "
+  },
+  {
+    "question": "You are managing a project which is under budget and behind schedule. Out of the following four projects which will fall into that category: Project A: EV= $1000, AC= $2000 and PV= $2000. Project B: EV= $2000, AC= $2000 and PV= $3000. Project C: EV= $3000, AC= $2000 and PV= $4000. Project D: EV= $4000, AC= $3000 and PV= $3000",
+    "a": "Project A",
+    "b": "Project B",
+    "c": "Project C",
+    "d": "Project D",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 267. Project is under budgetwhich means EV should be greater than AC. There are only two options like that, which are C and D. Project is also behind schedule which means that PV is greater than EV. So out of C and D, it’s only option C that falls under that category. "
+  },
+  {
+    "question": "The total budget of your project is $200,000. The amount spent till now is $60,000 and only 40% of the work is complete. When you checked the plan, it looks like that you should have completed $70,000 worth of work. Identify the project status?",
+    "a": "Under Budget, Behind Schedule",
+    "b": "Under Budget, Ahead of Schedule",
+    "c": "Over Budget, Behind Schedule",
+    "d": "Over Budget, Ahead of Schedule",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 267. BAC = $200,000. AC (Keyword: Spent) = $60,000. EV = 40% of 200,000 = $80,000. PV = $70,000. CV = EV - AC = 80,000 - 60,000 = 20,000 which means under budget. SV = EV - PV = 80,000 - 70,000 = 10,000 which means you are ahead of schedule. "
+  },
+  {
+    "question": "You are managing a big complex technical project. There is a risk on the project and the vendor is recommending that they should move the newly installed servers from the present location to a more secure place with stringent security policies. By doing this, the organization would be able to identify malicious attacks on their server and reduce the impact greatly. What response strategy did you use? ",
+    "a": "Avoid",
+    "b": "Mitigate",
+    "c": "Transfer",
+    "d": "Accept ",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 443. It is not risk transfer as you are not transferring the risk to vendor, you are dealing with the risk. This is also not risk avoidance, as after moving to a different location, the impact is reduced but you are still dealing with the risk. Only option that is left is risk mitigation. "
+  },
+  {
+    "question": "You are managing a big complex technical project and the vendor is taking care of the technical configurations required on the project. There is a risk on the project and the vendor is recommending that the organization should take insurance if something goes wrong while doing the configuration of the servers. What type of risk response strategy did the vendor use? ",
+    "a": "Avoid",
+    "b": "Mitigate",
+    "c": "Transfer",
+    "d": "Accept ",
+    "answer": "c",
+    "explanation": " C  Refer to PMBOK® Guide - Sixth Edition, Pg: 443. The keyword in the Problem is insurance, which is used for risk transfer response strategy. "
+  },
+  {
+    "question": "Which of the following is NOT a guideline for decision making?",
+    "a": "Focus on goals to be served.",
+    "b": "Focus on high profile stakeholders.",
+    "c": "Account for Risk.",
+    "d": "Analyze the given information.",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 349. Except option B all of the options are part of guidelines for decision making. "
+  },
+  {
+    "question": "Calculate the number of communication channels for a team with 80 stakeholders. Keep in mind that project manager is doing a good job in managing the stakeholder expectations of these 80 stakeholders.",
+    "a": "3160.0",
+    "b": "324.0",
+    "c": "80.0",
+    "d": "3321.0",
+    "answer": "b",
+    "explanation": " B Refer to PMBOK® Guide - Sixth Edition, Pg: 370. Number of communication channels = N X (N-1)/2 where N is the number of people involved. N = 80 + 1 (PM). Number of communication channels = 81 X (81-1)/2 = 3240 "
+  },
+  {
+    "question": "That is the primary purpose of identifying key deliverables based upon the project requirements?",
+    "a": "To manage customer expectations and direct the achievement of project goals.",
+    "b": "To align customer expectations and gain support for the project. ",
+    "c": "To ensure common understanding of key deliverables. ",
+    "d": "To support the feasibility study.",
+    "answer": "a",
+    "explanation": " A  Refer to PMP® exam outline, domain one, task 2: key deliverables are identified to manage customer expectations and direct the achievement of project goals. "
+  },
+  {
+    "question": "You are working as a project manager and project is in the execution stage. Till now the project was going smoothly. However, in one of the project status meetings, you came to know that one of the stakeholders is not happy with the project progress. Initially she didn’t speak much as she was not involved to a great extent. However, now she is showing more interest. What should be your next step?",
+    "a": "Do nothing as it is too late on project.",
+    "b": "Request her to issue a change request.",
+    "c": "Show her the copy of the requirements document and tell her that you are developing as per this document. ",
+    "d": "Setup a meeting with her to discuss the stakeholder engagement level. ",
+    "answer": "d",
+    "explanation": " D  Refer to PMBOK® Guide - Sixth Edition, Pg: 523. Since she was not involved initially, the stakeholder engagement level has changed. So it will be recommended to first work with her to understand her expectations and then proceed accordingly. "
+  },
+  {
+    "question": "You are using an agile approach on your project where you are trying to find the points where quality defects can occur. This will help you to incorporate quality checks at different points on your project. Which technique can help you in this scenario?",
+    "a": "Flowcharts",
+    "b": "Cause and Effect Diagrams",
+    "c": "Histograms",
+    "d": "Matrix Diagrams",
+    "answer": "a",
+    "explanation": " A  Refer to PMBOK® Guide - Sixth Edition, Pg: 284. Flowcharts are also known as Process Maps/Process Flows, which document the flow and combination of components to help identify potential quality issues. "
+  },
+  {
+    "question": "You are working on a project in a foreign country. Recently due to change in the government labor laws, you had to increase the per hour rate for your labors. You want to analyze the effect of this change on other factors. Which tool and technique would be best in this type of scenario? ",
+    "a": "Matrix Diagrams",
+    "b": "Scatter Diagrams",
+    "c": "Control Charts",
+    "d": "Flowcharts",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 293. Scatter diagram helps you to analyze the effect of change of one variable on other variables. Over here the word “variable” is not used, however labor prices can be considered as a variable. "
+  },
+  {
+    "question": "Project A has cost benefit ratio of 1.2, Project B has .8, Project C has .6 and Project D has 1.8. If the organization has limited resources to opt for only 1 project, then which project should be selected?",
+    "a": "Project A",
+    "b": "Project B",
+    "c": "Project C",
+    "d": "Project D",
+    "answer": "c",
+    "explanation": " C Refer to PMBOK® Guide - Sixth Edition, Pg: 34. Lesser the cost benefit ratio, the better it is. So project C with .6 would be selected."
+  },
+  {
+    "question": "You are in the process of documenting project requirements. You have setup a meeting where you have invited one to two representatives from each group. In the meeting, you received lot of ideas from stakeholders. After collecting all the ideas, you grouped the ideas that were referring to same modules. Which technique did you use?",
+    "a": "Facilitated Workshops",
+    "b": "Nominal Group Technique",
+    "c": "Idea/Mind Mapping",
+    "d": "Affinity Diagrams",
+    "answer": "d",
+    "explanation": " D Refer to PMBOK® Guide - Sixth Edition, Pg: 144. You are classifying different ideas and grouping them together. This is Affinity Diagrams. "
+  },
+  {
+    "question": "Sarah is a project manager who is working with the vendor to create the deliverable of the project. She often makes sure to thoroughly test the processes and deliverables, which are developed in the project. On one such occasion, she plans to do a quality audit. Which process is she performing?",
+    "a": "Plan Quality Management",
+    "b": "Manage Quality",
+    "c": "Control Quality",
+    "d": "Validate Scope",
+    "answer": "b",
+    "explanation": " B  Refer to PMBOK® Guide - Sixth Edition, Pg: 294. The keyword in the Problem is ”quality audits”, which is a tool for Manage Quality process. "
+  }
+]

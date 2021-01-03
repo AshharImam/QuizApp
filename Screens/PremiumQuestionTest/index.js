@@ -7,12 +7,16 @@ import {
   ScrollView,
   Image,
 } from "react-native";
-import * as set5 from "../../assets/questions/backup.json";
+import * as set5 from "../../assets/questions/set5.json";
+import * as set1 from "../../assets/questions/SET1.json";
+import * as set2 from "../../assets/questions/set2.json";
+import * as set3 from "../../assets/questions/set3.json";
+import * as set4 from "../../assets/questions/set4.json";
 import Questions from "../DisplayQuestion/Questions";
 import Result from "../DisplayResult/Result";
 import images from "../../images";
 
-class DemoQuestions extends Component {
+class PremiumQuestionTest extends Component {
   constructor() {
     super();
     this.state = {
@@ -25,20 +29,31 @@ class DemoQuestions extends Component {
   }
 
   componentDidMount() {
-    // firebase
-    //   .database()
-    //   .ref()
-    //   .child("Demo")
-    //   .on("value", (snapshot) => {
-    //     if (snapshot.val() != null) {
-    //       this.setState({ demo: snapshot.val() });
-    //     } else {
-    //       console.log("no data found");
-    //     }
-    //   });
-    this.setState({
-      demo: set5,
-    });
+    if (this.props.route.params.set === 1) {
+      this.setState({
+        demo: set1,
+      });
+    }
+    if (this.props.route.params.set === 2) {
+      this.setState({
+        demo: set2,
+      });
+    }
+    if (this.props.route.params.set === 3) {
+      this.setState({
+        demo: set3,
+      });
+    }
+    if (this.props.route.params.set === 4) {
+      this.setState({
+        demo: set4,
+      });
+    }
+    if (this.props.route.params.set === 5) {
+      this.setState({
+        demo: set5,
+      });
+    }
   }
   next = (correctAnswer) => {
     this.setState({ index: this.state.index + 1 });
@@ -116,4 +131,4 @@ class DemoQuestions extends Component {
   }
 }
 
-export default DemoQuestions;
+export default PremiumQuestionTest;

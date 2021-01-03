@@ -4,6 +4,7 @@ import { Button } from "react-native-paper";
 import Constants from "expo-constants";
 import queryString from "query-string";
 import db from "../../config";
+import firebase from "firebase";
 
 const { width, height } = Dimensions.get("window");
 
@@ -11,10 +12,50 @@ class LandingPage extends Component {
   constructor() {
     super();
     this.formatDateTime = this.formatDateTime.bind(this);
+    this.navigateToPaymentScreen = this.navigateToPaymentScreen.bind(this);
+
     this.state = {
       url: "",
       disable: false,
+      expires_at: null,
     };
+  }
+
+  componentDidMount() {
+    const doc = db.collection("users").doc(Constants.installationId).get();
+
+    if (doc) {
+      doc.then((data) => {
+        // console.log("DATA>>>", data);
+        // console.log(">>>", data.data().expires_at);
+        if (data.data() && data.data().expires_at) {
+          const date = new Date();
+          const expiryDate = new Date(data.data()?.expires_at.seconds * 1000);
+
+          console.log(date.getTime());
+          console.log(new Date(data.data()?.expires_at.seconds * 1000));
+          console.log(expiryDate.getTime());
+          console.log(this.isExpired(date.getTime(), expiryDate?.getTime()));
+          if (this.isExpired(date.getTime(), expiryDate?.getTime())) {
+            this.setState({
+              expires_at: `You Subscription Has Expired!`,
+            });
+          } else {
+            console.log("Expiring");
+            this.setState({
+              expires_at: `You Subscription Expires at ${new Date(
+                data.data().expires_at.seconds * 1000
+              ).toDateString()}`,
+            });
+          }
+        }
+      });
+    }
+  }
+
+  isExpired(date, expiry) {
+    console.log(date, expiry);
+    return expiry ? date > expiry : true;
   }
 
   formatDateTime(date) {
@@ -31,97 +72,39 @@ class LandingPage extends Component {
     }${_seconds < 10 ? "0" + _seconds : _seconds}`;
   }
 
-  // payment() {
-  //   const nowDate = new Date(); //Date Now
-  //   const pp_Amount = "100";
-  //   const pp_BillReference = "billRef";
-  //   const pp_Description = "Description of transaction";
-  //   const pp_Language = "EN";
-  //   const pp_MerchantID = "MC13259";
-  //   const pp_Password = "3x89vs3gxx";
-  //   const pp_ReturnURL =
-  //     "https://sandbox.jazzcash.com.pk/ApplicationAPI/API/Purchase/PAY";
-  //   const pp_ver = "1.1";
-  //   const pp_TxnCurrency = "PKR";
-  //   const pp_TxnDateTime = this.formatDateTime(nowDate);
-  //   // const pp_TxnDateTime = `20201208153253`;
-  //   nowDate.setDate(nowDate.getDate() + 1); // Expire date and time ( increasing a day)
-  //   const pp_TxnExpiryDateTime = this.formatDateTime(nowDate);
-  //   // const pp_TxnExpiryDateTime = "20170609114800";
-  //   const pp_TxnRefNo = `T${pp_TxnDateTime}`;
-  //   // const pp_TxnRefNo = `T20201208153208`;
-  //   const pp_CustomerCardNumber = "5366190033463817";
-  //   const pp_CustomerCardExpiry = "0924";
-  //   const pp_CustomerCardCvv = "3s06";
-  //   const pp_TxnType = "MPAY";
-  //   const pp_IntegeritySalt = "sg92502998";
-  //   const pp_Frequency = "SINGLE";
-  //   const bigData = `${pp_IntegeritySalt}&${pp_Amount}&${pp_BillReference}&${pp_CustomerCardCvv}&${pp_CustomerCardExpiry}&${pp_CustomerCardNumber}&${pp_Description}&${pp_Frequency}&${pp_Language}&${pp_MerchantID}&${pp_Password}&${pp_TxnCurrency}&${pp_TxnDateTime}V${pp_TxnExpiryDateTime}&${pp_TxnRefNo}&${pp_TxnType}&${pp_ver}`;
-
-  //   const key = unescape(encodeURIComponent(pp_IntegeritySalt));
-  //   const bytes = unescape(encodeURIComponent(bigData));
-  //   // const key = unescape(encodeURIComponent("0F5DD14AE2"));
-  //   // const bytes = unescape(
-  //   //   encodeURIComponent("0F5DD14AE2&2995&MER123&A48cvE28")
-  //   // );
-
-  //   (async (key, bytes) => {
-  //     const hmac = CryptoES.algo.HMAC.create(CryptoES.algo.SHA256, key);
-  //     hmac.update(bytes);
-  //     const hash = hmac.finalize();
-  //     // console.log("Digest: ", hash.toString());
-  //     console.log(hash.toString(CryptoES.enc.Hex));
-
-  //     const req = await fetch(pp_ReturnURL, {
-  //       method: "POST",
-  //       body: {
-  //         pp_Version: pp_ver,
-  //         pp_TxnType: pp_TxnType,
-  //         pp_TxnRefNo: pp_TxnRefNo,
-  //         pp_MerchantID: pp_MerchantID,
-  //         pp_Password: pp_MerchantID,
-  //         pp_Amount: pp_Password,
-  //         pp_TxnCurrency: pp_TxnCurrency,
-  //         pp_TxnExpiryDateTime: pp_TxnExpiryDateTime,
-  //         pp_BillReference: pp_BillReference,
-  //         pp_Description: pp_Description,
-  //         pp_CustomerCardNumber: pp_CustomerCardNumber,
-  //         pp_CustomerCardExpiry: pp_CustomerCardExpiry,
-  //         pp_CustomerCardCvv: pp_CustomerCardCvv,
-  //         pp_SecureHash: hash.toString(CryptoES.enc.Hex),
-  //         pp_Frequency: pp_Frequency,
-  //         pp_TxnDateTime: pp_TxnDateTime,
-  //       },
-  //     });
-
-  //     req.json().then((res) => console.log(res));
-
-  //     /* Some crypto operation... */
-  //   })(key, bytes);
-  //   console.log("sad");
-  //   // const hash = crypto.createHmac("sha256", key).update(bytes).digest("hex");
-  //   // console.log(hash);
-  // }
-
   payment() {
-    // db().ref("/users/123").set({
-    //   name: "Ashhar",
-    //   age: 21,
-    // });
-
-    // db.collection("user").doc("user1").set({
-    //   name: "ashhar",
-    //   seconsName: "Imame",
-    // });
-
     console.log(Constants.installationId);
     this.setState({
       disable: true,
     });
-    const doc = db.collection('users').doc(Constants.installationId).get()
+    const doc = db.collection("users").doc(Constants.installationId).get();
+    // console.log("DOC>>", doc);
     if (doc) {
-      doc.then()
+      doc.then((data) => {
+        // console.log(">>>", data.data().completed_at);
+        const date = new Date();
+        const expiryDate = new Date(data.data()?.expires_at?.seconds * 1000);
+        // console.log(expiryDate);
+        if (
+          data.data() &&
+          data.data().completed_at &&
+          !this.isExpired(date.getTime(), expiryDate?.getTime())
+        ) {
+          this.props.navigation.navigate("PremiumQuestionSet");
+        } else {
+          this.navigateToPaymentScreen();
+        }
+      });
+    } else {
+      this.navigateToPaymentScreen();
     }
+
+    this.setState({
+      disable: false,
+    });
+  }
+
+  navigateToPaymentScreen() {
     fetch("https://sandbox.api.getsafepay.com/order/v1/init", {
       method: "POST",
       headers: {
@@ -142,7 +125,7 @@ class LandingPage extends Component {
           .set({
             token: json["data"]["token"],
             order_id: `T${this.formatDateTime(new Date())}`,
-            started_at: this.formatDateTime(new Date()),
+            started_at: new Date(),
           });
         const params = {
           env: "sandbox",
@@ -174,33 +157,15 @@ class LandingPage extends Component {
       });
   }
 
-  // "pp_Version": "1.1",
-  //   "pp_InstrToken": "",
-  //   "pp_TxnType": "MPAY",
-  //   "pp_TxnRefNo": "T20201208153208",
-  //   "pp_MerchantID": "MC13259",
-  //   "pp_Password": "3x89vs3gxx",
-  //   "pp_Amount": "100",
-  //   "pp_TxnCurrency": "PKR",
-  //   "pp_TxnExpiryDateTime": "20170609114800",
-  //   "pp_BillReference": "billRef",
-  //   "pp_Description": "Description of transaction",
-  //   "pp_CustomerCardNumber": "5366190033463817",
-  //   "pp_CustomerCardExpiry": "0924",
-  //   "pp_CustomerCardCvv": "306",
-  //   "pp_SecureHash": "AB5B84EF705CAD1055DC85FC780733551E39CE865BAC41B0FCB8179B5085BBA6",
-  //   "pp_Frequency": "SINGLE",
-  //   "pp_TxnDateTime": "20201208153253"
-
   render() {
+    // console.log(this.state.expires_at);
     return (
-      <View>
+      <View style={{ backgroundColor: "#fff", flex: 1 }}>
         <View
           style={{
-            flex: 1,
+            marginTop: 40,
             justifyContent: "center",
             alignItems: "center",
-            marginTop: 270,
           }}
         >
           <Image
@@ -209,10 +174,15 @@ class LandingPage extends Component {
           />
         </View>
 
-        <View style={{ marginVertical: 100, marginHorizontal: 50 }}>
+        <View
+          style={{
+            marginVertical: 100,
+            marginHorizontal: 50,
+          }}
+        >
           <Text
             style={{
-              fontSize: 26,
+              fontSize: 40,
               fontWeight: "bold",
               alignItems: "center",
               textAlign: "center",
@@ -234,9 +204,9 @@ class LandingPage extends Component {
 
           <View style={{ paddingVertical: 30 }}>
             <Button
-              mode="contained"
+              mode="outlined"
               theme={{ colors: { text: "white" } }}
-              color="#f1d4d4"
+              color="rgb(100,198,247)"
               onPress={() => this.props.navigation.navigate("DemoQuestions")}
             >
               Try the demo quiz
@@ -247,12 +217,29 @@ class LandingPage extends Component {
             disabled={this.state.disable}
             icon="crown"
             mode="contained"
-            color="#f1d4d4"
+            // color="#f1d4d4"
+            color="rgb(100,198,247)"
+            // color="red"
             // onPress={() => this.props.navigation.navigate("SignUp")}
             onPress={() => this.payment()}
           >
             get the best questions
           </Button>
+          {this.state.expires_at && (
+            <View style={{ width: "100%", padding: 5 }}>
+              <Text
+                style={{
+                  backgroundColor: "red",
+                  alignSelf: "center",
+                  marginTop: 10,
+                  color: "white",
+                  textAlign: "center",
+                }}
+              >
+                {this.state.expires_at}
+              </Text>
+            </View>
+          )}
         </View>
       </View>
     );

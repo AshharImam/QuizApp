@@ -1,0 +1,1802 @@
+[
+  {
+    "question": "Tom is working with the subcontractor on a CPFF contract. The fixed fee is $4k. Contractor analysis showed that they will complete this project within $20k. However, due to an unexpected reason, the contractor spent total of $22k. The primary purpose of the contract is to deliver on time which the subcontractor managed to deliver. How much fees should be paid to subcontractor?",
+    "a": "20k + 4k",
+    "b": "22k + 4k",
+    "c": "20k + 2k",
+    "d": "22k + 10% incentive",
+    "answer": "b",
+    "explanation": "B Refer to PMBOK® Guide - Sixth Edition, Pg: 472. Its a CPFF contract so the buyer has to pay for allowable cost which is 22k and since the contractor delivered on time, he/she will get the fixed fee as well. So it should be 22k + 4k."
+  },
+  {
+    "question": "Mark is a project manager who has ordered a new machinery for his project. However, after 4 months into the project, David who is the vice president of the company informs Mark that this machinery would no longer be needed and informed him to terminate the contract. The procedure of termination will be done according to?",
+    "a": "Procurement Management Plan",
+    "b": "Statement of Work",
+    "c": "Agreements",
+    "d": "Mutual understanding of both",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 489. The termination procedure is explained in the contract/agreements. It is not as per the discretion of buyer or seller."
+  },
+  {
+    "question": "A project manager is confused whether he should outsource the work or do it in-house. Company has a preferred vendor who can do the testing for $100 a day for one resource and 10 testers will be required for this project for a duration of 10 working days. Company's budget for this phase is $9500 which the company cannot exceed. What should the PM do?",
+    "a": "Hire the preferred vendor.",
+    "b": "Check his company's resource strength for testing.",
+    "c": "Look for other vendors in the preferred vendor list.",
+    "d": "Publish an advertisement for new vendors.",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 473. Lets calculate the buy side: For one resource, cost for 10 days will be = $100 X 10 days = $1000 and for 10 resources, it will be $1000 X 10 = $10,000. Make side is $9500 which is less than $10,000. So the company has to go with internal resources which is option B."
+  },
+  {
+    "question": "Andy is a senior project manager. His project involves multiple stakeholders from different divisions of the company. The project is a new initiative for the company and Andy is excited to evaluate the prospects for the company. He is creating a document which will help his team to understand the stakeholder's engagement level. Which document is he developing?",
+    "a": "Stakeholder Register",
+    "b": "Stakeholder Engagement Plan",
+    "c": "Communication Management Plan",
+    "d": "Work Performance Reports",
+    "answer": "b",
+    "explanation": "B Refer to PMBOK® Guide - Sixth Edition, Pg: 521. Stakeholder engagement matrix is in the Stakeholder Engagement Plan. The question is purposefully confusing test takers to use terms like new initiative etc."
+  },
+  {
+    "question": "It has always been said that interpersonal skills play a major role in the life of a project manager. A successful project manager should have excellent interpersonal skills. Which of the following is not an example of interpersonal skills for a project manager?",
+    "a": "Motivation",
+    "b": "Political awareness",
+    "c": "Negotiation",
+    "d": "Presentation",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 384. Presentations skills is a type of communication skills and not interpersonal skills."
+  },
+  {
+    "question": "Grant,who is the project manager in the company,is working on an internal project.This is a critical project and if it is not implemented in a timely manner,the company can be sued for millions of dollars.Stakeholders are concerned about the schedule milestones.The project also has budget constraints.As a project manager, which document should Grant be checking first to handle a situation like this ? ",
+    "a": "Project Management Plan",
+    "b": "Project Schedule",
+    "c": "Activity Cost Estimates",
+    "d": "Cost Management Plan",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 87. Scope Baseline have project scope statement, WBS and WBS dictionary. Schedule milestones are part of WBS dictionary and constraints are part of scope statement. And Scope Baseline is part of project management plan."
+  },
+  {
+    "question": "Rizwan is a project manager who is excited about a small new project which the company has recently bagged. The project perfectly aligns with the company's strategic plan and will be a good initiative for them. Sponsor requested Rizwan to setup a kick off meeting with all the stakeholders. What should be the top most priority agenda item for this meeting?",
+    "a": "To allow everyone to get to know each other and discuss project objectives.",
+    "b": "To discuss the high level stakeholder's requirements.",
+    "c": "To discuss the next steps on the project.",
+    "d": "To discuss the high level timeline of the project.",
+    "answer": "a",
+    "explanation": "A   Refer to PMBOK® Guide - Sixth Edition, Pg: 86. The main purpose of the kick off meeting is to communicate the project objectives. Rest all options are also good but the most important is meeting the people and then discuss about other relevant/important things."
+  },
+  {
+    "question": "Richard is managing a project with multiple stakeholders. The main stakeholders are Kevin who is the sponsor, Jim who is the senior manager, David who is the project coordinator and Neal who is the business manager. The project is in execution stage and Richard requested David to setup a meeting to discuss the project's high level requirements. Who should be responsible for explaining those requirements?",
+    "a": "Kevin",
+    "b": "Jim",
+    "c": "Richard",
+    "d": "David",
+    "answer": "c",
+    "explanation": "C   Refer to PMBOK® Guide - Sixth Edition, Pg: 51. Ultimately the responsibility should be of the project manager which is Richard in this case."
+  },
+  {
+    "question": "You are a project manager and your project is in the execution stage. You are frustrated with ever increasing scope creep and finding it very difficult to manage it. Which plan can help you to prevent this situation?",
+    "a": "Scope Management Plan",
+    "b": "Change Management Plan",
+    "c": "Requirements Management Plan",
+    "d": "Risk Management Plan",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 168. We all know change is unavoidable and without having a proper change control process, the scope may become uncontrolled and it leads to scope creep."
+  },
+  {
+    "question": "You have been assigned a special project which will not follow the normal governance process of the organization. Your team has full time staff from the functional departments and have developed own set of operating procedures. What type of organization are you working in?",
+    "a": "Balanced Matrix",
+    "b": "Strong Matrix",
+    "c": "Composite Matrix",
+    "d": "Functional Organization",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 47. It is composite organization where you can have full time staff from functional departments for some special projects. They can work outside of normal reporting structure."
+  },
+  {
+    "question": "You are a seller side project manager working on procurement documents. The buyer side PM reached out to you to come up with some innovative ideas to handle one of the critical pieces of the project. They are very keen on exploring new ideas and cost is not a constraint for them. Being the PM, what your first step to get this contract?",
+    "a": "Discussing with the sponsor on the approach.",
+    "b": "Brainstorming with the team members for innovative ideas.",
+    "c": "Setup a subject matter expert workshop to explore innovative ideas.",
+    "d": "Submit a revised proposal which includes innovative ideas.",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 482. The question is asking about the first thing you will do as a project manager. Option D is eliminated as you first need to discuss and then submit. Option A can also be eliminated as more than the sponsor it would be better to use a SME help."
+  },
+  {
+    "question": "Ben, sponsor for one of the project, conducted a meeting to explain why a particular project is selected among other projects and also discussed about the benefits that this project would give to stakeholders. Ben formally authorizes the project in this meeting. What do you expect him to do in this process?",
+    "a": "Appointing a PM",
+    "b": "Creating a project management plan",
+    "c": "Conducting kick off meeting with stakeholders",
+    "d": "Identifying the different stakeholders on the project.",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 75. Based upon the description of the question, it looks like that the sponsor is in the develop project charter process where a project manager is appointed on the project."
+  },
+  {
+    "question": "The senior manager has reached out to you to make a presentation on your project. Your project is in progress for more than 1 year and involves a lot of external and internal stakeholders. What is the first thing you should keep in mind while preparing the presentation?",
+    "a": "Determine the need and objectives",
+    "b": "Identify the audience",
+    "c": "Define the presentation strategy",
+    "d": "Determine a general form for the presentation",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 384. First thing you need to understand is why you are making this presentation. Until and unless that is achieved, you wont know who you want to involve or what would be the strategy and general form of that presentation."
+  },
+  {
+    "question": "You are in the execution stage of your project when one identified risk has occurred. Who do you think has the responsibility of resolving any given risk on your project?",
+    "a": "The team",
+    "b": "The sponsor",
+    "c": "The PM",
+    "d": "Risk Owner as specified in the risk register",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 417 and 421. Each risk on your project is assigned to a risk owner, so it really depends. A risk can be assigned to PM while other could be assigned to a sponsor. It depends."
+  },
+  {
+    "question": "Linda is working on a project which she recently got from David. David is leaving the company and has created a 2-week transition plan. As per David, the CPI of the project is .8 and SPI is 1.4. What can you interpret from this?",
+    "a": "Over Budget, Behind Schedule",
+    "b": "Over budget, Ahead of Schedule",
+    "c": "Under Budget, Behind Schedule",
+    "d": "Under Budget, Ahead of Schedule",
+    "answer": "b",
+    "explanation": "B CPI of less than 1 means over budget and SPI of greater than 1 means ahead of schedule."
+  },
+  {
+    "question": "You are working for an organization which heavily follows the PMI processes and methodologies. Your colleagues often talk about the organization process assets and enterprise environmental factors and you are confused which one is what? Which of the following is part of enterprise environmental factors?",
+    "a": "Standard processes, policies and process definitions.",
+    "b": "Change Control procedures",
+    "c": "Commercial Databases",
+    "d": "Lessons Learned Knowledge Base",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 39. Commercial databases like benchmarking results, risk databases, etc. are part of enterprise environmental factors. Rest are organization process assets."
+  },
+  {
+    "question": "Frank is a project manager in the company. He has assigned multiple team leads for different components. Bill, who is a team lead for one of the component, has setup a meeting to discuss an important deliverable and did not invite Frank. Frank is not very happy about this. What should be Frank's first step?",
+    "a": "Checking with the team lead why he was missed",
+    "b": "Checking the communication management plan",
+    "c": "Checking RACI",
+    "d": "Checking Stakeholder Engagement Plan",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 377 and 379. The purpose of the communication management plan is to send the right information to the right people in the right format. Frank first needs to check the communication management plan to see if he is required to get that information or not. Once he checks, his next step should be to reach out to Bill."
+  },
+  {
+    "question": "One of the largest cell phone manufacturing company bagged a new contract. Higher management made it very clear that the reason to pick this contract was to increase their market value. What is the company looking into to enhance by choosing such a contract? Select the best option",
+    "a": "Business Need",
+    "b": "More advantage over competitors.",
+    "c": "More Sale",
+    "d": "Strategic Value",
+    "answer": "a",
+    "explanation": "A Refer to PMBOK® Guide - Sixth Edition, Pg: 31. The question talks about the reason why the project was picked. Business need is why you do a project. Business case includes business need."
+  },
+  {
+    "question": "You are managing a project which has 3 software developers, 2 quality assurance specialist and 1 human resource professional. All these stakeholders are involved with phase I of the project. Phase II involves a completely different team with 2 business analyst, 2 data analyst, 1 quality assurance specialist and 1 software developer. What is the total number of communication channel if all the stakeholders communicate with each other?",
+    "a": "42",
+    "b": "66",
+    "c": "91",
+    "d": "78",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 370. There are total of 13 members. 1 PM + (3 SD + 2 QA + 1 HR) + (2 BA + 2 DA + 1 QA + 1 SD). Number of communication channels= N X (N-1)/2 where N is the number of people. 13 X (13-1)/2 = 78"
+  },
+  {
+    "question": "You are working on a project where you have determined the project scope, time and cost required to deliver the scope as early in the life cycle.The project is going through series of sequential or overlapping phases where each phase is focusing on specific project activities.What type of life cycle is explained in the question ? ",
+    "a": "Predictive Life Cycle",
+    "b": "Iterative Life Cycle",
+    "c": "Incremental Life Cycle",
+    "d": "Adaptive Life Cycle",
+    "answer": "a",
+    "explanation": "A   Refer to PMBOK® Guide - Sixth Edition, Pg: 19. Projects in predictive life cycle normally use rolling wave planning and it is performed where the product to be developed is well understood."
+  },
+  {
+    "question": "You are in the closure phase of one of the project and documenting the lessons learned. This project has very bad performance and all stakeholders were unhappy due to bad experience and are not willing to work again. You being the project manager, how will you document this?",
+    "a": "Ask team members to ignore it",
+    "b": "Meet with the stakeholders to document only bad experiences as it was due to bad experience the project didn't go well",
+    "c": "Meet with the stakeholders to document only bad experiences as this will be a lesson learned for you to not to repeat for future projects.",
+    "d": "Meet with the stakeholders to document bad and good experiences",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 123. Irrespective of whether the project went good or bad. It is your job as a project manager to make sure you document both good and bad experiences."
+  },
+  {
+    "question": "You are a project manager and you are transitioning a project from another project manager who is leaving the organization. The project has recently begun and you notice that project kick off meeting has not been scheduled yet. Which of the following is not a primary purpose of such kind of meeting?",
+    "a": "To notify stakeholders that project work has officially begun ",
+    "b": "To make sure project stakeholders have common understanding of the project and their roles.",
+    "c": "To get commitment from team.",
+    "d": "To collect the detailed project requirements.",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 86. Kick off meeting is not the place to collect detailed requirements. For this you generally have requirement gathering sessions."
+  },
+  {
+    "question": "Tedd is a senior project manager. He has a project coordinator Joshua who makes sure to complete all the admin work related to the project. Simon, who is the sponsor on the project, is not happy with the progress on the project. The project has reached the closure stage now. Who should be responsible for project closure document which will talk about the lessons learned on the project?",
+    "a": "Tedd",
+    "b": "Joshua",
+    "c": "Simon",
+    "d": "PMO",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 123. It is the responsibility of the PM to make sure the lessons learned are drafted for the project. So the correct choice is Tedd who is the project manager on the project."
+  },
+  {
+    "question": "Kane is a project manager in the company. Senior manager has requested his help on a critical project where the agreement has been finalized. They have completed the business case document and the client has decided to go with him as a project manager on this project. What is the next step on this project?",
+    "a": "Start working on high level project schedule",
+    "b": "Complete the project statement of work",
+    "c": "Finalize the project charter",
+    "d": "Identify the stakeholders on the project.",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 75. The keyword in the question is that the agreement is just finalized, Kane being the selected PM. Agreements, business case are inputs to process Develop Project charter and the output is the project charter itself."
+  },
+  {
+    "question": "You are in the closing stage of the project. The project is considered to be successful as you have met all the requirements which were documented in the requirements document. Which of the following may not be part of closing process group?",
+    "a": "Conduct phase end review",
+    "b": "Document whether the project is a success or not",
+    "c": "Obtain customers initial acceptance on deliverable",
+    "d": "Making sure all the issues are resolved",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 123. All of the options except C is part of closing process group. Initial customer acceptance is done in validate scope process. In closing, you just confirm the formal acceptance of deliverable."
+  },
+  {
+    "question": "You are managing a multiphase project. You have just completed a major phase of your project and now you, along with your team, are conducting a review of key deliverables and project performance. What do you think is the primary reason for this review?",
+    "a": "It helps to estimate resources for next phase",
+    "b": "It helps to gain approval to continue the project",
+    "c": "It helps to plan for next phase",
+    "d": "It helps to learn from the success of this phase",
+    "answer": "b",
+    "explanation": "B Refer to PMBOK® Guide - Sixth Edition, Pg: 21. So basically this question is indirectly referring to phase gate or kill point and primary reason you do it is to take a decision whether is it worth to move to next phase or not."
+  },
+  {
+    "question": "Before you can close the project, you want to make sure that entire project scope is met. Which document should you review/compare in order to achieve that?",
+    "a": "Scope Management Plan",
+    "b": "Project Scope Statement",
+    "c": "Project Management Plan",
+    "d": "Closeout Checklist",
+    "answer": "c",
+    "explanation": "C   Refer to PMBOK® Guide - Sixth Edition, Pg: 131. Product scope is measured against product requirements while project scope is measured against the project management plan. Scope Baseline which is part of project management plan will help you the most in this sceanario."
+  },
+  {
+    "question": "Taylor is quality manager for the company. Ross, a project manager, needs to acquire two resources on his project from Taylor's team. These two resources will be required full time for 2month.In which category will you keep these two resources keeping in mind that it is up to Taylor whether he wants to assign the resources or not?",
+    "a": "High Power, High Interest",
+    "b": "High Power, Low Interest",
+    "c": "Low Power, High Interest",
+    "d": "Low Power, Low Interest",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 512. Definitely the power is in the hands of Taylor and Ross. The resources have low power; however, they would want to make sure that in order to do good work their interest level should be kept high."
+  },
+  {
+    "question": "Taylor is quality manager for the company. His job is to assign resources form his team to PMs who need it. His job is just to assign and he doesn't care if resourced projects are successful or have failed. Ross, a project manager needs to acquire two resources from him. In which category will you keep Taylor keeping in mind that it is up to Taylor whether he wants to assign the resources or not?",
+    "a": "High Power, High Interest",
+    "b": "High Power, Low Interest",
+    "c": "Low Power, High Interest",
+    "d": "Low Power, Low Interest",
+    "answer": "b",
+    "explanation": "B  Definitely the power is in the hands of Taylor to make a decision. So he has high power. However, since he is not concerned about project success or failure, his interest level is low."
+  },
+  {
+    "question": "Work performance data is an input to many processes monitoring and controlling process group. Which of the following is an example of work performance data?",
+    "a": "Start and finish dates of schedule activities",
+    "b": "Status of deliverables",
+    "c": "Information notes",
+    "d": "Electronic dashboards",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 26. Start and finish date of schedule activities is part of work performance data. Rest are examples of work performance information or reports."
+  },
+  {
+    "question": "Collin is a project manager who has outsourced the work to a third party company. He has planned to do a surprise audit to the seller location and is surprised to see that the quality of the work is not as per his company's standards. This is something which he clearly stated before awarding the contract. What should Collin do now?",
+    "a": "Terminate the contract as this was something which was already told to the seller organization.",
+    "b": "Give final warning to them and make sure he does more frequent audits.",
+    "c": "Do as per the contract",
+    "d": "Reach out to the contracting company and ask why the quality is not met.",
+    "answer": "c",
+    "explanation": "C   Refer to PMBOK® Guide - Sixth Edition, Pg: 489. The thumb rule is that all the actions needed to be taken are taken as per the contract. Option D is a good but is it finding a solution to the problem described in the question? If the answer is no, this cannot be the correct option."
+  },
+  {
+    "question": "You are a project manager and you manage a very large virtual team. Your project team members work in different time zones and it's very difficult to get everyone at the same time. Recently, the customer has requested for a change and you want to document the impact of this change request. Which communication method would you use in such a scenario?",
+    "a": "Interactive",
+    "b": "Push",
+    "c": "Pull",
+    "d": "Para lingual",
+    "answer": "c",
+    "explanation": "C   Refer to PMBOK® Guide - Sixth Edition, Pg: 374. PMP® exam is all about finding keywords in the question and accordingly selecting the right option. There are many keywords in this question like many stakeholders  and document changes . If there are multiple stakeholders, then interactive is not considered to be good communication because information may be lost. Second and the major reason is that interactive communication is normally verbal and not documented which is asked in the question. Document can be push or pull and since there are many stakeholders you will go for pull. If you are selecting interactive, then you are thinking from a real world scenario. However, wear your PMI hat and think from PMP® perspective that all the important things should be documented and which is pull technique."
+  },
+  {
+    "question": "An activity has an early start of 14, early finish of 20 and late finish of 32. Calculate the late start of the activity?",
+    "a": "20",
+    "b": "26",
+    "c": "28",
+    "d": "24",
+    "answer": "b",
+    "explanation": "B   Refer to PMBOK® Guide - Sixth Edition, Pg: 211. Float = LF - EF or LS - ES which is 32 - 20 = 12 so the difference between LS and ES should also be 12 so LS = 14 + 12 = 26"
+  },
+  {
+    "question": "An activity has an early start of 14, early finish of 20 and late finish of 32. Calculate the duration of the activity?",
+    "a": "6",
+    "b": "8",
+    "c": "7",
+    "d": "9",
+    "answer": "c",
+    "explanation": "C   Refer to PMBOK® Guide - Sixth Edition, Pg: 211. Duration = EF - ES + 1 which is 20 - 14 + 1 = 7"
+  },
+  {
+    "question": "You are in the execution stage and your last deliverable will soon be completed. As part of the project, you have to coordinate with multiple resources from multiple teams. Which of the following activities may not be done by project management team?",
+    "a": "Develop, review and understand the scope",
+    "b": "Transform the project information into different project plans.",
+    "c": "Measure and monitor project's progress.",
+    "d": "Market the deliverable created in the project",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 95. Marketing the product/deliverable may be done by a separate team and not necessarily the project management team."
+  },
+  {
+    "question": "You are working on a big enterprise project which requires you to travel overseas. Since you are new to this country, you want to make sure that you follow strict labor laws of the country. You have identified many risks on the project and simultaneously you are finding the positive and negative impacts of these risks on the project. What type of technique are you using?",
+    "a": "Expected Monetary Value",
+    "b": "Monte Carlo Analysis",
+    "c": "Tornado Diagram",
+    "d": "Simulation",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 434. Tornado diagram normally has the list of risks in the y axis and positive and negative impacts on x axis."
+  },
+  {
+    "question": "Your sponsor has requested you to make sure you identify all the potential risks on the project. In order to comply with it, you are using an analytical technique to identify a problem, discover the underlying causes that lead to it and accordingly develop a preventive action. You are confident that you will be able to execute the project without any significant issues. Which tool and technique did you use?",
+    "a": "Fishbone or Ishikawa",
+    "b": "Root Cause Analysis",
+    "c": "Fault Tree Analysis",
+    "d": "SWOT Analysis",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 415. In root cause analysis, you work with the team to determine the causes that will lead to the problem. Once it is identified then you develop preventive actions."
+  },
+  {
+    "question": "You are in the execution stage of the project which is likely to be complete in the next 30 working days. Your sponsor told you to compress the project schedule to 26 working days and he provided an additional resource for the same. Unfortunately, at the same time, two of your critical resources decided to leave the company. You analyze the impact and find out that project duration needs to be pushed to 40 days. Calculate the estimated timeline using PERT?",
+    "a": "32",
+    "b": "29",
+    "c": "30",
+    "d": "31",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 245. PERT = (P + 4 X M + O)/6 where P is pessimistic time, M is most likely time and O is optimistic time. P = 40 days, M = 30 days and O = 26 days. PERT = (40 + 4 X 30 + 26)/6 = 186/6 = 31 days"
+  },
+  {
+    "question": "You are in the execution stage of the project which is likely to be complete in next 30 working days. Your sponsor told you to compress the project schedule to 26 working days and he provided an additional resource for the same. Unfortunately, at the same time, two of your critical resources decided to leave the company. You analyze the impact and find out that project duration needs to be pushed to 40 days. Calculate the estimated timeline using Beta distribution?",
+    "a": "32",
+    "b": "29",
+    "c": "30",
+    "d": "31",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 245. Beta Distribution and PERT is the same thing, so Beta distribution = (P + 4 X M + O)/6 where P is pessimistic time, M is most likely time and O is optimistic time. P = 40 days, M = 30 days and O = 26 days. PERT/Beta Distribution = (40 + 4 X 30 + 26)/6 = 186/6 = 31 days"
+  },
+  {
+    "question": "An airline company has reached out to your company to do a project for them. The main purpose of the project will be to develop electronic tickets instead of the paper based tickets currently in use. On what basis may the business case be most likely created?",
+    "a": "Market demand",
+    "b": "Organizational need",
+    "c": "Technological advance",
+    "d": "Social need",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 78. The primary reason of the project could be that technology has changed from old paper based structure to more advance electronic tickets system."
+  },
+  {
+    "question": "Corey is a new project manager. His project is not going well. Team is also not motivated as there is no reward system set up. His project is hit by a lot of risks lately. He identified the risks and then prioritized the risks based upon the probability and impact of the risks. He again reprioritized the risks after calculating the impact of those risks on the cost and schedule of the project. Now he is making sure that he is controlling the risks and trying to bring more ideas to motivate the entire team. What did Corey miss?",
+    "a": "He did not implement the risk responses on the project",
+    "b": "He did not plan the responses for the identified risks.",
+    "c": "He did not perform quantitative risk analysis.",
+    "d": "He should have planned a team dinner for motivating the team.",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 437. He identified the risks, then he performed qualitative and quantitative risks analysis. After completing that, he directly moved to Monitor Risks process. He forgot to find the risk responses for the risk."
+  },
+  {
+    "question": "You are working for the seller organization. The buyer project manager constantly follows up with you and your team on every minute details. You are frustrated because of the buyer's attitude. The buyer project manager planned a surprise audit to make sure that the work is being done as per the process. Which process did the buyer perform?",
+    "a": "Plan Quality Management",
+    "b": "Manage Quality",
+    "c": "Control Quality",
+    "d": "Conduct Procurement",
+    "answer": "b",
+    "explaination": "B   Refer to PMBOK® Guide - Sixth Edition, Pg: 294. Keyword in the question is Audit which is a tool for manage quality process. If control procurements was one of the answer options, then that would have been a better answer."
+  },
+  {
+    "question": "Mitchell is a software developer who is respected across the organization. Her manager promoted her to be a PM. Unfortunately, Mitchell who was excellent in her technical work is not able to manage the project properly. Her project is hit with a lot of negative risks. What is the situation called?",
+    "a": "A)This is a common scenario.",
+    "b": "B)Fault Tree Effect",
+    "c": "C)Failure Mode Effect",
+    "d": "D)Hallo Effect",
+    "answer": "d",
+    "explaination": "D  When a technical resource is promoted to manager position because the resource was excellent in his/her technical work and is not performing well is considered to be Hallo Effect. You wont find the word Halo effect in PMBOK® but its good to know information."
+  },
+  {
+    "question": "You are in the execution stage of your project when one of the critical risks on your project was realized. You implemented the response strategy but found out that it is not fully effective and you created a new plan to overcome this situation. Which of the following plan can help you in such a scenario?",
+    "a": "Quality Control Measurement Plan",
+    "b": "Fallback Plan",
+    "c": "Risk Management Plan",
+    "d": "Configuration Management Plan",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 439. Fallback plan is used if the selected strategy is not fully effective."
+  },
+  {
+    "question": "You have recently joined a company which has a very strong project management office. All the projects in the organization has to go through the project management office. The PMO often uses documents stored on the organizational process assets. Which of the following is not an organizational process asset?",
+    "a": "Performance measurement criteria",
+    "b": "Project closure guidelines",
+    "c": "Configuration management knowledge base",
+    "d": "Organizational structure.",
+    "answer": "d",
+    "explanation": "D Refer to PMBOK® Guide - Sixth Edition, Pg: 39. Organizational structure is an example of enterprise environmental factors and not organizational process assets."
+  },
+  {
+    "question": "Adam has been assigned a new project to implement critical features for company's education management software. This is a large and complex project. Adam is planning to set up a kick off meeting which will involve most of the key stakeholders. When do you think Adam should conduct the kick off meeting?",
+    "a": "Initiation Stage",
+    "b": "Planning Stage",
+    "c": "Before every important milestone",
+    "d": "Executing Stage",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 86. Kick off is normally done in the planning stage for smaller projects and in executing stage for large complex projects. Different team members may be involved for planning and executing."
+  },
+  {
+    "question": "Mindy is a senior project manager who is presently performing the earned value analysis. The project's CPI is 1.2 and the total amount spent till now is $10,000. The total amount she planned to spend till now was $12,200. How is the project doing?",
+    "a": "Project is well under budget; Mindy can use this money as a performance incentive to motivate the team.",
+    "b": "You don't have any real concerns about the project.",
+    "c": "You are under budget and ahead of schedule.",
+    "d": "Schedule is delayed by 2 days.",
+    "answer": "b",
+    "explanation": "B CPI= 1.2, this means you are under budget. AC= $10,000, PV= $12,200, CPI = EV/AC; 1.2 = EV/10,000; EV = 1.2* 10,000 = 12,000. SPI = EV/PV; SPI = 12,000/12,200 = .98 , this means you are slightly behind schedule which is manageable. So no real concerns at the moment"
+  },
+  {
+    "question": "You are managing a project which has 3 developers, 2 QA specialist and 1 HR professional. All these stakeholders are involved with phase I of the project. Phase II involves complete different team with 2 BA, 2 data analyst, 1 QA specialist and 2 developers. What is the total number of communication channel for phase I and phase II combined?",
+    "a": "66",
+    "b": "49",
+    "c": "91",
+    "d": "78",
+    "answer": "b",
+    "explanation": "B There are total of 7 members for phase I. 1 PM + (3 SD + 2 QA + 1 HR) and there are 8 members for phase II. PM is common in both the phases: 1 PM + (2 BA + 2 DA + 1 QA + 2 SD). Number of communication channels= N X (N-1)/2 where N is the number of people. For Phase I it is 7 X (7-1)/2 = 21. For Phase II it is 8 X (8-1)/2 = 28. So combined communication channel is 21 + 28 = 49"
+  },
+  {
+    "question": "You work for the functional technical team. Since the last couple of days, you are noticing a conflict between two of your team members. This conflict has a direct impact on your project tasks and overall project schedule is being affected. What is your first step?",
+    "a": "Report the issue to PM",
+    "b": "Ask the PM to interfere",
+    "c": "Since you are not the PM, don't interfere",
+    "d": "Request the team members to solve the conflict themselves",
+    "answer": "b",
+    "explanation": "B   Refer to PMBOK® Guide - Sixth Edition, Pg: 348. Since it is impacting the project schedule, you will either do A or B. Out of A and B, B sounds more logical as you are requesting the PM to interfere."
+  },
+  {
+    "question": "Luke has to deliver a project with three sigma quality requirement. One of his activity on the project has an optimistic estimate of 10 days, realistic estimate of 15 days and pessimistic estimate of 20 days. In order to meet the three sigma quality requirement, what is the estimated duration range?",
+    "a": "11 days to 19 days",
+    "b": "11 days to 21 days",
+    "c": "10 days to 20 days",
+    "d": "12 days to 22 days",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 244. First thing you need to calculate is PERT which is (P + 4*M + O)/6 = (20 + 4*15 + 10)/6 = (20 + 60 + 10)/6 = 90/6 = 15. Next you need to calculate is SD (Standard Deviation) which is (P - O)/6 = (20 - 10)/6 = 10/6 = 1.66. So if the requirement is 3 sigma then the range should be from PERT - 3*SD to PERT + 3*SD. So it should be 15 - 3*1.66 to 15 + 3*SD which is 10 to 20 days."
+  },
+  {
+    "question": "Your sponsor is not happy with the current progress on your project. He has requested you to shorten the schedule duration and make sure that the project is back on track. He is willing to provide additional funding. However, sponsor is adamant that he will not shorten the project scope. What can be done?",
+    "a": "Apply crashing technique",
+    "b": "Apply fast tracking technique",
+    "c": "Apply resource leveling technique",
+    "d": "Apply resource smoothing technique.",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 215. The questions talks about reducing the project duration by increasing the project budget. This is a typical example of crashing technique where additional resources are added to bring the budget back on track."
+  },
+  {
+    "question": "You are managing a high visibility project to implement an ERP system. Successful implementation of this project will help to meet company's strategic goal for the year. You are responsible for business intelligence portion of the implementation and you report to the project manager who is overseeing the entire project and the BI director. Which organization type do you work in?",
+    "a": "Functional Organization",
+    "b": "Balanced Matrix",
+    "c": "Strong Matrix",
+    "d": "Weak Matrix",
+    "answer": "c",
+    "explanation": "C Refer to PMBOK® Guide - Sixth Edition, Pg: 47. It looks like the PM has more power than the FM which means you are in strong matrix organization."
+  },
+  {
+    "question": "The sponsor has requested the PM to help him on the project charter. This is a complex and multi phase project and sponsor is confused. When do you think the project manger should start documenting and reviewing the lessons learned?",
+    "a": "Planning",
+    "b": "Initiating",
+    "c": "Closing",
+    "d": "Monitoring and Controlling",
+    "answer": "b",
+    "explanation": "B   Refer to PMBOK® 6th edition Pg 74 and 79. Lessons learned are collected throughout the project and you review the lessons learned for almost every process. The earlier you do the better it is. For instance lessons learned are also part of OPA which is an input to develop project charter and indentify stakeholder process."
+  },
+  {
+    "question": "Henry is a project manager who works for a manufacturing plant. The team is not happy and there is a significant risk that the labor prices will increase. Henry is planning to evaluate the project risk of increased labor cost on all the different variables by creating a bar chart. What tool is Henry using?",
+    "a": "Root Cause Analysis",
+    "b": "Ishikawa",
+    "c": "Tornado Diagram",
+    "d": "Histogram",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 434. Tornado diagram is bar chart used in sensitivity analysis for comparing the relative importance of the variables. Refer to PMBOK®, risk management knowledge area."
+  },
+  {
+    "question": "Your organization has a tradition to assign a mentor to newly appointed project managers. The new PM is finding it difficult to manage a project which is being progressively elaborated. The mentor advises the new PM to use WBS during project execution. What is the primary use of WBS?",
+    "a": "It helps the functional managers to see where their team members are assigned",
+    "b": "It helps the team to communicate with customer",
+    "c": "It helps to show the calendar dates for each work package",
+    "d": "It determines the business need for the project",
+    "answer": "b",
+    "explanation": "B   Refer to PMBOK® Guide - Sixth Edition, Pg: 161. If you selected option D then keep in mind business documents help you to determine the business need not your WBS. Similarly WBS never shows the dates or team members. Though it could be used for communication purposes."
+  },
+  {
+    "question": "Your project is likely to be complete in next 30 working days. Your sponsor is planning to compress the project schedule to 26 working days by providing an additional resource. Unfortunately, at the same time, two of your critical resources left the company and the project duration is now pushed to 40 days. Calculate the estimated timeline using Triangular distribution?",
+    "a": "32",
+    "b": "29",
+    "c": "30",
+    "d": "31",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 244. Triangular distribution = (P + M + O)/3 where P is pessimistic time, M is most likely time and O is optimistic time. P = 40 days, M = 30 days and O = 26 days. Triangular Distribution = (40 + 30 + 26)/3 = 96/3 = 32 days"
+  },
+  {
+    "question": "The seller organization's PM is working with the testing team to inspect all the functionalities of the deliverable. Which process is the seller project manager performing?",
+    "a": "Validate Scope",
+    "b": "Manage Quality",
+    "c": "Control Quality",
+    "d": "Control Scope",
+    "answer": "c",
+    "explanation": "C Refer to PMBOK® Guide - Sixth Edition, Pg: 303. Keyword in the question is inspect and remember inspection is one of the tools for control quality process."
+  },
+  {
+    "question": "Your sponsor instructed you to create a plan which will only be executed under certain predefined conditions. This plan would also include events that triggers the contingency response. What type of document is he asking you to develop?",
+    "a": "Quality Control Measurement Plan",
+    "b": "Fallback Plan",
+    "c": "Risk Management Plan",
+    "d": "Configuration Management Plan",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 445. Risk responses that are identified using this type of technique are often called as contingency or fallback plans."
+  },
+  {
+    "question": "You plan to setup a quality function deployment (QFD) meeting to discuss the characteristics of the product which will be delivered as a part of this project. Which tools and technique are you planning to use to collect the requirements?",
+    "a": "Focus groups",
+    "b": "Mind Mapping",
+    "c": "Facilitation",
+    "d": "Affinity Diagram",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 145. QFD is an example of facilitation technique which is also known as voice of customer (VOC)."
+  },
+  {
+    "question": "Work performance information is an output to many processes of monitor and control process group. Which of the following is an example of work performance information?",
+    "a": "Start and finish dates of schedule activities",
+    "b": "Status of deliverables",
+    "c": "Information notes",
+    "d": "Electronic dashboards",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 26. Status of deliverables is a part of work performance information. Rest are examples of work performance data or reports."
+  },
+  {
+    "question": "One of the critical activities on your project is to transport the material to the manufacturing plant. In order to estimate, you reach out to your supervisor and told him that you will use historical data and also calculate based upon the number of miles the truck will travel in 1-hour. Which technique are you using to estimate for the project?",
+    "a": "Analogues Estimating",
+    "b": "Parametric Estimating",
+    "c": "Bottom Up Estimating",
+    "d": "Three Point Estimating",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 244. The keywords in the question is historical data and number of miles per hour which is an example of parametric estimation."
+  },
+  {
+    "question": "You are in the implementation stage of your project when an accepted risk has occurred. Which document will you refer to?",
+    "a": "Risk Response Plan",
+    "b": "Fallback Plan",
+    "c": "Risk Management Plan",
+    "d": "Risk Register",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 439. It is specifically given in PMBOK® that you use fallback plan for accepted risks."
+  },
+  {
+    "question": "George is managing a new project. One day, in cafeteria he overheard that two functional managers are confused about the potential impacts they may have due to Georges project. George believes that it is due to the change and the functional managers are resistant about it. What should George do in such a scenario?",
+    "a": "George should not do anything as initially people are always resistant to change.",
+    "b": "Talk to the functional managers and let them know that sponsor has already considered the impact and the project has been given higher priority.",
+    "c": "It is George's responsibility to analyze the impact of the project and provide correct information to functional managers.",
+    "d": "Inform about this to your team and gather inputs from them.",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 3. As a project manager, it is George's responsibility to convert the stakeholders from resistant category to supporter category and this can be done by discussing the project impacts with them."
+  },
+  {
+    "question": "Your company has hired a vendor to do project implementation. After reviewing the SOW, it is determined that the funding would be done on a milestone basis. You are closely working with the finance group to set limits on the invoices as large amount of capital will be involved. What type of technique is being used by you in such a scenario?",
+    "a": "To Complete Performance Index",
+    "b": "Forecasting",
+    "c": "Funding Limit Reconciliation",
+    "d": "Project Funding Requirements",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 253. The question talks about technique, option D is not a technique instead it is an output. Out of the remaining three options, C is the best choice as it is funding limit reconciliation when you compare the project expenditure with the funding limits an organization may have."
+  },
+  {
+    "question": "On obtaining the project charter, the Project Manager of a project immediately starts acquiring the project team. Is this correct?",
+    "a": "Yes. Acquisition of the project team is primarily an Initiating Process Group activity.",
+    "b": "Yes. The project manager needs to get the team together as soon as the project starts.",
+    "c": "No. It is the responsibility of the project sponsor to provide the team for execution.",
+    "d": "No. Acquisition of the project team is primarily an Executing Process Group activity.",
+    "answer": "d",
+    "explanation": "D Acquire Resources is in executing process group"
+  },
+  {
+    "question": "You are a project scheduler where you help the project managers to develop the project schedule. One of the project managers reaches out to you to determine the critical path of the project. He is not sure on the term which will help him determine the early start and early finish of activities. What should be your response to him?",
+    "a": "Activity On Node",
+    "b": "Gantt Chart",
+    "c": "A backward pass",
+    "d": "A forward pass",
+    "answer": "d",
+    "explanation": "D   Refer to PMBOK® Guide - Sixth Edition, Pg: 707. Forward pass determines the early start and early finish and backward pass determines the late start and late finish."
+  },
+  {
+    "question": "Trent is developing a document which has the following text mentioned: WBS number 1.2 .1 .1 - System Integration: The purpose of system integration is to integrate the system A with system B .Which document is Trent developing ? ",
+    "a": "WBS",
+    "b": "Scope Baseline",
+    "c": "Control Account Document",
+    "d": "WBS Dictionary",
+    "answer": "d",
+    "explanation": "D  WBS dictionary is the document which has detailed information about the elements of WBS. WBS dictionary is part of scope baseline. Remember always select the child (WBS dictionary) and not the father (Scope Baseline)"
+  },
+  {
+    "question": "You have recently been authorized to start working on a project. Your sponsor has requested you to immediately provide her with a detailed stakeholder register. She wants to know name, title, email and phone number of all external stakeholders involved. Which of the following document/plan will be required to start with?",
+    "a": "Project management plan",
+    "b": "Scope management plan",
+    "c": "Project charter",
+    "d": "takeholder Engagement Plan",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 507. Its early stages of the project and not all plans/documents may be ready. Project charter could prove to be a good starting point."
+  },
+  {
+    "question": "Your PMO department is looking for a new project manager. You shared a resume of a candidate to your PMO director but she upfront rejects it because the candidate is not PMP® certified and it's one of client requirements in the contract. This is an example of:",
+    "a": "Constraints",
+    "b": "Assumptions",
+    "c": "Organization Process Assets",
+    "d": "Source Selection Criteria",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 478. Source selection criteria includes specific relevant experience and management experience. Being a PMP® can be termed as one of the other."
+  },
+  {
+    "question": "Martin has joined the project as a project manager which is half done. The team is in execution stage but he finds that the team is not happy and complaining a lot. This is creating unnecessary chaos among the team members. What document should Martin refer to in this scenario?",
+    "a": "Resource Management Plan",
+    "b": "RACI Matrix",
+    "c": "Scope Management Plan",
+    "d": "Project Management Plan",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 318. Basically in develop or manage team process, you do things so that team trust each other and they are aware what their roles and responsibilities are. All this information is first planned in the resource management plan which will be helpful in this scenario."
+  },
+  {
+    "question": "You are working on estimating the project activities. Activity A has an optimistic time of 12 days, most likely time of 24 days and pessimistic time of 30 days. What is the probability that Activity A will be completed in 14 to 32 days?",
+    "a": "68.26%",
+    "b": "95.46%",
+    "c": "99.73%",
+    "d": "99.99%",
+    "answer": "c",
+    "explanation": "C  Pessimistic = 30 days. Most Likely = 24 days. Optimistic = 12 days. Based upon the answer choices, it could either be 6 sigma = 99.99%. 3 sigma = 99.73%. 2 sigma = 95.46%. 1 sigma = 68.25%. PERT= (P + 4 X M + O)/6 which is (30 +96 +12)/6 = 23 days. Standard Deviation = (P-O)/6 = (30 - 12)/6 = 3 days. The question gives the range as 14 to 32 days. So let's try hit and trial method. Assuming it is 3 sigma and continue doing hit and trial method until you find the correct range as given in the question. Project Duration Range= [PERT - (3 X standard deviation)] To [PERT + (3 X SD)]; [23 - (3 X 3)] to [23 + (3 X 3)] = 14 to 32 days which is also given in the question. If you see at the top, 3 sigma is 99.73% so the correct answer is option C."
+  },
+  {
+    "question": "You are in the process of determining whether you need to buy a manufacturing equipment for the project or not. You are using decision tree analysis to help you make a decision. You know that input to chance node in the decision tree is scenario probability, however you are not sure about the output. What is the output of chance node in decision tree analysis?",
+    "a": "Decision to be made",
+    "b": "Decision Made",
+    "c": "Expected Monetary Value",
+    "d": "Playoffs minus costs along path",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 435. Don't be surprised if you got this question wrong. This question was tough. Output for chance node is EMV"
+  },
+  {
+    "question": "You are a new project manager who has been recently assigned a project which is in its execution stage. Your team member told you that there is a very high probability of flood which can ruin the project equipment. What will you do in this scenario?",
+    "a": "Immediately review the Risk Register",
+    "b": "Do nothing as the risk has not happened yet",
+    "c": "Immediately review the Risk Response Plan",
+    "d": "Immediately review the Risk Management Plan",
+    "answer": "a",
+    "explanation": "A   Refer to PMBOK® Guide - Sixth Edition, Pg: 417. First thing you need to check is whether this risk has been identified by the team or not. This information would be available in the risk register."
+  },
+  {
+    "question": "You are working on a project to manufacture medical devices. The customer has come up with the requirement that the medical device should be able to monitor the temperature in both degree Celsius and Fahrenheit. This requirement specifically would be characterized in what type of scope?",
+    "a": "Direct Scope",
+    "b": "Indirect Scope",
+    "c": "Product Scope",
+    "d": "Project Scope",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 131. The features that characterize a product is an example of product scope. However, keep in mind that product scope is part of project scope."
+  },
+  {
+    "question": "Doug is in executing stage of a high profile project which has huge impact on the stakeholders. However, there are many stakeholders whose current engagement level is unaware or resistant and it is very critical for Doug to make the engagement level to supportive. What should be the next step for Doug?",
+    "a": "This is not good; Doug should immediately reach out to project sponsor.",
+    "b": "Setup a meeting with stakeholders to discuss the gaps and propose a solution.",
+    "c": "This project has lot of negative risks.",
+    "d": "Create a statement of work to resolve the issue.",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 531. The next and best thing to do is to set up a meeting with stakeholders and discuss how and what you can do to address their concerns and bring them on your side. Option C is not a solution just a statement."
+  },
+  {
+    "question": "WBS is considered to be one of the most critical document for the team. It is deliverable based and it makes the job of the project manager easy to assign work to the team. It is also known as 100% scope and it is considered to be foundation for most of the items. However, what is the exception to this rule?",
+    "a": "Project Communications",
+    "b": "Project Procurement",
+    "c": "Estimating the cost",
+    "d": "Identifying the risk",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 161. You don't need WBS to communicate. However, WBS normally has procurement deliverables. You use deliverables from WBS to estimate for costs and you also use WBS to identify risks on the project."
+  },
+  {
+    "question": "You are a project manager and been given a new project. The project duration is 1 year and the high level budget is $500,000. Project sponsor has requested you to create a document and to make sure you include measurable project objectives and related success criteria? Which document has he requested you to develop?",
+    "a": "Project sign-off document",
+    "b": "Project charter",
+    "c": "Draft Contract",
+    "d": "Project scope statement",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 81. Project Charter contains measurable project objectives and related success criteria."
+  },
+  {
+    "question": "Tim is a project manager in the PMO department of the company. He is presently reviewing the work breakdown structure provided to him from his module leads. Which of the following is not a correct representation of WBS elements?",
+    "a": "WBS Id: 1.1 System Integration",
+    "b": "BWBS Id: 1.1.3.4 Tools Development",
+    "c": "WBS Id: 1.1.2.4 Install Server in Server Rooms",
+    "d": "WBS Id: 1.2.4 Solution Overview Demo",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 161. All of the options except option C can be part of WBS. Install server in server rooms is an activity and not a deliverable."
+  },
+  {
+    "question": "The customer has requested you to make sure that your team of automotive designers determine an optimal combination of suspension and tires to produce the most desirable comfort to the customers at a reasonable cost. Your team of automotive engineers have created a statistical framework of how these factors impact each other. What technique did your automotive engineers use?",
+    "a": "What if Analysis",
+    "b": "Design of Experiments",
+    "c": "Monte Carlo Analysis",
+    "d": "Cost of Quality",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 290. Design of experiments is a statistical method for identifying which factors may influence specific variables of a product or a process under development or in production."
+  },
+  {
+    "question": "You are in the planning process to create the scope management plan. This process is very important for your project because missed scope may lead to problems in future. Which of the following is not a part of scope management plan?",
+    "a": "Process for prioritizing the requirements",
+    "b": "Process for creating a detailed project scope statement.",
+    "c": "Process on how formal acceptance of project deliverable will be obtained.",
+    "d": "Process on how WBS will be approved.",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 137. Process for prioritizing the requirements will be a part of requirements management plan and not scope management plan."
+  },
+  {
+    "question": "You are in the execution stage of the project. Unfortunately, one of your team member met with an accident and will not be able to resume office in next couple of months. This team member was assigned to several risks. What should have Kevin (PM) done to prevent this situation?",
+    "a": "Update the risk register",
+    "b": "Update the resource management plan",
+    "c": "Update the risk management plan",
+    "d": "Update the risk response plan",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 417. Potential risk owners are identified in the risk register. This situation could have been prevented if the risks which are assigned to the team member is assigned to someone else in the risk register."
+  },
+  {
+    "question": "Two of your team members don't like each other at all. Often times they are not able to control their sentiments and team environment is getting affected by the same. You setup a meeting with each of them separately and discuss their concerns. Then you make sure to follow up with them until it is resolved. Which technique did you used?",
+    "a": "Decision Making",
+    "b": "Influencing",
+    "c": "Leadership",
+    "d": "Emotional Intelligence",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 349. As a project manager you are trying to manage the emotions of team members by discussing and following up on their concerns. This technique is known as emotional intelligence."
+  },
+  {
+    "question": "You have been assigned as a project manager on a critical project for the organization. Project charter is signed and the stakeholders have been identified. Sponsor is happy and excited about this project, however as a project manager what should be your next process to begin with?",
+    "a": "Collect Requirements",
+    "b": "Create WBS",
+    "c": "Develop Project Charter",
+    "d": "Develop Project Management Plan",
+    "answer": "d",
+    "explanation": "D Refer to PMBOK® Guide - Sixth Edition, Pg: 82. We know a lot of people will not agree with us but here is our justification for it. If you believe collect requirements is the first thing in the planning phase then don't you think HOW you will collect the requirements is more important and required to be done before you actually collect the requirements? Which process will tell you HOW you will collect the requirements? The answer is plan scope management process. Maximum processes in planning phase are iterative. You have to go back to these processes multiple times. The first thing you will do in planning phase is create a basic structure of the project management plan. Once that is done then you will start doing the detailed processes like Plan scope management process and then collect requirements . This process will continue until the project management plan is fully complete and approved."
+  },
+  {
+    "question": "You are working on a small project and the project kick off meeting is not scheduled yet. You notice that the project management plan is not yet approved. Which document/plan can help you in this scenario? You want to know who will approve the project management plan.",
+    "a": "Project Charter",
+    "b": "Stakeholder Engagement Plan",
+    "c": "Communication Management Plan",
+    "d": "Resource Management Plan",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 81. There are many keywords in this question. First is Small project. In small projects, kick off meeting is done right after initiation stage so only document which is ready at this time is project charter. Also project approval requirements are part of Project Charter."
+  },
+  {
+    "question": "A nonprofit company has reached out to your company for a project to install portable water system in a developing country. This will be huge help to the local slum area and many problems may be resolved due to this effort. On what basis may the business case be most likely created?",
+    "a": "Market demand",
+    "b": "Organizational need",
+    "c": "Technological advance",
+    "d": "Social need",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 78. The primary reason of the project could be social need, as it is eradicating/resolving a social problem in the developing country."
+  },
+  {
+    "question": "The sponsor on your project is not happy with the performance of the project. The project is running behind schedule and he wants to see more regular updates. He reaches out to you to share with him an updated milestone list with correct dates. Which process do you have to undergo to provide him with this information?",
+    "a": "Define Activities",
+    "b": "Manage Communications",
+    "c": "Control Schedule",
+    "d": "Develop Schedule",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 379. Read the question carefully, the keyword here is to provide the information  which means you are sending the information to stakeholders. And this is none other than manage communication process where the output is project communications."
+  },
+  {
+    "question": "Mark is working with the seller to provide them with monthly distribution of automotive parts. The project is going good and three more shipments are pending. One day, Mark received a call from the seller that their company has been bankrupted and they will no longer be able to continue working on this project. What should Mark do?",
+    "a": "Start the close project process.",
+    "b": "Talk to the procurement department to put up a new RFP.",
+    "c": "Inform the project stakeholders.",
+    "d": "Reach out to your legal department.",
+    "answer": "c",
+    "explanation": "C Refer to PMBOK® Guide - Sixth Edition, Pg: 379. Think from this perspective: what is the first thing you will do. All the options look good, however informing the project stakeholders should be the first step."
+  },
+  {
+    "question": "One of your projects was delivered late and in turn it resulted into loss of $1 million dollars for the company. The CEO is not happy with this result. He decided to bring in few reforms to make sure the work is delivered on time. CEO office sent out a memo to make sure people are adhering to it. What type of communication did the CEO use?",
+    "a": "Formal",
+    "b": "Informal",
+    "c": "Unofficial",
+    "d": "External",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 381. Memos are always informal. Even though the memo came from CEO, doesn't mean it is formal."
+  },
+  {
+    "question": "You are in the execution stage of the project where few resources are not performing well. You have given multiple warnings but situation has not improved. You have finally decided to replace these resources with new resources. Which process would you perform next?",
+    "a": "Plan Resource Management",
+    "b": "Acquire Resources",
+    "c": "Develop Resources",
+    "d": "aManage Resources",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 319. The next thing you will do is to release the resources and how to release the resources is in plan resource management process."
+  },
+  {
+    "question": "John is building an automated tool for the customer which will help him to collaborate all his data into one place. He is planning to use mind maps to understand the scope in more details. How would you categorize this process done by John?",
+    "a": "Quality Check",
+    "b": "Indirect Scope",
+    "c": "Product Scope",
+    "d": "Project Scope",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 144. The features that characterize a product is an example of product scope. However, the question is not talking about a product requirement. It is just saying that you will be using mind mapping technique to accomplish that requirement. So this is an example of project scope."
+  },
+  {
+    "question": "Ron is a project manager in a manufacturing plant. One of his team members, Aaron, reaches out to him stating that George is stealing some manufacturing samples without informing anyone. These samples are free and given to doctors. What should Ron do in such a scenario?",
+    "a": "He should immediately inform the HR department about it.",
+    "b": "He should immediately inform police about it irrespective of whether the sample is free or not.",
+    "c": "Setup a meeting with George to discuss about it.",
+    "d": "Don't do anything as it was a free sample.",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 3. Are you sure if George really stole the samples? What if Aaron and George don't like each other. So the first step should be to talk to George and if it is true then reach out to HR management."
+  },
+  {
+    "question": "Shaun is a PMO director. His team is highly demotivated because there were no policies set by Shaun. In order to motivate the team, Shaun is planning to do some team building activities like happy hours, taking the team for lunch, etc. When do you think these activities would have had the greatest benefit?",
+    "a": "Early in the project life cycle",
+    "b": "It should be on need basis as it depends from project to project.",
+    "c": "At the end of the project life cycle",
+    "d": "In the execution stage where maximum work is accomplished.",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 341. It's always better if it is done early in the life cycle of the project."
+  },
+  {
+    "question": "Tony's project is in execution stage. Customer asked to add more product features which will eventually impact scope, cost and schedule. Keeping in mind that CCB approved the change, what will be his next step?",
+    "a": "Update the project charter",
+    "b": "Update the project management plan",
+    "c": "Implement the change",
+    "d": "Update the scope baseline",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 120. Before you implement the change, you should update all relevant documents. Since this change is impacting scope, cost and schedule, you should update the project management plan."
+  },
+  {
+    "question": "Roger was a resistant stakeholder on the project. Tom, who is the project manager provided regular updates to him and now Roger is supportive of the project. What is the first document will Tom update?",
+    "a": "Stakeholder Register",
+    "b": "Stakeholder Engagement Plan",
+    "c": "Communication Management Plan",
+    "d": "Risk Register",
+    "answer": "b",
+    "explanation": "B   Refer to PMBOK® Guide - Sixth Edition, Pg: 522. Stakeholder Engagement level is defined in the stakeholder engagement assessment matrix which is a data representation tool for plan stakeholder engagement process. This information is available in stakeholder engagement plan."
+  },
+  {
+    "question": "Your senior management depends upon work performance report to understand the project progress. They often reach out to you to help them understand the report. Which of the following is an example of work performance report?",
+    "a": "Start and finish dates of schedule activities",
+    "b": "Status of deliverables",
+    "c": "Information notes",
+    "d": "Number of change requests and defects",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 26. Information notes is part of work performance report. Rest all are example of work performance information or data."
+  },
+  {
+    "question": "You feel that your team has identified negative risks only. You again reach out to your team to discuss some opportunities as well. When the team replied back to you, you set up a meeting to prioritize the risks based upon their probability and impact. Which process group are you presently in?",
+    "a": "Risk Management",
+    "b": "Planning",
+    "c": "Perform Qualitative Risk Analysis",
+    "d": "Perform Quantitative Risk Analysis",
+    "answer": "b",
+    "explanation": "B Refer to PMBOK® Guide - Sixth Edition, Pg: 419. Read the question carefully, it asks about process group and there is only one process group in the answer options which is planning and that is the correct choice."
+  },
+  {
+    "question": "You have been assigned as a project manager for a new project. But before talking about this with your team, you decide to do a brainstorming session with peers who are subject matter experts in their respective fields. Any knowledge from them can prove to be beneficial for this project. What type of communication did you use?",
+    "a": "A)Official",
+    "b": "B)Formal",
+    "c": "C)Horizontal",
+    "d": "D)Unofficial",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 361. The keyword in the question is With peers  which is horizontal communication."
+  },
+  {
+    "question": "You were managing a small team but with your recent promotion, you are managing a bigger team now. You are in the process of creating a project schedule. You created a chart to identify schedule start or completion of major deliverables. Which chart did you develop?",
+    "a": "Bar Chart",
+    "b": "Milestone Chart",
+    "c": "Project Schedule Network Diagrams",
+    "d": "Gantt Chart",
+    "answer": "b",
+    "explanation": "B Refer to PMBOK® Guide - Sixth Edition, Pg: 218. You use milestone chart for important deliverables."
+  },
+  {
+    "question": "You have four resources reporting to you. Due to some new contracts, you have decided to add two more resources to your team. What is the total number of communication channels?",
+    "a": "21",
+    "b": "15",
+    "c": "6",
+    "d": "28",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 370. Number of resources = 1(You) + 4 + 2 = 7 Number of communication channels= n X (n-1)/2 = 7 X (7-1)/2 = 7 X 6/2 = 21 Channels."
+  },
+  {
+    "question": "There are many direct or indirect factors that may affect your project. In order to be successful, you want to make sure that you identify all such factors. Which of the following is not an example of enterprise environmental factors?",
+    "a": "Management practices",
+    "b": "Project management information system",
+    "c": "Configuration management knowledge base",
+    "d": "Personnel administration",
+    "answer": "c",
+    "explanation": "C   Refer to PMBOK® Guide - Sixth Edition, Pg: 117. Configuration management knowledge base is an example of organizational process assets and not enterprise environmental factors."
+  },
+  {
+    "question": "The total budget of your project is $200,000. Till now you have completed 30% of work. However, you should have completed 40% of work by now. The amount spent until now is $50,000. The sponsor is happy with the way things are going on and wants you to maintain the current efficiency in order to complete the current EAC. Calculate TCPI (To Complete Performance Index)?",
+    "a": "0.75",
+    "b": "1.2",
+    "c": "1.07",
+    "d": "0.93",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 267. BAC = $200,000 EV = 30% of BAC = .30 X 200,000 =$60,000 PV = 40% of BAC = .40 X 200,000 = $80,000 AC= $50,000 CPI = EV/AC = 60,000/50,000 = 1.2 EAC = BAC/CPI = 200,000/1.2 = $166,666. TCPI = (BAC - EV)/ (EAC - AC) = (200,000 - 60,000)/ (166,666 - 50,000) = 140,000/116,666 = 1.2"
+  },
+  {
+    "question": "One of your source selection criteria for the project is that implementation cost of the product should not be more than $100,000. As per the presentation of vendor 1, it looks like it is well under budget and meets your requirements specified in the RFP. On the other end, the product delivered by vendor 2 is better. However, its implementation cost is more than $100,000. What is the situation with vendor 2 called?",
+    "a": "Higher Quality Product",
+    "b": "Negotiate with vendor 2 to make the cost less than $100,000",
+    "c": "Higher Standard Product",
+    "d": "Higher Grade Product",
+    "answer": "d",
+    "explanation": "D Refer to PMBOK® Guide - Sixth Edition, Pg: 274. Grade indicates a category or rank used to distinguish items that have same functional use but do not share same requirements for quality. More features means that the product is of higher grade and not quality."
+  },
+  {
+    "question": "You are a buyer and the seller project manager invites you to visit their site for checking the phase 1 deliverable. As per him, the phase 1 deliverable has passed all the security checks at their end. You visit the site and check the quality of the deliverable. Which process are you in?",
+    "a": "Manage Quality",
+    "b": "Control Quality",
+    "c": "Validate Scope",
+    "d": "Control Scope",
+    "answer": "c",
+    "explanation": "C   Validate Scope is the process when the customer checks the validity of the scope. Control/Manage Quality is the process when somebody from seller team is doing the testing."
+  },
+  {
+    "question": "You are a project manager and have to acquire resources for your project. Which document will help you acquire and manage resources for your project?",
+    "a": "Resource Management Plan",
+    "b": "Procurement Management Plan",
+    "c": "Communications Management Plan",
+    "d": "Both A and B",
+    "answer": "d",
+    "explanation": "D Refer to PMBOK® Guide - Sixth Edition, Pg: 328. You definitely need Resource Management Plan to acquire resources, but if you look carefully Procurement Management Plan is also an input to acquire resources process."
+  },
+  {
+    "question": "While doing the project, it is always recommended that you plan on how to document and collect requirements from the stakeholders. Which of the following is not part of Requirements Management Plan?",
+    "a": "Configuration management activities",
+    "b": "Requests to changes to the detailed scope statement will be processed",
+    "c": "Product metrics that will be used",
+    "d": "Traceability structure",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 137. How to deal with any changes to the scope statement will be part of Scope Management Plan and not Requirement Management Plan."
+  },
+  {
+    "question": "On one of your project's PM, Todd, from the accounting team, reaches out to you to discuss some suspicious transactions from one of your resources. Upon reviewing the transactions in more detail, it looks like they should not have been charged on your project. Also, these transactions didn't happen just once but multiple times. What should be your first step?",
+    "a": "Do nothing because the resource didn't do it deliberately.",
+    "b": "Fire the resource.",
+    "c": "Notify the appropriate management immediately.",
+    "d": "Talk to the resource about it.",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 3. Talking to the resource is not the first step now. You would have done that if you were not sure about it. But in this case it is straightforward from the question that it was done multiple times and it was done deliberately so you would escalate it to appropriate management. Keyword over here is ‘Suspicious'."
+  },
+  {
+    "question": "The total budget of your project is $200,000. Till now you have completed 30% worth of work. However, you should have completed 40% worth of work. The amount spent until now is $50,000. As per the current scenario, it looks like both CPI and SPI will influence the remaining work. Calculate EAC?",
+    "a": "$190,000",
+    "b": "$166,666",
+    "c": "$155,555",
+    "d": "$205,555",
+    "answer": "d",
+    "explanation": "D Refer to PMBOK® Guide - Sixth Edition, Pg: 267. BAC = $200,000 EV = 30% of BAC = .30 X 200,000 =$60,000 PV = 40% of BAC = .40 X 200,000 = $80,000 AC= $50,000 CPI = EV/AC = 60,000/50,000 = 1.2 SPI = EV/PV = 60,000/80,000 = .75 EAC = AC + [(BAC - EV)/ (CPI X SPI)] = 50,000 + [(200,000 - 60,000)/ (1.2 X .75)] = 50,000 + [140,000/.90] = $ 205,555."
+  },
+  {
+    "question": "Your team is confused between two scenarios. If they go with scenario 1 then the project will be completed in next 60 days. 60 days is too much time; however, the product quality will not be compromised. If the team goes with scenario 2 then the project will be completed in next 30 days. This is the least amount of time the project will take. Calculate the variance.",
+    "a": "30 days",
+    "b": "15 days",
+    "c": "Cannot calculate based upon the information given",
+    "d": "25 days",
+    "answer": "d",
+    "explanation": "D  The formula for standard deviation and variance is not given in PMBOK® 6th edition. But you should memorize it from exam perspective. Variance is standard deviation squared. SD = (P - O)/6 = (60 - 30)/6 = 5 days. Variance = 5 X 5 = 25 days"
+  },
+  {
+    "question": "You are managing a project which has to go through strict scrutiny after the end of each phase. In one of the kill point meeting, the team decided that there is no point to continue this project. Now it's your job to make sure that you document the present status of your project with the amount of work which is accomplished until now and work that has not been done. Which process did you perform?",
+    "a": "Control Scope",
+    "b": "Perform Integrated Change Control",
+    "c": "Control Quality",
+    "d": "Close Project or Phase",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 21. Kill point meeting is always done at the end of phase and if the team decides to kill the project, you have to go to the Close Project or Phase process where you will document the project's present status."
+  },
+  {
+    "question": "Stakeholders are confused between functional and non - functional requirements.You request your business analyst to set up a session to go over the difference.Which of the following is not an example of non - functional requirements ? ",
+    "a": "Requirements related to reliability.",
+    "b": "Requirements related to performance.",
+    "c": "Requirements related to retention.",
+    "d": "Requirements related to product behavior.",
+    "answer": "d",
+    "explanation": "D Refer to PMBOK® Guide - Sixth Edition, Pg: 148. Requirements related to product behavior will be part of functional requirements and not non-functional requirements."
+  },
+  {
+    "question": "You are in the process of performing the Monitor Stakeholder Engagement process for your project. Stakeholders are not happy with the way the project is currently progressing. They are requesting for many changes. The Stakeholder Engagement Plan is no longer effective. You are now struggling to come up with any effective strategy to manage the project stakeholders. Which of the following can help you the most in this scenario?",
+    "a": "Project Management Plan",
+    "b": "Communication Management Plan",
+    "c": "Expert Judgment",
+    "d": "Work Performance Reports",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 526. It is self-explanatory that the situation has become out of control. None of the documents can help you now other than subject matter experts who can guide you how to deal with such situations."
+  },
+  {
+    "question": "You are the CEO of an airline company. Recently the company has gone through huge losses hence you are getting a lot of pressure from the board members to step down from the post. You decide to give one final shot before you take such a huge step. Since festive season is around the corner, you decide to increase frequency of flights so that your company is able to sell more tickets. What type of risk response strategy did you use?",
+    "a": "Exploit",
+    "b": "Enhance",
+    "c": "Escalate",
+    "d": "Mitigate",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 444. Enhance opportunity is used when you plan to increase the probability and/or the impact which is being done in this case."
+  },
+  {
+    "question": "It's been few weeks since you have joined a new project. At first, you were not comfortable with the team, as you did not know anyone. You had conflicts with the team as most of the time your viewpoints were different. However, now you have adjusted with other people's style of working and everyone has started supporting you to complete the work. Which stage of team building activity are you in?",
+    "a": "Forming",
+    "b": "Storming",
+    "c": "Performing",
+    "d": "Norming",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 338. You have just completed the storming stage and now you have moved to norming stage where people work together and support each other to complete the assigned work."
+  },
+  {
+    "question": "You are working on a big project for the organization. For one of your deliverables, you require a government permit, which is taking longer than usual. Upon inspection, you come to know that this project will cause a serious environmental hazard. Your senior manager advises you to not discuss this matter with anybody until things become more clear. What should be your response to him?",
+    "a": "Request your manager to send this in writing and if he doesn't agree then disown yourself from this project.",
+    "b": "Notify the appropriate management immediately.",
+    "c": "Check to see if the information is true or not and then take necessary next steps.",
+    "d": "Don't do anything as sponsor might cancel the funding of next project in pipeline.",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 3. As per the question, you have already done the inspection and you know that it will cause a serious environmental hazard. So, in this case, you will escalate and inform the management immediately."
+  },
+  {
+    "question": "You are a project manager and your business analyst has requested you to be part of a group discussion which will be used to collect the requirements. Your business analyst will act as moderator and you will be dealing with the security team to elicit the security related requirements only. Which tool did your business analyst use?",
+    "a": "Interviews",
+    "b": "Focus Groups",
+    "c": "Facilitated Workshops",
+    "d": "Nominal Group Technique",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 142. Moderator is part of Focus Group or Facilitated Workshops. However, Facilitated Workshop is more structured than Focus Group and you involve multiple people from multiple teams. This question is focused to security team only."
+  },
+  {
+    "question": "Your organization does not have a process to create the WBS. Nobody follows it and customers have never asked for it. However, in one of your new projects, the customer is asking for WBS and as per the discussion with your manager, you have to provide this information. Which of the following cannot be part of WBS?",
+    "a": "Activities",
+    "b": "Products",
+    "c": "Solutions",
+    "d": "Services",
+    "answer": "a",
+    "explanation": "A Refer to PMBOK® Guide - Sixth Edition, Pg: 161. WBS is always deliverable based and not activity based. You decompose the deliverables into activities in Project Schedule and not in WBS."
+  },
+  {
+    "question": "What should be customer expectation after each iteration in agile release planning?",
+    "a": "Fully functional product",
+    "b": "Activities done in sequence",
+    "c": "Approved requirements to be delivered in each sprint",
+    "d": "Linked activities with planned durations",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 216. The team defines the features that will be available after each iteration."
+  },
+  {
+    "question": "Program director is developing a business case, which she has to present to the steering committee next week. The purpose of the meeting is to review the business case document for all future projects in the pipeline and prioritize them for implementation. Which of the following information will be part of business case?",
+    "a": "BAC and EAC of the project",
+    "b": "WBS",
+    "c": "Cost Benefit Analysis",
+    "d": "Quality Specifications",
+    "answer": "c",
+    "explanation": "C Refer to PMBOK® Guide - Sixth Edition, Pg: 30. Imagine it is a pre-initiation stage where the program director is creating a business case document that will be an input to develop project charter process. In business case document, you should have cost benefit analysis to understand the benefit of the project for the organization."
+  },
+  {
+    "question": "You are using a control chart on your project to check whether the process is in control or not. The control chart developed by the team has 3 points between the mean and upper control limit, 3 points are on the mean and 4 points are between the mean and lower control limit. What can you infer about the process?",
+    "a": "In control",
+    "b": "Out of control",
+    "c": "Cannot be determined",
+    "d": "None of the above",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 304. The process is out of control only if 7 consecutive points are on one side of the mean which is not the case here."
+  },
+  {
+    "question": "Your project is hit by a risk. When you referred the Risk Register it was mentioned that the implementation strategy for this type of risk will be transference of risk to third party. Which of the following will always be part of risk transference strategy?",
+    "a": "Eliminating risk through testing.",
+    "b": "Policies and procedures.",
+    "c": "Working on lower profit than the 3rd party.",
+    "d": "Paying a risk premium to third party who is taking on the threat.",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 443. Why will a third party take on the risk if they don't have any incentive involved? So, payment of risk premium is always part of risk transfer strategy."
+  },
+  {
+    "question": "Since a long time your team is asking for a module training that will directly help project team members to get the knowledge which is needed as part of the project. The customer has not approved this training and the team is not happy with customer's decision. What type of cost is training?",
+    "a": "Prevention Cost",
+    "b": "Appraisal Cost",
+    "c": "Internal Failure Cost",
+    "d": "Overhead Cost",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 282. Training is prevention cost. Stick to keyword ‘training', rest of the information is trying to confuse the audience."
+  },
+  {
+    "question": "Project's TCPI (To complete performance index) is 1.4. Project team members are doing the work at their normal pace. They are not sure if the project is doing good or bad. What is the status of the project?",
+    "a": "It is difficult to complete as per plan.",
+    "b": "It is easier to complete as per plan.",
+    "c": "Too less information to determine the project status.",
+    "d": "It is over budget.",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 267. TCPI > 1 is bad which means it is difficult to complete."
+  },
+  {
+    "question": "You are in the execution stage of a project which is due in 2 months. The customer is planning to award more projects to your company. In order to make sure that the opportunity is realized, you allocate your best resource to the project to make sure it is completed ahead of schedule. What type of risk response strategy did you use?",
+    "a": "Escalate",
+    "b": "Enhance",
+    "c": "Exploit",
+    "d": "Share",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 444. It is the exploit strategy where you take necessary steps to make sure that the opportunity is realized."
+  },
+  {
+    "question": "You are doing make vs. buy analysis. If you decide to make it in-house, you will have to pay $100,000 as setup cost to buy the machinery. Also, you will have to provide training to 5 resources for two months at a cost of $6000/resource/month. Once the training is done, they will provide the support for next 10 months costing you a total of $40,000. On the other hand, the vendor is charging a fixed cost of $200,000. What should you do?",
+    "a": "Insufficient information to take a decision.",
+    "b": "Either, as both make and buy cost are same.",
+    "c": "Buy from the vendor.",
+    "d": "Make it in-house.",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 473. Setup cost = $100,000. Cost of 1 resource for 1 month = $6000. Cost of 5 resources for 2 months = $6000 X 5 X 2 = $60,000. Support Cost = $40,000. So total make cost = 100,000 + 60,000 + 40,000 = $200,000. Buy Cost = $200,000. Since both make and buy cost are same, you can take any path."
+  },
+  {
+    "question": "You have been given the responsibility of one of the most critical projects for the company. While documenting the requirements, you want to make sure that each and every person in the group agrees to the proposed solution. What type of group decision making technique is being used in this question?",
+    "a": "Unanimity",
+    "b": "Majority",
+    "c": "Plurality",
+    "d": "Autocratic Decision Making",
+    "answer": "a",
+    "explanation": "A Refer to PMBOK® Guide - Sixth Edition, Pg: 144. In unanimity technique, everyone has to agree to take a decision."
+  },
+  {
+    "question": "Your sponsor requested your team member to make a change without going through proper change control process. Your team member made the change as it was a small fix. This small fix resulted into another change on the project and the situation went out of control. What is this situation called?",
+    "a": "Residual Risk",
+    "b": "Secondary Risk",
+    "c": "Rolling Wave Planning",
+    "d": "Scope Creep",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 168. Uncontrolled expansion to product or project scope without making changes to time, cost and resources is called as Scope Creep."
+  },
+  {
+    "question": "Which of the following will you definitely maintain if your team is following an agile methodology on your project?",
+    "a": "Backlog",
+    "b": "WBS",
+    "c": "Work Packages",
+    "d": "A well defined to do list",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 131. Product backlog is a must in agile or adaptive environment which includes the product requirements or user stories."
+  },
+  {
+    "question": "The total budget of your project is $200,000. Till now you have completed 30% worth of work. However, you should have completed 40% worth of work. The amount spent until now is $50,000. The initial plan is no longer valid and bottom up estimate to complete is $116,666. Calculate the estimate at completion?",
+    "a": "$190,000",
+    "b": "$166,666",
+    "c": "$140,000",
+    "d": "$155,555",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 267. EAC = AC + bottom up ETC = 50,000 + 116,666 = $166,666"
+  },
+  {
+    "question": "You are in the process of creating a project schedule. You created a diagram/chart where you are showing activities and relationships without a time scale. It also shows how each work package defined into activities is planned as series of related activities. Which diagram did you create?",
+    "a": "Bar Chart",
+    "b": "Milestone Chart",
+    "c": "Project Schedule Network Diagrams",
+    "d": "Gantt Chart",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 194. In Project Schedule Network Diagram, you sequence the project activities and define the relationship between them."
+  },
+  {
+    "question": "Stakeholders are confused between functional and non-functional requirements. You request your business analyst to set up a session to go over the difference. Which of the following is not an example of solution requirements?",
+    "a": "Technology related requirements",
+    "b": "Compliance requirements",
+    "c": "Organization's guiding principles",
+    "d": "Reporting requirements",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 148. Organization's guiding principles are part of business requirements and not solution requirements."
+  },
+  {
+    "question": "Your project is in the execution stage. Your sponsor wants to use a technique that will help them identify data integrity issues. Which tool will help your sponsor in this type of scenario?",
+    "a": "Flowcharts",
+    "b": "Logical Data Model",
+    "c": "Matrix Diagrams",
+    "d": "Mind Mapping",
+    "answer": "b",
+    "explanation": "B   Refer to PMBOK® Guide - Sixth Edition, Pg: 284. Logical Data Model helps you identify data integrity or quality issues that may arise from your project."
+  },
+  {
+    "question": "You are handling a critical project which is scheduled to be delivered next week. However,before doing that, you have several meetings lined up with your team to make sure that project is delivered without any hassle. After you completed one such meeting, you sent out the meeting minutes with the next steps. What type of communication method did you use?",
+    "a": "Formal",
+    "b": "Informal",
+    "c": "Official",
+    "d": "Upward",
+    "answer": "a",
+    "explanation": "A Refer to PMBOK® Guide - Sixth Edition, Pg: 361. The keyword in the question is ‘minutes', which is formal communication."
+  },
+  {
+    "question": "You are identifying defects in your product. You use multiple attributes to check the consequences of various defects. Which technique are you using?",
+    "a": "Checklists",
+    "b": "Check Sheets",
+    "c": "Statistical Sampling",
+    "d": "Root Cause Analysis",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 302. Check sheets is used to identify defects by gathering attributes data. In this technique, the team checks the frequencies of defects from time to time."
+  },
+  {
+    "question": "You are trying to manage your team's expectation by not over allocating any of your resources. However, there are few tasks that only specific resources can do. You adjust the start and finish dates by matching the demand and supply of resources. What type of technique did you use?",
+    "a": "Resource Leveling",
+    "b": "Resource Smoothing",
+    "c": "Schedule Network Analysis",
+    "d": "Critical Path Method",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 211. As per the question, you are changing the start and finish dates, which means that critical path might be affected. In Resource Smoothing, critical path is not affected. It's only in Resource Leveling where the critical path may change."
+  },
+  {
+    "question": "In your weekly discussion with the team, you are trying to reassess the validity of already identified risks on your project. Which technique are you using in order to accomplish that?",
+    "a": "Risk-Reassessment",
+    "b": "Meetings",
+    "c": "Audits",
+    "d": "Technical Performance Analysis",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 457. There is no technique named as Risk-Reassessment. This was part of PMBOK® 5th edition. Basically, you are doing a weekly meeting to monitor risks of your project."
+  },
+  {
+    "question": "Which of the following will not be a part of Lessons Learned Register?",
+    "a": "Primary reason on why the issue happened on the project.",
+    "b": "Updating statement of work to add missing training requirements.",
+    "c": "Why you chose a particular corrective action.",
+    "d": "Who the project manager will be.",
+    "answer": "d",
+    "explanaion": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 104. Lessons Learned Register includes impact, recommendations, any realized risks etc. It does not include information related to who the project manager will be. This information is part of project charter."
+  },
+  {
+    "question": "You are in the execution stage of your project where you are using Iteration Burndown Chart to track the progress of project schedule. Your project coordinator is not sure what Iteration Burndown Chart is. What would be your response to him?",
+    "a": "It is a chart that tracks the work to be completed in iteration backlog.",
+    "b": "It is a chart that tracks the actual work completed in iteration backlog.",
+    "c": "It is a chart that tracks the variation to the schedule baseline in iteration backlog.",
+    "d": "It is a chart that analyzes the schedule performance in iteration backlog.",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 226. Iteration Burndown Chart contains actual, ideal and forecasted remaining work in the iteration backlog."
+  },
+  {
+    "question": "The total budget of your project is $200,000. Till now you have completed 30% worth of work. However, you should have completed 40% worth of work. The amount spent until now is $50,000. Calculate the project status?",
+    "a": "Under Budget,Behind Schedule ",
+    "b": "Under Budget,Ahead of Schedule ",
+    "c": "Over Budget,Behind Schedule ",
+    "d": "Over Budget,Ahead of Schedule ",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 267. BAC = $200,000 EV = 30% of BAC = .30 X 200,000 =$60,000 PV = 40% of BAC = .40 X 200,000 = $80,000 AC= $50,000 CV= EV AC = 60,000 - 50,000 = $ 10,000 = CV is positive which means you are under budget. SV= EV- PV = 60,000 - 80,000 = - $ 20,000 = SV is negative which means you are behind schedule"
+  },
+  {
+    "question": "You are in the execution stage of the project where you recently realized that you did not create the power interest grid for classifying the stakeholders. Which of the following information is accurate?",
+    "a": "Stakeholder with high power and low interest should be managed closely.",
+    "b": "Stakeholder with low power and low interest should be monitored.",
+    "c": "Stakeholder with high power and high interest should be kept informed.",
+    "d": "Stakeholder with low power and high interest should be kept satisfied.",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 512. High Power and High Interest should be managed closely. High Power and Low interest should be kept satisfied. Low power and high interest should be kept informed. Low power and low interest should be monitored."
+  },
+  {
+    "question": "You recommended your team to determine the difference between the scope baseline and the actual performance. What are you referring to?",
+    "a": "Variance Analysis",
+    "b": "Reserve Analysis",
+    "c": "Root Cause Analysis",
+    "d": "Document Analysis",
+    "answer": "a",
+    "explanation": "A Refer to PMBOK® Guide - Sixth Edition, Pg: 725. Comparison of planned and actual work is known as Variance Analysis. This helps you decide whether a corrective or preventive action is required."
+  },
+  {
+    "question": "You are a project manager who has recently joined a new company. In the first project, you are trying to get resources from the integration team but the integration team manager is not listening to you. Since you don't control the budget, your hands are tied and you cannot do anything. What type of organization do you presently work with?",
+    "a": "Functional",
+    "b": "Balanced Matrix",
+    "c": "Strong Matrix",
+    "d": "Hybrid",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 47. In functional or weak matrix, the project manager does not control the project budget. It is the responsibility of functional manager."
+  },
+  {
+    "question": "You are working on a critical project for the company. The way the current project is progressing, it doesn't look like you will be able to make the year end delivery date. After discussing with the project sponsor, you decided that you would hire 5 additional resources to get the project back on track. Which technique did you use?",
+    "a": "Resource Leveling",
+    "b": "Fast Tracking",
+    "c": "Crashing",
+    "d": "Resource Smoothing",
+    "answer": "c",
+    "explanation": "C   Refer to PMBOK® Guide - Sixth Edition, Pg: 215. Crashing is the technique where you add additional resources to compress the schedule."
+  },
+  {
+    "question": "Your PMO director has requested you to conduct the weekly status meeting. This meeting discusses about the project status for all the projects that are part of the program. The role of PMO director is just to provide inputs in case of escalations or issues. From power-impact matrix which category will the PMO director fall in?",
+    "a": "Keep Satisfied",
+    "b": "Keep Informed",
+    "c": "Manage Closely",
+    "d": "Monitor",
+    "answer": "c",
+    "explanation": "C   Refer to PMBOK® Guide - Sixth Edition, Pg: 512. PMO director has high interest as he is responsible for all the projects. Similarly, he has high power since he is the boss. So high interest and high power is ‘Manage Closely'."
+  },
+  {
+    "question": "Calculate the late start of activity A which has early start of 5 days, early finish of 10 days and late finish of 18 days?",
+    "a": "Insufficient information. You cannot calculate until you know the duration of the activity.",
+    "b": "Insufficient information. You cannot calculate until you know the complete network diagram.",
+    "c": "15 days",
+    "d": "13 days",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 211. Float = LF (Late Finish) - EF (Early Finish) Or LS (Late Start) - ES (Early Start). LS - ES = LF – EF. LS - 5 = 18 – 10. LS - 5 = 8. LS = 13."
+  },
+  {
+    "question": "You consolidated all the information received from stakeholders in a single place which will reflect the common points and any difference in understanding. This will help your team generate more new requirements. Which tool and technique did you use?",
+    "a": "Brainstorming",
+    "b": "Idea/Mind Mapping",
+    "c": "Affinity Diagram",
+    "d": "Context Diagrams",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 144. In idea/mind mapping, ideas are consolidated into a single map to reflect commonality and differences in understanding."
+  },
+  {
+    "question": "You are using Problem Solving Technique to solve a problem. First, the problem was identified then after defining the problem you investigated and analyzed the root cause. Then you checked the solution if it fixed the problem or not. Which step did you miss?",
+    "a": "You missed to invite stakeholders.",
+    "b": "You did not communicate to stakeholders.",
+    "c": "You did not solve the problem.",
+    "d": "You did not determine the resources needed.",
+    "answer": "c",
+    "explanation": "C   Refer to PMBOK® Guide - Sixth Edition, Pg: 356. In problem solving technique, you first identify then define then investigate then analyze then solve and finally check. After analyzing the root cause, you straight away went to check the solution."
+  },
+  {
+    "question": "To improve your product quality, your team recommends you to use a statistical method for identifying the factors that may influence specific variables of a product and a process under development or in production. What did the team members recommend?",
+    "a": "What if Analysis",
+    "b": "Design of Experiments",
+    "c": "Monte Carlo Analysis",
+    "d": "Cost of Quality",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 290. Design of Experiments is a statistical method for identifying the factors that may influence specific variables of a product and a process under development or in production. Definition of DOE is not given in PMBOK® but is important."
+  },
+  {
+    "question": "The total budget of your project is $200,000. Till now you have completed 30% worth of work. However, you should have completed 40% worth of work. The amount spent until now is $50,000. The sponsor is happy with the way things are going on and wants you to calculate the variance at completion ?",
+    "a": "$33,334",
+    "b": "$44,445",
+    "c": "$60,000",
+    "d": "$55,554",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 267. BAC = $200,000 EV = 30% of BAC = .30 X 200,000 =$60,000 PV = 40% of BAC = .40 X 200,000 = $80,000 AC= $50,000 CPI = EV/AC = 60,000/50,000 = 1.2 EAC = BAC/CPI = 200,000/1.2 = $166,666 VAC = BAC - EAC = 200,000 - 166,666 = $33,334."
+  },
+  {
+    "question": "Through the Project Charter, Neil has been assigned as the project manager on a project. Matt, who is the sponsor on the project, is a certified PMP®. Neil is about to move to identify stakeholder process when one of the high level stakeholders (Adam) requested a scope related change on the project. Who is responsible for approving this change?",
+    "a": "Neil",
+    "b": "Adam",
+    "c": "Matt",
+    "d": "Customer",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 117. Since you are still in initiating process group, your CCB has not been formed yet. So, it is the responsibility of the sponsor who initiates the Project Charter to approve the change request."
+  },
+  {
+    "question": "Which of the following is an example of tacit knowledge?",
+    "a": "Knowledge expressed using words",
+    "b": "Knowledge expressed using pictures",
+    "c": "Knowledge expressed using experience",
+    "d": "Knowledge expressed using numbers",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 100. All of the options except C are examples of explicit knowledge. Tacit knowledge is always difficult to express. For example; beliefs, insights, experience and “know-how”."
+  },
+  {
+    "question": "You are working with a vendor on your project. The vendor is bidding for another project in your company and he requests you to put in a good word for him. In return, he said that he would complete your project 1 month before schedule by putting more resources on it. What should you do?",
+    "a": "Decline the offer and do nothing.",
+    "b": "Decline the offer, but provide a good recommendation for the vendor.",
+    "c": "Decline the offer and inform appropriate management.",
+    "d": "Accept the offer but provide an honest recommendation.",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 3. Wear your ethical hat while answering this question. Your first step should be to inform the management."
+  },
+  {
+    "question": "Which of the following will be the last thing you do inClose Project or Phase process ?",
+    "a": "Archive the project information.",
+    "b": "Complete the planned work.",
+    "c": "Release the resources.",
+    "d": "Document lessons learned.",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 123. The correct sequence of closing process is not well defined in PMBOK®. However, you will still require your team to archive the information and document the lessons learned before you let them go."
+  },
+  {
+    "question": "You are in the process of assigning the acquired resources to the project activities. Which process are you currently performing?",
+    "a": "Estimate Activity Resources",
+    "b": "Acquire Resources",
+    "c": "Develop Team",
+    "d": "Develop Schedule",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 328. The resources are selected and assigned in Acquire Resources process. In Estimate Activity Resources process, you just estimate which activities will have number and type of resources."
+  },
+  {
+    "question": "Sandra is managing a construction project. The customer has requested them to start installing cables from the ground floor and move up. Based upon the resources' skill set, she estimates that within 1 hour they will be able to install 25 meters of cable. For the complete project, this task will take 250 meters and 10 hours. What type of estimation technique did she use?",
+    "a": "A)Analogous Estimation",
+    "b": "B)Parametric Estimation",
+    "c": "C)Bottom Up Estimating",
+    "d": "D)Published Estimating Data",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 200. The keyword in the question is ‘25 meters of cable in an hour' or in short 25 meters per hour. And, as per Eduhubspot's videos, remember the keyword for parametric estimation is ‘PER'. Starting from ground floor and moving up is just trying to divert you from the real topic."
+  },
+  {
+    "question": "You are a new project manager who joined the project when it is in execution stage. You want to see a document that will discuss about any differences people may have or any problems which needs immediate attention. Which document will be best in this scenario?",
+    "a": "Meeting Minutes",
+    "b": "Risk Register",
+    "c": "Performance Evaluation",
+    "d": "Issue Log",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 96. Issue log is a document that talks about current issues/problems, which is the keyword for selecting option D."
+  },
+  {
+    "question": "You are in a requirement gathering session and based upon your discussion with the stakeholders, it looks like the stakeholders are also confused whether they should go ahead with the functionality. So in order to help them, you collected all the ideas and grouped them together for review and analysis. Which tool and technique did you use?",
+    "a": "Idea/Mind Mapping",
+    "b": "Multi criteria decision analysis",
+    "c": "Affinity Diagram",
+    "d": "Prototypes",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 144. Grouping similar ideas together is done in Affinity Diagrams. In Mind Mapping, you group the ideas and discuss the commonality and differences."
+  },
+  {
+    "question": "Which of the following will not be part of Issue Log?",
+    "a": "Issue Description",
+    "b": "Issue Priority",
+    "c": "Issue Status",
+    "d": "Issue Impact",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 96. Got this question wrong? Don't worry. Only 2% of people are able to get this question right in the first attempt. You don't define the impact of issue in the Issue Log."
+  },
+  {
+    "question": "The total budget of your project is $200,000. Till now you have completed 30% worth of work. However, you should have completed 40% worth of work. The amount spent until now is $50,000. Calculate CPI and SPI.",
+    "a": "A).75, 1.2",
+    "b": "B)1.2, .75",
+    "c": "C)1.3, .75",
+    "d": "D).75, 1.3",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 267. BAC = $200,000 EV = 30% of BAC = .30 X 200,000 =$60,000 PV = 40% of BAC = .40 X 200,000 = $80,000 AC= $50,000 CPI = EV/AC = 60,000/50,000 = 1.2 SPI = EV/PV = 60,000/80,000 = .75"
+  },
+  {
+    "question": "Your project is delayed by few days but you are happy that the deliverable seems to be of good quality. But before you submit it to the customer for approval, one last time, you work with your team to validate whether the product meets the specification as described in the Project Management Plan or not. Which process are you presently doing?",
+    "a": "Validate Scope",
+    "b": "Verify Scope",
+    "c": "Control Quality",
+    "d": "Manage Quality",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 163. The keyword in the question is that the team is doing the testing and not the customer. In Validate Scope, customer does the testing and in Control Scope, internal team does the testing. There is no term like verify scope."
+  },
+  {
+    "question": "You are working as a project manager for a publishing firm. Your new book will hit the market in the next 4 months. The author and the other parties are using progressive elaboration process. The editorial team cannot complete their work until the author is done writing the respective chapters. What type of relationship is this?",
+    "a": "Finish to Start",
+    "b": "Finish to Finish",
+    "c": "Start to Start",
+    "d": "Start to Finish",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 190. Read the keywords: ‘Complete' and ‘done', which means finish to finish."
+  },
+  {
+    "question": "Your team member reached out to you to enroll him for a project based training. You reviewed his request and approved the training as it will be important for the project development. You added the training cost in the project budget. However, your manager is not happy with the same. What should be your response?",
+    "a": "Your manager is right, you should not add training cost in project budget.",
+    "b": "Your manager is incorrect, training cost could be included in project budget.",
+    "c": "Reach out to sponsor to intervene in this situation.",
+    "d": "Approving training was right but adding training cost to budget was wrong.",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 342. Don't be surprised if you got this question wrong. Training cost could be included in project budget if training is relevant to the project."
+  },
+  {
+    "question": "You are in the process of monitoring the project risks. Which of the following will not be a part of monitoring risks?",
+    "a": "To check whether overall project risk has changed or not.",
+    "b": "To check if project strategy is still valid or not.",
+    "c": "To check if project assumptions are still valid or not.",
+    "d": "To check if project constraints are still valid or not.",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 454. This is a question straight from PMBOK®. Only option D is not given in PMBOK®. Rest all are part of Monitor Risks process."
+  },
+  {
+    "question": "During the Project Charter process, your customer told you that he will only sign the Charter if Mariam is assigned as the team lead for the development phase of the project. You agreed to customer's request. Which technique was used to acquire Mariam on the project?",
+    "a": "Negotiation",
+    "b": "Pre-Assignment",
+    "c": "Decision Making",
+    "d": "Virtual Teams",
+    "answer": "b",
+    "explanation": "B Refer to PMBOK® Guide - Sixth Edition, Pg: 333. During Pre-Assignment stage, resources are assigned well before the Resource Management Plan is completed. Mostly, it is done during the develop Project Charter phase. Pre-Assignment is a closer option than negotiation."
+  },
+  {
+    "question": "You are in the process where you are performing the project activities and getting the right resources for your project. In order to motivate the resources you are taking them out on monthly milestone parties. Which process group are you presently in?",
+    "a": "Executing Process Group",
+    "b": "Monitoring & Controlling Process Group",
+    "c": "Planning and Executing Process Group",
+    "d": "Planning Process Group",
+    "answer": "a",
+    "explanation": "A Refer to PMBOK® Guide - Sixth Edition, Pg: 90, 328 and 336. You are on Direct and Manage Project Work, Acquire Resources and Develop Team process, which are part of Executing Process Group."
+  },
+  {
+    "question": "You are a project manager in a manufacturing industry. You are working with your team to complete the development of the machine and then ship it to your corporate head office for quality check. However, the QA team cannot test it until the integration team has assembled it. What type of dependency is this?",
+    "a": "Soft Logic",
+    "b": "Discretionary Dependency",
+    "c": "External Dependency",
+    "d": "Internal Dependency",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 192. This is an example of Internal dependency where your internal teams are involved. It is not Discretionary/Soft Logic because completing testing is not a preference. It has to be done on the project."
+  },
+  {
+    "question": "You are managing a HR system upgrade project. A similar project was done by the organization 5 years back. You decide to search for the project in the project repository and started going through the previous documents. What type of estimation technique did you use?",
+    "a": "Top-Down",
+    "b": "Bottom-Up",
+    "c": "Expert Judgment",
+    "d": "Parametric",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 200. Referring to previous similar projects is known as Analogous Estimation technique, which is also known as Top-Down."
+  },
+  {
+    "question": "There is a 40% chance that the implementation your team is planning to do will not be successful, causing your company a loss of $100,000. However, if it gets successful, then your company will be able to save $80,000. What is the EMV?",
+    "a": "-$8,000",
+    "b": "$8,000",
+    "c": "-$28,000",
+    "d": "$28,000",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 435. If there is 40% chance that implementation will not be successful then this means that there is a 60% chance of being successful. EMV= 60% of 80,000 - 40% of 100,000 = 48,000 - 40,000 = + $8,000"
+  },
+  {
+    "question": "The total budget of your project is $200,000. Till now you have completed 30% worth of work. However, you should have completed 40% worth of work. The amount spent until now is $50,000. The sponsor is happy with the way things are going on. Calculate EAC ?",
+    "a": "$190,000",
+    "b": "$166,666",
+    "c": "$140,000",
+    "d": "$155,555",
+    "answer": "b",
+    "explanation": "B Refer to PMBOK® Guide - Sixth Edition, Pg: 267. Sponsor is happy means that CPI is expected to be same. BAC = $200,000 EV = 30% of BAC = .30 X 200,000 =$60,000 PV = 40% of BAC = .40 X 200,000 = $80,000 AC= $50,000 CPI = EV/AC = 60,000/50,000 = 1.2 EAC = BAC/CPI = 200,000/1.2 = $166,666"
+  },
+  {
+    "question": "The sponsor has requested that he will be interested in reviewing every project deliverable.Today, the final deliverable is ready for sponsor to review. The sponsor performs testing by making sure that all the requirements which are mentioned in the Requirement Document are met. Which process are you presently performing?",
+    "a": "Validate Scope",
+    "b": "Control Scope",
+    "c": "Manage Quality",
+    "d": "Control Quality",
+    "answer": "a",
+    "explanation": "A   Refer to PMBOK® Guide - Sixth Edition, Pg: 163. Control Quality is the testing done by the team and Validate Scope is testing done by customer/sponsor. Since sponsor is doing this in this question then the correct choice will be Validate Scope."
+  },
+  {
+    "question": "Your project manager requested you to plan an outdoor trip as a part of the project success party. You agreed and decided to purchase insurance just in case if any unexpected event happens on the trip. What type of risk response strategy did you used?",
+    "a": "Enhance",
+    "b": "Mitigation",
+    "c": "Transference",
+    "d": "Avoidance",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 443. Insurance is an example of risk transfer. You transferred the risk to the insurance company."
+  },
+  {
+    "question": "The customer is very happy with the response your team has given to the RFP and they are planning to award the contract to you. However, before doing that they want your company to provide answers to very specific technical questions which you are not aware of. Which process are you presently in?",
+    "a": "Plan Procurements Management",
+    "b": "Conduct Procurements",
+    "c": "Control Procurements",
+    "d": "Collect Requirements",
+    "answer": "b",
+    "explanation": "B Refer to PMBOK® Guide - Sixth Edition, Pg: 482. The buyer is currently reviewing the response to the RFP from you. This means that you are in Conduct Procurements process."
+  },
+  {
+    "question": "Out of the 12 people in your team, five people have decided that they will select route 1,four people decided take route 2 and the remaining three people are in favor of route 3. Based upon everybody's response and mutual agreement, you decided to go with route 1. What group decision making technique did you use?",
+    "a": "Unanimity",
+    "b": "Majority",
+    "c": "Plurality",
+    "d": "Autocratic Decision Making",
+    "answer": "c",
+    "explanation": "C Refer to PMBOK® Guide - Sixth Edition, Pg: 144. This is plurality where the decision was taken in favor of largest block which was 5. Keep in mind 5 was not a majority because majority would have been greater than 6 votes."
+  },
+  {
+    "question": "Your customer has asked you to concentrate only on the work which is there in the Requirements Document. He has strictly ordered that he won't accept any form of gold plating or out of scope items. Which of the following will include this kind of information?",
+    "a": "Statement of Work",
+    "b": "Project Integration Management",
+    "c": "Project Scope Management",
+    "d": "Work breakdown structure",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 129. The question talks about two processes specifically, Define Scope and Control Scope. Both of them are collectively part of Project Scope Management knowledge area. If you selected option D then you are wrong as WBS includes only the deliverables that are required to be completed, it does not talk about how to control the scope."
+  },
+  {
+    "question": "You are in the final stages of your design phase. You set up a kill point meeting to get the approval to move to next phase. But, your manager wants you to set up a stage gate meeting instead. What should you do in such a scenario?",
+    "a": "Escalate this issue to project sponsor.",
+    "b": "Agree with your manager as you should definitely have stage gate meeting after every phase.",
+    "c": "Disagree with your manager as you should always have kill point meeting after every phase.",
+    "d": "Correct your manager by stating that stage gate and kill point meeting is the same thing.",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 21. Stage gate, kill point, phase gate, phase review, phase exit or entrance is the same thing."
+  },
+  {
+    "question": "Every year in quarter four, your company starts the planning process for next year. From all the available projects, you prioritize the projects based on internal rate of return. This year while doing evaluations, you came across nominations that looked like operations. Which of the following can be characterized as a project?",
+    "a": "A)Contact center maintenance effort",
+    "b": "B)Call handling analysis of customer experience management effort of contact center",
+    "c": "C)Development of operating procedures of automatic call distributor of the contact center",
+    "d": "D)Continuously improving automatic speech recognition effort of contact center",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 16. Development of operating procedures is a one-time effort. It could be done multiple times but as a part of separate projects. Rest all are examples of operations."
+  },
+  {
+    "question": "You need to acquire external resources on your project. Which document/plan will help you the most in such a scenario?",
+    "a": "A)Resource Management Plan",
+    "b": "B)Procurements Management Plan",
+    "c": "C)Stakeholder Register",
+    "d": "D)Resource Calendar",
+    "answer": "b",
+    "explanation": "B   Refer to PMBOK® Guide - Sixth Edition, Pg: 329. External resources are acquired using the procurement processes. Internal resources are assigned after discussing with functional managers."
+  },
+  {
+    "question": "Your team is located in 5 different countries and each country has to follow their own labor laws. In order to make sure equal treatment is given to all employees, your company posts updated production rates and unit costs of resources on project repository site. Which communication method was used?",
+    "a": "Public",
+    "b": "Interactive",
+    "c": "Pull",
+    "d": "Push",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 374. Keywords in the question are ‘different countries', ‘project repository site'. All these are keywords for pull communication."
+  },
+  {
+    "question": "The total budget of your project is $200,000. Till now you have completed 30% worth of work. However, you should have completed 40% worth of work. The amount spent until now is $50,000. Calculate TCPI (To complete performance index).?",
+    "a": "0.75",
+    "b": "1.2",
+    "c": "1.07",
+    "d": "0.93",
+    "answer": "d",
+    "explanation": "D   Refer to PMBOK® Guide - Sixth Edition, Pg: 267. BAC = $200,000 EV = 30% of BAC = .30 X 200,000 =$60,000 PV = 40% of BAC = .40 X 200,000 = $80,000 AC= $50,000 TCPI = (BAC - EV)/ (BAC - AC) = (200,000 - 60,000)/ (200,000 - 50,000) = 140,000/150,000 = .93."
+  },
+  {
+    "question": "A new VP wants to see the success factors for your project. Which document will help you in such a scenario?",
+    "a": "Project Charter",
+    "b": "Business Case",
+    "c": "Project Management Plan",
+    "d": "Stakeholder Register",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 31. Success factors may be in project charter as well. However, always remember to select the child (Business Case) and not the father (Project Charter). Business Case is the actual document which gives this information to charter by being an input to develop Project Charter process."
+  },
+  {
+    "question": "You are in the final stages of your project where you are analyzing the relationship between different project variables which helped you improve your deliverable. This analysis will help you for future projects. Which technique did you use?",
+    "a": "Document Analysis",
+    "b": "Regression Analysis",
+    "c": "Trend Analysis",
+    "d": "Variance Analysis",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 126. In Regression Analysis, you analyze the interrelationships between different project variables that contributed to project outcomes."
+  },
+  {
+    "question": "You received an email from your customer stating that range of definitive estimate is -5% to +10%. Customer wanted to make sure whether this range of definitive estimate is correct or not. What should be your response to him? Also, predict the current phase of your project ?",
+    "a": "It is incorrect as definitive estimates are -5% to + 5%. Current phase of the project is closing phase.",
+    "b": "It is incorrect as definitive estimates are -5% to + 5%. Current phase of the project is execution phase.",
+    "c": "It is correct. Current phase of the project is closing phase but not necessarily execution phase.",
+    "d": "It is correct. Current phase of the project could be end of execution phase or closing phase.",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 241. Definitive estimate is -5% to 10%. As the range has narrowed down a lot, there is a significant probability that you are in the final stages of your project."
+  },
+  {
+    "question": "You are in the process to finalize the project schedule. You are using a technique that will generate the project schedule model. You have used various analytical techniques to calculate the early start, early finish, late start and late finish of the activities. Which technique did you use?",
+    "a": "Schedule Network Analysis",
+    "b": "Resource Leveling",
+    "c": "Resource Smoothing",
+    "d": "Modeling techniques",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 209. ES, EF, LS and LF are calculated using the Schedule Network Analysis technique."
+  },
+  {
+    "question": "Your manager is pushing you to have a face to face closure meeting with customer. He believes closure meetings cannot be virtual. What should be your response to him?",
+    "a": "Agree with your manager as closure meetings should be face to face.",
+    "b": "Correct your manager as closure meeting can be virtual as well.",
+    "c": "Closure meeting can be virtual but it has to be formal.",
+    "d": "Closure meeting has to be both formal and face to face.",
+    "answer": "b",
+    "explanation": "B   Refer to PMBOK® GuideSixth Edition, Pg: 127. Closure meeting can be face to face, virtual, formal or informal."
+  },
+  {
+    "question": "You are a project manager and your project is running behind schedule. Your customer has requested you to bring the project back on track. But, he has explicitly mentioned that he won't give you more money to achieve this. Which technique should you definitely avoid?",
+    "a": "Crash the schedule",
+    "b": "Fast Track the schedule",
+    "c": "Progressive elaboration",
+    "d": "Agile Release Planning",
+    "answer": "a",
+    "explanation": "A   Refer to PMBOK® Guide - Sixth Edition, Pg: 215. In both crashing and fast tracking you may increase the project costs.However, crashing has higher probability to increase the project costs as more resources are added to complete the work."
+  },
+  {
+    "question": "Which of the following should not be part of final report?",
+    "a": "Scope Objectives",
+    "b": "Summary of Risks",
+    "c": "How stakeholders were engaged",
+    "d": "How final product met the business need",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 127. Stakeholder engagement is part of lessons learned register and not final report."
+  },
+  {
+    "question": "Recently, a lot of people on Nathan's project are complaining that the distribution of work is not equal. Nathan plans to take a corrective action by letting the work on non-critical paths suffer but within their free and total float only. In this way, the resources are also happy and the end date of the project is also not compromised. What technique did Nathan employ?",
+    "a": "Resource Levelling",
+    "b": "Resource Smoothing",
+    "c": "Schedule Network Analysis",
+    "d": "Critical Chain Method",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 211. Resource Smoothing is a technique where the requirements for resource on the project do not exceed certain pre-defined limits. Keyword in the question is that it is not affecting the critical path, which happens in Resource Smoothing. Resource Levelling may impact the critical path."
+  },
+  {
+    "question": "Your organization has a policy that on one project not more than 6 resources can work together. You have to account for this policy while developing the schedule. This is an example of which technique?",
+    "a": "Schedule Network Analysis",
+    "b": "Resource Leveling",
+    "c": "Resource Smoothing",
+    "d": "Modeling techniques",
+    "answer": "c",
+    "explanation": "C   Refer to PMBOK® Guide - Sixth Edition, Pg: 211. In Resource Smoothing, requirements for resources on the project do not exceed certain predefined resource limits."
+  },
+  {
+    "question": "The total budget of your project is $200,000. Till now you have completed 30% worth of work. However, you should have completed 40% worth of work. The amount spent until now is $50,000. The sponsor is not happy with the way things are going on and requested you to go as per the initial plan. Calculate EAC ?",
+    "a": "$190,000",
+    "b": "$166,666",
+    "c": "$140,000",
+    "d": "$155,555",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 267. To go as per the initial plan means that the future plan will be accomplished at planned rate. BAC = $200,000 EV = 30% of BAC = .30 X 200,000 =$60,000 PV = 40% of BAC = .40 X 200,000 = $80,000 AC= $50,000 EAC = AC + BAC - EV = 50,000 + 200,000 - 60,000 = $190,000."
+  },
+  {
+    "question": "Which of the following is not part of complexity?",
+    "a": "It contains multiple parts.",
+    "b": "It exhibits interactions between parts.",
+    "c": "It exhibits both high and low risk parts.",
+    "d": "It possess connections between parts.",
+    "answer": "c",
+    "explanation": "C   Refer to PMBOK® Guide - Sixth Edition, Pg: 68. Complexity includes option A, B, D and exhibits emergent behavior of these parts."
+  },
+  {
+    "question": "You are in the execution stage where you are making sure that future performance of the project is aligned with the Project Management Plan. What are you performing?",
+    "a": "Corrective Action",
+    "b": "Preventive Action",
+    "c": "Defect Repair",
+    "d": "Cost of Quality",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 96. In corrective action, you realign the project performance to the Project Management Plan and in preventive action you make sure that future performance is as per the Project Management Plan."
+  },
+  {
+    "question": "Your manufacturing plant has many heavy machineries to make sure that the work is being done as required. There is a set of repetitive activities that your team has to undergo every week and it's very important to keep a track of the quality of the parts being produced. Which tool can prove to best in this scenario?",
+    "a": "Cause and Effect",
+    "b": "Scatter Diagram",
+    "c": "Pareto Chart",
+    "d": "Control Chart",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 304. The best bet in this scenario would be to go with Control Charts as this is mainly used with repetitive activities. It would also help understand whether the process has predictable performance or not."
+  },
+  {
+    "question": "A new project manager has been given a critical project and you have been assigned as his mentor. It's your job to train the person and make sure he understands the PMO methodologies. He reaches out to you to determine the range of rough order of magnitude. What should be your response to him?",
+    "a": "-25% to +75%",
+    "b": "-25% to 100%",
+    "c": "25% to 75%",
+    "d": "25% to 100%",
+    "answer": "a",
+    "explanation": "A  Refer to PMBOK® Guide - Sixth Edition, Pg: 241. Rough order of magnitude is -25% to +75%."
+  },
+  {
+    "question": "You were not happy with the last vendor on your project. You have decided to get help from recruiting agencies to help you find the right vendor. One of the clauses which you discussed with the recruiting agency is that the vendor should be local to the area. How would you categorize this clause?",
+    "a": "Contract",
+    "b": "Constraint",
+    "c": "Agreement",
+    "d": "Source Selection Criteria",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 478 and 479. Wanting a local vendor is an example of source selection criteria. If you selected the constraint option, then remember that constraints are schedule/cost/quality constraints most of the time."
+  },
+  {
+    "question": "You are in the execution stage of your project when an already identified risk occurred. This risk will not affect you much but will surely have an impact on other projects in your organization. You immediately informed the project sponsor and moved on with your other project tasks. Which response technique did you use?",
+    "a": "Avoid",
+    "b": "Mitigate",
+    "c": "Escalate",
+    "d": "You didn't do the right thing. You should have done detailed impact analysis.",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 442. By informing the sponsor you used response strategy, escalate. Option D has nothing to do with question. It's just confusing you."
+  },
+  {
+    "question": "A company has contacted your organization to deliver a service in which you specialize. According to the contract, your company will be reimbursed of all the legitimate costs and if you are able to complete the project 2 months before schedule, you will be given an extra $25,000.However, your company will only be given this extra $25,000 if the buyer organization is happy with the performane of the product. What type of contract did they use?",
+    "a": "Cost plus fixed fee contract",
+    "b": "Cost plus award fee contract",
+    "c": "Cost plus incentive fee contract",
+    "d": "Fixed price incentive fee contract",
+    "answer": "b",
+    "explanation": "B Refer to PMBOK® Guide - Sixth Edition, Pg: 472. It is the cost plus award fee contract where the performance of the work is based solely on determination of seller's performance by the buyer. If the buyer is not happy then he is not bind to pay the extra fee."
+  },
+  {
+    "question": "When do you conduct Lessons Learned on the project?",
+    "a": "Throughout your project",
+    "b": "In Closing",
+    "c": "In Execution",
+    "d": "In Monitoring and Controlling",
+    "answer": "a",
+    "explanation": "A Look closely at PMBOK® 6 edition. Lessons Learned register is an output to many processes. Why? Because Lessons Learned can be identified and documented throughout your project and not just in your closing stage. It is definitely done in the closing stage but that doesn't mean you shouldn't do it anytime else."
+  },
+  {
+    "question": "Your manager is doing a comparative graphical analysis where he is comparing the future performance goals to current performance of the project. This will help him understand whether the performance is improving or deteriorating over time. What technique did your manager use?",
+    "a": "Run Chart",
+    "b": "Modeling Techniques",
+    "c": "Scatter Diagram",
+    "d": "Trend Analysis",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 111. The keyword in the question is whether the performance is improving or deteriorating over time . You use Trend Analysis to compare future performance with current performance."
+  },
+  {
+    "question": "The total budget of your project is $200,000. Till now you have completed 30% worth of work. However, you should have completed 40% worth of work. The amount spent until now is $50,000. The sponsor is not happy with the way things are going on and requested you to go as per the initial plan. Calculate ETC.?",
+    "a": "$190,000",
+    "b": "$166,666",
+    "c": "$140,000",
+    "d": "$155,555",
+    "answer": "c",
+    "explanation": "C  Refer to PMBOK® Guide - Sixth Edition, Pg: 267. To go as per the initial plan means that the future plan will be accomplished at planned rate. BAC = $200,000 EV = 30% of BAC = .30 X 200,000 =$60,000 PV = 40% of BAC = .40 X 200,000 = $80,000 AC= $50,000 EAC = AC + BAC - EV = 50,000 + 200,000 - 60,000 = $190,000 ETC = EAC - AC ETC = 190,000 - 50,000 = $140,000."
+  },
+  {
+    "question": "You have identified an expert who is available in a different country to work on your project. You want him to join your project but organizational policy doesn't allow overseas travel. Which technique can help you in such a scenario?",
+    "a": "Get approval from his functional manager.",
+    "b": "Use him as a virtual resource.",
+    "c": "Use your interpersonal skills to convince him.",
+    "d": "Look for a replacement.",
+    "answer": "b",
+    "explanation": "B  Refer to PMBOK® Guide - Sixth Edition, Pg: 333. A Virtual Team is a technique which is widely practiced on global projects. Option D will not be your first option."
+  },
+  {
+    "question": "You delivered a project which did not meet the customer's expectations in terms of quality.Which of the following cannot be considered as a final closure meeting to officially complete and close the project?",
+    "a": "Close-out reporting meetings",
+    "b": "Lessons Learned meetings",
+    "c": "Celebration Meetings",
+    "d": "Defect Repair Meeting",
+    "answer": "d",
+    "explanation": "D  Refer to PMBOK® Guide - Sixth Edition, Pg: 127. There is no term as defect repair meeting."
+  }
+]

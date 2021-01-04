@@ -74,14 +74,15 @@ class LandingPage extends Component {
 
   payment() {
     console.log(Constants.installationId);
+    this.props.navigation.navigate("PremiumQuestionSet");
+    return;
     this.setState({
       disable: true,
     });
     const doc = db.collection("users").doc(Constants.installationId).get();
-    // console.log("DOC>>", doc);
     if (doc) {
       doc.then((data) => {
-        // console.log(">>>", data.data().completed_at);
+        console.log(">>>", data.data().completed_at);
         const date = new Date();
         const expiryDate = new Date(data.data()?.expires_at?.seconds * 1000);
         // console.log(expiryDate);

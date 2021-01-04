@@ -15,6 +15,7 @@ import * as set4 from "../../assets/questions/set4.json";
 import Questions from "../DisplayQuestion/Questions";
 import Result from "../DisplayResult/Result";
 import images from "../../images";
+import CountDown from "react-native-countdown-component";
 
 class PremiumQuestionTest extends Component {
   constructor() {
@@ -97,18 +98,49 @@ class PremiumQuestionTest extends Component {
     const question = DemoQuestionsArray[this.state.index];
     if (this.state.index < DemoQuestionsArray.length - 1) {
       return question ? (
-        <Questions
-          index={this.state.index}
-          next={(correctAnswer) => this.next(correctAnswer)}
-          back={this.back}
-          answer={this.state.answers[this.state.index]}
-          question={question.question}
-          optionA={question.a}
-          optionB={question.b}
-          optionC={question.c}
-          optionD={question.d}
-          image={question.image && images[question.image]}
-        />
+        <View style={{ flex: 1, backgroundColor: "#fff" }}>
+          <View
+            style={{
+              marginTop: 20,
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "space-evenly",
+            }}
+          >
+            <Text style={{ fontSize: 15, fontWeight: "bold", color: "red" }}>
+              Q {this.state.index + 1} / {DemoQuestionsArray.length - 1}
+            </Text>
+            <Image
+              source={require("../../assets/logo.png")}
+              resizeMode="center"
+              style={{
+                alignSelf: "center",
+                width: "40%",
+                height: 80,
+              }}
+            />
+            <CountDown
+              until={4 * 60 * 60}
+              size={15}
+              digitTxtStyle={{ color: "#fff" }}
+              timeToShow={["H", "M", "S"]}
+              onFinish={() => alert("Finished")}
+              digitStyle={{ backgroundColor: "red" }}
+            />
+          </View>
+          <Questions
+            index={this.state.index}
+            next={(correctAnswer) => this.next(correctAnswer)}
+            back={this.back}
+            answer={this.state.answers[this.state.index]}
+            question={question.question}
+            optionA={question.a}
+            optionB={question.b}
+            optionC={question.c}
+            optionD={question.d}
+            image={question.image && images[question.image]}
+          />
+        </View>
       ) : (
         <View></View>
       );

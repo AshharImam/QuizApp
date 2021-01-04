@@ -11,6 +11,7 @@ import * as set5 from "../../assets/questions/backup.json";
 import Questions from "../DisplayQuestion/Questions";
 import Result from "../DisplayResult/Result";
 import images from "../../images";
+import CountDown from "react-native-countdown-component";
 
 class DemoQuestions extends Component {
   constructor() {
@@ -21,6 +22,8 @@ class DemoQuestions extends Component {
       answers: [],
       corrects: [],
       wrongs: [],
+      reviewQuestions: [],
+      showReview: false,
     };
   }
 
@@ -74,6 +77,7 @@ class DemoQuestions extends Component {
     this.state.index > 0 && this.setState({ index: this.state.index - 1 });
   };
   render() {
+    console.log(this.state.reviewQuestions);
     {
       var DemoQuestionsArray = Object.values(this.state.demo);
       // console.log(DemoQuestionsArray);
@@ -82,18 +86,74 @@ class DemoQuestions extends Component {
     const question = DemoQuestionsArray[this.state.index];
     if (this.state.index < DemoQuestionsArray.length - 1) {
       return question ? (
-        <Questions
-          index={this.state.index}
-          next={(correctAnswer) => this.next(correctAnswer)}
-          back={this.back}
-          answer={this.state.answers[this.state.index]}
-          question={question.question}
-          optionA={question.a}
-          optionB={question.b}
-          optionC={question.c}
-          optionD={question.d}
-          image={question.image && images[question.image]}
-        />
+        <View style={{ flex: 1, backgroundColor: "#fff" }}>
+          <View
+            style={{
+              marginTop: 20,
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "space-evenly",
+            }}
+          >
+            <Text style={{ fontSize: 15, fontWeight: "bold", color: "red" }}>
+              Q {this.state.index + 1} / {DemoQuestionsArray.length - 1}
+            </Text>
+            <Image
+              source={require("../../assets/logo.png")}
+              resizeMode="center"
+              style={{
+                alignSelf: "center",
+                width: "40%",
+                height: 80,
+              }}
+            />
+            <CountDown
+              until={25 * 60}
+              size={15}
+              digitTxtStyle={{ color: "#fff" }}
+              timeToShow={["M", "S"]}
+              onFinish={() => alert("Finished")}
+              digitStyle={{ backgroundColor: "red" }}
+            />
+          </View>
+          <Questions
+            index={this.state.index}
+            next={(correctAnswer) => this.next(correctAnswer)}
+            back={this.back}
+            answer={this.state.answers[this.state.index]}
+            question={question.question}
+            optionA={question.a}
+            optionB={question.b}
+            optionC={question.c}
+            optionD={question.d}
+            titleMark={
+              this.state.reviewQuestions.includes(this.state.index)
+                ? "UNMARK"
+                : "MARK"
+            }
+            markReview={() => {
+              const temp = [...this.state.reviewQuestions];
+              if (!this.state.reviewQuestions.includes(this.state.index)) {
+                temp.push(this.state.index);
+                this.setState({
+                  reviewQuestions: temp,
+                });
+              } else {
+                const index = temp.indexOf(this.state.index);
+                temp.splice(index, 1);
+                this.setState({
+                  reviewQuestions: temp,
+                });
+              }
+            }}
+            showReview={() =>
+              this.setState({
+                showReview: !this.state.showReview,
+              })
+            }
+            image={question.image && images[question.image]}
+          />
+        </View>
       ) : (
         <View></View>
       );

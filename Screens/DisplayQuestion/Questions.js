@@ -9,6 +9,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { Button, RadioButton } from "react-native-paper";
+import { FontAwesome } from "@expo/vector-icons";
 
 class Questions extends Component {
   constructor(props) {
@@ -30,13 +31,13 @@ class Questions extends Component {
         style={{
           marginTop: 5,
           flex: 1,
-          marginBottom: 10,
+          paddingBottom: 10,
+          backgroundColor: "#fff",
         }}
       >
-        <View
+        {/* <View
           style={{
             marginTop: 20,
-            backgroundColor: "#fff",
             // width: "100%",
             // height: 120,
             // alignItems: "center",
@@ -49,11 +50,11 @@ class Questions extends Component {
             resizeMode="center"
             style={{
               alignSelf: "center",
-              width: "50%",
+              width: "30%",
               height: 80,
             }}
           />
-        </View>
+        </View> */}
         <ScrollView style={{ paddingHorizontal: 5, backgroundColor: "#fff" }}>
           <Text style={{ fontSize: 20, paddingHorizontal: 10 }}>
             {this.props.index + 1}){this.props.question}?
@@ -177,40 +178,82 @@ class Questions extends Component {
                 <Text style={styles.answer}>{this.props.optionD} </Text>
               </View>
             </TouchableOpacity>
-            <View
-              style={{
-                flexDirection: "row",
-                width: "100%",
-                justifyContent: "space-around",
-              }}
-            >
-              <Button
-                onPress={() => {
-                  this.props.back();
-                  this.setState({ value: "unchecked" });
-                }}
-                mode="outlined"
-                color="#000"
-                style={{ width: 120 }}
-              >
-                Back
-              </Button>
-              <Button
-                onPress={() => {
-                  this.props.next(this.state.value);
-                  this.setState({ value: "unchecked" });
-                }}
-                icon="check"
-                mode="contained"
-                // color="#f1d4d4"
-                color="rgb(100,198,247)"
-                style={{ width: 120 }}
-              >
-                Next
-              </Button>
-            </View>
           </View>
         </ScrollView>
+        <View
+          style={{
+            flexDirection: "row",
+            justifyContent: "space-around",
+            alignItems: "center",
+            width: "100%",
+            marginVertical: 10,
+          }}
+        >
+          <Button
+            onPress={() => {
+              this.props.back();
+              this.setState({ value: "unchecked" });
+            }}
+            mode="outlined"
+            color="#000"
+            style={{ width: 120 }}
+          >
+            PREV
+          </Button>
+          <FontAwesome name="pause" size={30} color="rgb(100,198,247)" />
+          <Button
+            onPress={() => {
+              this.props.next(this.state.value);
+              this.setState({ value: "unchecked" });
+            }}
+            icon="check"
+            mode="contained"
+            // color="#f1d4d4"
+            color="rgb(100,198,247)"
+            style={{ width: 120 }}
+          >
+            Next
+          </Button>
+        </View>
+        <View
+          style={{
+            flexDirection: "row",
+            alignItems: "center",
+
+            justifyContent: "space-around",
+            width: "100%",
+          }}
+        >
+          <Button
+            onPress={() => this.props.markReview()}
+            mode="outlined"
+            color="#000"
+            style={{ width: 120 }}
+          >
+            {this.props.titleMark}
+          </Button>
+
+          <Button
+            onPress={() => {
+              this.props.next(this.state.value);
+              this.setState({ value: "unchecked" });
+            }}
+            // mode="outlined"
+            color="rgb(100,198,247)"
+            // style={{ width: 120 }}
+          >
+            SUBMIT
+          </Button>
+          <Button
+            onPress={() => this.props.showReview()}
+            mode="outlined"
+            // color="#f1d4d4"
+            color="#000"
+            style={{ width: 120 }}
+          >
+            REVIEW
+          </Button>
+        </View>
       </View>
     );
   }
@@ -223,8 +266,9 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
-    paddingHorizontal: 30,
-    marginVertical: 25,
+    paddingHorizontal: 10,
+    marginVertical: 7,
+    flex: 1,
   },
   prefix: {
     paddingRight: 20,
@@ -232,6 +276,6 @@ const styles = StyleSheet.create({
   answer: {
     fontSize: 18,
     paddingRight: 30,
-    paddingBottom: 6,
+    paddingBottom: 0,
   },
 });

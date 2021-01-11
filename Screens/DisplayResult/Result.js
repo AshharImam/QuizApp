@@ -12,15 +12,29 @@ import firebase from "firebase";
 
 const Result = (props) => {
   const [correct, setCorrect] = useState();
+  const [wrong, setWrong] = useState();
   const [unattempted, setUnattempted] = useState([]);
+  const [array, setArray] = useState([]);
   {
-    console.log(props.navigation);
+    // console.log(props.navigation);
   }
   useEffect(() => {
-    const correct = props.answers.filter((i) => i.correct === true);
-    const unattempted = props.answers.filter((i) => !i.answer);
+    // console.log(props.total);
+    const correct = props.answers.filter((i) => i.correct && i.answer);
+    const wrong = props.answers.filter((i) => !i.correct && i.answer);
+    // console.log(props.answers);
+    const unattempted = props.total - correct.length - wrong.length;
+    const results = props.allQuestion.filter(
+      ({ question: id1 }) =>
+        !props.answers.some(({ question: id2 }) => id2 === id1)
+    );
+    const arr = [...props.answers, ...results];
+    // console.log(arr);
+    arr.pop();
+    setArray(arr);
+    setWrong(wrong.length);
     setCorrect(correct.length);
-    setUnattempted(unattempted.length);
+    setUnattempted(unattempted);
   }, []);
   return (
     <View>
@@ -47,7 +61,7 @@ const Result = (props) => {
         </Text>
         <Text style={{ fontSize: 26, marginBottom: 25, color: "red" }}>
           {/* Wrongs : {props.wrongs.length} */}
-          Wrongs : {props.answers.length - correct - unattempted}
+          Wrongs : {wrong}
         </Text>
         <Text style={{ fontSize: 26, marginBottom: 25, color: "#FAAD14" }}>
           {/* Wrongs : {props.wrongs.length} */}
@@ -70,8 +84,8 @@ const Result = (props) => {
       <ScrollView style={{ marginTop: 20, marginBottom: 20 }}>
         <View>
           <Text style={{ fontSize: 24, paddingLeft: 10 }}>Explainations</Text>
-          {props.answers.map((i, index) => {
-            console.log(i.correct, i.answer);
+          {array.map((i, index) => {
+            // console.log(i.correct, i.answer);
             return (
               i.correct != true && (
                 <View

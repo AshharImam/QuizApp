@@ -2,7 +2,7 @@
   "expo": {
     "name": "quiz-app",
     "slug": "quiz-app",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./Screens/DisplayResult/test.png",
     "splash": {

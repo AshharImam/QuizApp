@@ -191,7 +191,7 @@ class Questions extends Component {
         >
           <Button
             onPress={() => {
-              this.props.back();
+              this.props.back(this.state.value);
               this.setState({ value: "unchecked" });
             }}
             mode="outlined"
@@ -200,7 +200,12 @@ class Questions extends Component {
           >
             PREV
           </Button>
-          <FontAwesome name="pause" size={30} color="rgb(100,198,247)" />
+          <FontAwesome
+            name="pause"
+            size={30}
+            color="rgb(100,198,247)"
+            onPress={this.props.onPause}
+          />
           <Button
             onPress={() => {
               this.props.next(this.state.value);
@@ -235,7 +240,7 @@ class Questions extends Component {
 
           <Button
             onPress={() => {
-              this.props.next(this.state.value);
+              this.props.submit(this.state.value);
               this.setState({ value: "unchecked" });
             }}
             // mode="outlined"
@@ -245,7 +250,7 @@ class Questions extends Component {
             SUBMIT
           </Button>
           <Button
-            onPress={() => this.props.showReview()}
+            onPress={() => this.props.showReview(this.state.value)}
             mode="outlined"
             // color="#f1d4d4"
             color="#000"

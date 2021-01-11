@@ -3,7 +3,17 @@ import { StyleSheet, Text, View } from "react-native";
 import { WebView } from "react-native-webview";
 import queryString from "query-string";
 import Constants from "expo-constants";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import db from "../../config";
+
+const storeData = async (value) => {
+  try {
+    const jsonValue = JSON.stringify(value);
+    await AsyncStorage.setItem("data", jsonValue);
+  } catch (e) {
+    // saving error
+  }
+};
 
 const index = (props) => {
   const WEBVIEW_REF = useRef();
@@ -50,16 +60,17 @@ const index = (props) => {
       // console.log(parsed.reference);
       // console.log(parsed.token);
       // console.log(parsed.signature);
-      db.collection("users").doc(Constants.installationId).set(
-        {
-          completed_at: new Date(),
-          expires_at: getExpiryDate(),
-          tracker: parsed.tracker,
-          reference: parsed.reference,
-          token: parsed.token,
-        },
-        { merge: true }
-      );
+      const obj = {
+        completed_at: new Date(),
+        expires_at: getExpiryDate(),
+        tracker: parsed.tracker,
+        reference: parsed.reference,
+        token: parsed.token,
+      };
+      db.collection("users")
+        .doc(Constants.installationId)
+        .set(obj, { merge: true });
+      storeData(obj);
       props.navigation.navigate("PremiumQuestionSet");
       // the customer completed the payment,
       // you should close the WebView and then
@@ -80,7 +91,7 @@ const index = (props) => {
       date.setMonth(0);
       date.setFullYear(date.getFullYear() + 1);
     } else {
-      date.setMonth(date.getMonth + 1);
+      date.setMonth(date.getMonth() + 1);
     }
     console.log("DATE >>>", date);
     return date;

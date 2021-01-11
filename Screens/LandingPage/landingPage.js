@@ -5,6 +5,7 @@ import Constants from "expo-constants";
 import queryString from "query-string";
 import db from "../../config";
 import firebase from "firebase";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const { width, height } = Dimensions.get("window");
 
@@ -18,13 +19,49 @@ class LandingPage extends Component {
       url: "",
       disable: false,
       expires_at: null,
+      data: null,
     };
   }
+
+  getData = async () => {
+    try {
+      const jsonValue = await AsyncStorage.getItem("data");
+      return jsonValue != null ? JSON.parse(jsonValue) : null;
+    } catch (e) {
+      // error reading value
+    }
+  };
 
   componentDidMount() {
     const doc = db.collection("users").doc(Constants.installationId).get();
 
-    if (doc) {
+    const data = this.getData();
+    data.then((i) => {
+      console.log("ASYNC DATA", new Date(i.expires_at));
+      if (i && i.expires_at) {
+        const date = new Date();
+        const expiryDate = new Date(i.expires_at);
+
+        console.log(expiryDate);
+        // console.log(new Date(i?.expires_at.seconds * 1000));
+        // console.log(expiryDate.getTime());
+        // console.log(this.isExpired(date.getTime(), expiryDate?.getTime()));
+        if (this.isExpired(date.getTime(), expiryDate?.getTime())) {
+          this.setState({
+            expires_at: `You Subscription Has Expired!`,
+          });
+          console.log("Expired");
+        } else {
+          console.log("Expiring");
+
+          this.setState({
+            expires_at: `You Subscription Expires at ${expiryDate.toDateString()}`,
+            data: i,
+          });
+        }
+      }
+    });
+    if (doc && !this.state.data) {
       doc.then((data) => {
         // console.log("DATA>>>", data);
         // console.log(">>>", data.data().expires_at);
@@ -32,16 +69,16 @@ class LandingPage extends Component {
           const date = new Date();
           const expiryDate = new Date(data.data()?.expires_at.seconds * 1000);
 
-          console.log(date.getTime());
-          console.log(new Date(data.data()?.expires_at.seconds * 1000));
-          console.log(expiryDate.getTime());
-          console.log(this.isExpired(date.getTime(), expiryDate?.getTime()));
+          // console.log(date.getTime());
+          // console.log(new Date(data.data()?.expires_at.seconds * 1000));
+          // console.log(expiryDate.getTime());
+          // console.log(this.isExpired(date.getTime(), expiryDate?.getTime()));
           if (this.isExpired(date.getTime(), expiryDate?.getTime())) {
             this.setState({
               expires_at: `You Subscription Has Expired!`,
             });
           } else {
-            console.log("Expiring");
+            // console.log("Expiring");
             this.setState({
               expires_at: `You Subscription Expires at ${new Date(
                 data.data().expires_at.seconds * 1000
@@ -54,7 +91,7 @@ class LandingPage extends Component {
   }
 
   isExpired(date, expiry) {
-    console.log(date, expiry);
+    // console.log(date, expiry);
     return expiry ? date > expiry : true;
   }
 
@@ -74,17 +111,33 @@ class LandingPage extends Component {
 
   payment() {
     console.log(Constants.installationId);
-    this.props.navigation.navigate("PremiumQuestionSet");
-    return;
     this.setState({
       disable: true,
     });
+    console.log(this.state.data);
     const doc = db.collection("users").doc(Constants.installationId).get();
-    if (doc) {
+
+    if (this.state.data && this.state.data.expires_at) {
+      const date = new Date();
+
+      const expiryDate = new Date(this.state.data.expires_at);
+      // console.log(expiryDate);
+      if (
+        this.state.data &&
+        this.state.data.completed_at &&
+        !this.isExpired(date.getTime(), expiryDate?.getTime())
+      ) {
+        console.log("EXPIRY>>", expiryDate);
+        this.props.navigation.navigate("PremiumQuestionSet");
+      } else {
+        this.navigateToPaymentScreen();
+      }
+    } else if (doc) {
       doc.then((data) => {
-        console.log(">>>", data.data().completed_at);
+        console.log(">>>", data?.data()?.completed_at);
         const date = new Date();
-        const expiryDate = new Date(data.data()?.expires_at?.seconds * 1000);
+
+        const expiryDate = new Date(data?.data()?.expires_at?.seconds * 1000);
         // console.log(expiryDate);
         if (
           data.data() &&

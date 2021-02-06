@@ -7,6 +7,7 @@ import {
   ScrollView,
   Image,
   Alert,
+  ImageBackground,
 } from "react-native";
 import Constants from "expo-constants";
 import db from "../../config";
@@ -58,7 +59,8 @@ class DemoQuestions extends Component {
       if (
         this.state.index == this.state.demo.length ||
         this.state.submit ||
-        e.data.action.type == "POP"
+        e.data.action.type == "POP" ||
+        e.data.action.type == "NAVIGATE"
       ) {
         // If we don't have unsaved changes, then we don't need to do anything
         this.props.navigation.dispatch(e.data.action);
@@ -137,10 +139,12 @@ class DemoQuestions extends Component {
     // console.log(this.state.index);
     // SAVING AT THE ANSWER[INDEX]
     answers[this.state.index] = {
-      answer: correctAnswer,
+      // answer: correctAnswer,
+      ...question,
       correct: correctAnswer == question.answer, //CHECKING IF ANSWER IS CORRECT OR WRONG | UNDEFINED FOR LEFT ANSWER
-      question: question.question,
-      explanation: question.explanation,
+      // question: question.question,
+      // explanation: question.explanation,
+      selectedAnswer: correctAnswer,
     };
 
     this.setState({
@@ -169,10 +173,12 @@ class DemoQuestions extends Component {
       DemoQuestionsArray[this.state.reviewQuestions[this.state.reviewIndex]];
     const answers = [...this.state.answers];
     answers[this.state.reviewQuestions[this.state.reviewIndex]] = {
-      answer: correctAnswer,
+      // answer: correctAnswer,
+      ...question,
       correct: correctAnswer == question.answer, //CHECKING IF ANSWER IS CORRECT OR WRONG | UNDEFINED FOR LEFT ANSWER
-      question: question.question,
-      explanation: question.explanation,
+      // question: question.question,
+      // explanation: question.explanation,
+      selectedAnswer: correctAnswer,
     };
 
     this.setState({
@@ -299,153 +305,173 @@ class DemoQuestions extends Component {
 
     if (this.state.index < this.state.demo.length - 1 && !this.state.submit) {
       return (
-        <View style={{ flex: 1, backgroundColor: "#fff" }}>
-          <View
+        <View style={{ flex: 1 }}>
+          <ImageBackground
+            source={require("../../assets/background.jpg")}
             style={{
-              marginTop: 20,
-              flexDirection: "row",
-              alignItems: "center",
-              justifyContent: "space-evenly",
+              flex: 1,
+              resizeMode: "cover",
+              justifyContent: "center",
             }}
           >
             <View
               style={{
-                flexDirection: "column",
+                marginTop: 10,
+                flexDirection: "row",
                 alignItems: "center",
-                justifyContent: "center",
+                justifyContent: "space-evenly",
+                backgroundColor: "rgba(0,0,0,0.6)",
               }}
             >
-              <Text style={{ fontSize: 15, fontWeight: "bold", color: "red" }}>
-                Q
-                {!this.state.showReview ||
-                !this.state.reviewQuestions.length === 0
-                  ? this.state.index + 1
-                  : this.state.reviewQuestions[this.state.reviewIndex] + 1}
-                / {this.state.demo.length - 1}
-              </Text>
-              {this.state.showReview && (
+              <View
+                style={{
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
                 <Text
                   style={{ fontSize: 15, fontWeight: "bold", color: "red" }}
                 >
-                  REVIEW
+                  Q
+                  {!this.state.showReview ||
+                  !this.state.reviewQuestions.length === 0
+                    ? this.state.index + 1
+                    : this.state.reviewQuestions[this.state.reviewIndex] + 1}
+                  / {this.state.demo.length - 1}
                 </Text>
-              )}
+                {this.state.showReview && (
+                  <Text
+                    style={{ fontSize: 15, fontWeight: "bold", color: "red" }}
+                  >
+                    REVIEW
+                  </Text>
+                )}
+              </View>
+              <Image
+                source={require("../../assets/logo.png")}
+                resizeMode="center"
+                style={{
+                  alignSelf: "center",
+                  width: "40%",
+                  height: 80,
+                }}
+              />
+              <CountDown
+                onChange={(e) =>
+                  this.setState({
+                    pauseTimer: e,
+                  })
+                }
+                until={this.state.timer}
+                size={15}
+                digitTxtStyle={{ color: "#fff" }}
+                timeLabelStyle={{ color: "red", fontWeight: "bold" }}
+                timeToShow={["M", "S"]}
+                onFinish={() =>
+                  this.setState({
+                    submit: true,
+                  })
+                }
+                digitStyle={{ backgroundColor: "red" }}
+              />
             </View>
-            <Image
-              source={require("../../assets/logo.png")}
-              resizeMode="center"
-              style={{
-                alignSelf: "center",
-                width: "40%",
-                height: 80,
-              }}
-            />
-            <CountDown
-              onChange={(e) =>
-                this.setState({
-                  pauseTimer: e,
-                })
-              }
-              until={this.state.timer}
-              size={15}
-              digitTxtStyle={{ color: "#fff" }}
-              timeToShow={["M", "S"]}
-              onFinish={() =>
-                this.setState({
-                  submit: true,
-                })
-              }
-              digitStyle={{ backgroundColor: "red" }}
-            />
-          </View>
-          {/* {console.log(this.state.reviewQuestions[this.state.reviewIndex])} */}
-          {question ? (
-            <Questions
-              onPause={this.handlePause}
-              index={
-                !this.state.showReview ||
-                !this.state.reviewQuestions.length === 0
-                  ? this.state.index
-                  : this.state.reviewQuestions[this.state.reviewIndex]
-              }
-              next={(correctAnswer) =>
-                !this.state.showReview
-                  ? this.next(correctAnswer)
-                  : this.nextReview(correctAnswer)
-              }
-              back={!this.state.showReview ? this.back : this.backReview}
-              answer={
-                !this.state.showReview
-                  ? this.state.answers[this.state.index]
-                  : this.state.answers[
-                      this.state.reviewQuestions[this.state.reviewIndex]
-                    ]
-              }
-              question={question.question}
-              optionA={question.a}
-              optionB={question.b}
-              optionC={question.c}
-              optionD={question.d}
-              submit={this.submit}
-              titleMark={
-                !this.state.showReview
-                  ? this.state.reviewQuestions.includes(this.state.index)
+            {question ? (
+              <Questions
+                onPause={this.handlePause}
+                index={
+                  !this.state.showReview ||
+                  !this.state.reviewQuestions.length === 0
+                    ? this.state.index
+                    : this.state.reviewQuestions[this.state.reviewIndex]
+                }
+                next={(correctAnswer) =>
+                  !this.state.showReview
+                    ? this.next(correctAnswer)
+                    : this.nextReview(correctAnswer)
+                }
+                back={!this.state.showReview ? this.back : this.backReview}
+                answer={
+                  !this.state.showReview
+                    ? this.state.answers[this.state.index]
+                    : this.state.answers[
+                        this.state.reviewQuestions[this.state.reviewIndex]
+                      ]
+                }
+                question={question.question}
+                optionA={question.a}
+                optionB={question.b}
+                optionC={question.c}
+                optionD={question.d}
+                submit={this.submit}
+                titleMark={
+                  !this.state.showReview
+                    ? this.state.reviewQuestions.includes(this.state.index)
+                      ? "UNMARK"
+                      : "MARK"
+                    : !this.state.unmarkedReview.includes(
+                        this.state.reviewIndex
+                      )
                     ? "UNMARK"
                     : "MARK"
-                  : !this.state.unmarkedReview.includes(this.state.reviewIndex)
-                  ? "UNMARK"
-                  : "MARK"
-              }
-              markReview={this.markUnmarkReview}
-              showReview={(correctAnswer) => {
-                // console.log(
-                //   "REVIEW QUESTIONS LENGTH | SHOW REVIEW>>>",
-                //   this.state.reviewQuestions.length
-                // );
-                if (
-                  this.state.showReview === false &&
-                  this.state.reviewQuestions.length === 0
-                ) {
-                } else {
-                  this.state.showReview
-                    ? this.setReviewAnswer(correctAnswer)
-                    : this.setAnswer(correctAnswer);
-                  if (this.state.showReview && this.state.unmarkedReview) {
-                    const temp = this.state.reviewQuestions;
-                    this.state.unmarkedReview.forEach((i) => {
-                      temp.splice(i, 1);
-                    });
+                }
+                markReview={this.markUnmarkReview}
+                showReview={(correctAnswer) => {
+                  if (
+                    this.state.showReview === false &&
+                    this.state.reviewQuestions.length === 0
+                  ) {
+                  } else {
+                    this.state.showReview
+                      ? this.setReviewAnswer(correctAnswer)
+                      : this.setAnswer(correctAnswer);
+                    if (this.state.showReview && this.state.unmarkedReview) {
+                      const temp = this.state.reviewQuestions;
+                      this.state.unmarkedReview.forEach((i) => {
+                        temp.splice(i, 1);
+                      });
+                      this.setState({
+                        reviewQuestions: temp,
+                      });
+                    }
                     this.setState({
-                      reviewQuestions: temp,
+                      showReview: !this.state.showReview,
+                      reviewIndex: 0,
                     });
                   }
-                  this.setState({
-                    showReview: !this.state.showReview,
-                    reviewIndex: 0,
-                  });
-                }
-              }}
-              image={question.image && images[question.image]}
-            />
-          ) : (
-            <View></View>
-          )}
+                }}
+                image={question.image && images[question.image]}
+              />
+            ) : (
+              <View></View>
+            )}
+          </ImageBackground>
         </View>
       );
     } else {
       return (
-        <View>
-          <ScrollView>
-            <Result
-              allQuestion={this.state.demo}
-              total={this.state.demo.length - 1}
-              answers={this.state.answers}
-              corrects={this.state.corrects}
-              wrongs={this.state.wrongs}
-              navigation={this.props.navigation}
-              value="unchecked"
-            />
-          </ScrollView>
+        <View style={{ flex: 1 }}>
+          <ImageBackground
+            source={require("../../assets/background.jpg")}
+            style={{
+              flex: 1,
+              resizeMode: "cover",
+              justifyContent: "center",
+            }}
+          >
+            <ScrollView>
+              <Result
+                demo="demo"
+                allQuestion={this.state.demo}
+                total={this.state.demo.length - 1}
+                answers={this.state.answers}
+                corrects={this.state.corrects}
+                wrongs={this.state.wrongs}
+                navigation={this.props.navigation}
+                value="unchecked"
+              />
+            </ScrollView>
+          </ImageBackground>
         </View>
       );
     }

@@ -5,6 +5,7 @@ import queryString from "query-string";
 import Constants from "expo-constants";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import db from "../../config";
+import { set } from "react-native-reanimated";
 
 const storeData = async (value) => {
   try {
@@ -17,8 +18,7 @@ const storeData = async (value) => {
 
 const index = (props) => {
   const WEBVIEW_REF = useRef();
-  console.log(props);
-
+  console.log("HERE IN PAYMENT");
   const formatDateTime = (date) => {
     const _date = date.getDate();
     const _month = date.getMonth() + 1;
@@ -34,7 +34,7 @@ const index = (props) => {
   };
   const onNavigationStateChange = (event) => {
     const url = event.url;
-
+    console.log(props.route.params.set);
     // If the customer has not been redirected to
     // /mobile yet (meaning he has neither completed
     // or cancelled the payment) do nothing.
@@ -48,9 +48,13 @@ const index = (props) => {
     // https://github.com/sindresorhus/query-string
     const parsed = queryString.parse(params);
     if (parsed.action === "cancel") {
-      db.collection(users).doc(Constants.installationId).update({
-        cancelled_at: new Date(),
-      });
+      db.collection(users)
+        .doc(Constants.installationId)
+        .collection("PremiumQuestions")
+        .doc(prop.route.params.set)
+        .update({
+          cancelled_at: new Date(),
+        });
       // close the webview since the customer
       // cancelled the payment
       return;
@@ -69,9 +73,13 @@ const index = (props) => {
       };
       db.collection("users")
         .doc(Constants.installationId)
+        .collection("PremiumQuestions")
+        .doc(`${props.route.params.set}`)
         .set(obj, { merge: true });
       storeData(obj);
-      props.navigation.navigate("PremiumQuestionSet");
+      props.navigation.navigate("PremiumBeginScreen", {
+        set: props.route.params.set,
+      });
       // the customer completed the payment,
       // you should close the WebView and then
       // asynchronously call your server to
@@ -104,6 +112,7 @@ const index = (props) => {
   const handleMessage = (m) => {
     // console.log(m);
   };
+  console.log("URL", props.route.params.url);
   return (
     <WebView
       // The main ones

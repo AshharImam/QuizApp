@@ -16,6 +16,11 @@ import Result from "./Screens/DisplayResult/Result";
 import PremiumQuestionSet from "./Screens/PremiumQuestionSet/PremiumQuestions";
 import PremiumQuestionTest from "./Screens/PremiumQuestionTest";
 import PaymentScreen from "./Screens/PaymentScreen";
+import FreeTestScreen from "./Screens/FreeTestScreen";
+import DemoBeginScreen from "./Screens/DemoBeginScreen";
+import PremiumBeginScreen from "./Screens/PremiumBeginScreen";
+import ReviewQuestions from "./Screens/ReviewQuestions/ReviewQuestions";
+import PreviousHistory from "./Screens/PreviousHistory";
 
 // app.initializeApp(firebaseConfig);
 // firebase.initializeApp(firebaseConfig);
@@ -23,6 +28,7 @@ import PaymentScreen from "./Screens/PaymentScreen";
 const Stack = createStackNavigator();
 
 export default function App() {
+  // return <FreeTestScreen />;
   return (
     <NavigationContainer>
       <Stack.Navigator headerMode="none" initialRouteName={"LandingPage"}>
@@ -36,10 +42,18 @@ export default function App() {
           name="PremiumQuestionSet"
           component={PremiumQuestionSet}
         />
+        <Stack.Screen name="ReviewQuestions" component={ReviewQuestions} />
+        <Stack.Screen name="FreeTestScreen" component={FreeTestScreen} />
+        <Stack.Screen name="DemoBeginScreen" component={DemoBeginScreen} />
+        <Stack.Screen
+          name="PremiumBeginScreen"
+          component={PremiumBeginScreen}
+        />
         <Stack.Screen
           name="PremiumQuestionTest"
           component={PremiumQuestionTest}
         />
+        <Stack.Screen name="PreviousHistory" component={PreviousHistory} />
       </Stack.Navigator>
     </NavigationContainer>
   );

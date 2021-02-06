@@ -1,11 +1,25 @@
 import React, { Component } from "react";
-import { View, Text, Image, Dimensions } from "react-native";
+import {
+  View,
+  Text,
+  Image,
+  Dimensions,
+  TouchableOpacity,
+  ImageBackground,
+  StatusBar,
+  TouchableWithoutFeedback,
+  SafeAreaView,
+} from "react-native";
 import { Button } from "react-native-paper";
 import Constants from "expo-constants";
+import { AntDesign } from "@expo/vector-icons";
 import queryString from "query-string";
 import db from "../../config";
 import firebase from "firebase";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import * as WebBrowser from "expo-web-browser";
+import { widthToDp } from "../../utils";
+// import {widthToDp, heightToDp} from "../../utils";
 
 const { width, height } = Dimensions.get("window");
 
@@ -214,88 +228,294 @@ class LandingPage extends Component {
   render() {
     // console.log(this.state.expires_at);
     return (
-      <View style={{ backgroundColor: "#fff", flex: 1 }}>
-        <View
-          style={{
-            marginTop: 40,
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <Image
-            source={require("./logo.jpg")}
-            style={{ resizeMode: "center" }}
-          />
-        </View>
-
-        <View
-          style={{
-            marginVertical: 100,
-            marginHorizontal: 50,
-          }}
-        >
-          <Text
+      <ImageBackground
+        source={require("../../assets/background.jpg")}
+        style={{
+          flex: 1,
+          resizeMode: "cover",
+        }}
+      >
+        <SafeAreaView style={{ flex: 1, padding: 10 }}>
+          <StatusBar translucent={false} barStyle="light-content" />
+          <View
             style={{
-              fontSize: 40,
-              fontWeight: "bold",
+              justifyContent: "center",
               alignItems: "center",
-              textAlign: "center",
+              height: "12%",
             }}
           >
-            The Quiz App
-          </Text>
-          <Text
-            style={{
-              fontSize: 14,
-              alignItems: "center",
-              textAlign: "center",
-              paddingVertical: 10,
-              paddingBottom: 20,
-            }}
-          >
-            with love : Wayne Managment Institue
-          </Text>
-
-          <View style={{ paddingVertical: 30 }}>
-            <Button
-              mode="outlined"
-              theme={{ colors: { text: "white" } }}
-              color="rgb(100,198,247)"
-              onPress={() => this.props.navigation.navigate("DemoQuestions")}
-            >
-              Try the demo quiz
-            </Button>
+            <Image
+              source={require("./logo.png")}
+              resizeMode="center"
+              style={{ height: 70 }}
+            />
           </View>
 
-          <Button
-            disabled={this.state.disable}
-            icon="crown"
-            mode="contained"
-            // color="#f1d4d4"
-            color="rgb(100,198,247)"
-            // color="red"
-            // onPress={() => this.props.navigation.navigate("SignUp")}
-            onPress={() => this.payment()}
-          >
-            get the best questions
-          </Button>
-          {this.state.expires_at && (
-            <View style={{ width: "100%", padding: 5 }}>
+          <View style={{}}>
+            <View
+              style={{
+                backgroundColor: "rgba(0,0,0,0.4)",
+                alignItems: "center",
+                marginVertical: 5,
+                padding: 5,
+                justifyContent: "center",
+                alignContent: "center",
+              }}
+            >
               <Text
                 style={{
-                  backgroundColor: "red",
-                  alignSelf: "center",
-                  marginTop: 10,
+                  fontWeight: "bold",
+                  alignItems: "center",
+                  textAlign: "center",
                   color: "white",
+                  fontSize: 25,
+                }}
+              >
+                The Quiz App
+              </Text>
+              <Text
+                style={{
+                  alignItems: "center",
+                  textAlign: "center",
+                  color: "#fff",
+                  fontSize: 10,
+                }}
+              >
+                with love : Wayne Managment Institue
+              </Text>
+            </View>
+
+            <TouchableOpacity
+              onPress={() => this.props.navigation.navigate("FreeTestScreen")}
+              style={{
+                backgroundColor: "rgba(0,0,0,0.4)",
+                flexDirection: "row",
+                padding: 3,
+                alignItems: "center",
+                justifyContent: "space-between",
+                marginBottom: 5,
+              }}
+            >
+              <Text style={{ color: "white", fontSize: 18 }}>Free test</Text>
+              <AntDesign
+                name="playcircleo"
+                size={20}
+                color="rgb(100,198,247)"
+              />
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => {}}
+              style={{
+                backgroundColor: "rgba(0,0,0,0.4)",
+                padding: 3,
+                marginBottom: 5,
+
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}
+            >
+              <Text style={{ color: "white", fontSize: 18 }}>
+                Test by knowledge area
+              </Text>
+              <AntDesign
+                name="playcircleo"
+                size={20}
+                color="rgb(100,198,247)"
+              />
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() =>
+                this.props.navigation.navigate("PremiumQuestionSet")
+              }
+              style={{
+                backgroundColor: "rgba(0,0,0,0.4)",
+                padding: 3,
+                marginBottom: 5,
+
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}
+            >
+              <Text style={{ color: "white", fontSize: 18 }}>Full test</Text>
+              <AntDesign
+                name="playcircleo"
+                size={20}
+                color="rgb(100,198,247)"
+              />
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => {}}
+              style={{
+                backgroundColor: "rgba(0,0,0,0.4)",
+                padding: 3,
+                marginBottom: 5,
+
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}
+            >
+              <Text style={{ color: "white", fontSize: 18 }}>
+                Package for just $50 (save 45$)
+              </Text>
+              <AntDesign
+                name="playcircleo"
+                size={20}
+                color="rgb(100,198,247)"
+              />
+            </TouchableOpacity>
+            <View
+              style={{
+                width: "100%",
+                alignItems: "center",
+                backgroundColor: "rgba(0,0,0,0.4)",
+                // backgroundColor: "red",
+                // height: "100%",
+                // height: "50%",
+              }}
+            >
+              <Text
+                style={{
+                  color: "rgb(100,198,247)",
+                  fontSize: 20,
+                  fontWeight: "bold",
+                }}
+              >
+                Student Reviews!
+              </Text>
+              <Image
+                source={require("./logo.png")}
+                style={{ resizeMode: "center", height: 40, margin: 5 }}
+
+                // style={{ resizeMode: "center" }}
+              />
+              <View
+                style={{
+                  width: "100%",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "space-evenly",
+                  marginVertical: 5,
+                }}
+              >
+                <TouchableOpacity
+                  onPress={async () => {
+                    console.log("HERE");
+                    await WebBrowser.openBrowserAsync(
+                      "https://m.facebook.com/wmifan/"
+                    );
+                  }}
+                  style={{
+                    flex: 1,
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <View style={{ alignItems: "center" }}>
+                    <Image
+                      source={require("../../assets/facebook.png")}
+                      style={{
+                        resizeMode: "center",
+                        width: 30,
+                        height: 30,
+                      }}
+
+                      // style={{ resizeMode: "center" }}
+                    />
+                    <Text style={{ color: "#fff", fontSize: 15 }}>
+                      Facebook
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+                <View
+                  style={{
+                    height: 40,
+                    width: 1,
+                    backgroundColor: "white",
+                  }}
+                />
+                <TouchableOpacity
+                  style={{
+                    flex: 1,
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                  }}
+                  onPress={async () => {
+                    console.log("HERE");
+                    await WebBrowser.openBrowserAsync("http://www.thewmi.net/");
+                  }}
+                >
+                  <View style={{ alignItems: "center" }}>
+                    <Image
+                      source={require("./logo.png")}
+                      style={{
+                        resizeMode: "center",
+                        width: 100,
+                        height: 30,
+                      }}
+
+                      // style={{ resizeMode: "center" }}
+                    />
+                    <Text style={{ color: "#fff", fontSize: 15 }}>Website</Text>
+                  </View>
+                </TouchableOpacity>
+              </View>
+              <Text
+                style={{
+                  marginTop: 5,
+                  color: "white",
+                  fontSize: 14,
                   textAlign: "center",
                 }}
               >
-                {this.state.expires_at}
+                Welcome To Wayne Management Institute, Your career
+                transformation partner.
               </Text>
+
+              <Text
+                style={{
+                  color: "white",
+                  fontSize: 14,
+                  textAlign: "center",
+                }}
+              >
+                Do you still have questions?
+              </Text>
+              <Text
+                style={{
+                  color: "white",
+                  fontSize: 14,
+                  textAlign: "center",
+                }}
+              >
+                Our Customer Support Team is ready and waiting to help you:
+              </Text>
+              <Text
+                style={{
+                  color: "white",
+                  fontSize: 14,
+                  textAlign: "center",
+                  marginVertical: 5,
+                }}
+              >
+                info@thewmi.net
+              </Text>
+              <View
+                style={{
+                  width: "100%",
+                  alignItems: "center",
+                  backgroundColor: "rgba(255,255,255,0.5)",
+                  marginTop: 5,
+                }}
+              >
+                <Text style={{ color: "black" }}>All right reserved</Text>
+              </View>
             </View>
-          )}
-        </View>
-      </View>
+          </View>
+        </SafeAreaView>
+      </ImageBackground>
     );
   }
 }

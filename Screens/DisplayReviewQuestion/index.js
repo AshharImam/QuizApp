@@ -6,10 +6,9 @@ import {
   Dimensions,
   StyleSheet,
   ScrollView,
-  TouchableOpacity,
 } from "react-native";
 import { Button, RadioButton } from "react-native-paper";
-import { FontAwesome } from "@expo/vector-icons";
+import { Entypo, Feather } from "@expo/vector-icons";
 
 class Questions extends Component {
   constructor(props) {
@@ -20,7 +19,7 @@ class Questions extends Component {
   }
   static getDerivedStateFromProps(props, state) {
     if (state.value === "unchecked") {
-      return { value: props.answer?.selectedAnswer };
+      return { value: props.answer?.answer };
     }
     return null;
   }
@@ -75,10 +74,7 @@ class Questions extends Component {
             />
           )}
           <View style={{ alignItems: "flex-start" }}>
-            <TouchableOpacity
-              onPress={() => this.setState({ value: "a" })}
-              style={styles.container}
-            >
+            <View style={styles.container}>
               <View
                 style={{
                   width: "100%",
@@ -90,22 +86,38 @@ class Questions extends Component {
                   alignItems: "center",
                 }}
               >
-                <RadioButton
-                  uncheckedColor="rgb(100,198,247)"
-                  value="a"
-                  status={this.state.value === "a" ? "checked" : "unchecked"}
-                  onPress={() => this.setState({ value: "a" })}
-                  color="red"
-                  // color="rgb(100,198,247)"
-                />
+                {this.state.value === "a" ? (
+                  <Feather
+                    style={{ marginHorizontal: 7 }}
+                    name="check-circle"
+                    color="rgb(0,200,0)"
+                    size={20}
+                  />
+                ) : this.props.selectedAnswer === "a" ? (
+                  <Entypo
+                    style={{ marginHorizontal: 5 }}
+                    name="circle-with-cross"
+                    color="rgb(200,0,0)"
+                    size={24}
+                  />
+                ) : (
+                  <Entypo
+                    name="circle"
+                    style={{ marginHorizontal: 7 }}
+                    color="rgb(100,198,247)"
+                    size={20}
+                  />
+                  // <RadioButton
+                  //   uncheckedColor="rgb(100,198,247)"
+                  //   value="d"
+                  //   color="red"
+                  // />
+                )}
                 <Text style={styles.answer}>{this.props.optionA}</Text>
               </View>
-            </TouchableOpacity>
+            </View>
 
-            <TouchableOpacity
-              onPress={() => this.setState({ value: "b" })}
-              style={styles.container}
-            >
+            <View style={styles.container}>
               <View
                 style={{
                   width: "100%",
@@ -118,23 +130,38 @@ class Questions extends Component {
                   alignItems: "center",
                 }}
               >
-                <RadioButton
-                  uncheckedColor="rgb(100,198,247)"
-                  value="b"
-                  status={this.state.value === "b" ? "checked" : "unchecked"}
-                  onPress={() => this.setState({ value: "b" })}
-                  color="red"
-
-                  // color="rgb(100,198,247)"
-                />
+                {this.state.value === "b" ? (
+                  <Feather
+                    style={{ marginHorizontal: 7 }}
+                    name="check-circle"
+                    color="rgb(0,200,0)"
+                    size={20}
+                  />
+                ) : this.props.selectedAnswer === "b" ? (
+                  <Entypo
+                    style={{ marginHorizontal: 5 }}
+                    name="circle-with-cross"
+                    color="rgb(200,0,0)"
+                    size={24}
+                  />
+                ) : (
+                  <Entypo
+                    name="circle"
+                    style={{ marginHorizontal: 7 }}
+                    color="rgb(100,198,247)"
+                    size={20}
+                  />
+                  // <RadioButton
+                  //   uncheckedColor="rgb(100,198,247)"
+                  //   value="d"
+                  //   color="red"
+                  // />
+                )}
                 <Text style={styles.answer}>{this.props.optionB}</Text>
               </View>
-            </TouchableOpacity>
+            </View>
 
-            <TouchableOpacity
-              onPress={() => this.setState({ value: "c" })}
-              style={styles.container}
-            >
+            <View style={styles.container}>
               <View
                 style={{
                   width: "100%",
@@ -147,23 +174,38 @@ class Questions extends Component {
                   alignItems: "center",
                 }}
               >
-                <RadioButton
-                  uncheckedColor="rgb(100,198,247)"
-                  value="c"
-                  status={this.state.value === "c" ? "checked" : "unchecked"}
-                  onPress={() => this.setState({ value: "c" })}
-                  color="red"
-
-                  // color="rgb(100,198,247)"
-                />
+                {this.state.value === "c" ? (
+                  <Feather
+                    style={{ marginHorizontal: 7 }}
+                    name="check-circle"
+                    color="rgb(0,200,0)"
+                    size={20}
+                  />
+                ) : this.props.selectedAnswer === "c" ? (
+                  <Entypo
+                    style={{ marginHorizontal: 5 }}
+                    name="circle-with-cross"
+                    color="rgb(200,0,0)"
+                    size={24}
+                  />
+                ) : (
+                  <Entypo
+                    name="circle"
+                    style={{ marginHorizontal: 7 }}
+                    color="rgb(100,198,247)"
+                    size={20}
+                  />
+                  // <RadioButton
+                  //   uncheckedColor="rgb(100,198,247)"
+                  //   value="d"
+                  //   color="red"
+                  // />
+                )}
                 <Text style={styles.answer}>{this.props.optionC}.</Text>
               </View>
-            </TouchableOpacity>
+            </View>
 
-            <TouchableOpacity
-              onPress={() => this.setState({ value: "d" })}
-              style={styles.container}
-            >
+            <View style={styles.container}>
               <View
                 style={{
                   width: "100%",
@@ -174,19 +216,48 @@ class Questions extends Component {
                   alignItems: "center",
                 }}
               >
-                <RadioButton
-                  uncheckedColor="rgb(100,198,247)"
-                  value="d"
-                  status={this.state.value === "d" ? "checked" : "unchecked"}
-                  onPress={() => this.setState({ value: "d" })}
-                  color="red"
-
-                  // color="rgb(100,198,247)"
-                />
+                {this.state.value === "d" ? (
+                  <Feather
+                    style={{ marginHorizontal: 7 }}
+                    name="check-circle"
+                    color="rgb(0,200,0)"
+                    size={20}
+                    style={{ marginHorizontal: 7 }}
+                  />
+                ) : this.props.selectedAnswer === "d" ? (
+                  <Entypo
+                    style={{ marginHorizontal: 5 }}
+                    name="circle-with-cross"
+                    color="rgb(200,0,0)"
+                    size={24}
+                  />
+                ) : (
+                  <Entypo
+                    name="circle"
+                    style={{ marginHorizontal: 7 }}
+                    color="rgb(100,198,247)"
+                    size={20}
+                  />
+                  // <RadioButton
+                  //   uncheckedColor="rgb(100,198,247)"
+                  //   value="d"
+                  //   color="red"
+                  // />
+                )}
                 <Text style={styles.answer}>{this.props.optionD} </Text>
               </View>
-            </TouchableOpacity>
+            </View>
           </View>
+          {this.props.explaination && (
+            <View>
+              <Text style={{ color: "rgb(100,198,247)", fontSize: 18 }}>
+                Explaination:
+              </Text>
+              <Text style={{ color: "white", fontSize: 18 }}>
+                {this.props.explaination}
+              </Text>
+            </View>
+          )}
         </ScrollView>
         <View
           style={{
@@ -208,13 +279,16 @@ class Questions extends Component {
           >
             PREV
           </Button>
-          <FontAwesome
-            name="pause"
-            size={30}
+
+          <Button
+            onPress={this.props.done}
+            mode="outlined"
+            // color="#f1d4d4"
             color="rgb(100,198,247)"
-            style={{ marginHorizontal: 26 }}
-            onPress={this.props.onPause}
-          />
+            style={{ width: 120 }}
+          >
+            Done
+          </Button>
           <Button
             onPress={() => {
               this.props.next(this.state.value);
@@ -228,45 +302,6 @@ class Questions extends Component {
             Next
           </Button>
         </View>
-        {!this.props.explaination && (
-          <View
-            style={{
-              flexDirection: "row",
-              alignItems: "center",
-              justifyContent: "space-around",
-              width: "100%",
-            }}
-          >
-            <Button
-              onPress={() => this.props.markReview()}
-              mode="contained"
-              color="rgb(100,198,247)"
-              style={{ width: 120 }}
-            >
-              {this.props.titleMark}
-            </Button>
-
-            <Button
-              onPress={() => {
-                this.props.submit(this.state.value);
-                this.setState({ value: "unchecked" });
-              }}
-              color="rgb(100,198,247)"
-              // style={{ width: 120 }}
-            >
-              SUBMIT
-            </Button>
-            <Button
-              onPress={() => this.props.showReview(this.state.value)}
-              mode="contained"
-              // color="#f1d4d4"
-              color="rgb(100,198,247)"
-              style={{ width: 120 }}
-            >
-              REVIEW
-            </Button>
-          </View>
-        )}
       </View>
     );
   }

@@ -69,7 +69,7 @@ const index = (props) => {
               Instructions
             </Text>
             <Text style={{ color: "white", fontSize: 20, marginVertical: 1 }}>
-              -You have 1.2 minute per question.
+              -You have 1.3 minute per question.
             </Text>
             <Text style={{ color: "white", fontSize: 20, marginVertical: 1 }}>
               -Select the best answer per question.

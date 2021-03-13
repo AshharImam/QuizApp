@@ -164,7 +164,7 @@ class PremiumQuestionTest extends Component {
     // console.log(this.state.index);
     // SAVING AT THE ANSWER[INDEX]
     answers[this.state.index] = {
-      selectedAnswer: correctAnswer,
+      selectedAnswer: correctAnswer ? correctAnswer : "",
       correct: correctAnswer == question.answer, //CHECKING IF ANSWER IS CORRECT OR WRONG | UNDEFINED FOR LEFT ANSWER
       ...question,
     };
@@ -200,7 +200,7 @@ class PremiumQuestionTest extends Component {
       correct: correctAnswer == question.answer, //CHECKING IF ANSWER IS CORRECT OR WRONG | UNDEFINED FOR LEFT ANSWER
       // question: question.question,
       // explanation: question.explanation,
-      selectedAnswer: correctAnswer,
+      selectedAnswer: correctAnswer ? correctAnswer : "",
     };
 
     this.setState({
@@ -299,7 +299,7 @@ class PremiumQuestionTest extends Component {
             showReview,
             submit,
             timer: pauseTimer,
-            pauseTimer: timer,
+            // pauseTimer: timer,
           });
           this.props.navigation.pop();
         },
@@ -379,11 +379,12 @@ class PremiumQuestionTest extends Component {
                 }}
               />
               <CountDown
-                onChange={(e) =>
+                onChange={(e) => {
+                  console.log(e);
                   this.setState({
                     pauseTimer: e,
-                  })
-                }
+                  });
+                }}
                 timeLabelStyle={{ color: "red", fontWeight: "bold" }}
                 until={this.state.timer}
                 size={15}

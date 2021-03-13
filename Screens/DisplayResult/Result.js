@@ -8,6 +8,7 @@ import {
   Image,
   StatusBar,
   ImageBackground,
+  ActivityIndicator,
 } from "react-native";
 import { Button } from "react-native-paper";
 import firebase from "firebase";
@@ -21,10 +22,13 @@ const Result = (props) => {
   const [wrong, setWrong] = useState([]);
   const [unattempted, setUnattempted] = useState([]);
   const [array, setArray] = useState([]);
-  {
-    // console.log(props.navigation);
-  }
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
+    // console.log("fired once", props.answers.length);
+
+    // if (props.answers.length > 0) {
+    // console.log("condition");
     // props.answer --- Array for the list of answer which questions are attempted
     // props.total --- TOtal number of questions
     // props.allQuestion --- All Questions for the test
@@ -42,31 +46,42 @@ const Result = (props) => {
     const arr = [...props.answers, ...results];
     arr.pop();
     const skipped = arr.filter((i) => !i.selectedAnswer);
-    console.log(arr[0]);
     setArray(arr);
     setWrong(wrong);
     setCorrect(correct);
     setUnattempted(skipped);
     addToDatabase(arr, wrong, correct, skipped);
+    // }
   }, []);
 
   const addToDatabase = (arr, wrong, correct, skipped) => {
+    console.log({ arr, wrong, correct, skipped });
     try {
-      db.collection("users")
-        .doc(Constants.installationId)
-        .collection(props.demo)
-        .add({
-          array: arr,
-          wrong: wrong,
-          correct: correct,
-          unattempted: skipped,
-          timeStamp: new Date(),
-        });
+      if (
+        arr.length > 0 ||
+        wrong.length > 0 ||
+        correct.length > 0 ||
+        skipped.length > 0
+      ) {
+        console.log("uploading to db");
+        db.collection("users")
+          .doc(Constants.installationId)
+          .collection(props.demo)
+          .add({
+            array: arr,
+            wrong: wrong,
+            correct: correct,
+            unattempted: skipped,
+            timeStamp: new Date(),
+          });
+        setIsLoading(false);
+      }
     } catch (error) {
       // handle error
+      console.log(error);
     }
   };
-  return (
+  return !isLoading ? (
     <View style={{ flex: 1, padding: 10 }}>
       <StatusBar translucent={false} barStyle="light-content" />
       <View
@@ -99,7 +114,11 @@ const Result = (props) => {
           }}
         >
           {/* Corrects : {props.corrects.length} */}
-          {parseInt((correct.length / array.length) * 100)} %
+          {parseFloat((correct.length / array.length) * 100).toFixed(2) > 0 &&
+          parseFloat((correct.length / array.length) * 100).toFixed(2) < 1
+            ? 1.0
+            : parseFloat((correct.length / array.length) * 100).toFixed(2)}
+          %
         </Text>
         <Text
           style={{
@@ -184,25 +203,9 @@ const Result = (props) => {
       <TouchableOpacity
         style={{
           width: "100%",
-          backgroundColor: "rgba(0,0,0,0.6)",
-          marginVertical: 5,
-          alignItems: "center",
-          justifyContent: "center",
-          padding: 5,
-        }}
-        onPress={() => props.navigation.navigate("LandingPage")}
-      >
-        <Text
-          style={{ fontSize: 26, marginVertical: 5, color: "rgb(100,198,247)" }}
-        >
-          Done
-        </Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={{
-          width: "100%",
           backgroundColor: "rgba(100,198,247, 0.6)",
           marginVertical: 5,
+
           alignItems: "center",
           justifyContent: "center",
           padding: 5,
@@ -219,6 +222,37 @@ const Result = (props) => {
           Previous History
         </Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        style={{
+          width: "100%",
+          backgroundColor: "rgba(0,0,0,0.6)",
+          marginVertical: 5,
+          alignItems: "center",
+          justifyContent: "center",
+          padding: 5,
+        }}
+        onPress={() => props.navigation.navigate("LandingPage")}
+      >
+        <Text
+          style={{ fontSize: 26, marginVertical: 5, color: "rgb(100,198,247)" }}
+        >
+          Done
+        </Text>
+      </TouchableOpacity>
+    </View>
+  ) : (
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <ActivityIndicator
+        size="large"
+        color="red"
+        style={{ alignSelf: "center" }}
+      />
     </View>
   );
 };

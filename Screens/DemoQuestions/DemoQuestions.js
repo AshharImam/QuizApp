@@ -67,7 +67,7 @@ class DemoQuestions extends Component {
         return;
       } else {
         e.preventDefault();
-        console.log(e.data.action.type);
+        // console.log(e.data.action.type);
         // Prompt the user before leaving the screen
         Alert.alert(
           "Current test will be discarded?",
@@ -89,7 +89,7 @@ class DemoQuestions extends Component {
     const res = this.getData();
     // console.log("RESUME", res);
     res.then((i) => {
-      console.log(i.timer);
+      // console.log(i.timer);
       if (i) {
         Alert.alert(
           "Resume?",
@@ -144,7 +144,7 @@ class DemoQuestions extends Component {
       correct: correctAnswer == question.answer, //CHECKING IF ANSWER IS CORRECT OR WRONG | UNDEFINED FOR LEFT ANSWER
       // question: question.question,
       // explanation: question.explanation,
-      selectedAnswer: correctAnswer,
+      selectedAnswer: correctAnswer ? correctAnswer : "",
     };
 
     this.setState({
@@ -178,7 +178,7 @@ class DemoQuestions extends Component {
       correct: correctAnswer == question.answer, //CHECKING IF ANSWER IS CORRECT OR WRONG | UNDEFINED FOR LEFT ANSWER
       // question: question.question,
       // explanation: question.explanation,
-      selectedAnswer: correctAnswer,
+      selectedAnswer: correctAnswer ? correctAnswer : "",
     };
 
     this.setState({
@@ -263,7 +263,7 @@ class DemoQuestions extends Component {
       pauseTimer,
       timer,
     } = this.state;
-    console.log("TIMER", pauseTimer);
+    // console.log("TIMER", pauseTimer);
     Alert.alert("Pause test?", "Do you want to pause this test?", [
       {
         text: "Pause",
@@ -358,11 +358,12 @@ class DemoQuestions extends Component {
                 }}
               />
               <CountDown
-                onChange={(e) =>
+                onChange={(e) => {
+                  // console.log("Timer", e);
                   this.setState({
                     pauseTimer: e,
-                  })
-                }
+                  });
+                }}
                 until={this.state.timer}
                 size={15}
                 digitTxtStyle={{ color: "#fff" }}

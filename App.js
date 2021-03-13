@@ -21,6 +21,9 @@ import DemoBeginScreen from "./Screens/DemoBeginScreen";
 import PremiumBeginScreen from "./Screens/PremiumBeginScreen";
 import ReviewQuestions from "./Screens/ReviewQuestions/ReviewQuestions";
 import PreviousHistory from "./Screens/PreviousHistory";
+import HistoryDisplayResult from "./Screens/HistoryDisplayResult";
+import ByDomainTestScreen from "./Screens/ByDomainTestScreen";
+import StudentReviewsScreen from "./Screens/StudentReviewsScreen";
 
 // app.initializeApp(firebaseConfig);
 // firebase.initializeApp(firebaseConfig);
@@ -54,6 +57,18 @@ export default function App() {
           component={PremiumQuestionTest}
         />
         <Stack.Screen name="PreviousHistory" component={PreviousHistory} />
+        <Stack.Screen
+          name="HistoryDisplayResult"
+          component={HistoryDisplayResult}
+        />
+        <Stack.Screen
+          name="ByDomainTestScreen"
+          component={ByDomainTestScreen}
+        />
+        <Stack.Screen
+          name="StudentReviewsScreen"
+          component={StudentReviewsScreen}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

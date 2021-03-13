@@ -234,7 +234,7 @@ class PremiumQuestionSet extends Component {
               fontWeight: "bold",
             }}
           >
-            Full Test
+            Test by Domain
           </Text>
         </View>
         <View
@@ -246,7 +246,9 @@ class PremiumQuestionSet extends Component {
         >
           <TouchableOpacity
             onPress={() => {
-              this.props.navigation.navigate("PremiumBeginScreen", { set: 1 });
+              this.props.navigation.navigate("PremiumBeginScreen", {
+                set: 1,
+              });
               // this.payment(1)
             }}
             style={{
@@ -260,7 +262,7 @@ class PremiumQuestionSet extends Component {
               width: "100%",
             }}
           >
-            <Text style={{ color: "white", fontSize: 18 }}>Exam # 01</Text>
+            <Text style={{ color: "white", fontSize: 18 }}>People</Text>
 
             <View>
               <Text style={{ color: "red" }}>100 PKR</Text>
@@ -270,7 +272,9 @@ class PremiumQuestionSet extends Component {
           </TouchableOpacity>
           <TouchableOpacity
             onPress={() => {
-              this.props.navigation.navigate("PremiumBeginScreen", { set: 2 });
+              this.props.navigation.navigate("PremiumBeginScreen", {
+                set: 2,
+              });
               // this.payment(2)
             }}
             style={{
@@ -284,7 +288,7 @@ class PremiumQuestionSet extends Component {
               width: "100%",
             }}
           >
-            <Text style={{ color: "white", fontSize: 18 }}>Exam # 02</Text>
+            <Text style={{ color: "white", fontSize: 18 }}>Process</Text>
 
             <View>
               <Text style={{ color: "red" }}>100 PKR</Text>
@@ -294,8 +298,10 @@ class PremiumQuestionSet extends Component {
           </TouchableOpacity>
           <TouchableOpacity
             onPress={() => {
-              this.props.navigation.navigate("PremiumBeginScreen", { set: 3 });
               // this.payment(3)
+              this.props.navigation.navigate("PremiumBeginScreen", {
+                set: 3,
+              });
             }}
             style={{
               marginVertical: "1%",
@@ -308,7 +314,9 @@ class PremiumQuestionSet extends Component {
               width: "100%",
             }}
           >
-            <Text style={{ color: "white", fontSize: 18 }}>Exam # 03</Text>
+            <Text style={{ color: "white", fontSize: 18 }}>
+              Business Environment
+            </Text>
 
             <View>
               <Text style={{ color: "red" }}>100 PKR</Text>
@@ -316,54 +324,7 @@ class PremiumQuestionSet extends Component {
             </View>
             {/* <AntDesign name="playcircleo" size={24}  /> */}
           </TouchableOpacity>
-          <TouchableOpacity
-            onPress={() => {
-              this.props.navigation.navigate("PremiumBeginScreen", { set: 4 });
-              // this.payment(4)
-            }}
-            style={{
-              marginVertical: "1%",
-              backgroundColor: "rgba(0,0,0,0.4)",
-              padding: "2%",
-              flexDirection: "row",
-              alignSelf: "center",
-              alignItems: "center",
-              justifyContent: "space-between",
-              width: "100%",
-            }}
-          >
-            <Text style={{ color: "white", fontSize: 18 }}>Exam # 04</Text>
 
-            <View>
-              <Text style={{ color: "red" }}>100 PKR</Text>
-              <Text style={{ color: "rgb(100,198,247)" }}>180 Questions</Text>
-            </View>
-            {/* <AntDesign name="playcircleo" size={24}  /> */}
-          </TouchableOpacity>
-          <TouchableOpacity
-            onPress={() => {
-              this.props.navigation.navigate("PremiumBeginScreen", { set: 5 });
-              // this.payment(5)
-            }}
-            style={{
-              marginVertical: "1%",
-              backgroundColor: "rgba(0,0,0,0.4)",
-              padding: "2%",
-              flexDirection: "row",
-              alignSelf: "center",
-              alignItems: "center",
-              justifyContent: "space-between",
-              width: "100%",
-            }}
-          >
-            <Text style={{ color: "white", fontSize: 18 }}>Exam # 05</Text>
-
-            <View>
-              <Text style={{ color: "red" }}>100 PKR</Text>
-              <Text style={{ color: "rgb(100,198,247)" }}>180 Questions</Text>
-            </View>
-            {/* <AntDesign name="playcircleo" size={24}  /> */}
-          </TouchableOpacity>
           {/* <Button
             icon="book"
             mode="contained"
